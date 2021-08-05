@@ -1,47 +1,47 @@
-* [[Home]]
-* [[Changelogs]]
-* [[Premium Features]]
-* [[Commands and Permissions]]
-* [FAQ / Common Issues](FAQ)
-* [Mythic Add-ons](Add-ons)
-* [[Compatible Plugins]]
-* [API Information](API)
-### [Mobs](Mobs)
-  * [Overview](Mobs)
-  * [Types](Mobs/Types)
-  * [Mob Options](Mobs/Options)
-  * [Mob Levels](Mobs/Levels)
-  * [Mob Factions](Mobs/Factions)
-  * [Power Scaling](Mobs/Power)
-  * [Damage Modifiers](Mobs/DamageModifiers)
-  * [Equipment](Mobs/Equipment)
-  * [BossBar](Mobs/BossBar)
-  * [Custom AI](Mobs/AI)
-  * [Custom Kill Messages](Mobs/KillMessages)
-  * [Threat Tables](Mobs/ThreatTables)
-  * [Immunity Tables](Mobs/ImmunityTables)
-  * [Extra: Disguises](Mobs/Disguises)
-  * [Extra: MiniaturePets](Mobs/MiniaturePets)
-### [Skills](Skills/Start)
-  * [Overview](Skills/Start)
-  * [Mechanics](Skills/Mechanics)
-  * [Effects](Skills/Effects)
-  * [Targeters](Skills/Targeters)
-  * [Triggers](Skills/Triggers)
-  * [Conditions](Skills/Conditions)
-  * [Placeholders](Skills/Placeholders)
-  * [Variables](Skills/Variables)
-### [Items & Drops](Items)
-  * [Drops and Drop Tables](Items/Drops)
-  * [Options](Items/Options)
-  * [Attributes](Items/Attributes)
-  * [Enchantments](Items/Enchantments)
-  * [Potions](Items/Potions)
-  * [Banner Layers](Items/Banner Layers)
+* [[整体]]
+* [[更新日志]]
+* [[付费版内容]]
+* [[命令与权限]
+* [声明/常见内容](常见内容)
+* [拓展](拓展)
+* [[兼容插件]]
+* [API信息](API)
+### [实体](实体)
+  * [概览](实体)
+  * [种类](实体/种类)
+  * [选项](实体/选项)
+  * [Mob 等级s](实体/等级s)
+  * [Mob 派别](实体/派别)
+  * [威力](实体/威力)
+  * [伤害调整]](实体/伤害调整)
+  * [配备](实体/配备)
+  * [Boss血条](实体/Boss血条)
+  * [AI](实体/AI)
+  * [击杀信息](实体/击杀信息)
+  * [威胁度](实体/威胁度)
+  * [受伤间隔](受伤间隔)
+  * [拓展：伪装](实体/伪装)
+  * [拓展：迷你宠物]](实体/迷你宠物)
+### [技能](技能/概览)
+  * [概览](技能/概览)
+  * [列表](技能/列表)
+  * [特效列表](技能/特效列表)
+  * [目标选择器](技能/目标选择器)
+  * [触发器](技能/触发器)
+  * [条件](技能/条件)
+  * [占位符](技能/占位符)
+  * [变量](技能/变量)
+### [物品 & 掉落](物品)
+  * [掉落及掉落表](物品/Drops)
+  * [选项](物品/选项)
+  * [属性](物品/属性)
+  * [附魔](物品/附魔)
+  * [状态效果](物品/状态效果)
+  * [旗帜](物品/旗帜)
 
-### Spawning
-  * [[Spawners]]
-  * [[Random Spawns]]
+### 生成
+  * [[定点生成]]
+  * [[随机生成]]
 
-### Tutorials
-  * [[DamageSpells]]
+### 教学
+  * [[伤害机制]]
