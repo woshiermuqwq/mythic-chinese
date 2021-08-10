@@ -11,10 +11,10 @@
 ---
 
 **示例:**
-`- damageamount{amount=>10} true`
+
 ```
 Conditions:
-
+- damageamount{amount=>10} true
 ```
 
 ---
