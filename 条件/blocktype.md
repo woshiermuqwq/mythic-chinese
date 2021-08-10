@@ -14,7 +14,7 @@
 
 ```
 Conditions:
-- blocktype{type=dirt} true
+- blocktype{type=dirt,stone,grass} true
 ```
 
 ---
