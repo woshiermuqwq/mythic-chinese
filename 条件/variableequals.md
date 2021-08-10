@@ -1,0 +1,29 @@
+**描述:** 若指定变量的值为指定值.
+
+---
+
+**修改项:**
+
+| 修改项名  | 别称           | 描述                      |
+| --------- | -------------- | ------------------------- |
+| variable | var | 用于检测的变量名 |
+| value | v | 用于检测的指定数值 |
+| scope | s | 变量位于哪儿
+---
+
+**示例:**
+
+```
+BearGrowl:
+  TargetConditions:
+  - variableEquals{var=target.heardbear;value="是"} cancel
+  Skills:
+  - message{m="&7啊啊啊啊.."}
+  - setvariable{var=target.heardbear;value="是";duration=6000}
+```
+
+---
+
+**拓展信息:**
+
+- [x] 检测对象: 技能
