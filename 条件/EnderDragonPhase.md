@@ -17,6 +17,7 @@ Conditions:
 - enderdragonphase{phase=CIRCLING} true
 ```
 
+```
 Conditions:
 - enderdragonphase{phases=FLY_TO_PORTAL,LEAVE_PORTAL}
 ···
