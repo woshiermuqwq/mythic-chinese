@@ -9,6 +9,7 @@
 | location1 | loc1, l1, a | A点坐标 |
 | location2 | loc2, l2, b | B点坐标 |
 | relative | r | 坐标是否以施法者坐标为中心并进行偏移 |
+| world | 无 | 所检测的世界名 |
 ---
 
 **示例:**
