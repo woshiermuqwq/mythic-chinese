@@ -14,11 +14,11 @@
 
 ```
 Conditions:
-- height{h=<50} true
+- heightabove{h=50} true
 ```
 
 ---
 
 **拓展信息:**
 
-- [x] 检测对象: 实体
+- [x] 检测对象: 位置
