@@ -18,6 +18,7 @@ Conditions:
 ```
 
 可用的伤害类型列表: https://mineplugin.org/DamageCause
+
 ---
 
 **拓展信息:**
