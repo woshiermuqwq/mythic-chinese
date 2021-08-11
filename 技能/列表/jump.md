@@ -14,6 +14,6 @@
 --------
 
     跳跃测试实体:
-        Type: Slime
-        Skills:
-        - jump{velocity=20}
+      Type: Slime
+      Skills:
+      - jump{velocity=20}
