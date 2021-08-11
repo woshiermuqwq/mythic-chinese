@@ -15,12 +15,12 @@
 | element | type | 所造成伤害的伤害类型 | 无 |
 
 ### 伤害类型 (Element)
-  伤害类型的使用方法:
+伤害类型的使用方法:
 
-  伤害测试技能:
-    Skills:
-    - damage{amount=10;element=FIRE} @target ~onUse
-    - damage{amount=10;element=ICE} @target ~onUse
+    伤害测试技能:
+      Skills:
+      - damage{amount=10;element=FIRE} @target ~onUse
+      - damage{amount=10;element=ICE} @target ~onUse
 
 上述这俩伤害类型可被伤害调整所影响:
 
