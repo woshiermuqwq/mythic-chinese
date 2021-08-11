@@ -12,7 +12,7 @@
 | radius        | r           | 聊天栏信息可被指定格数半径范围内的所有玩家所看见 | 12                               |
 | maxlinelength | ll, mll, ml | 悬浮字文本最大字符长度 | 22                               |
 | lineprefix    | lp          | 悬浮字文本前缀 | &f                               |
-| message       | m           | 聊天栏与悬浮字的文本 | NONE                             |
+| message       | m           | 聊天栏与悬浮字的文本 | 无                             |
 | chatprefix    | cp          | 聊天栏文本前缀 | &lt;caster.name&gt;&f&lt;&co&gt; |
 | duration      | d, t        | 悬浮字持续时间(刻) | 文本字符长度 * 4              |
 
