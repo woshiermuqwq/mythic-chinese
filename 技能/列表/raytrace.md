@@ -8,8 +8,8 @@
 
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |---------------------|------------------------|-------------------------------------------------------|------|
-| entityskill         | eskill, es             | 命中实体后所释放的技能                   |      |
-| locationskill       | lskill, ls             | 命中方块后所释放的技能                   |      |
+| entityskill         | eskill, es             | 命中实体后所释放的技能                   | 无   |
+| locationskill       | lskill, ls             | 命中方块后所释放的技能                   | 无   |
 | maxdistance         | distance, md, d        | 射线最大距离                                 | 50   |
 | raywidth | rw, w     | 射线追踪的宽度(?) | 0.2                                                   |      |
 | ignorepassableblocks| ignorepassable, ip     | 是否无视方块              | true |
