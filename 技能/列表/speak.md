@@ -1,0 +1,23 @@
+技能: Speak
+--------------------------
+
+向目标发送聊天栏信息并以悬浮字形式显示文本.
+
+修改项
+----------
+
+| 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
+|-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
+| offset        | o           | 悬浮字文本的垂直偏移值 | 0.6f                             |
+| radius        | r           | 聊天栏信息可被指定格数半径范围内的所有玩家所看见 | 12                               |
+| maxlinelength | ll, mll, ml | 悬浮字文本最大字符长度 | 22                               |
+| lineprefix    | lp          | 悬浮字文本前缀 | &f                               |
+| message       | m           | 聊天栏与悬浮字的文本 | NONE                             |
+| chatprefix    | cp          | 聊天栏文本前缀 | &lt;caster.name&gt;&f&lt;&co&gt; |
+| duration      | d, t        | 悬浮字持续时间(刻) | 文本字符长度 * 4              |
+
+示例
+--------
+
+      Skills:
+      - speak{offset=0.6f;radius=30;maxlinelength=22;lineprefix="&5";message=" 我回来了!";chatprefix=<caster.name>&f<&co>;duration=200} @self ~onSpawn
