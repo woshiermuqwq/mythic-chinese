@@ -28,7 +28,7 @@
 -   specificfaction
 -   specificfactionmonsters
 
-Example
+示例
 -------
 
     修改AI目标选择器测试:
