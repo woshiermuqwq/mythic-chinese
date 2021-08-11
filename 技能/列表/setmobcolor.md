@@ -15,3 +15,5 @@
     
     Skills:
     `- setcolor{color=blue} @self ~onSpawn`
+
+生成后修改自身颜色为蓝色
