@@ -12,3 +12,5 @@
 示例
 --------
 
+    Skills:
+    - clearThreat{} @self
