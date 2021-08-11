@@ -12,7 +12,7 @@
 | doEffect  |           | 是否播放方块破坏粒子 | true |
 | useTool   |           | 是否使用手持物品破坏 | true |
 
-doDrops, doEffect, and useTool were all added 新增于 MM4.12
+所有修改项新增于 MM4.12
 
 ----------
 
