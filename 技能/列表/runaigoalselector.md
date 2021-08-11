@@ -25,8 +25,7 @@
 -   fleevillagers runfromvillagers
 -   fleesun
 -   float / swim
--   gotolocation / goto (parse the specialchars!) Look here:
-    [Variables](/skills/stringvariables)
+-   gotolocation / goto (支持[变量](技能/变量))
 -   gotoowner
 -   lookatplayers
 -   leapattarget
@@ -38,8 +37,7 @@
 -   movetowardstarget
 -   opendoor
 -   opendoors
--   patrol / patrolroute (parse the special chars!) Look here:
-    [Variables](/skills/stringvariables)
+-   patrol / patrolroute (支持[变量](技能/变量))
 -   randomlookaround / lookaround
 -   randomstroll
 -   restrictopendoor
