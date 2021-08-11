@@ -13,6 +13,7 @@
 示例
 --------
 
+      Skills:
       - currencygive{amount=20} @pir{r=20} ~onSpawn 0.2
 
 生成后有20%几率给予半径20米范围内的所有玩家20金钱.
