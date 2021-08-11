@@ -1,4 +1,4 @@
-技能: Modify Global Score
+技能: Modify Target Score
 --------------------------
 
 修改目标指定记分板上的分数.
