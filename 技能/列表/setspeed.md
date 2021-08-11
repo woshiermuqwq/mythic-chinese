@@ -11,6 +11,10 @@
 | speed      | 修改后的移动速度 | 1             |
 | type       | 所修改的移动方式,WALKING(步行) 或 FLYING(飞行) | WALKING       |
 
-示例
+示例 (实体配置)
 --------
+       
+      Skills:
+    - setspeed{speed=2;type=walking} ~onSpawn
 
+生成后将自身步行状态下的移动速度设为2.
