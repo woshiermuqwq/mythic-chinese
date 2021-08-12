@@ -5,7 +5,7 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 类似,围绕目标转动,与[Projectile](技能/列表/projectile)一样,Orbital的抛射物
 命中实体后可激活指定技能组,还有许多类似的地方,
 
-修改项: projectile bullets 新增于 MM 4.11.
+修改项: bullettype 新增于 MM 4.11 (使用方法与[Projectile](技能/列表/Projectile)一致).
 
 修改项
 ----------
