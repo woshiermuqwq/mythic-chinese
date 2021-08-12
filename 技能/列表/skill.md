@@ -14,12 +14,12 @@
 示例
 --------
 
-    Skills:
-    - skill{skill=技能组} @Target ~onAttack
-    - skill{s=技能组} @Trigger ~onSpawn
-    - skill:技能组 @Trigger ~onDeath
-    - skill
-        {
-        skill=一个技能组;
-        sync=true
-        }
+      Skills:
+      - skill{skill=技能组} @Target ~onAttack
+      - skill{s=技能组} @Trigger ~onSpawn
+      - skill:技能组 @Trigger ~onDeath
+      - skill
+          {
+          skill=一个技能组;
+          sync=true
+          } @self ~onDamaged
