@@ -4,9 +4,7 @@
 取消对应的触发器事件.
 
 -   取消事件所处技能组必须在实体技能配置内被强制激活(sync=true).  
-    示例:
-    Skills:
-    - skill{s=CancelEventSkill;sync=true} ~onDamaged
+    示例:  - skill{s=免伤;sync=true} ~onDamaged
 -   不支持延迟激活.
 
 可影响的触发器
