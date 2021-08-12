@@ -25,7 +25,7 @@
 | hitTarget        | ht         | 被传递的第一个事物是否必须是技能目标 | true    |
 | hitPlayers       | hp         | 玩家是否可被传递 | true    |
 | hitNonPlayers    | hnp        | 非玩家实体是否可被传递 | false   |
-| bounceConditions | conditions | 满足条件的可被传递实体才能够被传递 | NONE    |
+| bounceConditions | conditions | 满足条件的可被传递实体才能够被传递 | 无    |
 
 示例
 --------
