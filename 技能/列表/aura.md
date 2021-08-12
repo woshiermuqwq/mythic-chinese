@@ -17,7 +17,7 @@
 | Charges             | c       | 光环最大可命中次数               | 0             |
 | Duration            | d       | 光环最大持续时间(刻) | 200           |
 | Interval            | i       | 光环刷新间隔(刻) | 1             |
-| maxStacks           |         | 光环最大层数 | None          |
+| maxStacks           |         | 光环最大层数 | 无          |
 | refreshDuration     |         | 光环叠加后是否刷新持续时间 | false         |
 | mergeSameCaster     |         | 光环是否无法被施法者叠加| false         |
 | mergeAll            |         | 光环是否无法被叠加 | false         |
