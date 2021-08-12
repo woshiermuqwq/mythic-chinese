@@ -26,7 +26,38 @@
 | TargetYOffset | syo | 抛射物目标位置垂直偏移量(格方块) | 1.0 |
 | HitPlayers | hp | 抛射物是否可命中玩家 | true |
 | HitNonPlayers | hnp | 抛射物是否可命中非玩家实体 | false |
+| HitTarget | ht | 抛射物是否可命中技能目标 | true |
+| HitTargetOnly | 无 | 抛射物是否仅可命中技能目标 | false
+| StopAtEntity | se | 抛射物是否在命中任意实体后消失 | true |
+| StopAtBlock | sb | 抛射物是否在命中固体方块后消失 | true |
+| HugSurface | hs | 抛射物是否在落到方块上方后继续移动 | false |
+| PowerAffectsRange | par | [技能威力](/实体/威力)是否影响抛射物最大移动距离 | true |
+| PowerAffectsVelocity | pav | [技能威力](/实体/威力)是否影响抛射物移动速度 | true |
+| fromOrigin | fo | 抛射物发射点是否为施法者的坐标原点 | false |
 
 示例
 --------
+
+此实体每5秒朝目标发射 移速为4 惯性为0.75 速度为4 碰撞箱体积为1方块 的追踪抛射物.
+
+    # 实体配置
+    追踪抛射物测试实体:
+      Type: ZOMBIE
+      Skills:
+      - skill{s=追踪抛射物} @target ~onTimer:100
+
+    # 技能组配置
+    追踪抛射物:
+      Skills:
+      - missile{ot=追踪抛射物-Tick;oh=追踪抛射物-Hit;v=4;i=1;hR=1;vR=1;in=0.75}
+
+    追踪抛射物-Tick:
+      Skills:
+      - e:particles{p=flame;a=1} @origin
+
+    追踪抛射物-Hit:
+      Skills:
+      - effect:particles{p=lava;a=50;hS=1;vS=1}
+      - effect:sound{s=entity.generic.explode;v=1;p=0}
+      - damage{a=1337;i=false}
 
