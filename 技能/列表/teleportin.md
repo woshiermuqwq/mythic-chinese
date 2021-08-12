@@ -11,10 +11,10 @@
 | vector | direction,dir,d,v | 位置偏移量  | 无 |
 | yaw | y | 传送后俯仰视角度 | 0 | 
 
-示例
+示例 (实体配置)
 --------
 
-将目标传送到自身右边
+被右键后将右键者传送到自身右边
 
     Skills:
     - teleportin{vector=0,0,1} @trigger ~onInteract
