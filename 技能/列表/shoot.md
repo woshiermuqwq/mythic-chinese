@@ -19,6 +19,7 @@
 | ontickskill          | ontick, ot | 弹射物刷新后所激活的技能组 | 无 |
 | onhitskill           | onhit, oh  | 弹射物命中后所激活的技能组 | 无 |
 | onendskill           | onend, oe  | 弹射物消失后所激活的技能组 | 无 |
+
 可用弹射物类型
 ----------
 
