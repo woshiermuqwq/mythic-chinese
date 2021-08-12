@@ -25,13 +25,13 @@ Cast是[光环](技能/列表/Aura)的一种.
 示例
 --------
 
-#实体配置
+     #实体配置
 
       冰霜:
       Skills:
       - cast{skillName="&a冰霜";duration=40;onCast=激活冰霜;onTick=冰霜-Tick;onInterrupted=冰霜-End;onNoTargets=冰霜-无目标;cancelOnMove=true;showCastBar=true} @target ~onTimer:100
 
-#技能组配置
+    #技能组配置
       冰霜-Tick:
         Skills:
         - message{m="<mob.name>蓄力中.."} @EIR{r=16}
