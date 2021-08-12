@@ -12,17 +12,17 @@
 示例 (作为技能行)
 --------
 
-        Skills:
-        - message{m="瞬间激活的技能行"} @EIR{r=16}
-        - delay 10
-        - message{m="延迟0.5秒(10刻)激活的技能行"} @EIR{r=16}
-        - delay 10
-        - message{m="延迟1秒(10刻)激活的技能行"} @EIR{r=16}
+       Skills:
+       - message{m="瞬间激活的技能行"} @EIR{r=16}
+       - delay 10
+       - message{m="延迟0.5秒(10刻)激活的技能行"} @EIR{r=16}
+       - delay 10
+       - message{m="延迟1秒(10刻)激活的技能行"} @EIR{r=16}
 
 示例 (作为技能修改项)
 --------
 
-        Skills:
-        - message{m="瞬间激活的技能行";delay=0} @EIR{r=16}
-        - message{m="延迟0.5秒(10刻)激活的技能行";delay=10} @EIR{r=16}
-        - message{m="延迟2秒(40刻)激活的技能行";delay=40} @EIR{r=16}
+       Skills:
+       - message{m="瞬间激活的技能行";delay=0} @EIR{r=16}
+       - message{m="延迟0.5秒(10刻)激活的技能行";delay=10} @EIR{r=16}
+       - message{m="延迟2秒(40刻)激活的技能行";delay=40} @EIR{r=16}
