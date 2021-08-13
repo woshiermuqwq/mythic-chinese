@@ -15,4 +15,4 @@
 ----------
 
       Skills:
-      - variable{var=castr.测试;amount=5}
+      - variableadd{var=castr.测试;amount=5}
