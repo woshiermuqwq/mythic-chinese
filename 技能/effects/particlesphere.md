@@ -12,6 +12,7 @@
 
 示例
 --------
+
 ···
   - effect:particlesphere{particle=flame;amount=200;radius=5} @self
 ···
