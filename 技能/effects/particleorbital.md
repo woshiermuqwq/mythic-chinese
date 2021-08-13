@@ -16,7 +16,7 @@
 | rotationY | rotY,rY  | 粒子环绕整体Y轴转向 | 0     |
 | rotationZ | rotZ,rZ  | 粒子环绕整体Z轴转向 | 0     |
 | offsetX | offx,ox   | 粒子环绕整体中心X轴偏移值(格方块) | 0 |
-| offsetY | offy,oy   | 粒子环绕整体中心Y轴偏移值(格方块)  0 |
+| offsetY | offy,oy   | 粒子环绕整体中心Y轴偏移值(格方块)  | 0 |
 | offsetZ | offz,oz   | 粒子环绕整体中心Z轴偏移值(格方块) | 0 |
 | angularVelocityX | avx,vx  | 粒子环绕整体X轴速度 | 0   |
 | angularVelocityY | avy,vy  | 粒子环绕整体Y轴速度 | 0   |
