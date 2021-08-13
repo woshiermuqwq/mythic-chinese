@@ -7,7 +7,8 @@
 
 实际激活次数为 重复激活次数(Repeat)的值+1
 
-重复激活过程所耗时间为 (Repeat值+1) * RepeatInterval的值
+重复激活过程所耗时间为 (Repeat值+1) * RepeatInterval的值.
+
 示例
 --------
     
