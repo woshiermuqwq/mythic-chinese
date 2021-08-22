@@ -1,4 +1,4 @@
-技能: Repeat 与 RepeatInterval
+通用修改项: Repeat 与 RepeatInterval
 --------------------------
 
 设置重复激活次数与重复激活间隔(刻).
