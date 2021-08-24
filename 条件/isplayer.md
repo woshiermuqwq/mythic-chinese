@@ -18,7 +18,7 @@
 
 ```
 Conditions:
-- ismonster
+- isplayer
 ```
 
 ---
