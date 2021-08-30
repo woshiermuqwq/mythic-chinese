@@ -24,7 +24,7 @@
 ```
 伪装测试:
   Skills:
-  - disguise{d="Sheep SetBurning SetSpinning SetCustomNameVisible setCustomName Zombie"} @self
+  - disguise{d=Sheep SetBurning SetSpinning SetCustomNameVisible setCustomName Zombie} @self
 ```
 
 令自身伪装成 Y轴偏移为-1.5格方块 视角无法俯仰视 实体本身不可见 头戴玩家头颅的僵尸.
@@ -32,7 +32,7 @@
 ```
 伪装测试:
   Skills:
-  - disguise{d="Zombie setYModifier -1.5 setPitchLocked setInvisible setHelmet PLAYER_HEAD"} @self
+  - disguise{d=Zombie setYModifier -1.5 setPitchLocked setInvisible setHelmet PLAYER_HEAD} @self
 ```
 
 ---------
