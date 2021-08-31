@@ -10,8 +10,8 @@
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
 | duration            | d       | 晕眩持续时间(刻)                   |               |
 | stopai              | ai      | 是否无法移动                                                                              | false         |
-| gravity             | g       | 是否无重力                                                               | false         |
-| facing              | face, f | 是否无法转向                                                 | false         |
+| gravity             | g       | 是否无重力(受到击退 throw影响后会有飞行的效果..)                                                          | false         |
+| facing              | face, f | 是否允许转向                                                 | false         |
 | CancelOnGiveDamage  | cogd    | 是否在目标造成伤害后解除晕眩                             | false         |
 | CancelOnTakeDamage  | cotd    | 是否在目标受到伤害后解除晕眩                                           | false         |
 | CancelOnDeath       | cod     | 是否在目标死亡后解除晕眩                                                          | true          |
