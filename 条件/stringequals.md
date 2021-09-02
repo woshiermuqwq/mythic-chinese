@@ -15,7 +15,7 @@
 
 ```
   Conditions:
-  - stringequals{val1="是!";val2="是!"} true
+  - stringequals{val1="<caster.var.这是一个变量>";val2="<caster.var.这是另一个变量>"} true
 ```
 ```
   Conditions:
