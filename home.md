@@ -127,7 +127,7 @@ MythicMobs给了实体一个十分巨大的技能库一
 内容提要:
 
 -   [Discord服务器](https://www.mythiccraft.io/discord)
--   官方服务器: **play.theloungemc.com**
+-   非官方QQ群: **710180212**
 
 MythicMobs是一个复杂的插件,一开始可能会让人感到困惑,因为它有大量的功能和高度的可自定义性
 
