@@ -26,3 +26,4 @@
 示例
 --------
 
+    - effect:particleorbital{r=2;points=16;t=100;i=1;vy=20;particle=flame} @self ~onSpawn
