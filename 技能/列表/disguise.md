@@ -12,7 +12,7 @@
 
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| disguise  | d, config, c, type | 伪装内容 | 无 |
+| disguise  | d, type, t | 伪装内容,包含"setCustomName"不可写入双引号 | 无 |
 
 示例
 --------
@@ -32,7 +32,7 @@
 ```
 伪装测试:
   Skills:
-  - disguise{d=Zombie setYModifier -1.5 setPitchLocked setInvisible setHelmet PLAYER_HEAD} @self
+  - disguise{d="Zombie setYModifier -1.5 setPitchLocked setInvisible setHelmet PLAYER_HEAD"} @self
 ```
 
 ---------
