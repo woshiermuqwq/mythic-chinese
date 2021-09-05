@@ -8,10 +8,14 @@
 
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| message   | m       | 用于发送的信息,用""包裹 |         |
+| title   | t       | 用于发送的主标题文本,用""包裹 | 无 |
+| subtitle | st | 用于发送的次标题文本,用""包裹 | 无 |
+| duration | d | 文本显示时长(刻) | 1 |
+| fadeIn | fi | 文本渐入效果时长(刻) | 1 |
+| fadeOut | fo | 文本渐出效果时长(刻) | 1 |
 
 示例
 --------
 
     Skills:
-    - titlenmessage{m="<mob.name>&f 释放了技能!"} @PlayersInRadius{r=30}
+    - sendtitle{title="Beware!";subtitle="A dangerous spell is being cast!";d=20} @PlayersInRadius{r=10}
