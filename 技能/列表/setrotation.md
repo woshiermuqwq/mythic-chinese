@@ -20,3 +20,8 @@
 
       Skills:
       - setrotation{relative=true;pitch=-45}
+
+额外信息
+-------
+
+**不支持** [占位符](/技能/占位符)与[变量](/技能/变量)
