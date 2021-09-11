@@ -40,3 +40,8 @@
 
 -   [来自Krowerom的村民交易命令技能教学](https://www.youtube.com/watch?v=p71bl_W3a4I&feature=youtu.be)
 
+
+额外信息
+-------
+
+**支持** [占位符](/技能/占位符)与[变量](/技能/变量)（修改项: Command）
