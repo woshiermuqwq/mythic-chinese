@@ -20,7 +20,7 @@
 | refreshDuration     |         | 光环叠加后是否刷新持续时间 | false         |
 | mergeSameCaster     |         | 光环是否无法被施法者叠加| false         |
 | mergeAll            |         | 光环是否无法被叠加 | false         |
-| showbartimer | bartimer, bt | 是否使用Boss血条显示光环剩余时间 | false |
+| showbartimer | bartimer, bt | 是否使用Boss血条显示光环剩余时间（仅对施法者显示） | false |
 | CancelOnGiveDamage  | cogd    | 光环是否在施法者造成伤害后消失 | false         |
 | CancelOnTakeDamage  | cotd    | 光环是否在施法者受到伤害后消失 | false         |
 | CancelOnDeath       | cod     | 光环是否在施法者死亡后消失 | true         |
