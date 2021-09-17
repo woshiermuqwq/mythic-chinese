@@ -80,3 +80,7 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
       Skills:
       - damage{a=10}
       - potion{type=SLOW;duration=100;lvl=2}
+
+提示
+------
+ onTick最后一次激活 优先于 onHit 优先于 onEnd
