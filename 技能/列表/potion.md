@@ -12,8 +12,8 @@
 | duration     | d              | 持续时间(刻).                                                  | 100     |
 | level        | l              | 状态效果等级,实际等级为所写值+1. | 1       |
 | force        | 无             | 是否替换相同状态效果(等级)                          | false   |
-| hasParticles | particles or p | 是否显示状态效果粒子                                   | true    |
-| hasIcon      | icon or i      | 是否显示状态效果图标                                        | true    |
+| hasParticles | particles, p | 是否显示状态效果粒子                                   | true    |
+| hasIcon      | icon, i      | 是否显示状态效果图标                                        | true    |
 
 示例
 --------
