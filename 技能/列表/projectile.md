@@ -25,7 +25,7 @@
 | StartYOffset | syo | 抛射物发射点垂直偏移量(格方块) | 1.0 |
 | StartFOffset | sfo | 抛射物发射点前后偏移量(格方块) | 1.0 |
 | StartSOffset | sso | 抛射物发射点左右偏移量(格方块) | 1.0 |
-| TargetYOffset | syo | 抛射物目标位置垂直偏移量(格方块) | 1.0 |
+| TargetYOffset | tyo | 抛射物目标位置垂直偏移量(格方块) | 1.0 |
 | HorizontalOffset     | hO          | 抛射物发射方向水平旋转角度(弧度角) | 0                 |
 | VerticalOffset       | vO          | 抛射物发射方向垂直旋转角度(圆心角) | 0                 |
 | HitPlayers | hp | 抛射物是否可命中玩家 | true |
