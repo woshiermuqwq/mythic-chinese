@@ -15,6 +15,6 @@
 --------
 
       Skills:
-      - throw{v=3;vy=3] @EIR{r=5} ~onDamaged
+      - throw{v=3;vy=3} @EIR{r=5} ~onDamaged
 
 受伤后将半径5格方块范围内的所有实体击飞.
