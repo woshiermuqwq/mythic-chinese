@@ -20,7 +20,7 @@
 **4.12的写法**
 
 使用 **/mm test cast 伪装测试** 测试下方技能.  
-令自身伪装成 处在旋转视角状态 燃烧状态 名字永远可见 且名字为Zombie的羊.
+令自身伪装成 处在旋转视角状态 燃烧状态 名字永远可见 且名字为Zombie的羊（若定义了显示名需删除""）.
 ```
 伪装测试:
   Skills:
@@ -33,6 +33,11 @@
 伪装测试:
   Skills:
   - disguise{d="Zombie setYModifier -1.5 setPitchLocked setInvisible setHelmet PLAYER_HEAD"} @self
+```
+```
+伪装测试:
+  Skills:
+  - disguise{d=PLAYER Sharrk_kunjang setDisguiseName 鲨鲨} @self
 ```
 
 ---------
