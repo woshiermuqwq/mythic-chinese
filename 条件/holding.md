@@ -1,4 +1,4 @@
-**描述:** 若实体手持指定物品(支持MythicMobs物品与MMOItems物品).
+**描述:** 若实体手持指定物品(从5.0起支持MythicMobs物品与MMOItems物品).
 
 ---
 
@@ -6,7 +6,7 @@
 
 | 修改项名  | 别称           | 描述                      |
 | --------- | -------------- | ------------------------- |
-| material  | m       | 用于检测的物品名(可为MythicMobs物品与MMOItems物品) |
+| material  | m       | 用于检测的物品名(从5.0起可为MythicMobs物品与MMOItems物品) |
 
 ---
 
