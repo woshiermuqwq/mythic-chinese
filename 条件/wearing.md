@@ -1,4 +1,8 @@
-**描述:** 若实体穿有指定装备.
+**描述:** 若实体指定槽位为指定物品.
+
+---
+
+不工作于1.13以下
 
 ---
 
@@ -7,8 +11,7 @@
 | 修改项名  | 别称      | 描述 |
 | --------- | --------- | ----------- |
 | armorslot | slot, s   | 用于检测的槽位. |
-| material  | mmitem, m | 用于检测的物品名(可为MythicMobs物品与MMOItems物品) |
-| checklore | cl        | 用于检测的Lore |
+| material  | mmitem, m | 用于检测的物品名(可为MythicMobs物品 从5.0起可为MMOItems物品) |
 
 **可用槽位:**
 
