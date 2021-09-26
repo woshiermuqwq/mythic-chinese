@@ -6,7 +6,7 @@
 
 | 修改项名  | 别称           | 描述                      |
 | --------- | -------------- | ------------------------- |
-| var | 无 | 用于检测的变量名 |
+| var | 无 | 用于检测的变量名（未设置时该条件报错） |
 | value | val, v | 用于检测的变量值 |
 
 ---
@@ -15,10 +15,10 @@
 
 ```
   Conditions:
-  - variableInRange{var=caster.冷却;value=<0.01} cancel
+  - varrange{var=caster.冷却;v=<0.01} cancel
   Skills:
-  - setvariable{var=caster.冷却;type=float;value="10"}
-  - message{m="&7冷却结束"}
+  - setvar{var=caster.冷却;t=float;v="10"}
+  - m{m=&7冷却结束}
 ```
 
 ---
