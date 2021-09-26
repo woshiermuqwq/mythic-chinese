@@ -1,4 +1,5 @@
-**特效技能: Recoil** 
+特效技能: Recoil
+--------------
 
 Kicks the casters screen to simulate recoil.
 
