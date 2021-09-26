@@ -45,9 +45,7 @@ FleeConditional 示例:
 ```
 AIGoalSelectors:
 - clear
-- fleeConditional{distance=5; speed=2; conditions=[
-      - inlineofsight true
-      - entitytype COW true
+- fleeConditional{distance=5;speed=2;safespeed=2;conditions=[ - inlineofsight true ]}
     ]}
 ```
 
