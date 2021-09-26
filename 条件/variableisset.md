@@ -14,7 +14,7 @@
 
 ```
 Conditions:
-- variableisset target.dazed true
+- varisset caster.dazed true
 ```
 
 ---
@@ -22,3 +22,4 @@ Conditions:
 **拓展信息:**
 
 - [x] 检测对象: 技能
+- [x] 缩写: varisset
