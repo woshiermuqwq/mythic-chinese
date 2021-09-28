@@ -21,7 +21,8 @@
 
 ---------------
 
-Audience 新增于 4.12. 可用值: caster, target, and world.
+Audience 新增于 4.12. 可用值: caster, target, 与 world.  
+空格 < > 等符号需用[占位符](/技能/占位符)才能正常显示.
 
 示例
 --------
