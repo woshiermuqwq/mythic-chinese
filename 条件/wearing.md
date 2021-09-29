@@ -11,7 +11,7 @@
 | 修改项名  | 别称      | 描述 |
 | --------- | --------- | ----------- |
 | armorslot | slot, s   | 用于检测的槽位. |
-| material  | mmitem, m | 用于检测的物品名(可为MythicMobs物品 从5.0起可为MMOItems物品) |
+| material  | mmitem, m | 用于检测的物品名(可为MythicMobs物品 从 4.13 起可为MMOItems物品) |
 
 **可用槽位:**
 
