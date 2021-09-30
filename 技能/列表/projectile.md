@@ -15,7 +15,7 @@
 | onTick               | oT          | 抛射物刷新后所激活的技能组 | 无 |
 | onHit               | oH          | 抛射物命中后所激活的技能组 | 无 |
 | onEnd               | oE          | 抛射物消失后所激活的技能组 | 无 |
-| Type                 | t           | 抛射物种类,METEOR将令抛射物从天而降而不是水平发射 | NORMAL   |
+| Type                 | 无           | 抛射物种类,METEOR将令抛射物从天而降而不是水平发射 | NORMAL   |
 | Interval             | i           | 抛射物刷新间隔(刻) | 4                 |
 | HorizontalRadius     | hRadius, hR | 抛射物碰撞箱水平半径 | 1.25              |
 | VerticalRadius       | vRadius, vR | 抛射物碰撞箱垂直半径 | 等值于Horizontal Radius |
