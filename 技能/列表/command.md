@@ -15,7 +15,7 @@
 | command       | c       | 所执行的命令                                                   |         | 无 |
 | asCaster      | ac      | 是否由施法者执行命令而不是控制台 | false   |
 | asOp          | op      | 施法者是否无视权限需求执行                      | false   |
-| asTarget      | at      | 是否由目标执行命令                                 | false   |
+| asTarget      | at      | 是否由技能目标执行命令                                 | false   |
 | requireTarget | rt      | 是否要求此技能拥有技能目标                                  | false   |
 
 
