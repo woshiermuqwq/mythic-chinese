@@ -47,3 +47,9 @@
 
     Skills:
     - effect:particles{particle=block;m=dirt;amount=100;hS=1;vS=1} @self
+
+拓展信息
+-------
+
+- **不支持** [占位符](/技能/占位符)与[变量](/技能/变量)（仅限值类型为数值的修改项）
+- 缩写: give
