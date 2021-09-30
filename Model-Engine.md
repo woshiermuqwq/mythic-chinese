@@ -16,9 +16,9 @@ Model Engine 主要使用盔甲架去显示模型, 其次是资源包.
 
 ###技能
 
-使用 "kindletronjr" 以为实体套上模型:
-`- model{mid=kindletronjr;n=false} @self ~onSpawn`
-当实体攻击时使用一个"模型阶段"以做到攻击动画的效果:
+使用 "kindletronjr" 以为实体套上模型:  
+`- model{mid=kindletronjr;n=false} @self ~onSpawn`  
+当实体攻击时使用一个"模型阶段"以做到攻击动画的效果:  
 `- state{mid=kindletronjr;s=attack;3} @self ~onAttack`
 
 更多属性和技能请见:
