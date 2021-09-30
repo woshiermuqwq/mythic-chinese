@@ -14,7 +14,7 @@ Model Engine 主要使用盔甲架去显示模型, 其次是资源包.
 
 ![image](uploads/5862ab1f31634ae0211a3c226d834540/image.png)
 
-###技能
+### 技能
 
 使用 "kindletronjr" 以为实体套上模型:  
 `- model{mid=kindletronjr;n=false} @self ~onSpawn`  
