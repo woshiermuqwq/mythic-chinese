@@ -26,27 +26,43 @@
 | fromorigin | 无 | 是否起始于施法者或抛射物的坐标原点 | false |
 | directional | d | 粒子动量是否可被修改 | false | 
 | directionReversed | | 是否反转粒子动量 | false | 
-| direction | dir | 动量参数 | 与施法者朝向一致 | 
+| direction | dir | 向指定坐标移动（简单理解为粒子方向） | 粒子播放时的位置 | 
 | useEyeLocation | uel | 是否以施法者眼睛部位为起始点 | false |
 | forwardOffset   |  | 粒子起始点前后偏移量(格方块) | 0 |
 | sideOffset | so | 粒子起始点左右偏移量(格方块) | 0 |
+
+有关粒子动量（方向）
+--------
+
+**只有** 此技能支持粒子动量.  
+**并非** 所有粒子都可以使用粒子动量, 不支持的粒子若强行启用动量则会不可见, 如:  
+- reddust
+- mob
+设置粒子动量后, 粒子会向当前世界 指定坐标移动, 其移动速度受到 **speed** 的影响.  
+
+有关粒子颜色
+-------
+
+部分不支持颜色的粒子修改 **color** 后, 可能会发生奇特的事..  
+如, endrod将会水平扩散, 且 **speed** 值越大, 其扩散程度、速度、范围也越大.  
+原因未知..
 
 示例
 --------
 
 ----
     Skills:
-    - effect:particles{particle=flame;amount=200;hS=1;vS=1;speed=5} @self
+    - e:p{p=flame;a=200;hS=1;vS=1;speed=5} @self
     - ...
 1.12 block_crack
 
     Skills:
-    - effect:particles{particle=block_crack_dirt_0;amount=100;hS=1;vS=1} @self
+    - e:p{particle=block_crack_dirt_0;amount=100;hS=1;vS=1} @self
 
 1.13 block
 
     Skills:
-    - effect:particles{particle=block;m=dirt;amount=100;hS=1;vS=1} @self
+    - e:p{particle=block;m=dirt;amount=100;hS=1;vS=1} @self
 
 拓展信息
 -------
