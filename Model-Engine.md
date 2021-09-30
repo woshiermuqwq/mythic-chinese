@@ -5,14 +5,14 @@
 
 *Model Engine 可以免费试用一些模型, 所以你可以在购买之前进行尝试, 在百科上有一个免费的测试模型. *
 
-### 废话结束了... 为何使用Model Engine??
+### Model Engine 工作原理
 
 Model Engine 主要使用盔甲架去显示模型, 其次是资源包.  
 模型的每个部位都是一个盔甲架, 所以这其实很占用资源.
 
 下方是一个效果示例
 
-![image](uploads/5862ab1f31634ae0211a3c226d834540/image.png)
+![https://i.ibb.co/99zsNby/9month1.gif](https://i.ibb.co/99zsNby/9month1.gif)
 
 ### 技能
 
@@ -27,7 +27,7 @@ https://github.com/Ticxo/Model-Engine-Wiki/wiki/Mechanics
 ### 示例:
 
 ```
-KindletronJR:
+模型示例:
  Type: SILVERFISH
  Health: 20
  Damage: 0
