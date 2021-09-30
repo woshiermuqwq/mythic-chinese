@@ -23,4 +23,4 @@ Conditions:
 **拓展信息:**
 
 - [x] 检测对象: 实体
-- [x] 别称: playersnotwithin
+- [x] 别称: playerinradius, pir
