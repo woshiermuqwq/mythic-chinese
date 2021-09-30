@@ -17,7 +17,7 @@
 | onSurface          | os      | 是否仅生成于固体方块上                                                                        | true          |
 | copyThreatTable    | ctt     | 所生成实体是否继承其它实体对施法者的威胁 | false         |
 | inheritThreatTable | itt     | 所生成实体是否与施法者共享其它实体对于它的威胁度 | 无 |
-| inheritFaction     | if      | 所生成实体是否与施法者处在同一阵营                                                                        |               |
+| inheritFaction     | if      | 所生成实体是否与施法者处在同一阵营                                                                        | false |
 | summonerIsOwner | sio | 施法者是否作为所生成实体的主人 | true |
 | summonerIsParent | sip | 施法者是否作为所生成实体的父系实体 | true |
 
