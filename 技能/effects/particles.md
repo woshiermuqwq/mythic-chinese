@@ -23,7 +23,7 @@
 | yOffset | y   | 粒子起始点垂直偏移量(格方块) | 0 |
 | viewDistance | vd  | 粒子可被多少格方块以外的玩家所见 | 128   |
 | Size | 无 | 粒子大小 | 1 |
-| color | c | [ 粒子颜色(#000000之类的) | 无 |
+| color | c | 粒子颜色(#000000之类的) | 无 |
 | fromorigin | 无 | 是否起始于施法者或抛射物的坐标原点 | false |
 | directional | d | 粒子动量是否可被修改 | false | 
 | directionReversed | | 是否反转粒子动量 | false | 
