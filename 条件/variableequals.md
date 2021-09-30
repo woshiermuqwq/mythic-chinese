@@ -27,4 +27,4 @@ BearGrowl:
 **拓展信息:**
 
 - [x] 检测对象: 技能
-- [x] 缩写: vareq
+- [x] 缩写: variableeq, varequals, vareq
