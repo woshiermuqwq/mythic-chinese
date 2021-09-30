@@ -9,17 +9,17 @@
 
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| auraName            | auraname, buffname, debuffname | 光环名称 | 无          |
-| onStart             | os      | 光环激活后所激活的技能 | 无          |
-| onTick              | ot      | 光环刷新后所激活的技能 | 无          |
-| onEnd               | oe      | 光环结束后所释放的技能 | 无          |
+| auraName            | buffname, debuffname | 光环名称 | 无          |
+| onStartSkill             | onstart, os      | 光环激活后所激活的技能 | 无          |
+| onTickSkill              | ontick, ot      | 光环刷新后所激活的技能 | 无          |
+| onEndSkill               | onend, oe      | 光环结束后所释放的技能 | 无          |
 | Charges             | c       | 光环最大可命中次数               | 0             |
-| Duration            | d       | 光环最大持续时间(刻) | 200           |
+| Duration            | ticks, t, d, time, t       | 光环最大持续时间(刻) | 200           |
 | Interval            | i       | 光环刷新间隔(刻) | 1             |
-| maxStacks           |         | 光环最大层数 | 无          |
-| refreshDuration     |         | 光环叠加后是否刷新持续时间 | false         |
-| mergeSameCaster     |         | 光环是否无法被施法者叠加| false         |
-| mergeAll            |         | 光环是否无法被叠加 | false         |
+| maxStacks           | ms | 光环最大层数 | 无          |
+| refreshDuration     | rd | 光环叠加后是否刷新持续时间 | false         |
+| mergeSameCaster     | msc, mc | 光环是否无法被施法者叠加| false         |
+| mergeAll            | ma | 光环是否无法被叠加 | false         |
 | showbartimer | bartimer, bt | 是否使用Boss血条显示光环剩余时间（仅对施法者显示） | false |
 | CancelOnGiveDamage  | cogd    | 光环是否在施法者造成伤害后消失 | false         |
 | CancelOnTakeDamage  | cotd    | 光环是否在施法者受到伤害后消失 | false         |
