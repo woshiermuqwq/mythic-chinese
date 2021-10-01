@@ -16,7 +16,7 @@
 | onHit               | oH          | 抛射物命中后所激活的技能组 | 无 |
 | onEnd               | oE          | 抛射物消失后所激活的技能组 | 无 |
 | onStart               | oS          | 抛射物消失后所激活的技能组 | 无 |
-| Type                 | 无           | 抛射物种类 | NORMAL   |
+| Type                 | 无           | 抛射物种类[1](#抛射物种类)  | NORMAL   |
 | Interval             | i           | 抛射物刷新间隔(刻) | 4                 |
 | HorizontalRadius     | hRadius, hR | 抛射物碰撞箱水平半径 | 1.25              |
 | VerticalRadius       | vRadius, vR | 抛射物碰撞箱垂直半径 | 等值于Horizontal Radius |
@@ -39,7 +39,7 @@
 | PowerAffectsRange | par | [技能威力](/实体/威力)是否影响抛射物最大移动距离 | true |
 | PowerAffectsVelocity | pav | [技能威力](/实体/威力)是否影响抛射物移动速度 | true |
 | gravity              | g           | 抛射物重力 | 0                 |
-| BulletType | 无 | 抛射物类型 | 无 |
+| BulletType | 无 | 抛射物类型[2](#抛射物类型) | 无 |
 
   
 
@@ -81,16 +81,16 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
 示例
 --------
 
-    IceBolt:
+    Test:
       Skills:
-      - projectile{onTick=IceBolt-Tick;onHit=IceBolt-Hit;v=8;i=1;hR=1;vR=1}
-    IceBolt-Tick:
+      - projectile{ot=Test-Tick;oh=Test-Hit;v=8;i=1;hR=1;vR=1}
+    Test-Tick:
       Skills:
-      - effect:particles{p=snowballpoof;amount=20;speed=0;hS=0.2;vS=0.2} @origin
-    IceBolt-Hit:
+      - e:p{p=flame;a=20;s=0;hS=0.2;vS=0.2} @origin
+    Test-Hit:
       Skills:
-      - damage{a=10}
-      - potion{type=SLOW;duration=100;lvl=2}
+      - d{a=10}
+      - potion{t=SLOW;duration=100;lvl=2}
 
 提示
 ------
