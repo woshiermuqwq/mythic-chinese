@@ -16,7 +16,7 @@
 | onHit               | oH          | 抛射物命中后所激活的技能组 | 无 |
 | onEnd               | oE          | 抛射物消失后所激活的技能组 | 无 |
 | onStart               | oS          | 抛射物消失后所激活的技能组 | 无 |
-| Type                 | 无           | 抛射物种类,METEOR将令抛射物从天而降而不是水平发射 | NORMAL   |
+| Type                 | 无           | 抛射物种类 | NORMAL   |
 | Interval             | i           | 抛射物刷新间隔(刻) | 4                 |
 | HorizontalRadius     | hRadius, hR | 抛射物碰撞箱水平半径 | 1.25              |
 | VerticalRadius       | vRadius, vR | 抛射物碰撞箱垂直半径 | 等值于Horizontal Radius |
@@ -67,6 +67,15 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
 | ITEM | 物品 | material | 所选取的物品 | projectile{bulletType=ITEM;material=diamond;...} |
 | MYTHICITEM | MythicMobs物品 | material | 所选取的MythicMobs物品 | projectile{bulletType=MYTHICITEM;material=Mythicdiamond;...} |
 | MOB  | 实体(支持MythicMobs实体) | mob | 所选取的实体 | projectile{bulletType=MOB;mob=SkeletonKing;...} |
+
+抛射物种类
+---------
+
+- 抛射物种类决定抛射物的发射位置与移动方式
+
+| 种类 | 发射位置 | 移动方式 |
+| NORMAL | 施法者位置 | 水平 |
+| METEOR | 技能目标位置 | 从上往下 |
 
 示例
 --------
