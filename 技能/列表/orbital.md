@@ -55,18 +55,20 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 而不是施法者.
 
 与origin无关的目标选择器(如@EIR),则仍选取施法者作为半径范围的中心,所以如果不给  
-ntick所激活的技能组写上目标选择器 它会选取施法者作为技能目标).
+ntick所激活的技能组写上目标选择器 它会选取施法者作为技能目标).  
+
+环绕的起始角度不可改变且不受技能目标视角影响, 不过当环绕整体被旋转180度时, 起始角度将"反转".
 
 示例
 --------
 
     环绕测试:
       Skills:
-      - orbital{onTick=环绕测试-Tick;onHit=Ic环绕测试-Hit;points=20;interval=1;duration=200;charges=1;rx=0;ry=20;rz=20}
+      - orbital{ot=环绕测试-Tick;oh=Ic环绕测试-Hit;p=20;i=1;d=200;c=1;rx=0;ry=20;rz=20}
     环绕测试-Tick:
       Skills:
-      - e:particles{p=flame;amount=20;speed=0;hS=0.2;vS=0.2} @origin
+      - e:p{p=flame;a=20;s=0;hS=0.2;vS=0.2} @origin
     环绕测试-Hit:
       Skills:
-      - damage{a=10}
-      - potion{type=SLOW;duration=100;lvl=2}
+      - d{a=10}
+      - potion{t=SLOW;d=100;lvl=2}
