@@ -38,3 +38,9 @@
 
       Skills:
       - shoot{type=ARROW;velocity=5;damage=10}
+
+额外信息
+-------
+
+- **不支持** [占位符](/技能/占位符)与[变量](/技能/变量)（仅限值类型为数值的修改项）
+- 别称: shootprojectile
