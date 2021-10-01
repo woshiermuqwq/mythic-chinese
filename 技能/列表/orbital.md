@@ -15,32 +15,33 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 | onStart             | oS       | 激活环绕后所激活的技能组 | 无          |
 | onTick              | oT       | 环绕整体刷新后所激活的技能组 | 无          |
 | onHit               | oH       | 环绕抛射物命中后所激活的技能组 | 无          |
-| onEnd               | oE       | 环绕整体消失后所激活的技能组 | 无          |                          | Charges             | c        | 环绕整体最大可命中次数 | 0 |
+| onEnd               | oE       | 环绕整体消失后所激活的技能组 | 无          |
+| Charges             | c        | 环绕整体最大可命中次数 | 0 |
 | Duration            | d        | 环绕整体最大持续时间(刻) | 100 |
 | Interval            | i        | 环绕整体的刷新间隔(刻) | 4 |
 | Radius              | r        | 环绕整体半径(格方块)范围 | 4 |
 | HitRadius           | hr       | 环绕抛射物碰撞箱水平半径 | 1             |
 | VerticalHitRadius   | vhr, vr  | 环绕抛射物碰撞箱垂直半径| 1             |
 | Points              | p        | 环绕整体由多少个抛射物组成 | 32            |
-| XRotation           | rotx, rx | 环绕整体的X轴转向 | 0             |
-| YRotation           | roty, ry | 环绕整体的Y轴转向                                                                                                                                             | 0             |
-| ZRotation           | rotz, rz | 环绕整体的Z轴转向                                                                                                                                             | 0             |
+| XRotation           | rotx, rx | 环绕整体绕X轴转向的角度 | 0             |
+| YRotation           | roty, ry | 环绕整体绕Y轴转向的角度                                                                                                                                             | 0             |
+| ZRotation           | rotz, rz | 环绕整体绕Z轴旋转的角度                                                                                                                                             | 0             |
 | XOffset             | ox       | 环绕整体的Y轴偏移值                                                                                                                               | 0             |
 | YOffset             | oy       | 环绕整体的X轴偏移值                                                                                                                               | 0             |
 | ZOffset             | oz       | 环绕整体的Z轴偏移值                                                                                                                               | 0             |
-| AngularVelocityX    | avx, vx  | 环绕整体的X轴速度                                                                                                                       | 0             |
-| AngularVelocityY    | avy, vy  | 环绕整体的Y轴速度                                                                                                                       | 0             |
-| AngularVelocityZ    | avz, vz  | 环绕整体的Z轴速度                                                                                                                       | 0             |
-| HitPlayers          | hp       | 光环抛射物是否可命中玩家 | true          |
-| HitNonPlayers       | hnp      | 光环抛射物是否可命中非玩家实体 | false         |
-| HitSelf             | hs       | 光环抛射物可命中施法者 | false         |
-| CancelOnGiveDamage  | cogd     | 光环整体是否在受到伤害后消失 | false         |
-| CancelOnTakeDamage  | cotd     | 光环整体是否在造成伤害后消失 | false         |
-| CancelOnDeath       | cod      | 光环整体是否在施法者死亡后消失 | true          |
-| CancelOnTeleport    | cot      | 光环整体是否在施法者传送后消失 | false         |
-| CancelOnChangeWorld | cocw     | 光环整体是否在施法者变更世界后消失 | false         |
-| CancelOnSkillUse    | cosu     | 光环整体是否在施法者激活技能后消失 | false         |
-| CancelOnQuit        | coq      | 光环整体是否在施法者退出游戏后消失 | true          |
+| AngularVelocityX    | avx, vx  | 环绕整体绕X轴旋转的速度                                                                                                                       | 0             |
+| AngularVelocityY    | avy, vy  | 环绕整体绕Y轴旋转的速度                                                                                                                        | 0             |
+| AngularVelocityZ    | avz, vz  | 环绕整体绕Z轴旋转的速度                                                                                                                        | 0             |
+| HitPlayers          | hp       | 环绕抛射物是否可命中玩家 | true          |
+| HitNonPlayers       | hnp      | 环绕抛射物是否可命中非玩家实体 | false         |
+| HitSelf             | hs       | 环绕抛射物可命中施法者 | false         |
+| CancelOnGiveDamage  | cogd     | 环绕整体是否在受到伤害后消失 | false         |
+| CancelOnTakeDamage  | cotd     | 环绕整体是否在造成伤害后消失 | false         |
+| CancelOnDeath       | cod      | 环绕整体是否在施法者死亡后消失 | true          |
+| CancelOnTeleport    | cot      | 环绕整体是否在施法者传送后消失 | false         |
+| CancelOnChangeWorld | cocw     | 环绕整体是否在施法者变更世界后消失 | false         |
+| CancelOnSkillUse    | cosu     | 环绕整体是否在施法者激活技能后消失 | false         |
+| CancelOnQuit        | coq      | 环绕整体是否在施法者退出游戏后消失 | true          |
 
   
 
