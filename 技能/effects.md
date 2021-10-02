@@ -4,8 +4,7 @@
 
 特效技能是技能的一类,通常用于制作视觉效果与音效
 
-修改项 `audience=World` or `audience=Target` 允许特效技能仅对特定实体拥有效果 默认值为 。
-`World`
+修改项 `audience=World` or `audience=Target` 允许特效技能仅对特定实体拥有效果 默认值为 `World`
 
 ### 语法
 
