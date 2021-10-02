@@ -24,24 +24,24 @@
 | [Black Screen][]     | 黑屏                       |
 | [Block Mask][]       | 令指定位置的方块伪装                        |
 | [Block Unmask][]     | 取消指定位置的方块伪装                                  |
-| [Block Wave][]       | 于目标位置生成方块波                       |
-| [Bloody Screen][]    | 令目标屏幕变为边界效果                                    |
-| [Ender][]            | 于目标位置生成末影效果                                             |
-| [Ender Beam][]       | 生成末影水晶并向目标发射光束                          |
-| [Explosion][]        | 于目标位置生成爆炸(有音效无伤害)                                            |
-| [Firework][]         | 于目标位置发射一发烟花火箭（似乎无法工作）                                           |
-| [Flames][]           | 于目标位置生成火花                                   |
-| [Geyser][]           | 于目标位置生成向上移动的液体                                   |
-| [Glow][]             | 令目标发光(修改光色需GlowAPI) |
-| [Item Spray][]       | 于目标位置抛洒物品掉落物                              |
-| [Lightning][]        | 于目标位置生成雷击(无伤害)                                        |
-| [Particles][]        | 于目标位置播放粒子效果                           |
-| [Particle Box][]     | 由粒子组成的空心正方体                            |
-| [Particle Line][]    | 连接施法者与目标的粒子线                       |
-| [Particle Orbital][] | 于目标位置生成粒子环绕并跟随目标                     |
-| [Particle Ring][]    | 于目标位置生成由粒子组成的空心环                           |
-| [Particle Sphere][]  | 于目标位置生成由粒子组成的空心球                         |
-| [Particle Tornado][] | 于目标位置生成粒子龙卷风               |
+| [Block Wave][]       | 于技能目标位置生成方块波                       |
+| [Bloody Screen][]    | 令技能目标屏幕变为边界效果                                    |
+| [Ender][]            | 于技能目标位置生成末影效果                                             |
+| [Ender Beam][]       | 生成末影水晶并向技能目标发射光束                          |
+| [Explosion][]        | 于技能目标位置生成爆炸(有音效无伤害)                                            |
+| [Firework][]         | 于技能目标位置发射一发烟花火箭（似乎无法工作）                                           |
+| [Flames][]           | 于技能目标位置生成火花                                   |
+| [Geyser][]           | 于技能目标位置生成向上移动的液体                                   |
+| [Glow][]             | 令技能目标发光(修改光色需GlowAPI) |
+| [Item Spray][]       | 于技能目标位置抛洒物品掉落物                              |
+| [Lightning][]        | 于技能目标位置生成雷击(无伤害)                                        |
+| [Particles][]        | 于技能目标位置播放粒子效果                           |
+| [Particle Box][]     | 于技能目标位置生成一个不可见的方体, 随机选取方体内指定数量的点                            |
+| [Particle Line][]    | 连接施法者与技能目标的粒子线                       |
+| [Particle Orbital][] | 于技能目标位置生成粒子环绕并跟随目标                     |
+| [Particle Ring][]    | 于技能目标位置生成由粒子组成的空心环                           |
+| [Particle Sphere][]  | 于技能目标位置生成由粒子组成的空心球                         |
+| [Particle Tornado][] | 于技能目标位置生成粒子龙卷风               |
 | [Recoil] | 偏转目标的视角 |
 | [Skybox][]           | 修改目标客户端的环境氛围                                            |
 | [Smoke][]            | 于目标位置生成烟雾效果                                               |
