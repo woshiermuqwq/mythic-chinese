@@ -1,12 +1,7 @@
 特效技能: Particles
 --------------------------
 
-播放粒子效果.
-
-修改项: audience=world(世界)或target(目标)或caster(施法者) 新增于 MM4.11.  
-此修改项允许粒子效果仅对audience所写实体起作用.
-
-粒子种类; Mob 以及它的修改项: mob=实体名 新增于 NN4.12.
+于技能目标位置播放粒子效果.
 
 修改项
 ----------
@@ -16,7 +11,7 @@
 | particle  | p  | 粒子种类  | reddust |
 | material | m | 与方块有关的粒子所选取的原方块 | STONE |
 | mob | 无 | 与实体有关的粒子（Mob）所选取的实体, 不可为原版实体 | 无 |
-| amount | a | 粒子（实体）数量 | 10    |
+| amount | a | 粒子数量 | 10    |
 | hSpread | hs  | 粒子最大水平分散半径(格方块)范围 | 0     |
 | vSpread | vs  | 粒子最大垂直分散半径(格方块)范围 | 0     |
 | speed | s   | 粒子速度 | 0 |
@@ -68,15 +63,15 @@
 1.12 block_crack
 
     Skills:
-    - e:p{particle=block_crack_dirt_0;amount=100;hS=1;vS=1} @self
+    - e:p{p=block_crack_1_0;a=100;hS=1;vS=1} @self
 
 1.13 block
 
     Skills:
-    - e:p{particle=block;m=dirt;amount=100;hS=1;vS=1} @self
+    - e:p{particle=block;m=dirt;a=100;hS=1;vS=1} @self
 
 拓展信息
 -------
 
 - **不支持** [占位符](/技能/占位符)与[变量](/技能/变量)（仅限值类型为数值的修改项）
-- 缩写: p
+- 缩写: e:p
