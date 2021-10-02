@@ -27,9 +27,11 @@
 1. 发射抛射物,命中后以抛射物为中心创造技能区域:
 ```
     Skills:
-    - projectile{oh=[  - projectile{ot=[  - e:p{p=flame} @origin ];oh=[  - d{a=1;i=true} @eno{r=3;ignore=self} ];i=10;v=0;type=METEOR;se=false;sb=false};sb=false;i=1;v=7} @target```
+    - projectile{oh=[  - projectile{ot=[  - e:p{p=flame} @origin ];oh=[  - d{a=1;i=true} @eno{r=3;ignore=self} ];i=10;v=0;type=METEOR;se=false;sb=false};sb=false;i=1;v=7} @target
+```
 
 2. 收缩环绕:
 ```
     Skills:
-    - orbital{ot=[  - orbital{ot=[  - e:p{p=flame} @origin ];r=3;d=600;i=1;p=32;vy=60} @origin ];r=3;d=600;i=30;p=12} @self ~onSpawn```
+    - orbital{ot=[  - orbital{ot=[  - e:p{p=flame} @origin ];r=3;d=600;i=1;p=32;vy=60} @origin ];r=3;d=600;i=30;p=12} @self ~onSpawn
+```
