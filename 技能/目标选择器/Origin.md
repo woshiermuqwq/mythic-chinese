@@ -21,6 +21,8 @@
 - [Chain](/技能/列表/Chain)
 - [Chain Missile](/技能/列表/ChainMissile)
 
+一些带有"Origin" 字眼的目标选择器将以执行时抛射物位置为中心（如@eno、@blocksnearorigin）
+
 运用示例
 -------
 
