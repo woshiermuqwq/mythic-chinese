@@ -4,19 +4,19 @@
 
 特效技能是技能的一类,通常用于制作视觉效果与音效
 
-修改项 `audience=World` or `audience=Target` 允许特效技能仅对特定实体拥有效果
+修改项 `audience=World` or `audience=Target` 允许特效技能仅对特定实体拥有效果 默认值为 。
+`World`
 
 ### 语法
 
-全部特效技能可用 **effect:**作为前缀  
-部分可用 **e:**
+大部分特效技能无需用 **effect(e):**作为前缀  
 
     Skills:
-    - effect:flames @target
-    - effect:lightning @self
-    - effect:ender @PlayersInRadius{r=20}
-    - effect:ender @PlayersInRadius{r=20}
-    - e:particles{particle=reddust;color=#EE22CC;amount=10;speed=1;hS=0.15;vS=.15;audience=Target} @target
+    - flames @T
+    - e:lightning @self
+    - ender @pir{r=20}
+    - ender @pir{r=20}
+    - e:p{p=reddust;c=#EE22CC;a=10;s=1;hS=0.15;vS=.15;audience=Target} @target
 
 ### 列表
 
