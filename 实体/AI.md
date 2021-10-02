@@ -80,8 +80,8 @@ AIGoalSelectors:
 
 | AI行动器名        | 别称                    | 描述         |
 | ----------------- | ----------------------- | ------------ |
-| arrowattack       |                         | 无需拉弓射箭 |
-| skeletonbowattack | bowshoot, bowmaster     | 拉弓射箭     |
+| arrowattack       |                         | 无需拉弓射箭（实体必须可拉弓） |
+| skeletonbowattack | bowshoot, bowmaster     | 拉弓射箭（实体必须可拉弓）     |
 
 **猪灵与掠夺者可用**
 
