@@ -73,6 +73,7 @@
   [Particle Ring]: /技能/effects/particlering
   [Particle Sphere]: /技能/effects/particlesphere
   [Particle Tornado]: /技能/effects/particletornado
+  [Play Block Break Sound]: /技能/effects/playblockbreaksound
   [Recoil]: /技能/effects/recoil
   [Skybox]: /技能/effects/skybox
   [Smoke]: /技能/effects/smoke
