@@ -42,7 +42,7 @@
 | [Particle Ring][]    | 于技能目标位置生成由粒子组成的空心环                           |
 | [Particle Sphere][]  | 于技能目标位置生成由粒子组成的空心球                         |
 | [Particle Tornado][] | 于技能目标位置生成粒子龙卷风               |
-| [Play Block Break Sound] | 于目标位置播放石头破坏音效 |
+| [Play Block Break Sound] | 播放目标位置的方块的破坏音效 |
 | [Recoil] | 偏转目标的视角 |
 | [Skybox][]           | 修改目标客户端的环境氛围                                            |
 | [Smoke][]            | 于目标位置生成烟雾效果                                               |
