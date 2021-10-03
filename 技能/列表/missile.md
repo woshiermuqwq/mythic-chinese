@@ -58,7 +58,7 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
     追踪抛射物测试实体:
       Type: ZOMBIE
       Skills:
-      - meta:追踪抛射物 @T ~onTimer:100
+      - skill:追踪抛射物 @T ~onTimer:100
 
     # 技能组配置
     追踪抛射物:
