@@ -19,6 +19,9 @@
 | ontickskill          | ontick, ot | 弹射物刷新后所激活的技能组 | 无 |
 | onhitskill           | onhit, oh  | 弹射物命中后所激活的技能组 | 无 |
 | onendskill           | onend, oe  | 弹射物消失后所激活的技能组 | 无 |
+| accuracy | ac, a | 弹射物扩散程度（1=百分百命中） | 1 |
+| horizontalnoise | ho | 弹射物水平扩散程度 | accuracy的值*4.5|
+| verticalnoise | vo | 弹射物垂直扩散程度 | accuracy的值*45 |
 
 可用弹射物类型
 ----------
