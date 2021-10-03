@@ -1,4 +1,4 @@
-特效技能: Play Block Break Sound
+特效技能: Play Block Hit Sound
 --------------------------
 
 播放目标位置的方块的挖掘音效.  
