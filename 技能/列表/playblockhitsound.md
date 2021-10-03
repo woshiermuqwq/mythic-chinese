@@ -20,6 +20,3 @@ Skills:
 ## 拓展信息:
 
 * [x] 缩写: blockhitsound
-
-```plaintext
-```
