@@ -58,17 +58,8 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
     追踪抛射物测试实体:
       Type: ZOMBIE
       Skills:
-      - skill:追踪抛射物 @T ~onTimer:100
-
-    # 技能组配置
-    追踪抛射物:
-      Skills:
-      - mi{ot=[  - e:particles{p=flame;a=1} @origin ];oh=追踪抛射物-Hit;v=4;i=1;hR=1;vR=1;in=0.75}
-    追踪抛射物-Hit:
-      Skills:
-      - e:p{p=lava;a=50;hS=1;vS=1}
-      - sound{s=entity.generic.explode;v=1;p=0}
-      - d{a=1337;i=false}
+      - skill{s=[  - mi{ot=[  - e:particles{p=flame;a=1} @origin ];oh=[ - e:p{p=lava;a=50;hS=1;vS=1}  - sound{s=entity.generic.explode;v=1;p=0}  - d{a=1337;i=false} ];v=4;i=1;hR=1;vR=1;in=0.75}]} @pir{r=16} ~onTimer:100
+      
 
 拓展信息:
 ---------
