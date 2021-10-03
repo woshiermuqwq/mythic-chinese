@@ -11,6 +11,7 @@
 | material  | m       | 用于组成空间的方块种类         | ICE           |
 | duration  | d       | 空间持续时间(刻)                     | 100           |
 | breakable | b       | 空间是否可以被挖掘 | false         |
+| materialdata | md | 用于组成空间的方块的方块特殊值 | 0 |
 
 示例
 --------
