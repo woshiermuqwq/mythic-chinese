@@ -17,11 +17,11 @@
 -----------
 
     Skills:
-    - blockhitsound @server
+    - blockstepsound @server
 
 拓展信息:
 ----------------------
 
-- [x] 缩写: blockhitsound
+- [x] 缩写: blockstepsound
 
 ```
