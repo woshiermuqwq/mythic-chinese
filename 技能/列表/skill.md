@@ -15,7 +15,7 @@
 --------
 
       Skills:
-      - skill{skill=技能组} @Target ~onAttack
+      - skill{skill=技能组} @T ~onAttack
       - skill{s=技能组} @Trigger ~onSpawn
       - skill:技能组 @Trigger ~onDeath
       - skill
@@ -23,8 +23,3 @@
           skill=一个技能组;
           sync=true
           } @self ~onDamaged
-
-拓展信息
--------
-
-- [x] 别称: metaskill, meta
