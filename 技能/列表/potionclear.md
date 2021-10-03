@@ -12,3 +12,9 @@
     - potionclear @self
 
 
+拓展信息:
+----------------------
+
+- [x] 缩写: clearpotions, clearpotion
+
+```
