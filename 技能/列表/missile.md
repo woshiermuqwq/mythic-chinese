@@ -25,7 +25,7 @@
 | StartFOffset | sfo | 抛射物发射点前后偏移量(格方块) | 1.0 |
 | TargetYOffset | syo | 抛射物目标位置垂直偏移量(格方块) | 1.0 |
 | HitPlayers | hp | 抛射物是否可命中玩家 | true |
-| HitNonPlayers | hnp | 抛射物是否可命中非玩家实体 | false |
+| HitNonPlayers | hnp | 抛射物是否可命中非玩家实体 | true |
 | HitTarget | ht | 抛射物是否可命中技能目标 | true |
 | HitTargetOnly | 无 | 抛射物是否仅可命中技能目标 | false
 | StopAtEntity | se | 抛射物是否在命中任意实体后消失 | true |
@@ -58,22 +58,17 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
     追踪抛射物测试实体:
       Type: ZOMBIE
       Skills:
-      - skill{s=追踪抛射物} @target ~onTimer:100
+      - meta:追踪抛射物 @T ~onTimer:100
 
     # 技能组配置
     追踪抛射物:
       Skills:
-      - missile{ot=追踪抛射物-Tick;oh=追踪抛射物-Hit;v=4;i=1;hR=1;vR=1;in=0.75}
-
-    追踪抛射物-Tick:
-      Skills:
-      - e:particles{p=flame;a=1} @origin
-
+      - mi{ot=[  - e:particles{p=flame;a=1} @origin ];oh=追踪抛射物-Hit;v=4;i=1;hR=1;vR=1;in=0.75}
     追踪抛射物-Hit:
       Skills:
-      - effect:particles{p=lava;a=50;hS=1;vS=1}
-      - effect:sound{s=entity.generic.explode;v=1;p=0}
-      - damage{a=1337;i=false}
+      - e:p{p=lava;a=50;hS=1;vS=1}
+      - sound{s=entity.generic.explode;v=1;p=0}
+      - d{a=1337;i=false}
 
 拓展信息:
 ---------
