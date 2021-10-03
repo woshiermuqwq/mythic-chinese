@@ -36,6 +36,7 @@
 | StopAtEntity | se | 抛射物是否在命中任意实体后消失 | true |
 | StopAtBlock | sb | 抛射物是否在命中固体方块后消失 | true |
 | HugSurface | hs | 抛射物是否在落到方块上方后继续移动 | false |
+| HeightFromSurface | hfs | | 0.5 |
 | PowerAffectsRange | par | [技能威力](/实体/威力)是否影响抛射物最大移动距离 | true |
 | PowerAffectsVelocity | pav | [技能威力](/实体/威力)是否影响抛射物移动速度 | true |
 | gravity              | g           | 抛射物重力 | 0                 |
@@ -99,4 +100,4 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
 额外信息
 -------
 
-- **不支持** [占位符](/技能/占位符)与[变量](/技能/变量)（仅限值类型为数值的修改项）
+- [x] 缩写: p
