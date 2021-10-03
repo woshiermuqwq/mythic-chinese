@@ -42,10 +42,6 @@
 | [Particle Ring][]    | 于技能目标位置生成由粒子组成的空心环                           |
 | [Particle Sphere][]  | 于技能目标位置生成由粒子组成的空心球                         |
 | [Particle Tornado][] | 于技能目标位置生成粒子龙卷风               |
-| [Play Block Break Sound] | 播放目标位置的方块的破坏音效 |
-| [Play Block Hit Sound] | 播放目标位置的方块的挖掘音效 |
-| [Play Block Place Sound] | 播放目标位置的方块的放置音效 |
-| [Play Block Step Sound] | 播放目标位置的方块的踩踏音效 |
 | [Recoil] | 偏转目标的视角 |
 | [Skybox][]           | 修改目标客户端的环境氛围                                            |
 | [Smoke][]            | 于目标位置生成烟雾效果                                               |
@@ -77,10 +73,6 @@
   [Particle Ring]: /技能/effects/particlering
   [Particle Sphere]: /技能/effects/particlesphere
   [Particle Tornado]: /技能/effects/particletornado
-  [Play Block Break Sound]: /技能/effects/playblockbreaksound
-  [Play Block Hit Sound]: /技能/effects/playblockhitsound
-  [Play Block Place Sound]: /技能/effects/playblockplacesound
-  [Play Block Step Sound]: /技能/effects/playblockstepsound
   [Recoil]: /技能/effects/recoil
   [Skybox]: /技能/effects/skybox
   [Smoke]: /技能/effects/smoke
