@@ -22,5 +22,11 @@
 
     集火测试:
       Skills:
-      - message{m="<mob.name>正在请求支援"} @PlayersInRadius{r=30}
-      - rally{types=被影响实体,被影响实体B;radius=30;ot=false} @Trigger
+      - m{m="<mob.name>正在请求支援"} @PlayersInRadius{r=30}
+      - callforhelp{t=被影响实体,被影响实体B;r=30;ot=false} @Trigger
+
+额外信息
+-------
+
+- **支持** [占位符](/技能/占位符)与[变量](/技能/变量)（仅限值类型为数值的修改项）
+- 别称: callforhelp
