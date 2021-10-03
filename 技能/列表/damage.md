@@ -11,7 +11,7 @@
 | damage           | a | 所造成的伤害数值（为负时不造成伤害, 但仍会变红）         | 1    |
 | preventknockback | pkb, pk | 是否不会造成击退   | false   |
 | preventimmunity  | pi      | 是否无视受伤间隔   | false   |
-| ignorearmor      | i,ia    | 是否无视实体防御 | false   |
+| ignorearmor      | i, ia    | 是否无视实体防御 | false   |
 | element | type | 所造成伤害的伤害类型 | 无 |
 
 ### 伤害类型 (Element)
