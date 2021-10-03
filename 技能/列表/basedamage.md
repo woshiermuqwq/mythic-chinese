@@ -22,6 +22,11 @@
         Type: HUSK
         Damage: 10
       Skills:
-      - basedamage{m=1.5} @target ~onDamaged
+      - bd{m=1.5} @T ~onDamaged
 
 1 = 100%
+
+拓展信息
+--------
+
+- [x] 别称: bd, weapondamage, wd
