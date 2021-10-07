@@ -84,13 +84,13 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
 
     Test:
      Skills:
-     - p{ot=[  - e:p{p=flame;a=20;s=0;hS=0.2;vS=0.2} @origin ];oh=[  - d{a=10}  - potion{t=SLOW;d=100;l=2} ];v=8;i=1;hR=1;vR=1}
+     - projectile{ontick=[  - e:particles{p=flame;a=20;s=0;hS=0.2;vS=0.2} @origin ];oh=[  - damage{a=10}  - potion{t=SLOW;d=100;l=2} ];v=8;i=1;hR=1;vR=1}
 
      Skills:
-      - p{
-          v=3;
-          i=1;
-          ot=[
+      - projectile{
+          velocity=3;
+          interval=1;
+          onTick=[
             - e:p{p=flame;fromOrigin=true} @origin
           ];
         } @target ~onTimer:20
