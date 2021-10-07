@@ -11,7 +11,7 @@
 | distanceBetween | db       | 粒子线上各粒子点的间隔 | 0.25          |
 | startYOffset    | syo, ys  | 粒子线起始点垂直偏移量(格方块) | 0             |
 | targetYOffset   | tyo, yt  | 粒子线终点垂直偏移量(格方块) | 0             |
-| fromOrigin      | fo       | 粒子线起始点是否位于施法者坐标原点  | false         |
+| fromOrigin      | fo       | 粒子线起始点是否位于施法者/抛射物坐标原点  | false         |
 | zigzag          | zz       | 粒子线是否为"Z"形而不是直线形 | false         |
 | zigzags         | zzs      | "Z"形粒子线的数量 | 10            |
 | zigzagOffset    | zzo      | "Z"形粒子线的起始点垂直偏移量(格方块) | 0.2           |
