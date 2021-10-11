@@ -1,7 +1,8 @@
 技能: On Attack
 --------------------------
 
-给予目标[光环](技能/列表/Aura)(目标近身攻击后激活技能组).
+给予目标[光环](技能/列表/Aura)(目标近身攻击后激活技能组).  
+该光环被锁定在主线程进行（即使Sync已为false）
 
 修改项
 ----------
@@ -25,4 +26,4 @@
 --------
 
        Skills:
-      - onAttack{oH=SuperPunch;cE=true;auraname=MyAura}
+      - onAttack{oH=测试;cE=true;auraname=MyAura}
