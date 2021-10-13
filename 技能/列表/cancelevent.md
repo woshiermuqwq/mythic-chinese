@@ -17,6 +17,8 @@
 -   ~onCombat
 -   ~onTeleport
 -   ~onUse(需Crucible)
+-   ~onShoot(需Crucible)
+-   ~onConsume(需Crucible)
 
 示例
 -------
