@@ -4,7 +4,7 @@ Boss血条允许您创建一个形似末影龙与凋灵的血条,并提供一系
 
 **格式**
 
-```
+```yml
 MythicMobs实体名:
   Type: 实体类型
   Bossbar:
@@ -26,7 +26,7 @@ MythicMobs实体名:
 
 **例子**
 
-```
+```yml
 超级爬行者:
   Type: creeper
   Display: '&c测试'
