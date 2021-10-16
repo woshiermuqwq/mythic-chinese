@@ -26,7 +26,7 @@ https://github.com/Ticxo/Model-Engine-Wiki/wiki/Mechanics
 
 ### 示例:
 
-```
+```yml
 模型示例:
  Type: SILVERFISH
  Health: 20
