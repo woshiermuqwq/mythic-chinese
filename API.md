@@ -1,3 +1,4 @@
+此部分与插件开发有关，若您不会Java编程，可以跳过此部分
 ## JavaDocs
 
 MythicMobs的JavaDocs页面:
@@ -8,7 +9,7 @@ MythicMobs的JavaDocs页面:
 
 ### Repository
 
-```plaintext
+```xml
 <repository>
     <id>nexus</id>
     <name>Lumine Releases</name>
@@ -18,7 +19,7 @@ MythicMobs的JavaDocs页面:
 
 ### Dependency
 
-```plaintext
+```xml
 <dependency>
     <groupId>io.lumine.xikage</groupId>
     <artifactId>MythicMobs</artifactId>
@@ -30,7 +31,7 @@ MythicMobs的JavaDocs页面:
 ## 示例
 
 MythicMobs API包含许多事件和帮助程序类以提供帮助\
-你可以使用我们的怪物、物品和技能系统.
+你可以使用我们的怪物、物品和技能系统。
 
 这里有一些可以帮助你起步的例子：
 
