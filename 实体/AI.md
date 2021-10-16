@@ -15,7 +15,7 @@ AI行动器将决定实体该做什么. 如果所写AI行动器不适用于实�
 
 例子:
 
-```
+```yml
 超级实体:
   Type: zombie
   Health: 200
@@ -45,7 +45,7 @@ AI行动器将决定实体该做什么. 如果所写AI行动器不适用于实�
 | doNothing       **[仅限付费版]** |                  | 条件不满足就不进行操作 |
 
 FleeConditional 示例:
-```
+```yml
 AIGoalSelectors:
 - clear
 - fleeConditional{distance=5;speed=2;safespeed=2;conditions=[ - inlineofsight true ]}
@@ -98,7 +98,7 @@ AI目标选择器(不同于技能的目标选择器)将决定实体选择什么�
 
 例子:
 
-```
+```yml
 超级实体:
   Type: zombie
   Health: 200
@@ -127,7 +127,7 @@ AI目标选择器(不同于技能的目标选择器)将决定实体选择什么�
 | nearestConditionalTarget **[仅限付费版]** | nearestConditional, nearestIf | 选取离自身最近的符合条件的实体                     |
 
 NearestConditionalTarget 示例:
-```
+```yml
 AITargetSelectors:
 - clear
 - nearestConditionalTarget{conditions=[
@@ -148,7 +148,7 @@ AITargetSelectors:
 
 示例:
 
-```
+```yml
 AITargetSelectors:
 - SpecificFaction 亡灵
 ```
