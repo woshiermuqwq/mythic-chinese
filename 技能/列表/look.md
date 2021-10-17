@@ -2,7 +2,8 @@
 --------------------------
 
 看向目标.  
-实体 **必须** 拥有AI.
+实体 **必须** 拥有AI（这意味着此技能效果会与默认AI"对峙"）.  
+解决办法: 修改AI行动器(/实体/AI)
 
 修改项
 ----------
@@ -15,7 +16,7 @@
 示例
 --------
 
-    CreepyStare:
+    Test:
       Skills:
       - look{headOnly=true;immediately=true} @Target
 
