@@ -1,6 +1,11 @@
-* [首页](home)
+* <details><summary>[首页](home)</summary>
+  [前言](home#前言)<br>
+  [什么是MythicMobs](home#什么是mythicmobs)<br>
+  [安装](home#安装)<br>
+  [帮助](home#帮助-问题)<br>
+  [预览版](home#预览版) </details>
 * <details><summary>[更新日志](更新日志)</summary>
-  [v5.0~v4.13](更新日志)<br>
+  [v5.0~v4.13.x](更新日志)<br>
   [v4.12.x](更新日志/4.12.x更新日志)<br>
   [v4.11.x](更新日志/4.11.x更新日志)<br>
   [v4.10.x](更新日志/4.10.x更新日志)<br>
