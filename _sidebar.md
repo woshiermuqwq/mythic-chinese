@@ -42,7 +42,6 @@
   [信号命令](命令与权限#信号命令)<br>
   [整体权限](命令与权限#权限#整体)<br>
   [命令权限](命令与权限#权限#命令)</details>
-* [提问说明](提问说明)
 * <details><summary>[错误排查](错误排查)</summary>
   [实体相关](错误排查#实体配置相关错误)<br>
   [技能相关](错误排查#技能配置相关错误)<br>
@@ -68,7 +67,12 @@
   [TerrainControl](https://www.spigotmc.org/resources/terraincontrol.2214/)<br>
   [Vault](https://www.spigotmc.org/resources/vault.41918/)<br>
   [WorldGuard](https://dev.bukkit.org/projects/worldguard)</details>
-* [API信息](API)
+* <details><summary>[API信息](API)</summary>
+  [Javadocs](API#javadocs)<br>
+  [Maven](API#maven)<br>
+  [Repository](API#Repository)<br>
+  [Dependency](API#Dependency)<br>
+  [事件列表](API#事件)</details>
 #### [实体](实体)
   * [概览](实体)
   * [种类](实体/种类)
