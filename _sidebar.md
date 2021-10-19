@@ -24,7 +24,6 @@
    在抛射技能中的命中条件下使用的能力<br>
    使用付费条件<br>
    能够在任何技能中使用origin=@targeter<br>
-
    敬请期待!</details>
 * [配置](配置)
 * [命令与权限](命令与权限)
@@ -54,7 +53,6 @@
   [TerrainControl](https://www.spigotmc.org/resources/terraincontrol.2214/)<br>
   [Vault](https://www.spigotmc.org/resources/vault.41918/)<br>
   [WorldGuard](https://dev.bukkit.org/projects/worldguard)</details>
-
 * [API信息](API)
 #### [实体](实体)
   * [概览](实体)
