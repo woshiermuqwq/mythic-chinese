@@ -24,8 +24,8 @@
    在抛射技能中的命中条件下使用的能力<br>
    使用付费条件<br>
    能够在任何技能中使用origin=@targeter<br>
+
    敬请期待!</details>
-* [付费版内容](付费版内容)
 * [配置](配置)
 * [命令与权限](命令与权限)
 * [提问说明](提问说明)
@@ -34,8 +34,27 @@
   [技能相关](错误排查#技能配置相关错误)<br>
   [生成相关](错误排查#生成相关错误)<br>
   [物品相关](错误排查#物品相关错误) </details>
-* [拓展](拓展)
-* [兼容插件](兼容插件)
+* <details><summary>[拓展](拓展)</summary>
+  [Crucible](https://mythiccraft.io/index.php?resources/crucible-create-unbelievable-mythic-items.2/)<br>
+  [BossShop](https://www.spigotmc.org/resources/mythicmobs-%E2%9A%94-bossshoppro-add-on-%E2%9A%94.58415/)<br>
+  [Denizen](https://github.com/BerndiVader/mmDenizenAddon)<br>
+  [Quests](https://www.spigotmc.org/resources/mythicmobs-quests-module.7261/)<br>
+  [Skript](https://github.com/BerndiVader/mmSkriptAddon)<br>
+  [Advanced Achievements](https://www.spigotmc.org/resources/advanced-achievements.6239/)<br>
+  [BetonQuest](https://www.spigotmc.org/resources/betonquest.2117/)<br>
+  [BeautyQuests](https://www.spigotmc.org/resources/beautyquests.39255/)<br>
+  [EnchantsPlus](https://www.spigotmc.org/resources/enchantsplus.3396/)<br>
+  [Graveyards](https://www.spigotmc.org/resources/graveyards-40-off.7191/)<br>
+  [Heroes](https://www.spigotmc.org/resources/heroes.305/)<br>
+  [Holograms](https://www.spigotmc.org/resources/holograms.4924/)<br>
+  [LibsDisguises](https://www.spigotmc.org/resources/libs-disguises.81/)<br>
+  [McMMO](https://www.spigotmc.org/resources/mcmmo.2445/)<br>
+  [MiniaturePets](https://www.spigotmc.org/resources/%E2%8C%BE-miniaturepets-%E2%8C%BE-custom-mobs-great-for-eula.23991/)<br>
+  [SkillAPI](https://www.spigotmc.org/resources/skillapi-premium.28029/)<br>
+  [TerrainControl](https://www.spigotmc.org/resources/terraincontrol.2214/)<br>
+  [Vault](https://www.spigotmc.org/resources/vault.41918/)<br>
+  [WorldGuard](https://dev.bukkit.org/projects/worldguard)</details>
+
 * [API信息](API)
 #### [实体](实体)
   * [概览](实体)
