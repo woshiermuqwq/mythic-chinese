@@ -16,7 +16,7 @@
 | display   | d       | 血条标题文本（支持[占位符](/技能/占位符)与[变量](/技能/变量)）.                                                                                      | &lt;skill.var.aura-name&gt; |
 | value     | v       | 血条百分比,数值在0~1.0之间.                                                             | 1.0                         |
 | color     | c       | 血条颜色,可用: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE（支持[占位符](/技能/占位符)与[变量](/技能/变量)）.                     | RED                         |
-| style     | s       | 血条样式,可用: Accepts the following: SOLID, SEGMENTED_6, SEGMENTED_10, SEGMENTED_12, SEGMENTED_20（支持[占位符](/技能/占位符)与[变量](/技能/变量)） . | SOLID                       |
+| style     | s       | 血条样式,可用: SOLID, SEGMENTED_6, SEGMENTED_10, SEGMENTED_12, SEGMENTED_20（支持[占位符](/技能/占位符)与[变量](/技能/变量)） . | SOLID                       |
 
 示例
 --------
