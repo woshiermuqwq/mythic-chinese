@@ -25,7 +25,13 @@
    使用付费条件<br>
    能够在任何技能中使用origin=@targeter<br>
    敬请期待!</details>
-* [配置](配置)
+* <details><summary>[配置](配置)</summary>
+  [基本项配置](配置#基本项general)<br>
+  [时钟项配置](配置#时钟clock)<br>
+  [分支项配置](配置#分支components)<br>
+  [实体项配置](配置#实体mobs)<br>
+  [随机生成项配置](配置#随机生成项randomspawning)<br>
+  [兼容项配置](配置#兼容项compatibility)</details>
 * <details><summary>[命令与权限](命令与权限)</summary>
   [整体命令](命令与权限#整体命令)<br>
   [物品命令](命令与权限#物品命令)<br>
