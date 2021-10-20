@@ -118,7 +118,7 @@
     [Damage Percent](/技能/列表/damagepercent)<br>
     [Decapitate](/技能/列表/decapitate)<br>
     [Doppleganger](/技能/列表/doppleganger)<br>
-    [DropItem](/技能/列表/dropitem)<br>
+    [Drop Item](/技能/列表/dropitem)<br>
     [Eject Passenger](/技能/列表/ejectpassenger)<br>
     [Equip](/技能/列表/equip)<br>
     [Explosion](/技能/列表/explosion)<br>
@@ -136,7 +136,7 @@
     [Heal](/技能/列表/heal)<br>
     [Heal Percent](/技能/列表/healpercent)<br>
     [Hide From Players](/技能/列表/hidefromplayers)<br>
-    [HoloGram](/技能/列表/hologram)</details>
+    [HoloGram](/技能/列表/hologram)<br>
     [Ignite](/技能/列表/ignite)<br>
     [JSON Message](/技能/列表/jsonmessage)<br>
     [Jump](/技能/列表/jump)<br>
@@ -247,7 +247,7 @@
     [Set Variable](/技能/列表/setvariable)<br>
     [Variable Unset](/技能/列表/variableunset)<br>
     [Variable Subtract](/技能/列表/variablesubtract)<br>
-    [Time](/技能/列表/time)<br>
+    [Time](/技能/列表/time)</details>
   * [特效列表](技能/Effects)
   * [目标选择器](技能/目标选择器)
   * [触发器](技能/触发器)
