@@ -74,8 +74,93 @@
   [Dependency](API#Dependency)<br>
   [事件列表](API#事件)</details>
 #### [实体](实体)
-  * [概览](实体)
-  * [种类](实体/种类)
+  * <details><summary>[概览](实体)<summary>
+    [实体配置概览](/实体#实体概览)<br>
+    [实体配置内容概览](/实体#内容概览)<br>
+    [实体配置内容详解](/实体#内容详解)<br>
+    [所有属性与选项的实体配置](/实体#使用了所有属性与选项的配置例子)</details>
+  * <details><summary>[种类](实体/种类)</details>
+    ARMOR_STAND 盔甲架<br>
+    AXOLOTL(4.13 MM) 美西螈<br>
+    BABY_DROWNED 幼年溺尸<br>
+    BABY_PIG_ZOMBIE 幼年僵尸猪人<br>
+    BABY_PIG_ZOMBIE_VILLAGER 幼年僵尸猪人村民<br>
+    BABY_ZOGLIN 幼年僵尸疣猪兽<br>
+    BABY_ZOMBIE 幼年僵尸<br>
+    BABY_ZOMBIE_VILLAGER 幼年僵尸村民<br>
+    BAT 蝙蝠<br>
+    BEE 蜜蜂<br>
+    BLAZE 烈焰人<br>
+    CAT 猫<br>
+    CAVE_SPIDER 洞穴蜘蛛<br>
+    CHICKEN 鸡<br>
+    COD 鳕鱼<br>
+    COW 牛<br>
+    CREEPER 爬行者<br>
+    DOLPHIN 海豚<br>
+    DONKEY 驴<br>
+    DROWNED 溺尸<br>
+    ELDER_GUARDIAN 远古守卫者<br>
+    ENDERMAN 末影人<br>
+    ENDERMITE 末影螨<br>
+    ENDER_CRYSTAL 末影水晶<br>
+    ENDER_DRAGON 末影龙<br>
+    EVOKER 唤魔者<br>
+    EXPERIENCE_ORB (4.12 MM) 经验球<br>
+    GHAST 恶魂<br>
+    GIANT 巨人<br>
+    GLOW_SQUID(4.13 MM) 发光鱿鱼<br>
+    GOAT(4.13 MM) 山羊<br>
+    GUARDIAN 守卫者<br>
+    HOGLIN 疣猪兽<br>
+    HORSE 马<br>
+    HUSK 尸壳<br>
+    ILLUSIONER 幻术师<br>
+    IRON_GOLEM 铁傀儡
+    LLAMA 羊驼<br>
+    MAGMA_CUBE 岩浆怪<br>
+    MARKER(4.13 MM) 低耗能实体<br>
+    MULE 骡<br>
+    MUSHROOM_COW 哞菇<br>
+    OCELOT 豹猫<br>
+    PARROT 鹦鹉<br>
+    PHANTOM 幻翼<br>
+    PIG 猪<br>
+    PIGLIN 猪灵<br>
+    PIG_ZOMBIE 僵尸猪人<br>
+    PILLAGER 掠夺者<br>
+    POLAR_BEAR 北极熊<br>
+    PUFFERFISH 河豚<br>
+    RABBIT 兔<br>
+    RAVAGER 劫掠兽<br>
+    SALMON 鲑鱼<br>
+    SHEEP 羊<br>
+    SHULKER 潜影贝<br>
+    SILVERFISH 蠹虫<br>
+    SKELETON 骷髅<br>
+    SKELETON_HORSE 骷髅马<br>
+    SLIME 史莱姆<br>
+    SNOWMAN 雪傀儡<br>
+    SPIDER 蜘蛛<br>
+    SQUID 鱿鱼<br>
+    STRAY 流浪者<br>
+    STRIDER 炽足兽<br>
+    TNT 炸药<br>
+    TRADER_LLAMA 行商羊驼<br>
+    TROPICAL_FISH 热带鱼<br>
+    TURTLE 海龟<br>
+    VEX 恼鬼<br>
+    VILLAGER 村民<br>
+    VINDICATOR 卫道士<br>
+    WANDERING_TRADER 流浪商人<br>
+    WITCH 女巫<br>
+    WITHER 凋灵<br>
+    WITHER_SKELETON 凋零骷髅<br>
+    WOLF 狼<br>
+    ZOMBIE 僵尸<br>
+    ZOMBIE_HORSE 僵尸马<br>
+    ZOMBIE_VILLAGER 僵尸村民<br>
+    ZOMBIFIED_PIGLIN 僵尸猪灵</details>
   * [选项](实体/选项)
   * [等级](实体/等级)
   * [阵营](实体/阵营)
