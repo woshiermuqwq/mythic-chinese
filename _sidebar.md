@@ -127,13 +127,16 @@
     [Feed](/技能/列表/feed)<br>
     [Fill Chest](/技能/列表/fillChest)<br>
     [Fly](/技能/列表/fly)<br>
-    [aura](/技能/列表/aura)<br>
+    [Freeze](/技能/列表/freeze)<br>
     [Force Pull](/技能/列表/forcepull)<br>
     [Glow](/技能/列表/glow)<br>
     [Give Item](/技能/列表/giveitem)<br>
+    [Give Item From Slot](/技能/列表/giveitemfromslot)<br>
     [Give Item From Target](/技能/列表/giveitemfromtarget)<br>
     [Heal](/技能/列表/heal)<br>
     [Heal Percent](/技能/列表/healpercent)<br>
+    [Hide From Players](/技能/列表/hidefromplayers)<br>
+    [HoloGram](/技能/列表/hologram)</details>
     [Ignite](/技能/列表/ignite)<br>
     [JSON Message](/技能/列表/jsonmessage)<br>
     [Jump](/技能/列表/jump)<br>
@@ -204,6 +207,7 @@
     [Stun](/技能/列表/stun)<br>
     [Suicide](/技能/列表/suicide)<br>
     [Summon](/技能/列表/summon)<br>
+    [Swap](/技能/列表/swap)<br>
     [Add Tag](/技能/列表/addtag)<br>
     [Remove Tag](/技能/列表/removetag)<br>
     [Teleport](/技能/列表/teleport)<br>
@@ -213,6 +217,7 @@
     [Throw](/技能/列表/throw)<br>
     [Toggle Lever](/技能/列表/togglelever)<br>
     [Toggle Sitting](/技能/列表/togglesitting)<br>
+    [Track Location](/技能/列表/tracklocation)<br>
     [Velocity](/技能/列表/velocity)<br>
     [Weather](/技能/列表/weather)<br>
     [WolfSit](/技能/列表/wolfsit)<br>
@@ -242,13 +247,7 @@
     [Set Variable](/技能/列表/setvariable)<br>
     [Variable Unset](/技能/列表/variableunset)<br>
     [Variable Subtract](/技能/列表/variablesubtract)<br>
-    [Swap](/技能/列表/swap)<br>
     [Time](/技能/列表/time)<br>
-    [Freeze](/技能/列表/freeze)<br>
-    [Hide From Players](/技能/列表/hidefromplayers)<br>
-    [Track Location](/技能/列表/tracklocation)<br>
-    [Give Item From Slot](/技能/列表/giveitemfromslot)<br>
-    [HoloGram](/技能/列表/hologram)</details>
   * [特效列表](技能/Effects)
   * [目标选择器](技能/目标选择器)
   * [触发器](技能/触发器)
