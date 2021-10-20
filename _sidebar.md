@@ -79,7 +79,7 @@
     [实体配置内容概览](/实体#内容概览)<br>
     [实体配置内容详解](/实体#内容详解)<br>
     [所有属性与选项的实体配置](/实体#使用了所有属性与选项的配置例子)</details>
-  * <details><summary>[种类](实体/种类)</details>
+  * <details><summary>[种类](实体/种类)</summary>
     ARMOR_STAND 盔甲架<br>
     AXOLOTL(4.13 MM) 美西螈<br>
     BABY_DROWNED 幼年溺尸<br>
