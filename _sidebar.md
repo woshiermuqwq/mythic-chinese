@@ -74,7 +74,7 @@
   [Dependency](API#Dependency)<br>
   [事件列表](API#事件)</details>
 #### [实体](实体)
-  * <details><summary>[概览](实体)<summary>
+  * <details><summary>[概览](实体)</summary>
     [实体配置概览](/实体#实体概览)<br>
     [实体配置内容概览](/实体#内容概览)<br>
     [实体配置内容详解](/实体#内容详解)<br>
