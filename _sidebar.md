@@ -199,7 +199,16 @@
     [随机生成固定等级](随机生成#选项)<br>
     [随机生成等级调整（基于与世界出生点的距离）](等级#世界出生点距离等级调整world-scaling)</details>
   * [阵营](实体/阵营)
-  * [威力](实体/威力)
+  * <details><summary>[威力](实体/威力)</summary>
+    可影响:
+    [BaseDamage: multiplier](/技能/列表/basedamage)<br>
+    [Consume: damage](/技能/列表/consume)<br>
+    [Consume: health](/技能/列表/consume)<br>
+    [Damage: amount](/技能/列表/damage)<br>
+    [Projectile: velocity](/技能/列表/projectile)<br>
+    [Projectile: maxrange](/技能/列表/projectile)<br>
+    [Missile: velocity](/技能/列表/missile)<br>
+    [Missile: maxrange](/技能/列表/missile)</details>
   * [伤害调整](实体/伤害调整)
   * [装备](实体/装备)
   * [Boss血条](实体/Boss血条)
