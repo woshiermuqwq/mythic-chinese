@@ -198,9 +198,11 @@
     [实体属性等级调整值](等级#等级调整值)<br>
     [随机生成固定等级](随机生成#选项)<br>
     [随机生成等级调整（基于与世界出生点的距离）](等级#世界出生点距离等级调整world-scaling)</details>
-  * [阵营](实体/阵营)
+  * <details><summary>[阵营](实体/阵营)</summary>
+    [示范 守卫对峙怪物](#例1-守卫对峙怪物)<br>
+    [示范 兽族阵营与地精族阵营对峙](#例2-兽族阵营与地精族阵营对峙)</details>
   * <details><summary>[威力](实体/威力)</summary>
-    可影响:
+    可影响:<br>
     [BaseDamage: multiplier](/技能/列表/basedamage)<br>
     [Consume: damage](/技能/列表/consume)<br>
     [Consume: health](/技能/列表/consume)<br>
