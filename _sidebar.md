@@ -211,7 +211,11 @@
     [Projectile: maxrange](/技能/列表/projectile)<br>
     [Missile: velocity](/技能/列表/missile)<br>
     [Missile: maxrange](/技能/列表/missile)</details>
-  * [伤害调整](实体/伤害调整)
+  * <details><summary>[伤害调整](实体/伤害调整)
+    [伤害调整概览](实体/伤害调整)<br>
+    [可调整伤害类型](实体/伤害调整#可调整的伤害类型)<br>
+    [示例1](实体/伤害调整#示例1-对近战远程攻击有抗性的武装僵尸)<br>
+    [示例2](实体/伤害调整#示例2-免疫火焰甚至依靠火焰获取生命的火元素)</details>
   * [装备](实体/装备)
   * [Boss血条](实体/Boss血条)
   * [自定义AI](实体/AI)
