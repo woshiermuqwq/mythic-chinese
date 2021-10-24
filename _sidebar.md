@@ -216,14 +216,34 @@
     [可调整伤害类型](实体/伤害调整#可调整的伤害类型)<br>
     [示例1](实体/伤害调整#示例1-对近战远程攻击有抗性的武装僵尸)<br>
     [示例2](实体/伤害调整#示例2-免疫火焰甚至依靠火焰获取生命的火元素)</details>
-  * [装备](实体/装备)
-  * [Boss血条](实体/Boss血条)
-  * [自定义AI](实体/AI)
-  * [击杀信息](实体/击杀信息)
-  * [威胁度](实体/威胁度)
-  * [受伤间隔](受伤间隔)
-  * [拓展: 伪装](实体/伪装)
-  * [拓展: 模型引擎](Model-Engine)
+  * <details><summary>[装备](实体/装备)</summary>
+    [装备配置描述](实体/装备)<br>
+    [装备配置语法](实体/装备#语法)<br>
+    [装备配置单行语法](实体/装备#单行物品配置)<br>
+    [MMOItems装备配置语法](实体/装备#MMOItems)</details>
+  * <details><summary>[Boss血条](实体/Boss血条)</summary>
+    [Boss血条概览](实体/Boss血条#boss血条)<br>
+    [Boss血条配置语法](实体/Boss血条#语法)<br>
+    [Boss血条配置示范](实体/Boss血条#示范)</details>
+  * <details><summary>[自定义AI](实体/AI)</summary>
+    [AI行动器列表](实体/AI#AI行动器)<br>
+    [AI目标选择器列表](实体/AI#AI目标选择器)</details>
+  * <details><summary>[击杀信息](实体/击杀信息)</summary>
+    [击杀信息配置语法](实体/击杀信息#语法)<br>
+    [击杀信息使用技巧](实体/击杀信息#使用技巧)</details>
+  * <details><summary>[威胁度](实体/威胁度)</summary>
+    [威胁度启用方式](实体/威胁度#启用方式)<br>
+    [威胁度修改方式](实体/威胁度#修改威胁度)</details>
+  * <details><summary>[受伤间隔](受伤间隔)</summary>
+    [没啥好说的..](受伤间隔)</details>
+  * <details><summary>[拓展: 伪装](实体/伪装)</summary>
+    [伪装配置相关](实体/伪装#实体伪装)<br>
+    [伪装配置选项](实体/伪装#伪装选项)<br>
+    [保存伪装配置](实体/伪装#保存伪装)<br>
+    [伪装使用提示](实体/伪装#小提示)</details>
+  * <details><summary>[拓展: 模型引擎](Model-Engine)</summary>
+    [模型引擎工作原理](实体/Model-Engine#model-engine-工作原理)<br>
+    [模型引擎使用示范](实体/Model-Engine#示例)</details>
 #### [技能](技能/概览)
   * <details><summary>[概览](技能/概览)</summary>
       [前言](/技能/概览#技能概览)<br>
