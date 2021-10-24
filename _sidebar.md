@@ -211,7 +211,7 @@
     [Projectile: maxrange](/技能/列表/projectile)<br>
     [Missile: velocity](/技能/列表/missile)<br>
     [Missile: maxrange](/技能/列表/missile)</details>
-  * <details><summary>[伤害调整](实体/伤害调整)
+  * <details><summary>[伤害调整](实体/伤害调整)</summary>
     [伤害调整概览](实体/伤害调整)<br>
     [可调整伤害类型](实体/伤害调整#可调整的伤害类型)<br>
     [示例1](实体/伤害调整#示例1-对近战远程攻击有抗性的武装僵尸)<br>
