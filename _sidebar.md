@@ -444,7 +444,7 @@
     [Atom](/技能/effects/atom)<br>
     [Particle Vortex](/技能/effects/particlevortex)<br>
     [DNA](/技能/effects/dna)</details>
-  * <details><summary>[目标选择器](技能/目标选择器)</details>
+  * <details><summary>[目标选择器](技能/目标选择器)</summary>
     [单实体目标选择器](技能/目标选择器#单实体)<br>
     [多实体目标选择器](技能/目标选择器#多实体)<br>
     [单坐标目标选择器](技能/目标选择器#单坐标)<br>
