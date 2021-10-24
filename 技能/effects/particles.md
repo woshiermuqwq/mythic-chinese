@@ -22,7 +22,7 @@
 | fromorigin | 无 | 是否起始于施法者/抛射物的坐标原点 | false |
 | directional | d | 粒子动量是否可被修改 | false | 
 | directionReversed | | 是否反转粒子动量 | false | 
-| direction | dir | 向指定坐标移动（简单理解为粒子方向） | 粒子播放时的位置 | 
+| direction | dir | 向指定坐标移动（简单理解为粒子方向 需粒子动量可被修改） | 目标选择器所选取的位置 | 
 | useEyeLocation | uel | 是否以施法者眼睛部位为起始点 | false |
 | forwardOffset   |  | 粒子起始点前后偏移量(格方块) | 0 |
 | sideOffset | so | 粒子起始点左右偏移量(格方块) | 0 |
