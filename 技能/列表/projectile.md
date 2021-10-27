@@ -64,7 +64,8 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
 | 类型 | 描述 | 附带修改项 | 描述 | 写法 |
 |-------|------------|------------|------------|------------|
 | ARROW | 箭矢 | 无 | 无 | projectile{bulletType=ARROW;...} |
-| BLOCK | 方块 | material | 所选取的方块 | projectile{bulletType=BLOCK;material=STONE;...} |
+| BLOCK | 方块（本质是小盔甲架） | material | 所选取的方块 | projectile{bulletType=BLOCK;material=STONE;...} |
+| SMALLBLOCK | 小方块（本质是倒立的小盔甲架） | material | 所选取的方块 | projectile{bulletType=SMALLBLOCK;material=STONE;...} |
 | ITEM | 物品 | material | 所选取的物品 | projectile{bulletType=ITEM;material=diamond;...} |
 | MYTHICITEM | MythicMobs物品 | material | 所选取的MythicMobs物品 | projectile{bulletType=MYTHICITEM;material=Mythicdiamond;...} |
 | MOB  | 实体(支持MythicMobs实体) | mob | 所选取的实体 | projectile{bulletType=MOB;mob=SkeletonKing;...} |
