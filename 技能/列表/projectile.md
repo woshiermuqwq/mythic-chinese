@@ -12,12 +12,12 @@
 
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| onTick               | oT          | 抛射物刷新后所激活的技能组 | 无 |
-| onHit               | oH          | 抛射物命中后所激活的技能组 | 无 |
-| onEnd               | oE          | 抛射物消失后所激活的技能组 | 无 |
+| onTickSkill | onTick, ot, skill, s, meta, m          | 抛射物刷新后所激活的技能组 | 无 |
+| onHitSkill | onHit, oh         | 抛射物命中后所激活的技能组 | 无 |
+| onEndSkill  | onEnd, oe          | 抛射物消失后所激活的技能组 | 无 |
 | onStart               | oS          | 抛射物消失后所激活的技能组 | 无 |
 | Type                 | 无           | 抛射物种类[[1]](#抛射物种类)  | NORMAL   |
-| Interval             | i           | 抛射物刷新间隔(刻) | 4                 |
+| Interval             | int, i           | 抛射物刷新间隔(刻) | 4                 |
 | HorizontalRadius     | hRadius, hR | 抛射物碰撞箱水平半径 | 1.25              |
 | VerticalRadius       | vRadius, vR | 抛射物碰撞箱垂直半径 | 等值于Horizontal Radius |
 | Duration             | d           | 抛射物最大持续时间(刻) | 100               |
@@ -40,7 +40,8 @@
 | PowerAffectsRange | par | [技能威力](/实体/威力)是否影响抛射物最大移动距离 | true |
 | PowerAffectsVelocity | pav | [技能威力](/实体/威力)是否影响抛射物移动速度 | true |
 | gravity              | g           | 抛射物重力 | 0                 |
-| BulletType | 无 | 抛射物类型[[2]](#抛射物类型) | 无 |
+| BulletType | bullet, b | 抛射物类型[[2]](#抛射物类型) | 无 |
+| hitConditions | conditions, cond, c | 若所命中的目标不符合条件, 则不会判定命中该实体 | 无 |
 
   
 
@@ -64,8 +65,7 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
 | 类型 | 描述 | 附带修改项 | 描述 | 写法 |
 |-------|------------|------------|------------|------------|
 | ARROW | 箭矢 | 无 | 无 | projectile{bulletType=ARROW;...} |
-| BLOCK | 方块（本质是小盔甲架） | material | 所选取的方块 | projectile{bulletType=BLOCK;material=STONE;...} |
-| SMALLBLOCK | 小方块（本质是倒立的小盔甲架） | material | 所选取的方块 | projectile{bulletType=SMALLBLOCK;material=STONE;...} |
+| BLOCK | 方块 | material | 所选取的方块 | projectile{bulletType=BLOCK;material=STONE;...} |
 | ITEM | 物品 | material | 所选取的物品 | projectile{bulletType=ITEM;material=diamond;...} |
 | MYTHICITEM | MythicMobs物品 | material | 所选取的MythicMobs物品 | projectile{bulletType=MYTHICITEM;material=Mythicdiamond;...} |
 | MOB  | 实体(支持MythicMobs实体) | mob | 所选取的实体 | projectile{bulletType=MOB;mob=SkeletonKing;...} |
