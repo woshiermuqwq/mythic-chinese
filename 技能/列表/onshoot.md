@@ -17,3 +17,9 @@
 
       Skills:
       - onShoot{auraName=fireball_bow;onShoot=[ shootfireball ];duration=200;charges=5} @self
+
+额外信息
+-------
+
+- **支持** [占位符](/技能/占位符)与[变量](/技能/变量)（仅限值类型为数值的修改项）
+- 别称: onbowshoot
