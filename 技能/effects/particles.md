@@ -17,15 +17,14 @@
 | speed | s   | 粒子速度 | 0 |
 | yOffset | y   | 粒子起始点垂直偏移量(格方块) | 0 |
 | viewDistance | vd  | 粒子可被多少格方块以外的玩家所见 | 128   |
-| Size | 无 | 粒子大小 | 1 |
 | color | c | 粒子颜色(#000000之类的) | 无 |
 | fromorigin | 无 | 是否起始于施法者/抛射物的坐标原点 | false |
 | directional | d | 粒子动量是否可被修改 | false | 
-| directionReversed | | 是否反转粒子动量 | false | 
+| directionReversed | dr | 是否反转粒子动量 | false | 
 | direction | dir | 向指定坐标移动（简单理解为粒子方向 需粒子动量可被修改） | 目标选择器所选取的位置 | 
 | useEyeLocation | uel | 是否以施法者眼睛部位为起始点 | false |
-| forwardOffset   |  | 粒子起始点前后偏移量(格方块) | 0 |
-| sideOffset | so | 粒子起始点左右偏移量(格方块) | 0 |
+| startForwardOffset   | forwardOffset, sfo | 粒子起始点前后偏移量(格方块) | 0 |
+| sideOffset | soffset, sso | 粒子起始点左右偏移量(格方块) | 0 |
 
 有关粒子颜色
 -------
@@ -75,4 +74,4 @@
 -------
 
 - **不支持** [占位符](/技能/占位符)与[变量](/技能/变量)（仅限值类型为数值的修改项）
-- 别称: effect:guardianbeam, effect:beam, e:beam
+- 别称: e:p
