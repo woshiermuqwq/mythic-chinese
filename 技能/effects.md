@@ -64,6 +64,7 @@
   [Flames]: /技能/effects/flames
   [Geyser]: /技能/effects/geyser
   [Glow]: /技能/effects/glow
+  [Guardian Beam]: /技能/effects/guardianbeam
   [Item Spray]: /技能/effects/itemspray
   [Lightning]: /技能/effects/lightning
   [Particles]: /技能/effects/particles
