@@ -68,6 +68,7 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
 | ITEM | 物品 | material | 所选取的物品 | projectile{bulletType=ITEM;material=diamond;...} |
 | MYTHICITEM | MythicMobs物品 | material | 所选取的MythicMobs物品 | projectile{bulletType=MYTHICITEM;material=Mythicdiamond;...} |
 | MOB  | 实体(支持MythicMobs实体) | mob | 所选取的实体 | projectile{bulletType=MOB;mob=SkeletonKing;...} |
+| TRACKING（5.0） | 头戴方块的盔甲架,方块的中心为抛射物的位置 | 无 | 无 | 无 |
 
 抛射物种类
 ---------
