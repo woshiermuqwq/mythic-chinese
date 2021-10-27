@@ -20,3 +20,8 @@
 
       Skills:
       - guardianbeam{d=10;i=1} @server ~onTimer:20
+
+拓展信息
+--------
+
+- [x]别称: effect:guardianbeam, effect:beam, e:beam
