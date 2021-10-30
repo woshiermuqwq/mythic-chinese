@@ -5,8 +5,6 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 类似,围绕目标转动,与[Projectile](技能/列表/projectile)一样,Orbital的抛射物
 命中实体后可激活指定技能组,还有许多类似的地方,
 
-修改项: bullettype 新增于 MM 4.11 (使用方法与[Projectile](技能/列表/Projectile)一致).
-
 修改项
 ----------
 
@@ -21,8 +19,11 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 | Interval            | i        | 环绕整体的刷新间隔(刻) | 4 |
 | Radius              | r        | 环绕整体半径(格方块)范围 | 4 |
 | HitRadius           | hr       | 环绕抛射物碰撞箱水平半径 | 1             |
-| VerticalHitRadius   | vhr, vr  | 环绕抛射物碰撞箱垂直半径| 1             |
-| Points              | p        | 环绕整体由多少个抛射物组成 | 32            |
+| HitSelf | hs | 环绕抛射物是否可命中施法者 | false |
+| HitPlayers | hp | 环绕抛射物是否可命中玩家 | false |
+| HitNonPlayers | hnp | 环绕抛射物是否可命中非玩家实体 | false |
+| VerticalHitRadius   | vhr, vr  | 环绕抛射物碰撞箱垂直半径（格方块） | 1             |
+| Points              | p        | 环绕整体由多少个点组成 | 32            |
 | XRotation           | rotx, rx | 环绕整体绕X轴转向的角度 | 0             |
 | YRotation           | roty, ry | 环绕整体绕Y轴转向的角度                                                                                                                                             | 0             |
 | ZRotation           | rotz, rz | 环绕整体绕Z轴旋转的角度                                                                                                                                             | 0             |
@@ -42,8 +43,10 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 | CancelOnChangeWorld | cocw     | 环绕整体是否在施法者变更世界后消失 | false         |
 | CancelOnSkillUse    | cosu     | 环绕整体是否在施法者激活技能后消失 | false         |
 | CancelOnQuit        | coq      | 环绕整体是否在施法者退出游戏后消失 | true          |
+| StartingPoint | sq | 环绕抛射物从环绕整体的 第几点 位置开始 | 0 |
 
-  
+修改项: bulletType 新增于 MM 4.11 (此处未列出 使用方法与[Projectile](技能/列表/Projectile)一致).  
+修改项: StartingPoint 新增于 MM 4.12（基于修改项: Point）.
 
 注意
 -------------
@@ -64,14 +67,14 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
 
     环绕测试:
       Skills:
-      - orbital{ot=环绕测试-Tick;oh=Ic环绕测试-Hit;p=20;i=1;d=200;c=1;rx=0;ry=20;rz=20}
+      - orbital{onTickSkill=环绕测试-Tick;onHitSkill=环绕测试-Hit;points=20;interval=1;duration=200;charges=1;rx=0;ry=20;rz=20}
     环绕测试-Tick:
       Skills:
-      - e:p{p=flame;a=20;s=0;hS=0.2;vS=0.2} @origin
+      - effect:particles{particle=flame;amount=20;speed=0;hS=0.2;vS=0.2} @origin
     环绕测试-Hit:
       Skills:
-      - d{a=10}
-      - potion{t=SLOW;d=100;lvl=2}
+      - Damage{amount=10}
+      - Potion{type=SLOW;duration=100;level=2}
 
 额外信息
 -------
