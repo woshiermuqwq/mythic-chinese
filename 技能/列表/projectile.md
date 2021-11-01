@@ -20,15 +20,18 @@
 | Interval             | int, i           | 抛射物刷新间隔(刻) | 4                 |
 | HorizontalRadius     | hRadius, hR | 抛射物碰撞箱水平半径 | 1.25              |
 | VerticalRadius       | vRadius, vR | 抛射物碰撞箱垂直半径 | 等值于Horizontal Radius |
-| Duration             | d           | 抛射物最大持续时间(刻) | 100               |
-| MaxRange             | mr          | 抛射物最大移动距离(格方块) | 40                |
-| Velocity             | v           | 抛射物移动速度 | 5                 |
-| StartYOffset | syo | 抛射物发射点垂直偏移量(格方块) | 1.0 |
-| StartFOffset | sfo | 抛射物发射点前后偏移量(格方块) | 1.0 |
-| StartSOffset | sso | 抛射物发射点左右偏移量(格方块) | 1.0 |
-| TargetYOffset | tyo | 抛射物目标位置垂直偏移量(格方块) | 1.0 |
+| Duration             | d           | 抛射物最大持续时间(刻 支持[占位符](技能/占位符)与[变量](技能/变量)） | 100               |
+| MaxRange             | mr          | 抛射物最大移动距离(格方块 支持[占位符](技能/占位符)与[变量](技能/变量)） | 40                |
+| Velocity             | v           | 抛射物移动速度（支持[占位符](技能/占位符)与[变量](技能/变量)） | 5                 |
+| StartingDirection | 抛射物起始朝向 |
+| EndOffset | esoffset, eo | 抛射物目标位置的双轴偏移<br>正数为向左 向下偏, 负数反之（支持[占位符](技能/占位符)与[变量](技能/变量)
+| StartYOffset | syo | 抛射物发射点垂直偏移量（格方块 支持[占位符](技能/占位符)与[变量](技能/变量)） | 1.0 |
+| StartFOffset | sfo | 抛射物发射点前后偏移量（格方块) | 1.0 |
+| StartSOffset | sso | 抛射物发射点左右偏移量（格方块 支持[占位符](技能/占位符)与[变量](技能/变量)） | 1.0 |
+| TargetYOffset | targetty, tyo | 抛射物目标位置垂直偏移量(格方块 支持[占位符](技能/占位符)与[变量](技能/变量)） | 1.0 |
 | HorizontalOffset     | hO          | 抛射物发射方向水平旋转角度(弧度角) | 0                 |
 | VerticalOffset       | vO          | 抛射物发射方向垂直旋转角度(圆心角) | 0                 |
+| HitTarget | ht | 抛射物是否可命中施法者 | false |
 | HitPlayers | hp | 抛射物是否可命中玩家 | true |
 | HitNonPlayers | hnp | 抛射物是否可命中非玩家实体 | false |
 | HitTarget | ht | 抛射物是否可命中技能目标 | true |
@@ -43,7 +46,8 @@
 | BulletType | bullet, b | 抛射物类型[[2]](#抛射物类型) | 无 |
 | hitConditions | conditions, cond, c | 若所命中的目标不符合条件, 则不会判定命中该实体 | 无 |
 
-  
+EndOffset 新增于 MM 5.0  
+StartingDirection 新增于 MM 5.0  
 
 注意
 -------------
