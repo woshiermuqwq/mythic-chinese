@@ -270,9 +270,12 @@
     [Consume](/技能/列表/consume)<br>
     [Disengage](/技能/列表/disengage)<br>
     [Disguise](/技能/列表/disguise)<br>
-    [Disguise Target](/技能/列表/disguisetarget)<br>
+    [Disguise Old](/技能/列表/disguiseold)<br>
     [Disguise As Block](/技能/列表/disguiseasblock)<br>
-    [Undisguise](/技能/列表/undisguise)<br>
+    [Disguise Modify](/技能/列表/disguisemodify)<br>
+    [Disguise Modify New](/技能/列表/disguisemodifynew)<br>
+    [Disguise Target](/技能/列表/disguisetarget)<br>
+    [Disguise Remove](/技能/列表/undisguise)<br>
     [Dismount](/技能/列表/dismount)<br>
     [Clear Threat](/技能/列表/clearthreat)<br>
     [Currency Give](/技能/列表/currencygive)<br>
@@ -324,6 +327,7 @@
     [Potion](/技能/列表/potion)<br>
     [Potion Clear](/技能/列表/potionclear)<br>
     [Prison](/技能/列表/prison)<br>
+    [Propel](/技能/列表/propel)<br>
     [Pull](/技能/列表/pull)<br>
     [Push Button](/技能/列表/pushbutton)<br>
     [Rally](/技能/列表/rally)<br>
