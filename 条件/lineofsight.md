@@ -22,3 +22,4 @@ Conditions:
 **拓展信息:**
 
 - [x] 检测对象: 实体与施法者(比较)
+- [x] 别称: inlineofsight
