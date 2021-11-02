@@ -478,9 +478,9 @@
     [Distance From Spawn](/条件/distancefromspawn)<br>
     [Distance From Tracked Location](/条件/distancefromtrackedlocation)<br>
     [Dusk](/条件/dusk)<br>
-    [Enchanting Experience)<br>(/条件/enchantingexperience)<br>
+    [Enchanting Experience](/条件/enchantingexperience)<br>
     [Enchanting Level](/条件/enchantingLevel)<br>
-    [Ender Dragon Phase](/条件/EnderDragonPhase
+    [Ender Dragon Phase](/条件/EnderDragonPhase)
     [Entity Type](/条件/entitytype)<br>
     [Faction](/条件/faction)<br>
     [Fall Speed](/条件/fallspeed)<br>
@@ -531,7 +531,7 @@
     [Lunar Phase](/条件/lunarphase)<br>
     [Mobs In Radius](/条件/mobsinradius)<br>
     [Mobs In Chunk](/条件/mobsinchunk)<br>
-    [Mobs In World](/条件/mobsinworld
+    [Mobs In World](/条件/mobsinworld)<br>
     [Motion X(/条件/列表/motionx)<br>
     [Motion Y](/条件/motiony)<br>
     [Motion Z](/条件/motionz)<br>
