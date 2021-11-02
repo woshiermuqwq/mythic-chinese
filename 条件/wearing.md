@@ -8,10 +8,10 @@
 
 **修改项:**
 
-| 修改项名  | 别称      | 描述 |
-| --------- | --------- | ----------- |
-| armorslot | slot, s   | 用于检测的槽位. |
-| material  | mmitem, m | 用于检测的物品名(可为MythicMobs物品 从 4.13 起可为MMOItems物品) |
+| 修改项名  | 别称      | 描述 | 默认值 |
+| --------- | --------- | ----------- | - |
+| armorslot | slot, s   | 用于检测的槽位. | Head |
+| material  | mat, m, mythicmobsitem, mmitem, mmi, item | 用于检测的物品名(可为MythicMobs物品 从 4.13 起可为MMOItems物品) | Dirt |
 
 **可用槽位:**
 
