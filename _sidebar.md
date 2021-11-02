@@ -459,7 +459,122 @@
     [目标过滤器](技能/目标选择器#目标过滤器)<br>
     [目标数量限制器](技能/目标选择器#目标数量限制器)</details>
   * [触发器](技能/触发器)
-  * [条件](条件)
+  * <details><summary>[条件](条件)</summary>
+    [Altitude](/条件/altitude)<br>
+    [Biome](/条件/biome)<br>
+    [Block Type](/条件/blocktype)<br>
+    [Blocking](/条件/blocking)<br>
+    [Burning](/条件/burning)<br>
+    [Children](/条件/children)<br>
+    [Color](/条件/color)<br>
+    [Crouching](/条件/crouching)<br>
+    [Cuboid](/条件/cuboid)<br>
+    [Damage Amount](/条件/DamageAmount)<br>
+    [Damage Cause](/条件/DamageCause)<br>
+    [Dawn](/条件/dawn)<br>
+    [Day](/条件/day)<br>
+    [Dimesion](/条件/dimesion)<br>
+    [Distance](/条件/distance)<br>
+    [Distance From Spawn](/条件/distancefromspawn)<br>
+    [Distance From Tracked Location](/条件/distancefromtrackedlocation)<br>
+    [Dusk](/条件/dusk)<br>
+    [Enchanting Experience)<br>(/条件/enchantingexperience)<br>
+    [Enchanting Level](/条件/enchantingLevel)<br>
+    [Ender Dragon Phase](/条件/EnderDragonPhase
+    [Entity Type](/条件/entitytype)<br>
+    [Faction](/条件/faction)<br>
+    [Fall Speed](/条件/fallspeed)<br>
+    [Field Of View](/条件/fieldofview)<br>
+    [Food Level](/条件/FoodLevel)<br>
+    [Food Saturation](/条件/FoodSaturation)<br>
+    [Gliding](/条件/gliding)<br>
+    [Global Score](/条件/globalscore)<br>
+    [HasAura](/条件/hasaura)<br>
+    [Has Aura Stacks](/条件/hasaurastacks)<br>
+    [Has Currency](/条件/hascurrency)<br>
+    [Has Inventory Space](/条件/hasinventoryspace)<br>
+    [Has Item](/条件/hasItem)<br>
+    [Has Owner](/条件/hasowner)<br>
+    [Has Parent](/条件/hasparent)<br>
+    [Has Passenger](条件//hasPassenger)<br>
+    [Has Gravity](/条件/hasgravity)<br>
+    [Has Potion Effect](/条件/haspotioneffect)<br>
+    [Has Tag](/条件/hastag)<br>
+    [Has Permission](/条件/haspermission)<br>
+    [Health](/条件/health)<br>
+    [Height](/条件/height)<br>
+    [Height Above](/条件/heightabove)<br>
+    [Height Below](/条件/heightbelow)<br>
+    [Holding](/条件/holding)<br>
+    [In block](/条件/inblock)<br>
+    [In combat](/条件/incombat)<br>
+    [In side](/条件/inside)<br>
+    [Is Caster](/条件/iscaster)<br>
+    [Is Child](/条件/ischild)<br>
+    [Is Parent](/条件/isparent)<br>
+    [Is Living](/条件/isliving)<br>
+    [Is Leashed](/条件/isleashed)<br>
+    [Is Monster](/条件/ismonster)<br>
+    [Is Natural Block](/条件/isnaturalblock)<br>
+    [Is Player](/条件/isplayer)<br>
+    [Is Sprinting](/条件/issprinting)<br>
+    [Item Recharging](/条件/itemrecharging)<br>
+    [Last Damage Cause](/条件/lastdamagecause)<br>
+    [Last Signal](/条件/lastsignal)<br>
+    [Level](/条件/level)<br>
+    [Light Level](/条件/lightlevel)<br>
+    [Light Level From Blocks](/条件/lightlevel)<br>
+    [Line Of Sight](/条件/lineofsight)<br>
+    [Line Of Sight From Origin](/条件/lineofsightfromorigin)<br>
+    [Living In Radius](/条件/livinginradius)<br>
+    [Local Difficulty](/条件/localdifficulty)<br>
+    [Lunar Phase](/条件/lunarphase)<br>
+    [Mobs In Radius](/条件/mobsinradius)<br>
+    [Mobs In Chunk](/条件/mobsinchunk)<br>
+    [Mobs In World](/条件/mobsinworld
+    [Motion X(/条件/列表/motionx)<br>
+    [Motion Y](/条件/motiony)<br>
+    [Motion Z](/条件/motionz)<br>
+    [Mounted](/条件/mounted)<br>
+    [Moving](/条件/moving)<br>
+    [MythicMobType](/条件/mythicmobtype)<br>
+    [Name](/条件/name)<br>
+    [Near Claim](/条件/nearclaim)<br>
+    [Night](/条件/night)<br>
+    [Not In Region](/条件/notinregion)<br>
+    [OffGCD](/条件/offgcd)<br>
+    [OnBlock](/条件/onblock)<br>
+    [OnGround](/条件/onground)<br>
+    [Outside](/条件/outside)<br>
+    [Owner](/条件/owner)<br>
+    [Owner Is Online](/条件/ownerisonline)<br>
+    [Pitch](/条件/pitch)<br>
+    [Player Kills](/条件/playerkills)<br>
+    [Players In Radius](/条件/playersinradius)<br>
+    [Player Not Within](/条件/playernotwithin)<br>
+    [Player Within](/条件/playerwithin)<br>
+    [Raining](/条件/raining)<br>
+    [Region](/条件/region)<br>
+    [Same Faction](/条件/samefaction)<br>
+    [Score](/条件/score)<br>
+    [Mob Size](/条件/mobsize)<br>
+    [Stance](/条件/stance)<br>
+    [String Equals](/条件/stringequals)<br>
+    [Sunny](/条件/sunny)<br>
+    [Target In Line Of Sight](/条件/targetinlineofsight)<br>
+    [Target Not In Line Of Sight](/条件/targetnotinlineofsight)<br>
+    [Target Within](/条件/targetwithin)<br>
+    [Target Not Within](/条件/targetnotwithin)<br>
+    [Targets](/条件/targets)<br>
+    [Thundering](/条件/thundering)<br>
+    [Variable In Range](/条件/variableinrange)<br>
+    [Variable Is Set](/条件/variableisset)<br>
+    [Variable Equals](/条件/variableequals)<br>
+    [Wearing](/条件/wearing)<br>
+    [World](/条件/world)<br>
+    [World Time](/条件/worldtime)<br>
+    [Yaw](/条件/yaw)<br>
+    [yDiff](/条件/ydiff)</details>
   * [占位符](技能/占位符)
   * [变量](技能/变量)
   * [技能参数](/技能/技能参数)
