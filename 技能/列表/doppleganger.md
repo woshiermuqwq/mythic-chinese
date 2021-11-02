@@ -7,7 +7,7 @@
 ------
 
 | 修改项名 | 别称 | 描述 | 默认值 |
-| - | - | - | - | - |
+| - | - | - | - |
 | hasnameplate | nameplate | 是否将伪装显示名变更为"_" | false |
 | useplayername | upn | 是否使用技能目标玩家的名称作为伪装显示名 | false |
 
