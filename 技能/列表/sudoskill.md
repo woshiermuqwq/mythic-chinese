@@ -29,6 +29,9 @@
       - arrowvolley{a=20;s=25;v=10;f=50;rd=200} @EIR{r=30}
       - message{msg="触发者名: <trigger.name>"} @world
 
+关于SetCasterAsTrigger
+---
+
   一般地，若触发器为 **~onDamaged** 
   且不使用 **SudoSkill** 直接使用 **Message** 技能 
  
