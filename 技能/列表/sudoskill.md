@@ -29,6 +29,7 @@
       - arrowvolley{a=20;s=25;v=10;f=50;rd=200} @EIR{r=30}
       - message{msg="触发者名: <trigger.name>"} @world
 
+
 一般地，若触发器为 **~onDamaged** 且不使用 **SudoSkill** 直接使用 **Message ** 技能  
 向全服玩家发送包含 <triggee.name>（触发者名）的文本 （即 攻击者名称） 
 Message所发送的文本将包含 攻击施法者的实体   
@@ -37,4 +38,4 @@ Message所发送的文本将包含 攻击施法者的实体
 Message的文本保持不变  
 Message所发送的文本将包含 SudoSkill的技能目标名称 （即 攻击者名称） 
 若开启 **setCasterastrigger**  
-Message所发送的文本则包含 SudoSkill的施法者名（即 某村民）  
+Message所发送的文本则包含 SudoSkill的施法者名（即 某村民）
