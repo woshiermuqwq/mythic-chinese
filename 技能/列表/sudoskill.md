@@ -31,11 +31,11 @@
 
 
 一般地，若触发器为 **~onDamaged** 且不使用 **SudoSkill** 直接使用 **Message ** 技能  
-向全服玩家发送包含 <triggee.name>（触发者名）的文本 （即 攻击者名称） 
+向全服玩家发送包含 <triggee.name>（触发者名）的文本（即攻击者名称）  
 Message所发送的文本将包含 攻击施法者的实体   
 若使用 **Sudoskill** 且未开启 **setCasterastrigger**  
 并将 Message 写入 Sudoskill所调用的技能组里  
 Message的文本保持不变  
-Message所发送的文本将包含 SudoSkill的技能目标名称 （即 攻击者名称） 
+Message所发送的文本将包含 SudoSkill的技能目标名称（即攻击者名称）  
 若开启 **setCasterastrigger**  
-Message所发送的文本则包含 SudoSkill的施法者名（即 某村民）
+Message所发送的文本则包含 SudoSkill的施法者名（即施法者名称：某村民）  
