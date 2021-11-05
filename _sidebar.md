@@ -458,7 +458,54 @@
     [技能目标选择器](技能/目标选择器#技能目标选择器line相关的目标选择器所调用技能技能为skill)<br>
     [目标过滤器](技能/目标选择器#目标过滤器)<br>
     [目标数量限制器](技能/目标选择器#目标数量限制器)</details>
-  * [触发器](技能/触发器)
+  * <details><summary>[触发器](技能/触发器)</summary>
+    onCombat<br>
+    onAttack<br>
+    onDamaged<br>
+    onSpawn<br>
+    onDespawn<br>
+    onFirstSpawn<br>
+    onDeath<br>
+    onTimer:10<br>
+    onTame<br>
+    onInteract<br>
+    onKill<br>
+    onKillPlayer<br>
+    onLoad<br>|
+    onPlayerDeath<br>
+    onEnterCombat<br>
+    onDropCombat<br>
+    onChangeTarget<br>
+    onExplode<br>
+    onTeleport<br>
+    onSignal<br>
+    onSignal:信号名<br>
+    onShoot<br>
+    onBlockBreak<br>
+    onBlockPlace<br>
+    onConsume<br>
+    onCrouch<br>
+    onUnCrouch<br>
+    onEquip<br>
+    onUnEquip<br>
+    onInteract<br>
+    onBowHit<br>
+    onPotionSplash<br>
+    onRightClick<br>
+    onShoot<br>
+    onSpawn<br>
+    onSwing<br>
+    onUse<br>
+    onFish <br>
+    onFishBite<br>
+    onFishCatch<br>
+    onFishGrab<br>
+    onFishGround<br>
+    onFishingReel<br>
+    onFishingFail<br>
+    onPressQ<br>
+    onPressCtrlQ<br>
+    onPressF</details>
   * <details><summary>[条件](条件)</summary>
     [Altitude](/条件/altitude)<br>
     [Biome](/条件/biome)<br>
