@@ -36,10 +36,12 @@
  
   若使用 **Sudoskill** 且未开启**setCasterastrigger**  
   并将 Message 写入 Sudoskill所调用的技能组里  
-  Message的文本保持不变   
+  Message的文本保持不变 
+  
   Message若仍使用@world且攻击者是一名玩家  
   攻击者将收不到信息, 因为@world会过滤施法者自身（即 攻击者）  
-  Message若使用了@self, @self将选取 被SudoSkill的实体（即 攻击者） 
+
+  Message若使用了@self, @self将选取 被SudoSkill的实体（即 攻击者)  
   Message所发送的文本将包含 SudoSkill的技能目标名称（即 攻击者名称）  
 
   若开启 **setCasterastrigger**  
