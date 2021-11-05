@@ -29,6 +29,9 @@
       - arrowvolley{a=20;s=25;v=10;f=50;rd=200} @EIR{r=30}
       - message{msg="触发者名: <trigger.name>"} @self
 
+关于 SetCasterAsTrigger
+----------------------
+
   一般地，若触发器为 **~onDamaged** 
   且不使用 **SudoSkill** 直接使用 **Message** 技能  
   向全服玩家发送包含 <triggee.name>（触发者名）的文本（即攻击者名称） 
@@ -46,3 +49,5 @@
 
   若开启 **setCasterastrigger**  
   Message所发送的文本则包含 SudoSkill的施法者名（即施法者名称：某村民）  
+
+  目标选择器: @Trigger、占位符<trigger.var.> 同理
