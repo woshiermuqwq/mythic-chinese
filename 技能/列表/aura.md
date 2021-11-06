@@ -21,6 +21,9 @@
 | mergeSameCaster     | msc, mc | 光环是否无法被施法者叠加| false         |
 | mergeAll            | ma | 光环是否无法被叠加 | false         |
 | showbartimer | bartimer, bt | 是否使用Boss血条显示光环剩余时间（仅对施法者显示） | false |
+| bartimerdisplay | bartimertext | 所显示的Boss血条文本 | <skill.var.aura-name> |
+| bartimercolor | | 所显示的Boss血条颜色 | Red |
+| bartimerstyle | | 所显示的Boss血条样式 | SOLID |
 | CancelOnGiveDamage  | cogd    | 光环是否在施法者造成伤害后消失 | false         |
 | CancelOnTakeDamage  | cotd    | 光环是否在施法者受到伤害后消失 | false         |
 | CancelOnDeath       | cod     | 光环是否在施法者死亡后消失 | true         |
