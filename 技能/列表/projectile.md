@@ -23,6 +23,9 @@
 | Duration             | d           | 抛射物最大持续时间(刻 支持[占位符](技能/占位符)与[变量](技能/变量)） | 100               |
 | MaxRange             | mr          | 抛射物最大移动距离(格方块 支持[占位符](技能/占位符)与[变量](技能/变量)） | 40                |
 | Velocity             | v           | 抛射物移动速度（支持[占位符](技能/占位符)与[变量](技能/变量)） | 5                 |
+| Accuracy | ac, a | 抛射物发射方向的偏差程度, 1为无偏差 | 1 |
+| HorizontalNoise | hn | 抛射物发射方向的水平偏差程度 | Accuracy的值 * 45 |
+| VerticalNoise | vn | 抛射物发射方向的垂直偏差程度 | Accuracy的值 * 4.5 |
 | StartingDirection | 抛射物起始朝向 |
 | EndOffset | esoffset, eo | 抛射物目标位置的双轴偏移<br>正数为向左 向下偏, 负数反之（支持[占位符](技能/占位符)与[变量](技能/变量)
 | StartYOffset | syo | 抛射物发射点垂直偏移量（格方块 支持[占位符](技能/占位符)与[变量](技能/变量)） | 1.0 |
@@ -42,12 +45,15 @@
 | HeightFromSurface | hfs | | 0.5 |
 | PowerAffectsRange | par | [技能威力](/实体/威力)是否影响抛射物最大移动距离 | true |
 | PowerAffectsVelocity | pav | [技能威力](/实体/威力)是否影响抛射物移动速度 | true |
-| gravity              | g           | 抛射物重力 | 0                 |
+| Gravity              | g           | 抛射物重力 | 0                 |
 | BulletType | bullet, b | 抛射物类型[[2]](#抛射物类型) | 无 |
+| BulletSpin | bspin | 抛射物类型为实体/物品时, 该物品/实体的视角旋转速度 | 0 |
 | hitConditions | conditions, cond, c | 若所命中的目标不符合条件, 则不会判定命中该实体 | 无 |
+| FromOrigin | fo | 发射点是否位于坐标原点 | false |
 
 EndOffset 新增于 MM 5.0  
 StartingDirection 新增于 MM 5.0  
+FromOrigin 新增于 MM 5.0  
 
 注意
 -------------
@@ -72,7 +78,7 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
 | BLOCK | 方块 | material | 所选取的方块 | projectile{bulletType=BLOCK;material=STONE;...} |
 | ITEM | 物品 | material | 所选取的物品 | projectile{bulletType=ITEM;material=diamond;...} |
 | MYTHICITEM | MythicMobs物品 | material | 所选取的MythicMobs物品 | projectile{bulletType=MYTHICITEM;material=Mythicdiamond;...} |
-| MOB  | 实体(支持MythicMobs实体) | mob | 所选取的实体 | projectile{bulletType=MOB;mob=SkeletonKing;...} |
+| MOB（mm, mmobs）  | 实体(支持MythicMobs实体) | mob | 所选取的实体 | projectile{bulletType=MOB;mob=SkeletonKing;...} |
 | TRACKING（5.0） | 头戴方块的盔甲架,方块的中心为抛射物的位置 | 无 | 无 | 无 |
 
 抛射物种类
