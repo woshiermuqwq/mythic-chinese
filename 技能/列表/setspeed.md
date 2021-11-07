@@ -18,3 +18,8 @@
     - setspeed{speed=2;type=walking} ~onSpawn
 
 生成后将自身步行状态下的移动速度设为2.
+
+额外信息
+-------
+
+所修改的移动方式为Walking时, 可修改实体在水中的速度
