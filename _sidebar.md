@@ -463,7 +463,7 @@
     onAttack<br>
     onDamaged<br>
     onSpawn<br>
-    onDespawn<br>
+    onDeSpawn<br>
     onFirstSpawn<br>
     onDeath<br>
     onTimer:10<br>
