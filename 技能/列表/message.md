@@ -8,7 +8,7 @@
 * 支持格式为 **`<#FFFFFF>`** 的颜色代码
 * 支持渐变 **`<gradient:#颜色代码11:#颜色代码22>文本</gradient>`**
 * 支持彩虹渐变 **`<rainbow>文本</rainbow>`**
-* 支持悬浮显示内容 **`<hover:show_text:'文本内容'>悬浮内容</hover>`**
+* 支持悬浮显示内容 **`<hover:show_text:'悬浮内容'>文本内容</hover>`**
 * 支持点击事件 **`<click:run_command:/say 你好>点我!</click>`**
 
 修改项
