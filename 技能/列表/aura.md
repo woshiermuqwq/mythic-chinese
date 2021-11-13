@@ -36,7 +36,7 @@
 特殊修改项
 ----------
 
-光环: **[onAttack](技能/列表/onattack)**拥有以下特定修改项:
+光环: **[onAttack](技能/列表/onattack)** 拥有以下特定修改项:
 
 -   所有修改项都能作用于[Aura](技能/列表/Aura)
 
@@ -47,7 +47,7 @@
 | damageAdd | add, a | 施法者所造成伤害的数值所被加上的具体数值 | 0 |
 | damageMultiplier | multiplier, m | 施法者所造成伤害的数值所被乘以的百分比 | 1 |
 
-光环: **[onDamaged](技能/列表/ondamaged)**拥有以下特定修改项:
+光环: **[onDamaged](技能/列表/ondamaged)** 拥有以下特定修改项:
 
 -   所有修改项都能作用于[Aura](技能/列表/Aura)
 
