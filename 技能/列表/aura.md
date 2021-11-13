@@ -57,6 +57,7 @@
 | cancle | cE | 施法者受到伤害后是否取消受到伤害事件 | 无 |
 | damageSubtract | sub, s | 施法者所受到伤害的数值所被减去的具体数值 | 0 |
 | damageMultiplier | multiplier, m | 施法者所受到伤害的数值所被乘以的百分比 | 1 |
+| damageModifiers | damageMods | 伤害数值计算后<br>根据该修改项内所写的配置来调整伤害, 类似于[伤害调整](/实体/伤害调整)<br>多个之间用","隔开 | 无 |
 
 示例
 --------
