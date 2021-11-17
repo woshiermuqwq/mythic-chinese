@@ -80,6 +80,7 @@
   [Smoke]: /技能/effects/smoke
   [Smoke Swirl]: /技能/effects/smokeswirl
   [Sound]: /技能/effects/sound
+  [StopSound]: /技能/effects/stopsound
   [Spin]: /技能/effects/spin
   [TotemOfUndying]: /技能/effects/totemOfUndying
   [Atom]: /技能/effects/atom
