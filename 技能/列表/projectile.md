@@ -15,7 +15,9 @@
 | onTickSkill | onTick, ot, skill, s, meta, m          | 抛射物刷新后所激活的技能组 | 无 |
 | onHitSkill | onHit, oh         | 抛射物命中后所激活的技能组 | 无 |
 | onEndSkill  | onEnd, oe          | 抛射物消失后所激活的技能组 | 无 |
-| onStart               | oS          | 抛射物消失后所激活的技能组 | 无 |
+| onStartSkill               | onStard, os          | 抛射物消失后所激活的技能组 | 无 |
+| onBounceSkill | onBounce, ob | 抛射物反射开始后所激活的技能组 | 无 |
+| Bounce | b | 抛射物命中事物后是否反射向施法者 | false |
 | Type                 | 无           | 抛射物种类[[1]](#抛射物种类)  | NORMAL   |
 | Interval             | int, i           | 抛射物刷新间隔(刻) | 4                 |
 | HorizontalRadius     | hRadius, hR | 抛射物碰撞箱水平半径 | 1.25              |
@@ -38,7 +40,8 @@
 | HitPlayers | hp | 抛射物是否可命中玩家 | true |
 | HitNonPlayers | hnp | 抛射物是否可命中非玩家实体 | false |
 | HitTarget | ht | 抛射物是否可命中技能目标 | true |
-| HitTargetOnly | 无 | 抛射物是否仅可命中技能目标 | false
+| HitTargetOnly | hto | 抛射物是否仅可命中技能目标 | false |
+| HitArmorStands | ha | 抛射物是否可命中盔甲架 | false |
 | StopAtEntity | se | 抛射物是否在命中任意实体后消失 | true |
 | StopAtBlock | sb | 抛射物是否在命中固体方块后消失 | true |
 | HugSurface | hs | 抛射物是否在落到方块上方后继续移动 | false |
@@ -48,12 +51,16 @@
 | Gravity              | g           | 抛射物重力 | 0                 |
 | BulletType | bullet, b | 抛射物类型[[2]](#抛射物类型) | 无 |
 | BulletSpin | bspin | 抛射物类型为实体/物品时, 该物品/实体的视角旋转速度 | 0 |
+| BulletColor | bcolor | 抛射物类型为物品且该物品可染色时, 该物品的颜色 | 无 |
 | hitConditions | conditions, cond, c | 若所命中的目标不符合条件, 则不会判定命中该实体 | 无 |
 | FromOrigin | fo | 发射点是否位于坐标原点 | false |
 
 EndOffset 新增于 MM 5.0  
 StartingDirection 新增于 MM 5.0  
 FromOrigin 新增于 MM 5.0  
+OnBounce 新增于 MM 5.0
+Bounce 新增于 MM 5.0
+BulletColor 新增于 MM 5.0
 
 注意
 -------------
