@@ -33,7 +33,7 @@
 | [Flames][]           | 于技能目标位置生成火花                                   |
 | [Geyser][]           | 于技能目标位置生成向上移动的液体                                   |
 | [Glow][]             | 令技能目标发光(修改光色需GlowAPI) |
-| [Guardian Beam] [] | 于坐标原点位置朝目标发射守卫者射线 |
+| [Guardian Beam][] | 于坐标原点位置朝目标发射守卫者射线 |
 | [Item Spray][]       | 于技能目标位置抛洒物品掉落物                              |
 | [Lightning][]        | 于技能目标位置生成雷击(无伤害)                                        |
 | [Particles][]        | 于技能目标位置播放粒子效果                           |
@@ -47,9 +47,10 @@
 | [Skybox][]           | 修改目标客户端的环境氛围                                            |
 | [Smoke][]            | 于目标位置生成烟雾效果                                               |
 | [Smoke Swirl][]      | 于目标位置生成烟雾漩涡                                 |
-| [Sound][]            | 于目标位置播放音效                             |
+| [Sound][]            | 于目标位置播放指定音效的指定种类                             |
+| [Stop Sound][]            | 于目标位置停止播放指定音效的指定种类                             |
 | [Spin][]             | 旋转目标的朝向                                                |
-| [TotemOfUndying][]     | 于目标位置生成播放激活不死图腾效果     
+| [Totem Of Undying][]     | 于目标位置生成播放激活不死图腾效果     
 
 [skill mechanic]: /技能/列表
   [Targeter]: /技能/targeters/
@@ -80,9 +81,9 @@
   [Smoke]: /技能/effects/smoke
   [Smoke Swirl]: /技能/effects/smokeswirl
   [Sound]: /技能/effects/sound
-  [StopSound]: /技能/effects/stopsound
+  [Stop Sound]: /技能/effects/stopsound
   [Spin]: /技能/effects/spin
-  [TotemOfUndying]: /技能/effects/totemOfUndying
+  [Totem Of Undying]: /技能/effects/totemOfUndying
   [Atom]: /技能/effects/atom
   [Particle Vortex]: /技能/effects/particlevortex
   [DNA]: /技能/effects/dna
