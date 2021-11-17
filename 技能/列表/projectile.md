@@ -16,7 +16,7 @@
 | onHitSkill | onHit, oh         | 抛射物命中后所激活的技能组 | 无 |
 | onEndSkill  | onEnd, oe          | 抛射物消失后所激活的技能组 | 无 |
 | onStartSkill               | onStard, os          | 抛射物消失后所激活的技能组 | 无 |
-| onBounceSkill | onBounce, ob | 抛射物反射开始后所激活的技能组 | 无 |
+| onBounceSkill | onBounce | 抛射物反射开始后所激活的技能组 | 无 |
 | Bounce | b | 抛射物命中事物后是否反射向施法者 | false |
 | Type                 | 无           | 抛射物种类[[1]](#抛射物种类)  | NORMAL   |
 | Interval             | int, i           | 抛射物刷新间隔(刻) | 4                 |
@@ -28,7 +28,7 @@
 | Accuracy | ac, a | 抛射物发射方向的偏差程度, 1为无偏差 | 1 |
 | HorizontalNoise | hn | 抛射物发射方向的水平偏差程度 | Accuracy的值 * 45 |
 | VerticalNoise | vn | 抛射物发射方向的垂直偏差程度 | Accuracy的值 * 4.5 |
-| StartingDirection | 抛射物起始朝向 |
+| StartingDirection | startingdir, startdir, sdir | 抛射物起始朝向 | 无 |
 | EndOffset | esoffset, eo | 抛射物目标位置的双轴偏移<br>正数为向左 向下偏, 负数反之（支持[占位符](技能/占位符)与[变量](技能/变量)
 | StartYOffset | syo | 抛射物发射点垂直偏移量（格方块 支持[占位符](技能/占位符)与[变量](技能/变量)） | 1.0 |
 | StartFOffset | sfo | 抛射物发射点前后偏移量（格方块) | 1.0 |
