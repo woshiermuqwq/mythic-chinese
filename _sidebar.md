@@ -579,7 +579,7 @@
     [Mobs In Radius](/条件/mobsinradius)<br>
     [Mobs In Chunk](/条件/mobsinchunk)<br>
     [Mobs In World](/条件/mobsinworld)<br>
-    [Motion X](/条件/列表/motionx)<br>
+    [Motion X](/条件/motionx)<br>
     [Motion Y](/条件/motiony)<br>
     [Motion Z](/条件/motionz)<br>
     [Mounted](/条件/mounted)<br>
