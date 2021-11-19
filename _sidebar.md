@@ -443,6 +443,7 @@
     [Smoke](/技能/effects/smoke)<br>
     [Smoke Swirl](/技能/effects/smokeswirl)<br>
     [Sound](/技能/effects/sound)<br>
+    [Stop Sound](/技能/effects/stopsound)<br>
     [Spin](/技能/effects/spin)<br>
     [TotemOfUndying](/技能/effects/totemOfUndying)<br>
     [Atom](/技能/effects/atom)<br>
