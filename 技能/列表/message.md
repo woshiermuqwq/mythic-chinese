@@ -10,7 +10,7 @@
 * 支持彩虹渐变 **`<rainbow>文本</rainbow>`**
 * 支持悬浮显示内容 **`<hover:show_text:'悬浮内容'>文本内容</hover>`**
 * 支持点击事件 **`<click:run_command:/say 你好>点我!</click>`**
-* 悬浮与点击结合 **<hover:show_text:'悬浮文本'><click:run_command:命令>正常文本</click></hover>**
+* 悬浮与点击结合 **`<hover:show_text:'悬浮文本'><click:run_command:命令>正常文本</click></hover>`**
 
 修改项
 ----------
