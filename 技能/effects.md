@@ -8,8 +8,6 @@
 
 ### 语法
 
-大部分特效技能无需用 **effect(e):**作为前缀  
-
     Skills:
     - flames @T
     - e:lightning @self
