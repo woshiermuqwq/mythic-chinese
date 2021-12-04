@@ -1,4 +1,4 @@
-特效技能: Recoil
+特效技能: Play Animation
 --------------
 
 令技能目标播放指定原版动作
@@ -15,8 +15,8 @@
 
 **动作代数:**
 
-| 代数 | 描述 |、
-|-|-|
+| 代数 | 描述 |
+| - | - |
 | 0 | 正常 |
 | 1 | 受伤 |
 | 2 | 死亡 |
@@ -28,7 +28,7 @@
 **示例:**
 
 ```
-- recoil{r=1;pitch=-1to-1} @self ~onAttack
+- playanimation{a=0} @self ~onAttack
 ```
 
 额外信息
@@ -36,3 +36,4 @@
 
 - [x] 支持 Audience
 - [x] 支持[占位符](/技能/占位符)与[变量](/技能/变量)
+- [x] 别称: effect:playanimation e:playanimation
