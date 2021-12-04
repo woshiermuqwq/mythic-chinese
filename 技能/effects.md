@@ -41,7 +41,8 @@
 | [Particle Ring][]    | 于技能目标位置生成由粒子组成的空心环                           |
 | [Particle Sphere][]  | 于技能目标位置生成由粒子组成的空心球                         |
 | [Particle Tornado][] | 于技能目标位置生成粒子龙卷风               |
-| [Recoil] | 偏转目标的视角 |
+| [Play Animation][] | 令技能目标播放指定原版动作
+| [Recoil] | 偏转技能目标的视角 |
 | [Skybox][]           | 修改目标客户端的环境氛围                                            |
 | [Smoke][]            | 于目标位置生成烟雾效果                                               |
 | [Smoke Swirl][]      | 于目标位置生成烟雾漩涡                                 |
@@ -74,6 +75,7 @@
   [Particle Ring]: /技能/effects/particlering
   [Particle Sphere]: /技能/effects/particlesphere
   [Particle Tornado]: /技能/effects/particletornado
+  [Play Animation]: /技能/effects/playanimation
   [Recoil]: /技能/effects/recoil
   [Skybox]: /技能/effects/skybox
   [Smoke]: /技能/effects/smoke
