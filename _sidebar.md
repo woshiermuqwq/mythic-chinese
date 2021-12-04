@@ -438,6 +438,7 @@
     [Particle Ring](/技能/effects/particlering)<br>
     [Particle Sphere](/技能/effects/particlesphere)<br>
     [Particle Tornado](/技能/effects/particletornado)<br>
+    [Play Animation](/技能/effects/playanimation)<br>
     [Recoil](/技能/effects/recoil)<br>
     [Skybox](/技能/effects/skybox)<br>
     [Smoke](/技能/effects/smoke)<br>
