@@ -40,9 +40,9 @@ AI行动器将决定实体该做什么. 如果所写AI行动器不适用于实�
 | opendoors                        | opendoor         | 开启路径上的门         |
 | closedoors                       | restrictopendoor | 关闭路径上的门         |
 | randomlookaround                 | lookaround       | 看向周围               |
-| gotospawnlocation                | gotospawn        | 走向实体的出生点       |
+| gotospawnlocation{maxrange(max, r)=寻找的最大距离（格方块）;minrange(min, mr)=与出生点所保持的距离（格方块）;speed=移速;droptarget(dt)=是否无视当前目标走向出生点}                 | gotospawn        | 走向实体的出生点       |
 | fleeConditional **[仅限付费版]** | fleeIf           | 躲避符合条件的实体.    |
-| doNothing       **[仅限付费版]** |                  | 条件不满足就不进行操作 |
+| doNothing{fleeconditions=[  条件 ]}       **[仅限付费版]** | nothing{conditions(cond, c)=[  条件 ]} | 条件不满足就不进行操作 |
 
 FleeConditional 示例:
 ```yml
@@ -75,7 +75,8 @@ AIGoalSelectors:
 | movetowardsrestriction              |                  | 未知                                   |
 | patrol x1,y1,z1;x2,y2,z2;x3,y3,z3;… | patrolroute      | 依次走到多个坐标点路程需≤实体跟随距离) |
 | gotolocation x,y,z                  | goto             | 走到指定坐标点(路程需≤实体跟随距离)    |
-| gotoowner #                         |                  | 走向主人路程需(路程≤实体跟随距离)      |
+| gotoowner{followrange(fr, r, maxrange)=跟随距离（格方块）;minrange(mr)=与主人所保持的距离（格方块）;speed=移速;droptarget(dt)=是否无视当前目标走向主人}                         |                  | 走向主人(路程≤实体跟随距离)      |
+| gotoparent{followrange(fr, r, maxrange)=跟随距离（格方块）;minrange(mr)=与父系实体所保持的距离（格方块）;speed=移速;droptarget(dt)=是否无视当前目标走向父系实体}                         |                  | 走向父系实体(路程≤实体跟随距离)      |
 | gotoparent                          |                  | 走向父系实体(路程≤实体跟随距离)        |
 | panicWhenOnFire                     | panic            | 着火时寻找水源熄火 |
 
