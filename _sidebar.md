@@ -268,6 +268,9 @@
     [Close Inventory](/技能/列表/closeinventory)<br>
     [Command](/技能/列表/command)<br>
     [Consume](/技能/列表/consume)<br>
+    [Clear Threat](/技能/列表/clearthreat)<br>
+    [Currency Give](/技能/列表/currencygive)<br>
+    [Currency Take](/技能/列表/currencytake)<br>
     [Disengage](/技能/列表/disengage)<br>
     [Disguise](/技能/列表/disguise)<br>
     [Disguise Old](/技能/列表/disguiseold)<br>
@@ -277,9 +280,6 @@
     [Disguise Target](/技能/列表/disguisetarget)<br>
     [Disguise Remove](/技能/列表/undisguise)<br>
     [Dismount](/技能/列表/dismount)<br>
-    [Clear Threat](/技能/列表/clearthreat)<br>
-    [Currency Give](/技能/列表/currencygive)<br>
-    [Currency Take](/技能/列表/currencytake)<br>
     [Damage](/技能/列表/damage)<br>
     [Base Damage](/技能/列表/basedamage)<br>
     [Damage Percent](/技能/列表/damagepercent)<br>
