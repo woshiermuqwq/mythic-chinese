@@ -31,11 +31,11 @@
 | StartingDirection | startingdir, startdir, sdir | 抛射物起始朝向 | 无 |
 | EndOffset | esoffset, eo | 抛射物目标位置的双轴偏移<br>正数为向左 向下偏, 负数反之（支持[占位符](技能/占位符)与[变量](技能/变量)
 | StartYOffset | syo | 抛射物发射点垂直偏移量（格方块 支持[占位符](技能/占位符)与[变量](技能/变量)） | 1.0 |
-| StartFOffset | sfo | 抛射物发射点前后偏移量（格方块) | 1.0 |
+| StartFOffset | sfo | 抛射物发射点前后偏移量（格方块 支持[占位符](技能/占位符)与[变量](技能/变量)) | 1.0 |
 | StartSOffset | sso | 抛射物发射点左右偏移量（格方块 支持[占位符](技能/占位符)与[变量](技能/变量)） | 1.0 |
 | TargetYOffset | targetty, tyo | 抛射物目标位置垂直偏移量(格方块 支持[占位符](技能/占位符)与[变量](技能/变量)） | 1.0 |
-| HorizontalOffset     | hO          | 抛射物发射方向水平旋转角度(弧度角) | 0                 |
-| VerticalOffset       | vO          | 抛射物发射方向垂直旋转角度(圆心角) | 0                 |
+| HorizontalOffset     | hO          | 抛射物发射方向水平旋转角度(弧度角 支持[占位符](技能/占位符)与[变量](技能/变量)) | 0                 |
+| VerticalOffset       | vO          | 抛射物发射方向垂直旋转角度(圆心角 支持[占位符](技能/占位符)与[变量](技能/变量)) | 0                 |
 | HitTarget | ht | 抛射物是否可命中施法者 | false |
 | HitPlayers | hp | 抛射物是否可命中玩家 | true |
 | HitNonPlayers | hnp | 抛射物是否可命中非玩家实体 | false |
@@ -45,6 +45,7 @@
 | StopAtEntity | se | 抛射物是否在命中任意实体后消失 | true |
 | StopAtBlock | sb | 抛射物是否在命中固体方块后消失 | true |
 | HugSurface | hs | 抛射物是否在落到方块上方后继续移动 | false |
+| HugLiquid | hl | 抛射物是否在落到流体上方后继续移动 | false |
 | HeightFromSurface | hfs | | 0.5 |
 | PowerAffectsRange | par | [技能威力](/实体/威力)是否影响抛射物最大移动距离 | true |
 | PowerAffectsVelocity | pav | [技能威力](/实体/威力)是否影响抛射物移动速度 | true |
@@ -61,6 +62,7 @@ FromOrigin 新增于 MM 5.0
 OnBounce 新增于 MM 5.0
 Bounce 新增于 MM 5.0
 BulletColor 新增于 MM 5.0
+HugLiquid 新增于 MM 5.0
 
 注意
 -------------
