@@ -401,6 +401,7 @@
     [Modify Projectile](/技能/列表/modifyprojectile)<br>
     [On Attack](/技能/列表/onattack)<br>
     [On Block Break](/技能/列表/onblockbreak)<br>
+    [On Block Place](/技能/列表/onblockplace)<br>
     [On Damaged](/技能/列表/ondamaged)<br>
     [On Shoot](/技能/列表/onshoot)<br>
     [Orbital](/技能/列表/orbital)<br>
