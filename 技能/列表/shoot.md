@@ -29,7 +29,7 @@
 | 类型名 | 描述 |
 |--------|------|
 | Arrow  | 箭矢 |
-| SnowBall | 血球 |
+| SnowBall | 雪球 |
 | Egg | 鸡蛋 |
 |enderpertal | 末影珍珠 |
 | potion | 药水 |
