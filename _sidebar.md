@@ -319,6 +319,7 @@
     [Mount Me](/技能/列表/mountme)<br>
     [Mount Target](/技能/列表/mounttarget)<br>
     [Oxygen](/技能/列表/oxygen)<br>
+    [Pick Up Item](/技能/列表/pickupitem)<br>
     [Play Block Break Sound](/技能/列表/playblockbreaksound)<br>
     [Play Block Hit Sound](/技能/列表/playblockhitsound)<br>
     [Play Block Place Sound](/技能/列表/playblockplacesound)<br>
