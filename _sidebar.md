@@ -478,6 +478,7 @@
     onKillPlayer<br>
     onLoad<br>|
     onPlayerDeath<br>
+    onPrime<br>
     onEnterCombat<br>
     onDropCombat<br>
     onChangeTarget<br>
