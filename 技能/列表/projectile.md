@@ -17,7 +17,8 @@
 | onEndSkill  | onEnd, oe          | 抛射物消失后所激活的技能组 | 无 |
 | onStartSkill               | onStard, os          | 抛射物消失后所激活的技能组 | 无 |
 | onBounceSkill | onBounce | 抛射物反射开始后所激活的技能组 | 无 |
-| Bounce | b | 抛射物是否在命中方块后进行弹射 | false |
+| bounce | b | 抛射物是否在命中方块后进行弹射 | false |
+| bouncevelocity | bv | 抛射物弹射后速度会被乘以多少 | 0.9 |
 | Type                 | 无           | 抛射物种类[[1]](#抛射物种类)  | NORMAL   |
 | Interval             | int, i           | 抛射物刷新间隔(刻) | 4                 |
 | HorizontalRadius     | hRadius, hR | 抛射物碰撞箱水平半径 | 1.25              |
