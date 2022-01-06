@@ -60,9 +60,9 @@
 EndOffset 新增于 MM 4.14.0  
 StartingDirection 新增于 MM 4.14.0  
 FromOrigin 新增于 MM 4.14.0  
-OnBounce 新增于 MM 4.14.0
-Bounce 新增于 MM 4.14.0
-BulletColor 新增于 MM 4.14.0
+OnBounce 新增于 MM 4.14.0  
+Bounce 新增于 MM 4.14.0  
+BulletColor 新增于 MM 4.14.0  
 HugLiquid 新增于 MM 4.14.0
 
 注意
