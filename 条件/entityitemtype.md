@@ -1,4 +1,4 @@
-**描述:** 若技能目标（掉落物实体）与被比较的物品相似（包括堆叠数量等）.
+**描述:** 若技能目标（掉落物）的物品种类为 .
 
 ---
 
@@ -16,8 +16,8 @@
 
 ```
 Conditions:
-- entityitemissimilar{i=测试物品} true
-
+- entityitemtype{types=diamond} true
+```
 
 **拓展信息:**
 
