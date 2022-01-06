@@ -269,6 +269,7 @@
     [Close Inventory](/技能/列表/closeinventory)<br>
     [Command](/技能/列表/command)<br>
     [Consume](/技能/列表/consume)<br>
+    [Consume Slot](/技能/列表/consumeslot)<br>
     [Clear Threat](/技能/列表/clearthreat)<br>
     [Currency Give](/技能/列表/currencygive)<br>
     [Currency Take](/技能/列表/currencytake)<br>
