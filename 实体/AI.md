@@ -43,6 +43,7 @@ AI行动器将决定实体该做什么. 如果所写AI行动器不适用于实�
 | gotospawnlocation{maxrange(max, r)=寻找的最大距离（格方块）;minrange(min, mr)=与出生点所保持的距离（格方块）;speed=移速;droptarget(dt)=是否无视当前目标走向出生点}                 | gotospawn        | 走向实体的出生点       |
 | fleeConditional **[仅限付费版]** | fleeIf           | 躲避符合条件的实体.    |
 | doNothing{fleeconditions=[  条件 ]}       **[仅限付费版]** | nothing{conditions(cond, c)=[  条件 ]} | 条件不满足就不进行操作 |
+| creeperswell（4.14.0） | | 爬行者膨胀 |
 
 FleeConditional 示例:
 ```yml
@@ -96,7 +97,7 @@ AIGoalSelectors:
 **AI目标选择器**
 ---
 AI目标选择器(不同于技能的目标选择器)将决定实体选择什么样的实体为目标  
-从 MM 5.0 开始, 若实体的AI目标选择器被清除(clear), 实体将忘却自己先前的目标, 从而停止攻击
+从 MM 4.14.0 开始, 若实体的AI目标选择器被清除(clear), 实体将忘却自己先前的目标, 从而停止攻击
 
 例子:
 
