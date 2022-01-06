@@ -12,7 +12,7 @@
 | onplaceskill | onplace, ob | 光环持有者成功挖掘方块后所激活的技能 | 无 |
 | cancleevent | cancel, cE | 光环持有者造成伤害后是否取消造成伤害事件 | false |
 
-新增于 MM 5.0
+新增于 MM 4.14.0
 
 示例
 --------
