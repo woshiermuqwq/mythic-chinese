@@ -536,6 +536,9 @@
     [Enchanting Level](/条件/enchantingLevel)<br>
     [Ender Dragon Phase](/条件/EnderDragonPhase)<br>
     [Entity Type](/条件/entitytype)<br>
+    [Entity Item Type](/条件/entityitemtype)<br>
+    [Entity Item Is Similar](/条件/entityitemissimilar)<br>
+    [Entity Material Type](/条件/entitymaterialtype)<br>
     [Faction](/条件/faction)<br>
     [Fall Speed](/条件/fallspeed)<br>
     [Field Of View](/条件/fieldofview)<br>
@@ -573,6 +576,7 @@
     [Is Player](/条件/isplayer)<br>
     [Is Sprinting](/条件/issprinting)<br>
     [Item Recharging](/条件/itemrecharging)<br>
+    [Item Is Similar](/条件/itemissimilar)<br>
     [Last Damage Cause](/条件/lastdamagecause)<br>
     [Last Signal](/条件/lastsignal)<br>
     [Level](/条件/level)<br>
