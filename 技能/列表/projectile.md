@@ -56,13 +56,13 @@
 | hitConditions | conditions, cond, c | 若所命中的目标不符合条件, 则不会判定命中该实体 | 无 |
 | FromOrigin | fo | 发射点是否位于坐标原点 | false |
 
-EndOffset 新增于 MM 5.0  
-StartingDirection 新增于 MM 5.0  
-FromOrigin 新增于 MM 5.0  
-OnBounce 新增于 MM 5.0
-Bounce 新增于 MM 5.0
-BulletColor 新增于 MM 5.0
-HugLiquid 新增于 MM 5.0
+EndOffset 新增于 MM 4.14.0  
+StartingDirection 新增于 MM 4.14.0  
+FromOrigin 新增于 MM 4.14.0  
+OnBounce 新增于 MM 4.14.0
+Bounce 新增于 MM 4.14.0
+BulletColor 新增于 MM 4.14.0
+HugLiquid 新增于 MM 4.14.0
 
 注意
 -------------
@@ -88,7 +88,7 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
 | ITEM | 物品 | material | 所选取的物品 | projectile{bulletType=ITEM;material=diamond;...} |
 | MYTHICITEM | MythicMobs物品 | material | 所选取的MythicMobs物品 | projectile{bulletType=MYTHICITEM;material=Mythicdiamond;...} |
 | MOB（mm, mmobs）  | 实体(支持MythicMobs实体) | mob | 所选取的实体 | projectile{bulletType=MOB;mob=SkeletonKing;...} |
-| TRACKING（5.0） | 头戴方块的盔甲架,方块的中心为抛射物的位置 | 无 | 无 | 无 |
+| TRACKING（4.14.0） | 头戴方块的盔甲架,方块的中心为抛射物的位置 | 无 | 无 | 无 |
 
 抛射物种类
 ---------
