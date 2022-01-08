@@ -321,12 +321,13 @@
     [Mount Me](/技能/列表/mountme)<br>
     [Mount Target](/技能/列表/mounttarget)<br>
     [Oxygen](/技能/列表/oxygen)<br>
-    [Pick Up Item](/技能/列表/pickupitem)<br>
+    [Play Animation](/技能/列表/playanimation)<br>
+    [Pose ArmorStand](/技能/列表/posearmorstand)<br>
     [Play Block Break Sound](/技能/列表/playblockbreaksound)<br>
     [Play Block Hit Sound](/技能/列表/playblockhitsound)<br>
     [Play Block Place Sound](/技能/列表/playblockplacesound)<br>
     [Play Block Step Sound](/技能/列表/playblockstepsound)<br>
-    [Pose ArmorStand](/技能/列表/posearmorstand)<br>
+    [Pick Up Item](/技能/列表/pickupitem)<br>
     [Potion](/技能/列表/potion)<br>
     [Potion Clear](/技能/列表/potionclear)<br>
     [Prison](/技能/列表/prison)<br>
