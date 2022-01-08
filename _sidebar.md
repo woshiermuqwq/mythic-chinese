@@ -466,6 +466,7 @@
     [目标过滤器](技能/目标选择器#目标过滤器)<br>
     [目标数量限制器](技能/目标选择器#目标数量限制器)</details>
   * <details><summary>[触发器](技能/触发器)</summary>
+    onCharged<br>
     onCombat<br>
     onAttack<br>
     onDamaged<br>
@@ -520,6 +521,7 @@
     [Block Type](/条件/blocktype)<br>
     [Blocking](/条件/blocking)<br>
     [Burning](/条件/burning)<br>
+    [Charged](/条件/charged)<br>
     [Children](/条件/children)<br>
     [Color](/条件/color)<br>
     [Crouching](/条件/crouching)<br>
