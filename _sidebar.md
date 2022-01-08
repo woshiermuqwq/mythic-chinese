@@ -340,7 +340,7 @@
     [Ray Trace To](/技能/列表/raytraceto)<br>
     [Remount](/技能/列表/remount)<br>
     [Remove](/技能/列表/remove)<br>
-    [Remove HeldItem](/技能/列表/removehelditem)<br>
+    [Remove Held Item](/技能/列表/removehelditem)<br>
     [Remove Owner](/技能/列表/removeowner)<br>
     [Run AI Goal Selector](/技能/列表/runaigoalselector)<br>
     [Run AI Target Selector](/技能/列表/runaitargetselector)<br>
