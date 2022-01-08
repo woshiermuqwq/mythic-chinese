@@ -22,3 +22,8 @@
 击杀玩家后升级.
 
     - setlevel{a=add;l=1} ~onKillPlayer
+
+额外信息
+--
+
+- [x] 别称: modifylevel
