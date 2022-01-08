@@ -23,3 +23,8 @@
 ```
 - effect:spin{duration=100;velocity=20} @self
 ```
+
+额外信息
+--
+
+- [x] 别称: effect:spin, e:spin
