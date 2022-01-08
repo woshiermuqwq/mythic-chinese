@@ -452,7 +452,7 @@
     [Sound](/技能/effects/sound)<br>
     [Stop Sound](/技能/effects/stopsound)<br>
     [Spin](/技能/effects/spin)<br>
-    [TotemOfUndying](/技能/effects/totemOfUndying)<br>
+    [Totem Of Undying](/技能/effects/totemOfUndying)<br>
     [Atom](/技能/effects/atom)<br>
     [Particle Vortex](/技能/effects/particlevortex)<br>
     [DNA](/技能/effects/dna)</details>
