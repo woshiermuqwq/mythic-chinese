@@ -204,7 +204,7 @@
     [示范 兽族阵营与地精族阵营对峙](#例2-兽族阵营与地精族阵营对峙)</details>
   * <details><summary>[威力](实体/威力)</summary>
     可影响:<br>
-    [BaseDamage: multiplier](/技能/列表/basedamage)<br>
+    [Base Damage: multiplier](/技能/列表/basedamage)<br>
     [Consume: damage](/技能/列表/consume)<br>
     [Consume: health](/技能/列表/consume)<br>
     [Damage: amount](/技能/列表/damage)<br>
@@ -360,7 +360,7 @@
     [Set Mob Color](/技能/列表/setmobcolor)<br>
     [Set Mob Score](/技能/列表/setmobscore)<br>
     [Set Name](/技能/列表/setname)<br>
-    [Set NoDamageTicks](/技能/列表/setnodamageticks)<br>
+    [Set No Damage Ticks](/技能/列表/setnodamageticks)<br>
     [Set Owner](/技能/列表/setowner)<br>
     [Set Rotation](/技能/列表/setrotation)<br>
     [Set Target Score](/技能/列表/settargetscore)<br>
