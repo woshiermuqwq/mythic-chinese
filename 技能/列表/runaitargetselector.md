@@ -11,7 +11,7 @@
 
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| goal | 无 | AI目标选择器名 | 无 |
+| aitargetselector | targetselector, target, string, s | AI目标选择器名 | 无 |
 
 可用AI目标选择器列表
 ------------------------
@@ -37,3 +37,8 @@
       - runaitargetselector{target=clear}
       - runaitargetselector{target=players}
       - runaitargetselector{target=monsters}
+
+额外信息
+--
+
+- [x] 别称: aitarget
