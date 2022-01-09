@@ -10,12 +10,12 @@
 
 | 修改项名 | 别称      | 描述                      | 默认值 |
 |--------- |-----------|---------------------------|--------|
-| Inertia  | in        | 抛射物惯性,值越大越难转向  | 1.5   |
-| onTick   | oT        | 抛射物刷新后所激活的技能组 | 无    |
-| onHit    | oH        | 抛射物命中后所激活的技能组 | 无    |
-| onEnd    | oE        | 抛射物消失后所激活的技能组 | 无    |
-| onStart  | oS        | 抛射物发射后所激活的技能组 | 无    |
-| internal | i, int    | 抛射物刷新间隔(刻)         | 4     |
+| inertia  | in        | 抛射物惯性,值越大越难转向  | 1.5   |
+| onTickSkill   | onTick, ot        | 抛射物刷新后所激活的技能组 | 无    |
+| onHitSkill    | onhit, oh        | 抛射物命中后所激活的技能组 | 无    |
+| onEndSkill    | onend, oe        | 抛射物消失后所激活的技能组 | 无    |
+| onStartSkill  | onstart        | 抛射物发射后所激活的技能组 | 无    |
+| internal | int, i    | 抛射物刷新间隔(刻)         | 4     |
 | HorizontalRadius | hRadius, hR, r | 抛射物碰撞箱垂直半径(格方块) | 1.25 |
 | VerticalRadius | vRadius, vR, r | 抛射物碰撞箱水平半径(格方块) | 等值于HorizontalRadius |
 | MaxDuration | md | 抛射物最大持续时间(刻) | 100 |
@@ -66,7 +66,7 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
     追踪抛射物测试实体:
       Type: ZOMBIE
       Skills:
-      - missilei{ot=追踪Tick;oh=追踪Hit;v=4;i=1;hR=1;vR=1;in=0.75} @pir{r=16} ~onTimer:100
+      - missile{ot=追踪Tick;oh=追踪Hit;v=4;i=1;hR=1;vR=1;in=0.75} @pir{r=16} ~onTimer:100
 
     # 技能配置
     追踪Tick:
@@ -75,6 +75,7 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
     追踪Hit:
      Skills:
      - damage{a=10}
+
 拓展信息:
 ---------
 
