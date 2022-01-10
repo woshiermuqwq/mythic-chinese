@@ -89,6 +89,6 @@ MythicMobs是一个复杂的插件,一开始可能会让人感到困惑,因为�
 
 付费用户可使用预览版,请点击以下链接前往:
 
-<http://www.mythicmobs.net/dev>
+<https://mythiccraft.io/index.php?pages/official-mythicmobs-dev/>
 
 请注意，预览版具有未经测试的漏洞,而 这些漏洞并不会对的服务器造成任何伤害 只是预览版可能会改变/破坏旧的MythicMobs 配置,在使用预览版前请确保您完全阅读了 更新日志
