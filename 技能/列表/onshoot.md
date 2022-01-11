@@ -23,4 +23,4 @@
 额外信息
 -------
 
-- [x] 别称: onbowshoot
+- [x]  别称: onbowshoot
