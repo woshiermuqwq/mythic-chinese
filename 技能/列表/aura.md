@@ -10,53 +10,53 @@
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
 | auraName            | buffname, debuffname | 光环名称（支持[占位符](/技能/占位符)与[变量](/技能/变量)） | 无          |
-| onStartSkill             | onstart, os      | 光环激活后所激活的技能 | 无          |
-| onTickSkill              | ontick, ot      | 光环刷新后所激活的技能 | 无          |
-| onEndSkill               | onend, oe      | 光环结束后所释放的技能 | 无          |
+| onStartSkill             | onstart, os      | 光环激活后施法者所激活的技能 | 无          |
+| onTickSkill              | ontick, ot      | 光环刷新后施法者所激活的技能 | 无          |
+| onEndSkill               | onend, oe      | 光环结束后施法者所激活的技能 | 无          |
 | Charges             | c       | 光环最大可命中次数（支持[占位符](/技能/占位符)与[变量](/技能/变量)）               | 0             |
 | Duration            | ticks, t, d, time, t       | 光环最大持续时间(刻 支持[占位符](/技能/占位符)与[变量](/技能/变量)) | 200           |
 | Interval            | i       | 光环刷新间隔(刻) | 1             |
 | maxStacks           | ms | 光环最大层数（支持[占位符](/技能/占位符)与[变量](/技能/变量)） | 无          |
 | refreshDuration     | rd | 光环叠加后是否刷新持续时间 | false         |
 | mergeSameCaster     | msc, mc | 光环是否无法被施法者叠加| false         |
-| mergeAll            | ma | 光环是否无法被叠加 | false         |
-| showbartimer | bartimer, bt | 是否使用Boss血条显示光环剩余时间（仅对施法者显示） | false |
+| mergeAll            | ma | 光环是否叠加所有相同的官宦 | false         |
+| showbartimer | bartimer, bt | 是否以Boss血条的形式向施法者显示光环剩余时间 | false |
 | bartimerdisplay | bartimertext | 所显示的Boss血条文本 | <skill.var.aura-name> |
 | bartimercolor | | 所显示的Boss血条颜色 | Red |
 | bartimerstyle | | 所显示的Boss血条样式 | SOLID |
-| CancelOnGiveDamage  | cogd    | 光环是否在施法者造成伤害后消失 | false         |
-| CancelOnTakeDamage  | cotd    | 光环是否在施法者受到伤害后消失 | false         |
-| CancelOnDeath       | cod     | 光环是否在施法者死亡后消失 | true         |
-| CancelOnTeleport    | cot     | 光环是否在施法者传送后消失 | false         |
-| CancelOnChangeWorld | cocw    | 光环是否在施法者改变世界后消失 | false         |
-| CancelOnSkillUse    | cosu    | 光环是否在施法者激活技能后消失 | true         |
-| CancelOnQuit        | coq     | 光环是否在施法者离线后消失 | true         |
+| CancelOnGiveDamage  | cogd    | 光环是否在光环持有者造成伤害后消失 | false         |
+| CancelOnTakeDamage  | cotd    | 光环是否在光环持有者受到伤害后消失 | false         |
+| CancelOnDeath       | cod     | 光环是否在光环持有者死亡后消失 | true         |
+| CancelOnTeleport    | cot     | 光环是否在光环持有者传送后消失 | false         |
+| CancelOnChangeWorld | cocw    | 光环是否在光环持有者改变世界后消失 | false         |
+| CancelOnSkillUse    | cosu    | 光环是否在光环持有者激活技能后消失 | true         |
+| CancelOnQuit        | coq     | 光环是否在光环持有者离线后消失 | true         |
 
   
 特殊修改项
 ----------
 
-光环: **[onAttack](技能/列表/onattack)** 拥有以下特定修改项:
+光环: **[On Attack](技能/列表/onattack)** 拥有以下特定修改项:
 
 -   所有修改项都能作用于[Aura](技能/列表/Aura)
 
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| onAttack | oA | 施法者造成伤害后所激活的技能 | 无 |
-| cancle | cE | 施法者造成伤害后是否取消造成伤害事件 | 无 |
+| onAttackSkill | onattack, oa, onmelee, onhit, oh | 光环持有者造成伤害后所激活的技能 | 无 |
+| cancleevent | cancel, cE, canceldamage, cd | 光环持有者造成伤害后是否取消造成伤害事件 | 无 |
 | damageAdd | add, a | 施法者所造成伤害的数值所被加上的具体数值 | 0 |
 | damageMultiplier | multiplier, m | 施法者所造成伤害的数值所被乘以的百分比 | 1 |
 
-光环: **[onDamaged](技能/列表/ondamaged)** 拥有以下特定修改项:
+光环: **[On Damaged](技能/列表/ondamaged)** 拥有以下特定修改项:
 
 -   所有修改项都能作用于[Aura](技能/列表/Aura)
 
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| onHit | oH | 施法者受到伤害后所激活的技能 | 无 |
-| cancle | cE | 施法者受到伤害后是否取消受到伤害事件 | 无 |
-| damageSubtract | sub, s | 施法者所受到伤害的数值所被减去的具体数值 | 0 |
-| damageMultiplier | multiplier, m | 施法者所受到伤害的数值所被乘以的百分比 | 1 |
+| ondamagedskill | ondamaged, od, onhitskill, onhit, oh | 光环持有者受到伤害后所激活的技能 | 无 |
+| cancleevent | cancel, cE, canceldamage, cd | 光环持有者受到伤害后是否取消受到伤害事件 | false |
+| damageSubtract | sub, s | 光环持有者所受到伤害的数值所被减去的具体数值（支持[占位符](/技能/占位符)/[变量](/技能/变量)） | 0 |
+| damageMultiplier | multiplier, m | 光环持有者所受到伤害的数值所被乘以的百分比（支持[占位符](/技能/占位符)/[变量](/技能/变量)） | 1 |
 | damageModifiers | damageMods | 伤害数值计算后<br>根据该修改项内所写的配置来调整伤害, 类似于[伤害调整](/实体/伤害调整)<br>多个之间用","隔开 | 无 |
 
 示例
