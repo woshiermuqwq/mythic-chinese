@@ -11,16 +11,15 @@
 
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| onbreakskill | onbreak, ob | 光环持有者成功挖掘方块后所激活的技能（光环给予者为技能施法者） | 无 |
-| cancleevent | cancel, cE | 光环持有者造成伤害后是否取消造成伤害事件 | false |
+| onbreakskill | onrightclickskill, onrightclick, oninteract, or, oi | 光环持有者成功被交互后所激活的技能（光环给予者为技能施法者） | 无 |
 
-新增于 MM 4.13
+新增于 MM 5.0
 
 示例
 --------
 
        Skills:
-      - onbreakblock{ob=测试;cE=true;auraname=MyAura}
+      - oninteract{ob=测试}
 
 额外信息
 --------
