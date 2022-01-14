@@ -1,7 +1,7 @@
-技能: On Block Break
+技能: On Interact
 --------------------------
 
-给予目标[光环](技能/列表/Aura)(目标成功挖掘方块后激活技能组).  
+给予目标[光环](技能/列表/Aura)(目标被交互后激活技能组).  
 该光环被锁定在主线程进行（即使Sync已为false）
 
 可使用技能: [Aura](/技能/列表/aura) 的全部修改项（如onstartskill）
@@ -11,7 +11,7 @@
 
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| onbreakskill | onrightclickskill, onrightclick, oninteract, or, oi | 光环持有者成功被交互后所激活的技能（光环给予者为技能施法者） | 无 |
+| oninteractskill | onrightclickskill, onrightclick, oninteract, or, oi | 光环持有者成功被交互后所激活的技能（光环给予者为技能施法者） | 无 |
 
 新增于 MM 5.0
 
@@ -20,8 +20,3 @@
 
        Skills:
       - oninteract{ob=测试}
-
-额外信息
---------
-
-- [x] 别称: onbreakblock
