@@ -408,7 +408,9 @@
     [On Block Place](/技能/列表/onblockplace)<br>
     [On Damaged](/技能/列表/ondamaged)<br>
     [On Death](/技能/列表/ondeath)<br>
+    [On Interact](/技能/列表/oninteract)<br>
     [On Shoot](/技能/列表/onshoot)<br>
+    [On Swing](/技能/列表/onswing)<br>
     [Orbital](/技能/列表/orbital)<br>
     [Projectile](/技能/列表/projectile)<br>
     [Shoot](/技能/列表/shoot)<br>
