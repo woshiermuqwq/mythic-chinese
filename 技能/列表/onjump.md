@@ -20,4 +20,4 @@
 --------
 
        Skills:
-      - onjump{oH=测试;cE=true;auraname=MyAura}
+      - onjump{oj=测试;cE=true;auraname=MyAura}
