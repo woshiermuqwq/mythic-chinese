@@ -32,7 +32,7 @@
 | KnockBack | 弹射物击中实体后的击退力度 | 0 |
 | PieceLevel | pl | 无描述 | 0 | 
 | adjustvelocity | av | 是否调整发射速度 | true |
-| cauculatefiringangle | cfa | 是否计算发射角度 | false |
+| cauculatefiringangle | cfa | 是否计算发射角度使其尽可能击中目标 | false |
 
 Fromorigin 新增于 MM 4.13.0  
 OnBounce 新增于 MM 5.0  
