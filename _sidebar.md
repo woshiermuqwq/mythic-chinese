@@ -302,7 +302,7 @@
     [Give Item](/技能/列表/giveitem)<br>
     [Give Item From Slot](/技能/列表/giveitemfromslot)<br>
     [Give Item From Target](/技能/列表/giveitemfromtarget)<br>
-    [Go To](/技能/列表(goto)<br>
+    [Go To](/技能/列表(/技能/列表/goto)<br>
     [Heal](/技能/列表/heal)<br>
     [Heal Percent](/技能/列表/healpercent)<br>
     [Hide From Players](/技能/列表/hidefromplayers)<br>
