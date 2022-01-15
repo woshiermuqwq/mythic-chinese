@@ -16,6 +16,7 @@
 | vspread              | vs         | 弹射物碰撞箱垂直半径（格方块） | 0       |
 | poweraffectsvelocity | pav        | [技能威力](实体/威力)是否影响移动速度 | true    |
 | interval             | int, i     | 弹射物刷新间隔（刻） | 4       |
+| Gravity              | g           | 弹射物是否拥有重力 | true                 |
 | ontickskill          | ontick, ot | 弹射物刷新后所激活的技能组 | 无 |
 | onhitskill           | onhit, oh  | 弹射物命中后所激活的技能组 | 无 |
 | onendskill           | onend, oe  | 弹射物消失后所激活的技能组 | 无 |
@@ -32,7 +33,7 @@
 | KnockBack | 弹射物击中实体后的击退力度 | 0 |
 | PieceLevel | pl | 无描述 | 0 | 
 | adjustvelocity | av | 是否调整发射速度 | true |
-| cauculatefiringangle | cfa | 是否计算发射角度使其尽可能击中目标 | false |
+| cauculatefiringangle | cfa | 是否计算发射角度并施加重力使其尽可能击中目标 | false |
 
 Fromorigin 新增于 MM 4.13.0  
 OnBounce 新增于 MM 5.0  
