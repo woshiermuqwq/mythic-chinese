@@ -21,8 +21,8 @@
 | onhitskill           | onhit, oh  | 弹射物命中后所激活的技能组 | 无 |
 | onendskill           | onend, oe  | 弹射物消失后所激活的技能组 | 无 |
 | accuracy | ac, a | 弹射物扩散程度（1=百分百命中） | 1 |（格方块 支持[占位符](/技能/占位符)与[变量](/技能/变量)）
-| horizontalnoise | hn | 弹射物水平扩散程度（格方块 支持[占位符](/技能/占位符)与[变量](/技能/变量)） | accuracy的值*4.5|
-| verticalnoise | vn | 弹射物垂直扩散程度（格方块 支持[占位符](/技能/占位符)与[变量](/技能/变量)） | accuracy的值*45 |
+| horizontalnoise | hn | 弹射物水平扩散程度（支持[占位符](/技能/占位符)与[变量](/技能/变量)） | accuracy的值*4.5|
+| verticalnoise | vn | 弹射物垂直扩散程度（支持[占位符](/技能/占位符)与[变量](/技能/变量)） | accuracy的值*45 |
 | HorizontalOffset     | hO          | 抛射物发射方向水平旋转角度(弧度角 支持[占位符](技能/占位符)与[变量](技能/变量)) | 0                 |
 | VerticalOffset       | vO          | 抛射物发射方向垂直旋转角度(圆心角 支持[占位符](技能/占位符)与[变量](技能/变量)) | 0                 |
 | onBounceSkill | onBounce | 抛射物反射开始后所激活的技能组 | 无 |
