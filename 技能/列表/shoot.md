@@ -30,7 +30,7 @@
 | bouncevelocity | bv | 抛射物弹射后速度会被乘以多少 | 0.9 |
 | pickup | 抛射物落地后是否可被拾取 | false |
 | FromOrigin | fo | 发射点是否位于坐标原点 | false |
-| KnockBack | 弹射物击中实体后的击退力度 | 0 |
+| KnockBack |  |弹射物击中实体后的击退力度 | 0 |
 | PieceLevel | pl | 无描述 | 0 | 
 | adjustvelocity | av | 是否调整发射速度 | true |
 | cauculatefiringangle | cfa | 是否计算发射角度并施加重力使其尽可能击中目标 | false |
