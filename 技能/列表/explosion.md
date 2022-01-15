@@ -18,3 +18,8 @@
     爆炸测试:
       Skills:
       - explosion{yield=4} @target
+
+额外信息
+----
+
+- [x] 别称: effect:sound, e:sound, e:s, s
