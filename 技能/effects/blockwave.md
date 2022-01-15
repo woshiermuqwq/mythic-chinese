@@ -8,6 +8,7 @@
 
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
+| ignoreair | ia | 是否无视空气扩散 | true |
 | material  | mat, m | 方块扩散波的方块种类 | 无 |
 | data      | dv     | 方块扩散波的方块特殊值     | 0             |
 | radius    | r      | 方块扩散波的半径(格)范围 | 0(无限制)  |
@@ -19,10 +20,16 @@
 | velocityy | vy     | 方块扩散波Y轴速度 | 0       |
 | velocityz | vz     | 方块扩散波Z轴速度 | 0       |
 | noise     | n      | 方块扩散波的随机性,值越大越完整 | 0       |
-| hidesource | hsb, hs | 若技能目标位置是一个方块 是否隐藏这个方块 | true  |  
+| hidesourceblock | hidesourceblock, hsb, hs | 若技能目标位置是一个方块 是否隐藏这个方块 | true  |  
 
 示例
 --------
 
       Skills:
       - blockwave{duration=100;material=stone;radius=5;radiusY=5;velocity=10;shape=sphere} @selflocation
+
+额外信息
+-----
+
+- [x] 别称: effect:blockwave, e:blockwave
+- [x] 支持[占位符](/技能/占位符)与[变量](/技能/变量)（除修改项: hildesourceblock、ignoreair）
