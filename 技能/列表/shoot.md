@@ -23,12 +23,12 @@
 | accuracy | ac, a | 弹射物扩散程度（1=百分百命中） | 1 |（格方块 支持[占位符](/技能/占位符)与[变量](/技能/变量)）
 | horizontalnoise | hn | 弹射物水平扩散程度（支持[占位符](/技能/占位符)与[变量](/技能/变量)） | accuracy的值*4.5|
 | verticalnoise | vn | 弹射物垂直扩散程度（支持[占位符](/技能/占位符)与[变量](/技能/变量)） | accuracy的值*45 |
-| HorizontalOffset     | hO          | 抛射物发射方向水平旋转角度(弧度角 支持[占位符](技能/占位符)与[变量](技能/变量)) | 0                 |
-| VerticalOffset       | vO          | 抛射物发射方向垂直旋转角度(圆心角 支持[占位符](技能/占位符)与[变量](技能/变量)) | 0                 |
-| onBounceSkill | onBounce | 抛射物反射开始后所激活的技能组 | 无 |
-| bounce | b | 抛射物是否在命中方块后进行弹射 | false |
-| bouncevelocity | bv | 抛射物弹射后速度会被乘以多少 | 0.9 |
-| pickup | | 抛射物落地后是否可被拾取 | false |
+| HorizontalOffset     | hO          | 弹射物发射方向水平旋转角度(弧度角 支持[占位符](技能/占位符)与[变量](技能/变量)) | 0                 |
+| VerticalOffset       | vO          | 弹射物发射方向垂直旋转角度(圆心角 支持[占位符](技能/占位符)与[变量](技能/变量)) | 0                 |
+| onBounceSkill | onBounce | 弹射物反射开始后所激活的技能组 | 无 |
+| bounce | b | 弹射物是否在命中方块后进行弹射 | false |
+| bouncevelocity | bv | 弹射物弹射后速度会被乘以多少 | 0.9 |
+| pickup | | 弹射物落地后是否可被拾取 | false |
 | FromOrigin | fo | 发射点是否位于坐标原点 | false |
 | KnockBack |  |弹射物击中实体后的击退力度 | 0 |
 | PieceLevel | pl | 无描述 | 0 | 
