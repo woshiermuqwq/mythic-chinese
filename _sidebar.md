@@ -409,6 +409,7 @@
     [On Damaged](/技能/列表/ondamaged)<br>
     [On Death](/技能/列表/ondeath)<br>
     [On Interact](/技能/列表/oninteract)<br>
+    [On Jump](/技能/列表/onjump)<br>
     [On Shoot](/技能/列表/onshoot)<br>
     [On Swing](/技能/列表/onswing)<br>
     [Orbital](/技能/列表/orbital)<br>
