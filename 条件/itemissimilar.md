@@ -24,7 +24,7 @@
 
 **槽位数字ID图:**
 
-[![](https://ibb.co/FxGjPMM)
+[![](https://i.ibb.co/p0C9m88/u-1608297699-3723010909-fm-253-fmt-auto-app-138-f-JPEG-webp.jpg)
 
 ---
 
