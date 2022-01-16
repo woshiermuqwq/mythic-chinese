@@ -675,15 +675,35 @@
     [烟花 & 烟火之星](/选项#烟花火箭-烟火之星)<br>
     [使用示例](/选项#物品配置示例)</details>
   * <details><summary>[属性](物品/属性)</details>
+    [](//#)<br>
+    [](//#)<br>
+    [](//#)</details>
   * <details><summary>[附魔](物品/附魔)</details>
+    [](//#)<br>
+    [](//#)</details>
   * <details><summary>[状态效果](物品/状态效果)</details>
+    [](//#)</details>
   * <details><summary>[旗帜](物品/旗帜)</details>
+    [](//#)<br>
+    [](//#)<br>
+    [](//#)</details>
 
 #### 生成
   * <details><summary>[[定点生成]]</details>
+    [](//#)<br>
+    [](//#)</details>
   * <details><summary>[[随机生成]]</details>
+    [](//#)<br>
+    [](//#)<br>
+    [](//#)</details>
 
 #### 教学
   * <details><summary>[[机制教学]]</details>
+    [](//#)<br>
+    [](//#)<br>
+    [](//#)<br>
+    [](//#)</details>
   * <details><summary>[[特效教学]]</details>
+    [](//#)<br>
+    [](//#)</details>
   * <details><summary>[[萌新の一百个问题]]</details>
