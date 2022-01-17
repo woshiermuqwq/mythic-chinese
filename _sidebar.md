@@ -460,6 +460,7 @@
     [Atom](/技能/effects/atom)<br>
     [Particle Vortex](/技能/effects/particlevortex)<br>
     [DNA](/技能/effects/dna)</details>
+  * <details><summary>[粒子列表](技能/特效列表)</summary>
   * <details><summary>[目标选择器](技能/目标选择器)</summary>
     [单实体目标选择器](技能/目标选择器#单实体)<br>
     [多实体目标选择器](技能/目标选择器#多实体)<br>
