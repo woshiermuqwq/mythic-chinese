@@ -555,8 +555,9 @@
     [Food Saturation](/条件/FoodSaturation)<br>
     [Gliding](/条件/gliding)<br>
     [Global Score](/条件/globalscore)<br>
-    [HasAura](/条件/hasaura)<br>
+    [Has Aura](/条件/hasaura)<br>
     [Has Aura Stacks](/条件/hasaurastacks)<br>
+    [Has Enchant](/条件/hasenchant)<br>
     [Has Currency](/条件/hascurrency)<br>
     [Has Inventory Space](/条件/hasinventoryspace)<br>
     [Has Item](/条件/hasItem)<br>
@@ -604,14 +605,14 @@
     [Motion Z](/条件/motionz)<br>
     [Mounted](/条件/mounted)<br>
     [Moving](/条件/moving)<br>
-    [MythicMobType](/条件/mythicmobtype)<br>
+    [MythicMob Type](/条件/mythicmobtype)<br>
     [Name](/条件/name)<br>
     [Near Claim](/条件/nearclaim)<br>
     [Night](/条件/night)<br>
     [Not In Region](/条件/notinregion)<br>
     [OffGCD](/条件/offgcd)<br>
-    [OnBlock](/条件/onblock)<br>
-    [OnGround](/条件/onground)<br>
+    [On Block](/条件/onblock)<br>
+    [On Ground](/条件/onground)<br>
     [Outside](/条件/outside)<br>
     [Owner](/条件/owner)<br>
     [Owner Is Online](/条件/ownerisonline)<br>
@@ -641,7 +642,7 @@
     [World](/条件/world)<br>
     [World Time](/条件/worldtime)<br>
     [Yaw](/条件/yaw)<br>
-    [yDiff](/条件/ydiff)</details>
+    [Y Diff](/条件/ydiff)</details>
   * <details><summary>[占位符](技能/占位符)</summary>
     [特殊符号占位符](技能/占位符#特殊符号)<br>
     [颜色代码占位符](技能/占位符#颜色代码)<br>
