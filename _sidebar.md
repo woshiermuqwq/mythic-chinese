@@ -557,8 +557,8 @@
     [Global Score](/条件/globalscore)<br>
     [Has Aura](/条件/hasaura)<br>
     [Has Aura Stacks](/条件/hasaurastacks)<br>
-    [Has Enchant](/条件/hasenchant)<br>
     [Has Currency](/条件/hascurrency)<br>
+    [Has Enchant](/条件/hasenchant)<br>
     [Has Inventory Space](/条件/hasinventoryspace)<br>
     [Has Item](/条件/hasItem)<br>
     [Has Owner](/条件/hasowner)<br>
