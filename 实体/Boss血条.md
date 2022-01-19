@@ -9,7 +9,7 @@ Boss血条允许您创建一个形似末影龙与凋灵的血条,并提供一系
 ```yml
 MythicMobs实体名:
   Type: 实体类型
-  Bossbar:
+  BossBar:
     Enabled: true/false(是否开启)
     Title: '标题文本'
     Range: 显示范围
@@ -34,7 +34,7 @@ MythicMobs实体名:
   Type: creeper
   Display: '&c测试'
   Health: 20
-  Bossbar:
+  BossBar:
     Enabled: true
     Title: '测试标题文本'
     Range: 20
