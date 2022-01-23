@@ -23,5 +23,5 @@
 额外信息
 ------
 
-- [x] **支持** Audience
-- [x] 别称: effect:sound, s, e:sound, e:s
+- **支持** Audience
+- 别称: effect:sound, s, e:sound, e:s
