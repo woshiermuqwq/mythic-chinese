@@ -24,4 +24,4 @@
 额外信息
 -------
 
-- [x] 别称: CopyPlayer
+- 别称: CopyPlayer
