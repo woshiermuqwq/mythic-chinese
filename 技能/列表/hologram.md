@@ -20,6 +20,4 @@
 拓展信息:
 ----------------------
 
-- [x] 缩写: summonhologram, holo
-
-```
+- 别称: summonhologram, holo
