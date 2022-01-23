@@ -27,4 +27,4 @@
 额外信息
 --
 
-- [x] 别称: effect:spin, e:spin
+- 别称: effect:spin, e:spin
