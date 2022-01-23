@@ -621,6 +621,8 @@
     [Players In Radius](/条件/playersinradius)<br>
     [Player Not Within](/条件/playernotwithin)<br>
     [Player Within](/条件/playerwithin)<br>
+    [Plugin](/条件/plugin)<br>
+    [Premium](/条件/premium)<br>
     [Raining](/条件/raining)<br>
     [Region](/条件/region)<br>
     [Same Faction](/条件/samefaction)<br>
