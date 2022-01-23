@@ -35,5 +35,5 @@
 额外信息
 ---
 
-- 别称: e: itemspray, itemspray
+- 别称: e:itemspray, itemspray
 - **支持** [占位符](/技能/占位符)与[变量](/技能/变量)（除修改项: allowpickup, ）
