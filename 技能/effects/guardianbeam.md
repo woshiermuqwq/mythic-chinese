@@ -24,4 +24,4 @@
 拓展信息
 --------
 
-- [x] 别称: effect:guardianbeam, effect:beam, e:beam
+- 别称: effect:guardianbeam, effect:beam, e:beam
