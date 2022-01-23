@@ -24,4 +24,4 @@
 额外信息
 -----
 
-- [x] 别称: consumeslotitem
+- 别称: consumeslotitem
