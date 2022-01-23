@@ -29,4 +29,4 @@
 拓展信息
 --------
 
-- [x] 别称: bd, weapondamage, wd
+- 别称: bd, weapondamage, wd
