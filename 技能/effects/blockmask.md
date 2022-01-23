@@ -29,5 +29,5 @@
 额外信息
 -------
 
-- [x] 所有修改项支持[占位符](/技能/占位符)与[变量](/技能/变量)（除materialdata）
-- [x] 别称: effect:blockmask e:blockmask
+- **支持** [占位符](/技能/占位符)与[变量](/技能/变量)（除materialdata）
+- 别称: effect:blockmask e:blockmask
