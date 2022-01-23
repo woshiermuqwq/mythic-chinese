@@ -14,19 +14,40 @@
 --------
 
     Skills:
-    - randomskill{skills=skill1,skill2,skill3}
+    - randomskill{skills=技能组A,技能组B,技能组C}
 
 另一种格式:
 
     Skills:
     - randomskill{
         skills=
-        superskill,
-        green_skill,
-        skill3,
-        grandSkill,
-        7331
+        技能组D,
+        技能组E,
+        技能组F,
+        技能组G,
+        技能组Z
         }
+
+上述格式中各个技能组被激活的预期几率是相等的
+
+在 MM 4.13, 可通过该格式自定义每个技能的概率
+
+    Skills:
+    - randomskill{skills=技能组A 50,技能组B 25,技能组C 15}
+
+    Skills:
+    - randomskill{
+        skills=
+        技能组D 50,
+        技能组E 25,
+        技能组F 10,
+        技能组G 5,
+        技能组Z 20
+        }
+
+举个例子, 50+25+10+5+20=110
+那技能组F有 10/110≈9% 的几率激活
+Z有 20/100=18%的几率激活
 
 额外信息
 ---
