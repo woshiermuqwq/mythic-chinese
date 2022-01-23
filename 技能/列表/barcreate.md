@@ -28,4 +28,4 @@
 拓展信息
 -------
 
-- [x] 别称: baradd, createbar
+- 别称: baradd, createbar
