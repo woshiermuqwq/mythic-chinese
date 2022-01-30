@@ -36,8 +36,8 @@
 | cauculatefiringangle | cfa | 是否计算发射角度并施加重力使其尽可能击中目标 | false |
 
 Fromorigin 新增于 MM 4.13.0  
-OnBounce 新增于 MM 5.0  
-Bounce 新增于 MM 5.0  
+OnBounce 新增于 MM 4.14.2  
+Bounce 新增于 MM 4.14.2  
 
 可用弹射物类型
 ----------
