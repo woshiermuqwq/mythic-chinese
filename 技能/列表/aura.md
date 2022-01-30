@@ -20,7 +20,7 @@
 | maxStacks           | ms | 光环最大层数（支持[占位符](/技能/占位符)与[变量](/技能/变量)） | 无          |
 | refreshDuration     | rd | 光环叠加后是否刷新持续时间 | false         |
 | mergeSameCaster     | msc, mc | 光环是否无法被施法者叠加| false         |
-| mergeAll            | ma | 光环是否叠加所有相同的官宦 | false         |
+| mergeAll            | ma | 光环是否叠加所有相同的光环 | false         |
 | showbartimer | bartimer, bt | 是否以Boss血条的形式向施法者显示光环剩余时间 | false |
 | bartimerdisplay | bartimertext | 所显示的Boss血条文本 | <skill.var.aura-name> |
 | bartimercolor | | 所显示的Boss血条颜色 | Red |
