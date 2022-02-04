@@ -82,6 +82,8 @@ AIGoalSelectors:
 
 **远程攻击方式实体可用**
 
+对近身攻击方式的实体使用将报错, 如僵尸
+
 | AI行动器名        | 别称                    | 描述         |
 | ----------------- | ----------------------- | ------------ |
 | arrowattack{speed=移速;attackspeedmax=最快射速;attackspeedmin=最慢射速;attackradius=寻敌半径范围}       |                         | 无需拉弓射箭（实体必须可拉弓） |
