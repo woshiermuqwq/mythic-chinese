@@ -124,21 +124,24 @@ HugLiquid 新增于 MM 4.14.0
 
 旧写法:
 
-    Test:
+    测试:
      Skills:
-     - p{ot=Test-Tick;oh=Test-Hit;v=8;i=1;hr=1;vr=1}
+     - p{ot=测试-Tick;oh=测试-Hit;v=8;i=1;hr=1;vr=1}
 
-    Test-Tick:
+    测试-Tick:
      Skills:
      - e:p{p=flame;a=20;s=0;hS=0.2;vS=0.2} @origin
-    Test-Hit:
+    测试-Hit:
      Skills:
      - d{a=10}
      - potion{t=SLOW;d=100;l=2}
 
 提示
 ------
- onTick最后一次激活 优先于 onHit 优先于 onEnd
+
+- onTick最后一次激活 优先于 onHit 优先于 onEnd
+- 偏差都是基于施法者的, 让抛射物从别的地方发射会给人一种 没有偏差 的错觉  
+  解决方法就是使用@RLNT+@Origin目标选择器制作随机
 
 额外信息
 -------
