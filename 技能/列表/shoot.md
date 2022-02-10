@@ -52,6 +52,10 @@ Bounce 新增于 MM 4.14.2
 | trident | 三叉戟 |
 | lingering_potion | 滞留药水 |
 
+提示
+----
+
+受伤事件（onHitSkill）受伤害间隔影响, 所以多发抛射物同时命中只能有一发成功触发 onHit
 示例
 --------
 
