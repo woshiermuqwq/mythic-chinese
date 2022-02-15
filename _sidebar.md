@@ -292,7 +292,7 @@
     [Equip](/技能/列表/equip)<br>
     [Explosion](/技能/列表/explosion)<br>
     [Extinguish](/技能/列表/extinguish)<br>
-    [Fawe Paste](/fawePaste)<br>
+    [Paste Schematic](/技能/列表/pasteschematic)<br>
     [Feed](/技能/列表/feed)<br>
     [Fill Chest](/技能/列表/fillChest)<br>
     [Fly](/技能/列表/fly)<br>
