@@ -370,6 +370,7 @@
     [Set Speed](/技能/列表/setspeed)<br>
     [Set Stance](/技能/列表/setstance)<br>
     [Shield](/技能/列表/shield)<br>
+    [Shield Break](/技能/列表/shieldbreak)<br>
     [Shield Percent](/技能/列表/shieldpercent)<br>
     [Shoot Fireball](/技能/列表/shootfireball)<br>
     [Shoot Potion](/技能/列表/shootpotion)<br>
@@ -382,6 +383,7 @@
     [Suicide](/技能/列表/suicide)<br>
     [Summon](/技能/列表/summon)<br>
     [Swap](/技能/列表/swap)<br>
+    [Switch](/技能/列表/switch)<br>
     [Add Tag](/技能/列表/addtag)<br>
     [Remove Tag](/技能/列表/removetag)<br>
     [Teleport](/技能/列表/teleport)<br>
