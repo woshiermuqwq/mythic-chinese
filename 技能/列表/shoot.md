@@ -18,7 +18,7 @@
 | interval             | int, i     | 弹射物刷新间隔（刻） | 4       |
 | Gravity              | g           | 弹射物是否拥有重力 | true                 |
 | ontickskill          | ontick, ot | 弹射物刷新后所激活的技能组 | 无 |
-| onhitskill           | onhit, oh  | 弹射物命中后所激活的技能组 | 无 |
+| onhitskill           | onhit, oh  | 弹射物命中实体后所激活的技能组 | 无 |
 | onendskill           | onend, oe  | 弹射物消失后所激活的技能组 | 无 |
 | accuracy | ac, a | 弹射物扩散程度（1=百分百命中） | 1 |（格方块 支持[占位符](/技能/占位符)与[变量](/技能/变量)）
 | horizontalnoise | hn | 弹射物水平扩散程度（支持[占位符](/技能/占位符)与[变量](/技能/变量)） | accuracy的值*4.5|
