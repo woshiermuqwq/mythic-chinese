@@ -352,6 +352,7 @@
     [Send Toast](/技能/列表/sendtoast)<br>
     [Set AI](/技能/列表/setai)<br>
     [Set Block Type](/技能/列表/setblocktype)<br>
+    [Set Collidable](/技能/列表/setcollidable)<br>
     [Set Game Mode](/技能/列表/setgamemode)<br>
     [Set Gliding](/技能/列表/setgliding)<br>
     [Set Global Score](/技能/列表/setglobalscore)<br>
