@@ -47,6 +47,7 @@ TargetConditions:
   - potion{t=wither;d=60}
   - ondamaged{auraname=1;d=60;c=9999;i=1;damageMods="WITHER 0";ot=给予伤害}
 给予伤害:
+  Cooldown: 1
   TargetConditions:
   - hasaura{aura=1} false
   - haspotioneffect{t=wither}
