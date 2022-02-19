@@ -33,12 +33,13 @@ TargetConditions:
 
 解决方法:  
 
-···
+```
 测试实体:
   Type: husk
   Skills:
   - skill:凋零效果 @trigger ~onattack
 ```
+
 ```yaml
 
 凋零效果:
