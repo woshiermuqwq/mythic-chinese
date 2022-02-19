@@ -6,7 +6,11 @@
 
 修改项 `audience=World` 或 `audience=Target` 允许特效技能仅对特定实体拥有效果 默认值为 `World`  
 
-可用的还有 `Self(自身)`、`NonSelf(自身除外)`、`NonSelfWorld(与自身不处在同一世界的实体)`
+可用的还有 `Self(自身)`、`NonSelf(自身除外)`、`NonSelfWorld(与自身不处在同一世界的实体)`  
+
+`audience=target`, 是不支持无目标类技能的, 比如 [Disguise](/技能/列表/disguise)  
+
+但支持 [Disguise Target](/技能/列表/disguisetarget)  
 
 ### 语法
 
