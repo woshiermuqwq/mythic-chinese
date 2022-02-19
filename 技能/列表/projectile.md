@@ -15,9 +15,9 @@
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
 | onTickSkill | onTick, ot, skill, s, meta, m          | 抛射物刷新后所激活的技能组 | 无 |
-| onHitSkill | onHit, oh         | 抛射物命中后所激活的技能组 | 无 |
+| onHitSkill | onHit, oh         | 抛射物命中实体后所激活的技能组 | 无 |
 | onEndSkill  | onEnd, oe          | 抛射物消失后所激活的技能组 | 无 |
-| onStartSkill               | onStard, os          | 抛射物消失后所激活的技能组 | 无 |
+| onStartSkill               | onStard, os          | 抛射物被发射后所激活的技能组 | 无 |
 | onBounceSkill | onBounce | 抛射物反射开始后所激活的技能组 | 无 |
 | bounce | b | 抛射物是否在命中方块后进行弹射 | false |
 | bouncevelocity | bv | 抛射物弹射后速度会被乘以多少 | 0.9 |
