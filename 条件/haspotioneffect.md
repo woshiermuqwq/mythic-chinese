@@ -31,13 +31,16 @@ TargetConditions:
 这意味着 凋零 等状态效果击杀实体后, 施法者不会触发已配置好的  
 击杀信息.
 
-解决方法:
-···yaml
+解决方法:  
+
+···
 测试实体:
   Type: husk
   Skills:
   - skill:凋零效果 @trigger ~onattack
-``````yaml
+```
+```yaml
+
 凋零效果:
   Skills:
   - potion{t=wither;d=60}
@@ -48,6 +51,8 @@ TargetConditions:
   - haspotioneffect{t=wither}
   Skills:
   - damage{a=1;i=true}
+```
+
 ---
 
 **拓展信息:**
