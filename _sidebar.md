@@ -383,6 +383,7 @@
     [Stun](/技能/列表/stun)<br>
     [Suicide](/技能/列表/suicide)<br>
     [Summon](/技能/列表/summon)<br>
+    [Summon Area Effect Cloud](/技能/列表/summonareaeffectcloud)<br>
     [Swap](/技能/列表/swap)<br>
     [Switch](/技能/列表/switch)<br>
     [Add Tag](/技能/列表/addtag)<br>
