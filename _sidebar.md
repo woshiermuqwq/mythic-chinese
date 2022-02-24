@@ -299,7 +299,6 @@
     [Fly](/技能/列表/fly)<br>
     [Freeze](/技能/列表/freeze)<br>
     [Force Pull](/技能/列表/forcepull)<br>
-    [Glow](/技能/列表/glow)<br>
     [Give Item](/技能/列表/giveitem)<br>
     [Give Item From Slot](/技能/列表/giveitemfromslot)<br>
     [Give Item From Target](/技能/列表/giveitemfromtarget)<br>
@@ -444,6 +443,7 @@
     [Flames](/技能/effects/flames)<br>
     [Geyser](/技能/effects/geyser)<br>
     [Glow](/技能/effects/glow)<br>
+    [Guardian Beam](/技能/列表/guardianbeam)<br>
     [Item Spray](/技能/effects/itemspray)<br>
     [Lightning](/技能/effects/lightning)<br>
     [Particles](/技能/effects/particles)<br>
