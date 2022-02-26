@@ -1,81 +1,82 @@
-* <details><summary>[首页](home)</summary>
-  [前言](home#前言)<br>
-  [什么是MythicMobs](home#什么是mythicmobs)<br>
-  [安装](home#安装)<br>
-  [帮助](home#帮助-问题)<br>
-  [预览版](home#预览版) </details>
-* <details><summary>[更新日志](更新日志)</summary>
-  [v5.0~v4.14.x](更新日志)<br>
-  [v4.14.x](更新日志/4.14.x更新日志)<br>
-  [v4.13.x](更新日志/4.13.x更新日志)<br>
-  [v4.12.x](更新日志/4.12.x更新日志)<br>
-  [v4.11.x](更新日志/4.11.x更新日志)<br>
-  [v4.10.x](更新日志/4.10.x更新日志)<br>
-  [v4.9.x](更新日志/4.9.x更新日志)<br>
-  [v4.8.x](更新日志/4.8.x更新日志)<br>
-  [v4.7.x](更新日志/4.7.x更新日志)</details>
-* <details><summary>[付费版内容](付费版内容)</summary>
-   在Discord频道中的特殊身份<br>
-   进入付费用户频道且允许创建更高优先度的支持贴<br>
-   率先体验最新版本<br>
-   访问开发构建<br>
-   使用付费版技能<br>
-   使用自定义伤害类型和伤害修改器的能力<br>
-   能够在许多方面使用计算和占位符<br>
-   自定义技能参数<br>
-   在抛射技能中的命中条件下使用的能力<br>
-   使用付费条件<br>
-   能够在任何技能中使用origin=@targeter<br>
-   敬请期待!</details>
-* <details><summary>[配置](配置)</summary>
-  [基本项配置](配置#基本项general)<br>
-  [时钟项配置](配置#时钟clock)<br>
-  [分支项配置](配置#分支components)<br>
-  [实体项配置](配置#实体mobs)<br>
-  [随机生成项配置](配置#随机生成项randomspawning)<br>
-  [兼容项配置](配置#兼容项compatibility)</details>
-* <details><summary>[命令与权限](命令与权限)</summary>
-  [整体命令](命令与权限#整体命令)<br>
-  [物品命令](命令与权限#物品命令)<br>
-  [实体命令](命令与权限#实体命令)<br>
-  [实体生成蛋命令](命令与权限#实体生成蛋命令)<br>
-  [定点生成命令](命令与权限#定点生成命令)<br>
-  [实用命令](命令与权限#实用命令)<br>
-  [信号命令](命令与权限#信号命令)<br>
-  [整体权限](命令与权限#权限#整体)<br>
-  [命令权限](命令与权限#权限#命令)</details>
-* <details><summary>[错误排查](错误排查)</summary>
-  [实体相关](错误排查#实体配置相关错误)<br>
-  [技能相关](错误排查#技能配置相关错误)<br>
-  [生成相关](错误排查#生成相关错误)<br>
-  [物品相关](错误排查#物品相关错误) </details>
-* <details><summary>[拓展](拓展)</summary>
-  [Crucible](https://mythiccraft.io/index.php?resources/crucible-create-unbelievable-mythic-items.2/)<br>
-  [BossShop](https://www.spigotmc.org/resources/mythicmobs-%E2%9A%94-bossshoppro-add-on-%E2%9A%94.58415/)<br>
-  [Denizen](https://github.com/BerndiVader/mmDenizenAddon)<br>
-  [Quests](https://www.spigotmc.org/resources/mythicmobs-quests-module.7261/)<br>
-  [Skript](https://github.com/BerndiVader/mmSkriptAddon)<br>
-  [Advanced Achievements](https://www.spigotmc.org/resources/advanced-achievements.6239/)<br>
-  [BetonQuest](https://www.spigotmc.org/resources/betonquest.2117/)<br>
-  [BeautyQuests](https://www.spigotmc.org/resources/beautyquests.39255/)<br>
-  [EnchantsPlus](https://www.spigotmc.org/resources/enchantsplus.3396/)<br>
-  [Graveyards](https://www.spigotmc.org/resources/graveyards-40-off.7191/)<br>
-  [Heroes](https://www.spigotmc.org/resources/heroes.305/)<br>
-  [Holograms](https://www.spigotmc.org/resources/holograms.4924/)<br>
-  [LibsDisguises](https://www.spigotmc.org/resources/libs-disguises.81/)<br>
-  [McMMO](https://www.spigotmc.org/resources/mcmmo.2445/)<br>
-  [MiniaturePets](https://www.spigotmc.org/resources/%E2%8C%BE-miniaturepets-%E2%8C%BE-custom-mobs-great-for-eula.23991/)<br>
-  [SkillAPI](https://www.spigotmc.org/resources/skillapi-premium.28029/)<br>
-  [TerrainControl](https://www.spigotmc.org/resources/terraincontrol.2214/)<br>
-  [Vault](https://www.spigotmc.org/resources/vault.41918/)<br>
-  [WorldGuard](https://dev.bukkit.org/projects/worldguard)</details>
-* <details><summary>[API信息](API)</summary>
-  [Javadocs](API#javadocs)<br>
-  [Maven](API#maven)<br>
-  [Repository](API#Repository)<br>
-  [Dependency](API#Dependency)<br>
-  [事件列表](API#事件)</details>
-#### [实体](实体)
+* **目录**
+  * <details><summary>[首页](home)</summary>
+    [前言](home#前言)<br>
+    [什么是MythicMobs](home#什么是mythicmobs)<br>
+    [安装](home#安装)<br>
+    [帮助](home#帮助-问题)<br>
+    [预览版](home#预览版) </details>
+  * <details><summary>[更新日志](更新日志)</summary>
+    [v5.0~v4.14.x](更新日志)<br>
+    [v4.14.x](更新日志/4.14.x更新日志)<br>
+    [v4.13.x](更新日志/4.13.x更新日志)<br>
+    [v4.12.x](更新日志/4.12.x更新日志)<br>
+    [v4.11.x](更新日志/4.11.x更新日志)<br>
+    [v4.10.x](更新日志/4.10.x更新日志)<br>
+    [v4.9.x](更新日志/4.9.x更新日志)<br>
+    [v4.8.x](更新日志/4.8.x更新日志)<br>
+    [v4.7.x](更新日志/4.7.x更新日志)</details>
+  * <details><summary>[付费版内容](付费版内容)</summary>
+    在Discord频道中的特殊身份<br>
+    进入付费用户频道且允许创建更高优先度的支持贴<br>
+    率先体验最新版本<br>
+    访问开发构建<br>
+    使用付费版技能<br>
+    使用自定义伤害类型和伤害修改器的能力<br>
+    能够在许多方面使用计算和占位符<br>
+    自定义技能参数<br>
+    在抛射技能中的命中条件下使用的能力<br>
+    使用付费条件<br>
+    能够在任何技能中使用origin=@targeter<br>
+    敬请期待!</details>
+  * <details><summary>[配置](配置)</summary>
+    [基本项配置](配置#基本项general)<br>
+    [时钟项配置](配置#时钟clock)<br>
+    [分支项配置](配置#分支components)<br>
+    [实体项配置](配置#实体mobs)<br>
+    [随机生成项配置](配置#随机生成项randomspawning)<br>
+    [兼容项配置](配置#兼容项compatibility)</details>
+  * <details><summary>[命令与权限](命令与权限)</summary>
+    [整体命令](命令与权限#整体命令)<br>
+    [物品命令](命令与权限#物品命令)<br>
+    [实体命令](命令与权限#实体命令)<br>
+    [实体生成蛋命令](命令与权限#实体生成蛋命令)<br>
+    [定点生成命令](命令与权限#定点生成命令)<br>
+    [实用命令](命令与权限#实用命令)<br>
+    [信号命令](命令与权限#信号命令)<br>
+    [整体权限](命令与权限#权限#整体)<br>
+    [命令权限](命令与权限#权限#命令)</details>
+  * <details><summary>[错误排查](错误排查)</summary>
+    [实体相关](错误排查#实体配置相关错误)<br>
+    [技能相关](错误排查#技能配置相关错误)<br>
+    [生成相关](错误排查#生成相关错误)<br>
+    [物品相关](错误排查#物品相关错误) </details>
+  * <details><summary>[拓展](拓展)</summary>
+    [Crucible](https://mythiccraft.io/index.php?resources/crucible-create-unbelievable-mythic-items.2/)<br>
+    [BossShop](https://www.spigotmc.org/resources/mythicmobs-%E2%9A%94-bossshoppro-add-on-%E2%9A%94.58415/)<br>
+    [Denizen](https://github.com/BerndiVader/mmDenizenAddon)<br>
+    [Quests](https://www.spigotmc.org/resources/mythicmobs-quests-module.7261/)<br>
+    [Skript](https://github.com/BerndiVader/mmSkriptAddon)<br>
+    [Advanced Achievements](https://www.spigotmc.org/resources/advanced-achievements.6239/)<br>
+    [BetonQuest](https://www.spigotmc.org/resources/betonquest.2117/)<br>
+    [BeautyQuests](https://www.spigotmc.org/resources/beautyquests.39255/)<br>
+    [EnchantsPlus](https://www.spigotmc.org/resources/enchantsplus.3396/)<br>
+    [Graveyards](https://www.spigotmc.org/resources/graveyards-40-off.7191/)<br>
+    [Heroes](https://www.spigotmc.org/resources/heroes.305/)<br>
+    [Holograms](https://www.spigotmc.org/resources/holograms.4924/)<br>
+    [LibsDisguises](https://www.spigotmc.org/resources/libs-disguises.81/)<br>
+    [McMMO](https://www.spigotmc.org/resources/mcmmo.2445/)<br>
+    [MiniaturePets](https://www.spigotmc.org/resources/%E2%8C%BE-miniaturepets-%E2%8C%BE-custom-mobs-great-for-eula.23991/)<br>
+    [SkillAPI](https://www.spigotmc.org/resources/skillapi-premium.28029/)<br>
+    [TerrainControl](https://www.spigotmc.org/resources/terraincontrol.2214/)<br>
+    [Vault](https://www.spigotmc.org/resources/vault.41918/)<br>
+    [WorldGuard](https://dev.bukkit.org/projects/worldguard)</details>
+  * <details><summary>[API信息](API)</summary>
+    [Javadocs](API#javadocs)<br>
+    [Maven](API#maven)<br>
+    [Repository](API#Repository)<br>
+    [Dependency](API#Dependency)<br>
+    [事件列表](API#事件)</details>
+* **[实体](实体)**
   * <details><summary>[概览](实体)</summary>
     [实体配置概览](/实体#实体概览)<br>
     [实体配置内容概览](/实体#内容概览)<br>
@@ -246,7 +247,7 @@
   * <details><summary>[拓展: 模型引擎](Model-Engine)</summary>
     [模型引擎工作原理](实体/Model-Engine#model-engine-工作原理)<br>
     [模型引擎使用示范](实体/Model-Engine#示例)</details>
-#### [技能](技能/概览)
+* **[技能](技能/概览)**
   * <details><summary>[概览](技能/概览)</summary>
       [前言](/技能/概览#技能概览)<br>
       [入门](/技能/概览#入门)<br>
@@ -670,7 +671,7 @@
     [技能组内用法](/技能/变量#在技能组内使用占位符)<br>
     [读取玩家占位符](/技能/变量##读取玩家占位符这里拿-读取原版等级做示范)</details>
   * <details><summary>[技能参数](/技能/技能参数)</summary>
-#### [物品 & 掉落](物品)
+* **[物品 & 掉落](物品)**
   * <details><summary>[掉落及掉落表](物品/掉落)</summary>
     [掉落配置格式](掉落#掉落配置格式)<br>
     [单行配置格式](掉落#单行物品配置)<br>
@@ -699,16 +700,16 @@
     [图案](/物品/旗帜#)<br>
     [示例](/物品/旗帜#)</details>
 
-#### 生成
-  * <details><summary>[[定点生成]]</summary>
+* **生成**
+  * <details><summary>[定点生成](定点生成)</summary>
     [示例配置](/定点生成#示例配置)<br>
     [选项](/定点生成#选项)</details>
-  * <details><summary>[[随机生成]]</summary>
+  * <details><summary>[随机生成](随机生成)</summary>
     [示例](/随机生成#随机生成)<br>
     [示例详解](/随机生成#示例文件的选项详解)<br>
     [其它示例](/随机生成#其它示例)</details>
 
-#### 教学
+* **教学**
   * <details><summary>[[机制教学]]</summary>
     [物品蓄力](/机制教学#物品蓄力)<br>
     [共享血量](/机制教学#共享血量)<br>
