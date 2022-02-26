@@ -18,6 +18,17 @@
 
 受伤后将自身的显示名修改为 当前目标 的名称.
 
+注意
+----
+
+当施法者已伪装, 且设 setDynamic 为 true时  
+使用 ~onTimer 激活该技能将导致如下报错:
+
+```yaml
+[SCHEDULER] Exception thrown whilst executing task  
+java.lang.IllegalStateException: Cannot modify disguises on an async thread
+```
+
 额外信息
 -------
 
