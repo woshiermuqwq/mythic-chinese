@@ -1,4 +1,4 @@
-* **目录**
+**目录**
   * <details><summary>[首页](home)</summary>
     [前言](home#前言)<br>
     [什么是MythicMobs](home#什么是mythicmobs)<br>
@@ -76,7 +76,8 @@
     [Repository](API#Repository)<br>
     [Dependency](API#Dependency)<br>
     [事件列表](API#事件)</details>
-* **[实体](实体)**
+
+**实体**
   * <details><summary>[概览](实体)</summary>
     [实体配置概览](/实体#实体概览)<br>
     [实体配置内容概览](/实体#内容概览)<br>
@@ -247,7 +248,8 @@
   * <details><summary>[拓展: 模型引擎](Model-Engine)</summary>
     [模型引擎工作原理](实体/Model-Engine#model-engine-工作原理)<br>
     [模型引擎使用示范](实体/Model-Engine#示例)</details>
-* **[技能](技能/概览)**
+
+**技能**
   * <details><summary>[概览](技能/概览)</summary>
       [前言](/技能/概览#技能概览)<br>
       [入门](/技能/概览#入门)<br>
@@ -671,7 +673,11 @@
     [技能组内用法](/技能/变量#在技能组内使用占位符)<br>
     [读取玩家占位符](/技能/变量##读取玩家占位符这里拿-读取原版等级做示范)</details>
   * <details><summary>[技能参数](/技能/技能参数)</summary>
-* **[物品 & 掉落](物品)**
+
+**物品 & 掉落**
+  * <details><summary>[概览](物品)</summary>
+    [详解](物品#详细讲解各项)<br>
+	[示例](物品#示例)<details>
   * <details><summary>[掉落及掉落表](物品/掉落)</summary>
     [掉落配置格式](掉落#掉落配置格式)<br>
     [单行配置格式](掉落#单行物品配置)<br>
@@ -700,7 +706,7 @@
     [图案](/物品/旗帜#)<br>
     [示例](/物品/旗帜#)</details>
 
-* **生成**
+**生成**
   * <details><summary>[定点生成](定点生成)</summary>
     [示例配置](/定点生成#示例配置)<br>
     [选项](/定点生成#选项)</details>
@@ -709,7 +715,7 @@
     [示例详解](/随机生成#示例文件的选项详解)<br>
     [其它示例](/随机生成#其它示例)</details>
 
-* **教学**
+**教学**
   * <details><summary>[[机制教学]]</summary>
     [物品蓄力](/机制教学#物品蓄力)<br>
     [共享血量](/机制教学#共享血量)<br>
