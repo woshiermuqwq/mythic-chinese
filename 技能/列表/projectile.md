@@ -21,7 +21,7 @@
 | onBounceSkill | onBounce | 抛射物反射开始后所激活的技能组 | 无 |
 | bounce | b | 抛射物是否在命中方块后进行弹射 | false |
 | bouncevelocity | bv | 抛射物弹射后速度会被乘以多少 | 0.9 |
-| Type                 | 无           | 抛射物种类[[1]](#抛射物种类)  | NORMAL   |
+| Type                 | 无           | [抛射物种类](#抛射物种类)  | NORMAL   |
 | Interval             | int, i           | 抛射物刷新间隔(刻) | 1  |
 | HorizontalRadius     | hRadius, hr, r | 抛射物碰撞箱水平半径 | 1.25              |
 | VerticalRadius       | vRadius, vR | 抛射物碰撞箱垂直半径 | 等值于Horizontal Radius |
@@ -90,10 +90,10 @@ HugLiquid 新增于 MM 4.14.0
 | 类型 | 描述 | 附带修改项 | 描述 | 写法 |
 |-------|------------|------------|------------|------------|
 | ARROW | 箭矢 | 无 | 无 | projectile{bulletType=ARROW;...} |
-| BLOCK | 方块 | material | 所选取的方块 | projectile{bulletType=BLOCK;material=STONE;...} |
-| ITEM | 物品 | material | 所选取的物品 | projectile{bulletType=ITEM;material=diamond;...} |
+| BLOCK | 方块 | bulletmaterial(material, mat) / bulletsmall | 所选取的方块 / 是否为小方块| projectile{bulletType=BLOCK;material=STONE;...} |
+| ITEM | 物品 | bulletmaterial, material, mat | 所选取的物品 | projectile{bulletType=ITEM;material=diamond;...} |
 | MYTHICITEM | MythicMobs物品 | material | 所选取的MythicMobs物品 | projectile{bulletType=MYTHICITEM;material=Mythicdiamond;...} |
-| MOB（mm, mmobs）  | 实体(支持MythicMobs实体) | mob | 所选取的实体 | projectile{bulletType=MOB;mob=SkeletonKing;...} |
+| MOB（mm, mmobs）  | 实体(支持MythicMobs实体) | mob / bulletmodel | 所选取的实体 / ModelEngine模型数字ID | projectile{bulletType=MOB;mob=SkeletonKing;...} |
 | TRACKING（4.14.0） | 头戴方块的盔甲架,方块的中心为抛射物的位置 | 无 | 无 | 无 |
 
 抛射物种类
