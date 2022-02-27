@@ -49,7 +49,7 @@
 | StopAtBlock | sb | 抛射物是否在命中固体方块后消失 | true |
 | HugSurface | hs | 抛射物是否在落到方块上方后继续移动 | false |
 | HugLiquid | hl | 抛射物是否在落到流体上方后继续移动 | false |
-| HeightFromSurface | hfs | | 0.5 |
+| HeightFromSurface | hfs | 当抛射物类型为 Meteor 时, 抛射物离技能目标位置多高（格方块 支持[占位符](技能/占位符)与[变量](技能/变量)) | 0.5 |
 | PowerAffectsRange | par | [技能威力](/实体/威力)是否影响抛射物最大移动距离 | true |
 | PowerAffectsVelocity | pav | [技能威力](/实体/威力)是否影响抛射物移动速度 | true |
 | Gravity              | g           | 抛射物重力 | 0                 |
