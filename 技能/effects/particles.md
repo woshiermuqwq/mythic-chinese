@@ -21,7 +21,7 @@
 | fromorigin | 无 | 是否起始于施法者/抛射物的坐标原点 | false |
 | directional | d | 粒子动量是否可被修改 | false | 
 | directionReversed | dr | 是否反转粒子动量 | false | 
-| direction | dir | 向指定坐标移动（简单理解为粒子方向 需粒子动量可被修改） | 目标选择器所选取的位置 | 
+| direction | dir | 给予指定坐标的向量（简单理解为粒子方向 需粒子动量可被修改） | 目标选择器所选取的位置 | 
 | useEyeLocation | uel | 是否以施法者眼睛部位为起始点 | false |
 | startForwardOffset   | forwardOffset, sfo | 粒子起始点前后偏移量(格方块) | 0 |
 | sideOffset | soffset, sso | 粒子起始点左右偏移量(格方块) | 0 |
@@ -42,7 +42,7 @@
 -   reddust
 -   mob  
 
-修改粒子动量后, 粒子会向当前世界 指定坐标移动, 其移动速度受到 **speed** 的影响.   
+修改粒子动量后, 粒子会向向量所指示方向移动, 其移动速度受到 **speed** 的影响.   
 未修改粒子动量但已开启粒子动量, 粒子会向目标选择器的方向移动, 支持任何目标选择器.  
 
 有关粒子类型: Mob（4.12）
