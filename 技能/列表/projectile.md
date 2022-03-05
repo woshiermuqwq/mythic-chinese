@@ -35,13 +35,13 @@
 | EndOffset | esoffset, eo | 抛射物目标位置的双轴偏移<br>正数为向左 向下偏, 负数反之（格方块 支持[占位符](技能/占位符)与[变量](技能/变量)) | 无 |
 | StartYOffset | syo | 抛射物发射点垂直偏移量（格方块, 正上负下 支持[占位符](技能/占位符)与[变量](技能/变量)） | 1.0 |
 | StartFOffset | sfo | 抛射物发射点前后偏移量（格方块, 正前负后 支持[占位符](技能/占位符)与[变量](技能/变量)) | 1.0 |
-| StartSOffset | sso | 抛射物发射点左右偏移量（格方块 正右负左 支持[占位符](技能/占位符)与[变量](技能/变量)） | 1.0 |
+| StartSOffset | sso | 抛射物发射点左右偏移量（格方块 正右负左 支持[占位符](技能/占位符)与[变量](技能/变量)） | 0.0 |
 | TargetYOffset | targetty, tyo | 抛射物目标位置垂直偏移量(格方块 正上负下 支持[占位符](技能/占位符)与[变量](技能/变量)） | 1.0 |
 | HorizontalOffset     | hO          | 抛射物发射方向水平旋转角度(弧度角 正右负左 支持[占位符](技能/占位符)与[变量](技能/变量)) | 0                 |
 | VerticalOffset       | vO          | 抛射物发射方向垂直旋转角度(圆心角 正上负下 支持[占位符](技能/占位符)与[变量](技能/变量)) | 0                 |
 | HitTarget | ht | 抛射物是否可命中施法者 | false |
 | HitPlayers | hp | 抛射物是否可命中玩家 | true |
-| HitNonPlayers | hnp | 抛射物是否可命中非玩家实体 | false |
+| HitNonPlayers | hnp | 抛射物是否可命中非玩家实体 | **false** |
 | HitTarget | ht | 抛射物是否可命中技能目标 | true |
 | HitTargetOnly | hto | 抛射物是否仅可命中技能目标 | false |
 | HitArmorStands | ha | 抛射物是否可命中盔甲架 | false |
@@ -111,12 +111,13 @@ HugLiquid 新增于 MM 4.14.0
 
     Test:
      Skills:
-     - projectile{ontick=[  - e:particles{p=flame;a=20;s=0;hS=0.2;vS=0.2} @origin ];oh=[  - damage{a=10}  - potion{t=SLOW;d=100;l=2} ];v=8;i=1;hR=1;vR=1}
+     - projectile{hnp=true;ontick=[  - e:particles{p=flame;a=20;s=0;hS=0.2;vS=0.2} @origin ];oh=[  - damage{a=10}  - potion{t=SLOW;d=100;l=2} ];v=8;i=1;hR=1;vR=1}
 
      Skills:
       - projectile{
           velocity=3;
           interval=1;
+          hitnonplayers=true;
           onTick=[
             - e:p{p=flame;fromOrigin=true} @origin
           ];
@@ -126,7 +127,7 @@ HugLiquid 新增于 MM 4.14.0
 
     测试:
      Skills:
-     - p{ot=测试-Tick;oh=测试-Hit;v=8;i=1;hr=1;vr=1}
+     - p{ot=测试-Tick;oh=测试-Hit;v=8;i=1;hr=1;vr=1;hnp=true}
 
     测试-Tick:
      Skills:
