@@ -11,8 +11,10 @@
 | damage           | a | 所造成的伤害数值（为负时不造成伤害, 但仍会变红）         | 1    |
 | preventknockback | pkb, pk | 是否不会造成击退   | false   |
 | preventimmunity  | pi      | 是否无视受伤间隔   | false   |
-| ignorearmor      | i, ia    | 是否无视实体防御 | false   |
-| element | type | 所造成伤害的伤害类型 | 无 |
+| ignorearmor      | ia, i    | 是否无视实体防御 | false   |
+| element | e, damagetype, type | 所造成伤害的伤害种类 | 无 |
+| damagecause | dc, cause | 所造成伤害的伤害类型 | Entity_Attack |
+
 
 ### 伤害类型 (Element)
 伤害类型的使用方法:
@@ -64,11 +66,14 @@
 提示
 ----
 
-在 MM 4.13 及以上的版本中, onAttack触发器不再会被该技能所触发
+在 MM 4.13 及以上的版本中, onAttack触发器不再会被该技能所触发  
+伤害种类（DamageCause）不同于伤害类型（Element）  
+当种类为Fire时, 被击杀者将显示被烧死  
+当类型为Fire时, 则只是正常的被打死
 
 额外信息
 -------
 
-- **支持** [占位符](/技能/占位符)与[变量](/技能/变量)（仅限值类型为数值的修改项）
+- **支持** [占位符](/技能/占位符)与[变量](/技能/变量)（仅限值类型不为布尔值的修改项）
 - 缩写: d
 - 施法者类型不可为 Marker（解决方法是用SudoSkill）
