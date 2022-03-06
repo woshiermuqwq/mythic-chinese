@@ -25,6 +25,8 @@
 | useEyeLocation | uel | 是否以施法者眼睛部位为起始点 | false |
 | startForwardOffset   | forwardOffset, sfo | 粒子起始点前后偏移量(格方块) | 0 |
 | sideOffset | soffset, sso | 粒子起始点左右偏移量(格方块) | 0 |
+| fixedyaw | yaw | 偏移方向视角水平角度 | -1111.0f |
+| fixedypitch | pitch | 偏移方向视角俯仰视角度 | -1111.0f |
 
 有关粒子颜色
 -------
@@ -57,6 +59,12 @@
 该粒子种类所生成的实体与施法者没有任何关系  
 施法者不会是被生成实体的主人、父系实体等
 
+关于 FixedYaw/Pitch
+--------
+
+若不定义这俩修改项, sfo/sso/syo 等偏移 会基于施法者当前视角, 这意味着粒子有时会乱掉  
+尤其是玩家俯仰视角度较大的时候  
+解决办法就是写入 `pitch=0`
 示例
 --------
 
