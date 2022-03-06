@@ -391,8 +391,8 @@
     [Add Tag](/技能/列表/addtag)<br>
     [Remove Tag](/技能/列表/removetag)<br>
     [Teleport](/技能/列表/teleport)<br>
-    [TeleportIn](/技能/列表/teleportin)<br>
-    [TeleportTo](/技能/列表/teleportto)<br>
+    [Teleport In](/技能/列表/teleportin)<br>
+    [Teleport To](/技能/列表/teleportto)<br>
     [Threat](/技能/列表/threat)<br>
     [Throw](/技能/列表/throw)<br>
     [Toggle Lever](/技能/列表/togglelever)<br>
