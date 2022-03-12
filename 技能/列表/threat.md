@@ -5,6 +5,8 @@
 
 可用修改模式:
 
+-   ForceTop(强制最高)
+-   Reset(重设)
 -   SET(设置)
 -   ADD(加)
 -   SUBTRACT(减)
