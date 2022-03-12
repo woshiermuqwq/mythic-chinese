@@ -148,3 +148,43 @@ HugLiquid 新增于 MM 4.14.0
 -------
 
 - [x] 缩写: p
+
+使用技巧
+-----
+
+由于命中方块不会激活onend, 那如果你想要做到类似于  
+抛射物不会激活特效, 除非命中方块与实体 的效果的话  
+
+```yaml
+ Skills:
+ - projectile{
+  ontick=[
+    - effect:particles{particle=flame}
+    ];
+  onhit=[
+    - message{m="中嘞实体, 哥"} @self
+    - aura{duration=100;auraname=命中实体} @self
+    ];
+  onend=[
+    - message{m="中嘞方块, 哥"} @self ?!hasaura{aura=命中实体}
+    ]} @forward{f=9999}
+```
+目前如果这个抛射物没有命中任何事物, 照样会发送 `中嘞方块, 哥`, 所以:```yaml
+```yaml
+ Skills:
+ - projectile{maxduration=120;
+  ontick=[
+    - effect:particles{particle=flame}
+    ];
+  onhit=[
+    - message{m="中嘞实体, 哥"} @self
+    - aura{duration=100;auraname=命中实体} @self
+    ];
+  onend=[
+    - message{m="中嘞方块, 哥"} @self ?!hasaura{aura=命中实体} ?!hasaura{aura=未命中}
+    ]} @forward{f=9999}
+  - projectile{maxduration=119;onend=[  - aura{duration=100;auraname=未命中} @self ]} @forward{f=9999}
+```
+多写一条projectile, 同时由于第二条projectile的最大持续时间比第一条少1tick  
+会比第一条projectile早1tick结束, 这意味着光环"未命中"会在第一条projectile  
+结束之前给予给施法者, 然后由于条件限制, 第一条的onendskill就不会被激活
