@@ -653,6 +653,7 @@
     [World Time](/条件/worldtime)<br>
     [Yaw](/条件/yaw)<br>
     [Y Diff](/条件/ydiff)</details>
+  * [单行条件](/技能/条件/单行条件)
   * <details><summary>[占位符](技能/占位符)</summary>
     [特殊符号占位符](技能/占位符#特殊符号)<br>
     [颜色代码占位符](技能/占位符#颜色代码)<br>
