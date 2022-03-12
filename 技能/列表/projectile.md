@@ -39,7 +39,7 @@
 | TargetYOffset | targetty, tyo | 抛射物目标位置垂直偏移量(格方块 正上负下 支持[占位符](技能/占位符)与[变量](技能/变量)） | 1.0 |
 | HorizontalOffset     | hO          | 抛射物发射方向水平旋转角度(弧度角 正右负左 支持[占位符](技能/占位符)与[变量](技能/变量)) | 0                 |
 | VerticalOffset       | vO          | 抛射物发射方向垂直旋转角度(圆心角 正上负下 支持[占位符](技能/占位符)与[变量](技能/变量)) | 0                 |
-| HitTarget | ht | 抛射物是否可命中施法者 | false |
+| HitSelf |  | 抛射物是否可命中施法者 | false |
 | HitPlayers | hp | 抛射物是否可命中玩家 | true |
 | HitNonPlayers | hnp | 抛射物是否可命中非玩家实体 | **false** |
 | HitTarget | ht | 抛射物是否可命中技能目标 | true |
