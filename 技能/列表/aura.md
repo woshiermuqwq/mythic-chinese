@@ -11,9 +11,9 @@
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
 | auraName            | buffname, debuffname | 光环名称（支持[占位符](/技能/占位符)与[变量](/技能/变量)） | 无          |
-| onStartSkill             | onstart, os      | 光环激活后施法者所激活的技能（光环给予者为技能施法者） | 无          |
-| onTickSkill              | ontick, ot      | 光环刷新后施法者所激活的技能（光环给予者为技能施法者） | 无          |
-| onEndSkill               | onend, oe      | 光环结束后施法者所激活的技能（光环给予者为技能施法者） | 无          |
+| onStartSkill             | onstart, os      | 光环激活后施法者所激活的技能（光环给予者为技能组施法者） | 无          |
+| onTickSkill              | ontick, ot      | 光环刷新后施法者所激活的技能（光环给予者为技能组施法者） | 无          |
+| onEndSkill               | onend, oe      | 光环结束后施法者所激活的技能（光环给予者为技能组施法者） | 无          |
 | Charges             | c       | 光环最大可命中次数（支持[占位符](/技能/占位符)与[变量](/技能/变量)）               | 0             |
 | Duration            | ticks, t, d, time, t       | 光环最大持续时间(刻 支持[占位符](/技能/占位符)与[变量](/技能/变量)) | 200           |
 | Interval            | i       | 光环刷新间隔(刻) | 1             |
@@ -23,8 +23,8 @@
 | mergeAll            | ma | 光环是否叠加所有相同的光环 | false         |
 | showbartimer | bartimer, bt | 是否以Boss血条的形式向施法者显示光环剩余时间 | false |
 | bartimerdisplay | bartimertext | 所显示的Boss血条文本 | <skill.var.aura-name> |
-| bartimercolor | | 所显示的Boss血条颜色 | Red |
-| bartimerstyle | | 所显示的Boss血条样式 | SOLID |
+| bartimercolor | | 所显示的[Boss血条颜色}(/实体/Boss血条#血条样式列表) | Red |
+| bartimerstyle | | 所显示的[Boss血条样式}(/实体/Boss血条#血条样式列表)  | SOLID |
 | CancelOnGiveDamage  | cogd    | 光环是否在光环持有者造成伤害后消失 | false         |
 | CancelOnTakeDamage  | cotd    | 光环是否在光环持有者受到伤害后消失 | false         |
 | CancelOnDeath       | cod     | 光环是否在光环持有者死亡后消失 | true         |
