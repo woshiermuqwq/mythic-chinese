@@ -32,6 +32,7 @@
 | CancelOnChangeWorld | cocw    | 光环是否在光环持有者改变世界后消失 | false         |
 | CancelOnSkillUse    | cosu    | 光环是否在光环持有者激活技能后消失 | true         |
 | CancelOnQuit        | coq     | 光环是否在光环持有者离线后消失 | true         |
+| doendskillonterminate | desot, alwaysrunendskill, ares | 光环被停止后是否激活 onEndSkill | true |
 
   
 特殊修改项
