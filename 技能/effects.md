@@ -1,4 +1,4 @@
-![http://fs5.directupload.net/images/220313/dnl45ypn.gif](http://fs5.directupload.net/images/220313/dnl45ypn.gif)
+![http://s20.directupload.net/images/220313/dnl45ypn.gif](http://s20.directupload.net/images/220313/dnl45ypn.gif)
 
 特效技能
 -------------
