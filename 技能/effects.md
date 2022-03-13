@@ -1,4 +1,4 @@
-
+![https://s20.directupload.net/images/220313/temp/dnl45ypn.gif](https://s20.directupload.net/images/220313/temp/dnl45ypn.gif)
 特效技能
 -------------
 
