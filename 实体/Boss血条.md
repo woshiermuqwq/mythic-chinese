@@ -22,7 +22,16 @@ MythicMobs实体名:
 
 血条颜色可为: PINK(粉), BLUE(蓝), RED(红), GREEN(绿), YELLOW(黄), PURPLE(紫), WHITE(白)
 
-血条样式可为: SOLID, SEGMENTED_6, SEGMENTED_10, SEGMENTED_12, SEGMENTED_20
+血条样式列表
+-----------
+
+| 样式名 | 描述 |
+| - | - |
+| SOLID | 平滑 |
+| SEGMENTED_6 | 分6段 |
+| SEGMENTED_10 | 分10段|
+| SEGMENTED_12 | 分12段 |
+| SEGMENTED_20 | 分20段 |
 
 在显示范围之外的玩家不会显示Boss血条
 
