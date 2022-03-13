@@ -29,6 +29,32 @@ Conditions:
 - health{h=>10} true
 ```
 
+```
+# 技能目标生命在50%以下
+检测目标:
+ Skills:
+ - skill:检测百分比 @entitiesinradius{radius=16}
+检测百分比
+ Skills:
+ - setvariable{variable=skill.aaa;type=float;value=<target.php>}
+检测成功:
+ TargetConditions:
+ - variablerange{var=skill.aaa;value=<50}
+ Skills:
+ - damage{a=999}
+```
+
+```
+# 自身生命在50%以下
+检测目标:
+ Skills:
+ - skill:检测百分比 @self
+检测百分比
+ Skills:
+ - setvariable{variable=skill.aaa;type=float;value=<target.php>}
+ - damage{a=999} ?varrange{var=caster.aaa;v=<50}
+```
+
 ---
 
 **拓展信息:**
