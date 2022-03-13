@@ -14,6 +14,6 @@
 示例
 --------
 
-      CallSkeletalHorse:
+      骑乘骷髅马:
         Skills:
-        - mount{type=UndeadMount}
+        - mount{type=亡灵坐骑}
