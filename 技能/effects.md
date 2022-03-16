@@ -1,4 +1,5 @@
-![gNtz2.gif](https://s1.328888.xyz/2022/03/16/gNtz2.gif)
+![gNtz2.gif](https://s1.328888.xyz/2022/03/16/gNtz2.gif)  
+![gNze7.gif](https://s1.328888.xyz/2022/03/16/gNze7.gif)
 
 特效技能
 -------------
