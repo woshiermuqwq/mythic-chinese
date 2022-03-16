@@ -259,7 +259,8 @@
       [格式 触发器](/技能/概览#触发器)<br>
       [格式 血量要求](/技能/概览#血量要求)<br>
       [格式 触发几率](/技能/概览#触发几率)<br>
-      [付费格式 技能](/技能/概览#一些付费版技能格式)</details>
+      [格式 行内技能组](/技能/概览#行内技能组写法)<br>
+      [格式 多行修改项](/技能/概览#多行修改项写法)</details>
   * <details><summary>[列表](技能/列表)</summary>
     [Activate Spawner](/技能/列表/activatespawner)<br>
     [Animate ArmorStand](/技能/列表/animatearmorstand)<br>
