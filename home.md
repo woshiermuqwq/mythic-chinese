@@ -5,6 +5,14 @@
 基于国内 Minecraft 1.12.2 服务器仍然盛行的情况\
 中文百科将列出 Minecraft 1.16 以下的注意事项
 
+## 当前版本(包括附属)
+| 插件名 | [免费版](https://www.mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.0.2.jar) | 对应MC版本 | [付费版](https://mythiccraft.io/index.php?pages/official-mythicmobs-download/&download=4.14.2) | [付费预览版](https://mythiccraft.io/index.php?pages/official-mythicmobs-dev/)
+| - | - | - | - | - |
+| MythicMobs | 5.0.2 | 1.16.5~1.18.2 | 4.12.2 | 5.0.3-4073 |
+| MythicLib | 1.0.3 | 1.16.5~1.18.2 | 无 | 无 | 无 |
+| MythicExtensions | 1.739 | 1.12.2~1.16.5 | 无 | 无 |
+| MythicCrucible | 无 | 1.16.5~1.18.2 | 无 | 1.2.0 |
+
 ## 什么是Mythic?
 
 Mythic允许你完全修改一切原版实体的任何属性, 基于原版创造属于自己的实体, 以及其他许多有趣的与实体有关的事物.
