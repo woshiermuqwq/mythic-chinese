@@ -15,7 +15,7 @@
 | colors | c | 烟花火箭效果的RGB颜色值 | 0,0,0 |
 | fadecolors | fc | 烟花火剑爆炸效果的RGB颜色值 | 0,0,0 |
 
-烟花火箭种类
+烟花火箭种类 (4.13以下)
 --------
 
 - 0 : 小爆炸
@@ -24,8 +24,16 @@
 - 3 : 爬行者头颅爆炸
 - 4 : 爆裂性爆炸
 
+4.13以上:
+
+- BALL: 小爆炸
+- BALL_LARGE : 大爆炸
+- BURST : 爬行者头颅爆炸
+- CREEPER : 爆裂性爆炸
+- STAR : 星形爆炸
+
 示例
 --------
 
       Skills:
-      - effect:firework{t=3;d=1;f=true;tr=true} @self ~onInteract
+      - effect:firework{t=burst;d=1;f=true;tr=true} @self ~onInteract
