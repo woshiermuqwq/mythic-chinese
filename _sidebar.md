@@ -449,7 +449,7 @@
     [Flames](/技能/effects/flames)<br>
     [Geyser](/技能/effects/geyser)<br>
     [Glow](/技能/effects/glow)<br>
-    [Guardian Beam](/技能/列表/guardianbeam)<br>
+    [Guardian Beam](/技能/effects/guardianbeam)<br>
     [Item Spray](/技能/effects/itemspray)<br>
     [Lightning](/技能/effects/lightning)<br>
     [Particles](/技能/effects/particles)<br>
