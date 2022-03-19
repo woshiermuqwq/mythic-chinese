@@ -248,7 +248,7 @@
   * <details><summary>[拓展: 模型引擎](Model-Engine)</summary>
     [模型引擎工作原理](实体/Model-Engine#model-engine-工作原理)<br>
     [模型引擎使用示范](实体/Model-Engine#示例)</details>
-  * <details><summary>[拓展: MPets](Model-Engine)</summary>
+  * <details><summary>[拓展: MPets](MPets)</summary>
     [示例](实体/MPets#示例)<br>
 
 **技能**
