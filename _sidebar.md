@@ -248,6 +248,8 @@
   * <details><summary>[拓展: 模型引擎](Model-Engine)</summary>
     [模型引擎工作原理](实体/Model-Engine#model-engine-工作原理)<br>
     [模型引擎使用示范](实体/Model-Engine#示例)</details>
+  * <details><summary>[拓展: MPets](Model-Engine)</summary>
+    [示例](实体/MPets#示例)<br>
 
 **技能**
   * <details><summary>[概览](技能/概览)</summary>
