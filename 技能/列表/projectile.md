@@ -22,7 +22,7 @@
 | bounce | b | 抛射物是否在命中方块后进行弹射 | false |
 | bouncevelocity | bv | 抛射物弹射后速度会被乘以多少 | 0.9 |
 | Type                 | 无           | [抛射物种类](#抛射物种类)  | NORMAL   |
-| Interval             | int, i           | 抛射物刷新间隔(刻) | 1  |
+| Interval             | int, i           | 抛射物刷新间隔(刻) | 1(4.13以下为4)  |
 | HorizontalRadius     | hRadius, hr, r | 抛射物碰撞箱水平半径 | 1.25              |
 | VerticalRadius       | vRadius, vR | 抛射物碰撞箱垂直半径 | 等值于Horizontal Radius |
 | Maxduration             | md, duration, d           | 抛射物最大持续时间(刻 支持[占位符](技能/占位符)与[变量](技能/变量)） | 100               |
