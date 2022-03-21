@@ -50,6 +50,7 @@
     [技能相关](错误排查#技能配置相关错误)<br>
     [生成相关](错误排查#生成相关错误)<br>
     [物品相关](错误排查#物品相关错误) </details>
+  * <details><summary>[常见报错](常见报错)</summary>
   * <details><summary>[拓展](拓展)</summary>
     [Crucible](https://mythiccraft.io/index.php?resources/crucible-create-unbelievable-mythic-items.2/)<br>
     [BossShop](https://www.spigotmc.org/resources/mythicmobs-%E2%9A%94-bossshoppro-add-on-%E2%9A%94.58415/)<br>
