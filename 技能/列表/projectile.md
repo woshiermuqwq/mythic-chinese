@@ -59,9 +59,9 @@
 | hitConditions | conditions, cond, c | 若所命中的目标不符合条件, 则不会判定命中该实体 | 无 |
 | FromOrigin | fo | 发射点是否位于坐标原点 | false |
 
+FromOrigin 新增于 MM 4.11.0  
 EndOffset 新增于 MM 4.14.0  
 StartingDirection 新增于 MM 4.14.0  
-FromOrigin 新增于 MM 4.14.0  
 OnBounce 新增于 MM 4.14.0  
 Bounce 新增于 MM 4.14.0  
 BulletColor 新增于 MM 4.14.0  
