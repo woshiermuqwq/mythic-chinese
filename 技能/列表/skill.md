@@ -40,7 +40,8 @@
 因施法者为非玩家时, raytrace需在主线程进行  
 虽技能组: 测试 在主线程进行, 但由于 `raytrace` 为技能组: 测试tick 内的技能行  
 且该技能组为 [Projectile](/技能/列表/projectile)/[Aura](/技能/列表/aura) 所调用  
-该技能组则变回了异步执行, 所以需要这么改:```yaml
+该技能组则变回了异步执行, 所以需要这么改:
+```yaml
 测试:
  Skills:
  - skill:测试tick{repeat=99;repeatinterval=1}
