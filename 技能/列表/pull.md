@@ -13,6 +13,10 @@
 | velocity  | v       | 移动速度.                                          | 1             |
 | toOrigin  | to      | 是否移动到坐标位置而不是施法者面前 | false         |
 
+提示信息
+------
+
+技能目标越远, 其拉扯速度越快, 哪怕拥有相同的 `velocity` 值
 
 示例
 --------
@@ -20,5 +24,11 @@
     Skills:
     - pull{v=1;repeat=9999;repeatInterval=1} @target
 
-令目标500秒内都无法离开施法者.
+令目标500秒内都无法离开施法者.  
+
+司空震一技能拉拢效果:
+
+    Skills:
+    - projectile{interval=1;md=60;ontick=[  - pull{to=true} @eno{r=2} ];se=false;sb=false} @forward{f=999;pitch=0}
+
 
