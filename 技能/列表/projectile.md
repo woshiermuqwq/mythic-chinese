@@ -25,20 +25,20 @@
 | Interval             | int, i           | 抛射物刷新间隔(刻) | 1(4.13以下为4)  |
 | HorizontalRadius     | hRadius, hr, r | 抛射物碰撞箱水平半径 | 1.25              |
 | VerticalRadius       | vRadius, vR | 抛射物碰撞箱垂直半径 | 等值于Horizontal Radius |
-| Maxduration             | md, duration, d           | 抛射物最大持续时间(刻 支持[占位符](技能/占位符)与[变量](技能/变量)） | 100               |
-| MaxRange             | mr          | 抛射物最大移动距离(格方块 支持[占位符](技能/占位符)与[变量](技能/变量)） | 40                |
-| Velocity             | v           | 抛射物移动速度（支持[占位符](技能/占位符)与[变量](技能/变量)） | 5                 |
+| Maxduration             | md, duration, d           | 抛射物最大持续时间(刻 支持[占位符](技能/占位符)） | 100               |
+| MaxRange             | mr          | 抛射物最大移动距离(格方块 支持[占位符](技能/占位符)） | 40                |
+| Velocity             | v           | 抛射物移动速度（支持[占位符](技能/占位符)） | 5                 |
 | Accuracy | ac, a | 抛射物发射方向的偏差程度, 1为无偏差 | 1 |
 | HorizontalNoise | hn | 抛射物发射方向的水平偏差程度 | Accuracy的值 * 45 |
 | VerticalNoise | vn | 抛射物发射方向的垂直偏差程度 | Accuracy的值 * 4.5 |
 | StartingDirection | startingdir, startdir, sdir | 抛射物起始朝向 | 无 |
-| EndOffset | esoffset, eo | 抛射物目标位置的双轴偏移<br>正数为向左 向下偏, 负数反之（格方块 支持[占位符](技能/占位符)与[变量](技能/变量)) | 无 |
-| StartYOffset | syo | 抛射物发射点垂直偏移量（格方块, 正上负下 支持[占位符](技能/占位符)与[变量](技能/变量)） | 1.0 |
-| StartFOffset | sfo | 抛射物发射点前后偏移量（格方块, 正前负后 支持[占位符](技能/占位符)与[变量](技能/变量)) | 1.0 |
-| StartSOffset | sso | 抛射物发射点左右偏移量（格方块 正右负左 支持[占位符](技能/占位符)与[变量](技能/变量)） | 0.0 |
-| TargetYOffset | targetty, tyo | 抛射物目标位置垂直偏移量(格方块 正上负下 支持[占位符](技能/占位符)与[变量](技能/变量)） | 1.0 |
-| HorizontalOffset     | hO          | 抛射物发射方向水平旋转角度(弧度角 正右负左 支持[占位符](技能/占位符)与[变量](技能/变量)) | 0                 |
-| VerticalOffset       | vO          | 抛射物发射方向垂直旋转角度(圆心角 正上负下 支持[占位符](技能/占位符)与[变量](技能/变量)) | 0                 |
+| EndOffset | esoffset, eo | 抛射物目标位置的双轴偏移<br>正数为向左 向下偏, 负数反之（格方块 支持[占位符](技能/占位符)) | 无 |
+| StartYOffset | syo | 抛射物发射点垂直偏移量（格方块, 正上负下 支持[占位符](技能/占位符)） | 1.0 |
+| StartFOffset | sfo | 抛射物发射点前后偏移量（格方块, 正前负后 支持[占位符](技能/占位符)) | 1.0 |
+| StartSOffset | sso | 抛射物发射点左右偏移量（格方块 正右负左 支持[占位符](技能/占位符)） | 0.0 |
+| TargetYOffset | targetty, tyo | 抛射物目标位置垂直偏移量(格方块 正上负下 支持[占位符](技能/占位符)） | 1.0 |
+| HorizontalOffset     | hO          | 抛射物发射方向水平旋转角度(弧度角 正右负左 支持[占位符](技能/占位符)) | 0                 |
+| VerticalOffset       | vO          | 抛射物发射方向垂直旋转角度(圆心角 正上负下 支持[占位符](技能/占位符) | 0                 |
 | HitSelf |  | 抛射物是否可命中施法者 | false |
 | HitPlayers | hp | 抛射物是否可命中玩家 | true |
 | HitNonPlayers | hnp | 抛射物是否可命中非玩家实体 | **false** |
@@ -49,7 +49,7 @@
 | StopAtBlock | sb | 抛射物是否在命中固体方块后消失 | true |
 | HugSurface | hs | 抛射物是否在落到方块上方后继续移动 | false |
 | HugLiquid | hl | 抛射物是否在落到流体上方后继续移动 | false |
-| HeightFromSurface | hfs | 当抛射物类型为 Meteor 时, 抛射物离技能目标位置多高（格方块 支持[占位符](技能/占位符)与[变量](技能/变量)) | 0.5 |
+| HeightFromSurface | hfs | 当抛射物类型为 Meteor 时, 抛射物离技能目标位置多高（格方块 支持[占位符](技能/占位符)) | 0.5 |
 | PowerAffectsRange | par | [技能威力](/实体/威力)是否影响抛射物最大移动距离 | true |
 | PowerAffectsVelocity | pav | [技能威力](/实体/威力)是否影响抛射物移动速度 | true |
 | Gravity              | g           | 抛射物重力 | 0                 |
