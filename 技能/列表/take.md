@@ -15,11 +15,11 @@
 --------
 
       Skills:
-      - currencygive{amount=20} @pir{r=20} ~onSpawn 0.2
+      - takecurrency{amount=20} @pir{r=20} ~onSpawn 0.2
 
 生成后有20%几率夺取半径20米范围内的所有玩家20金钱.
 
 额外信息
 ---
 
-- [x] 别称: CurrencyTake
+- [x] 别称: TakeCurrency
