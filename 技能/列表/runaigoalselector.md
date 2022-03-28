@@ -26,7 +26,7 @@
 -   fleevillagers runfromvillagers
 -   fleesun
 -   float / swim
--   gotolocation / goto (支持[变量](技能/变量))
+-   gotolocation / goto (从 4.13 起支持[占位符](技能/占位符))
 -   gotoowner
 -   lookatplayers
 -   leapattarget
@@ -38,7 +38,7 @@
 -   movetowardstarget
 -   opendoor
 -   opendoors
--   patrol / patrolroute (支持[占位符](技能/占位符))
+-   patrol / patrolroute (从 4.13 起支持[占位符](技能/占位符))
 -   randomlookaround / lookaround
 -   randomstroll
 -   restrictopendoor
