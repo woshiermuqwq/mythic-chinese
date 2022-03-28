@@ -35,5 +35,5 @@
 ---
 
 - **支持** Audience
-- **支持** [占位符](/技能/占位符)与[变量](/技能/变量)
+- **支持** [占位符](/技能/占位符)
 - 别称: effect:playanimation e:playanimation
