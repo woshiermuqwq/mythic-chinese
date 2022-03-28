@@ -32,4 +32,4 @@ java.lang.IllegalStateException: Cannot modify disguises on an async thread
 额外信息
 -------
 
-**支持** [占位符](/技能/占位符)与[变量](/技能/变量)（≥4.9）
+**支持** [占位符](/技能/占位符)（≥4.9）
