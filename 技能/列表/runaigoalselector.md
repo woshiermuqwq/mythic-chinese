@@ -38,7 +38,7 @@
 -   movetowardstarget
 -   opendoor
 -   opendoors
--   patrol / patrolroute (支持[变量](技能/变量))
+-   patrol / patrolroute (支持[占位符](技能/占位符))
 -   randomlookaround / lookaround
 -   randomstroll
 -   restrictopendoor
