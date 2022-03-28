@@ -1,4 +1,4 @@
-技能: Modify Projectile
+技能: Modify Projectile (4.12)
 --------------------------
 
 修改 [projectile](技能/列表/projectile), [missile](技能/列表/missile), [orbital](技能/列表/orbital)抛射物的修改项.
@@ -17,8 +17,8 @@
 
       修改抛射物测试:
         Skills:
-        - projectile{oT=TMP_oT;i=1;v=8;d=200;mr=100} @forward{f=100;y=0}
-       TMP_oT:
+        - projectile{oT=测试Tick;i=1;v=8;d=200;mr=100} @forward{f=100;y=0}
+       测试Tick:
         Skills:
         - particles{particle=flame;a=2;hs=0;vs=0;s=0;y=0} @origin
         - modifyProjectile{trait=VELOCITY;action=MULTIPLY;value=0.95}
