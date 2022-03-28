@@ -21,7 +21,7 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 | Radius              | r        | 环绕整体半径(格方块)范围 | 4 |
 | HitRadius           | hr       | 环绕抛射物碰撞箱水平半径 | 1             |
 | HitSelf | hs | 环绕抛射物是否可命中施法者 | false |
-| HitPlayers | hp | 环绕抛射物是否可命中玩家 | false |
+| HitPlayers | hp | 环绕抛射物是否可命中玩家 | true |
 | HitNonPlayers | hnp | 环绕抛射物是否可命中非玩家实体 | false |
 | VerticalHitRadius   | vhr, vr  | 环绕抛射物碰撞箱垂直半径（格方块） | 1             |
 | Points              | p        | 环绕整体由多少个点组成 | 32            |
@@ -34,8 +34,6 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 | AngularVelocityX    | avx, vx  | 环绕整体绕X轴旋转的速度                                                                                                                       | 0             |
 | AngularVelocityY    | avy, vy  | 环绕整体绕Y轴旋转的速度                                                                                                                        | 0             |
 | AngularVelocityZ    | avz, vz  | 环绕整体绕Z轴旋转的速度                                                                                                                        | 0             |
-| HitPlayers          | hp       | 环绕抛射物是否可命中玩家 | true          |
-| HitNonPlayers       | hnp      | 环绕抛射物是否可命中非玩家实体 | false         |
 | HitSelf             | hs       | 环绕抛射物可命中施法者 | false         |
 | CancelOnGiveDamage  | cogd     | 环绕整体是否在受到伤害后消失 | false         |
 | CancelOnTakeDamage  | cotd     | 环绕整体是否在造成伤害后消失 | false         |
