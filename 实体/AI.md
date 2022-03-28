@@ -42,7 +42,7 @@ AI行动器将决定实体该做什么. 若所写AI行动器不适用于实体, 
 | randomlookaround                 | lookaround       | 看向周围               |
 | gotospawnlocation{maxrange(max, r)=寻找的最大距离（格方块）;minrange(min, mr)=与出生点所保持的距离（格方块）;speed=移速;droptarget(dt)=是否无视当前目标走向出生点}                 | gotospawn        | 走向实体的出生点       |
 | fleeConditional **[仅限付费版]** | fleeIf           | 躲避符合条件的实体.    |
-| doNothing{fleeconditions=[  条件 ]}       **[仅限付费版]** | nothing{conditions(cond, c)=[  条件 ]} | 条件不满足就不进行操作 |
+| doNothing{fleeconditions=[  - 条件 条件活动 ]}       **[仅限付费版]** | nothing{conditions(cond, c)=[  条件 ]} | 条件不满足就不进行操作 |
 
 FleeConditional 示例:
 ```yml
