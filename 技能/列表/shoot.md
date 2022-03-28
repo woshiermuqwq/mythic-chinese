@@ -11,7 +11,7 @@
 | type                 | t          | 弹射物类型（支持[占位符](/技能/占位符)） | arrow   |
 | damage               | d          | 弹射物命中所造成的伤害数值（支持[占位符](/技能/占位符)） | 5       |
 | velocity             | v          | 弹射物移动速度（支持[占位符](/技能/占位符)） | 1       |
-| maxDistance          | md         | 弹射物最大移动距离（格方块 支持[占位符](/技能/占位符)与） | 64      |
+| maxDistance          | md         | 弹射物最大移动距离（格方块 支持[占位符](/技能/占位符)） | 64      |
 | hspread              | hs         | 弹射物碰撞箱水平半径（格方块）   | 0       |
 | vspread              | vs         | 弹射物碰撞箱垂直半径（格方块） | 0       |
 | poweraffectsvelocity | pav        | [技能威力](实体/威力)是否影响移动速度 | true    |
@@ -21,7 +21,7 @@
 | onhitskill           | onhit, oh  | 弹射物命中实体后所激活的技能组 | 无 |
 | onendskill           | onend, oe  | 弹射物消失后所激活的技能组 | 无 |
 | accuracy | ac, a | 弹射物扩散程度（1=百分百命中） | 1 |（格方块 支持[占位符](/技能/占位符)）
-| horizontalnoise | hn | 弹射物水平扩散程度（支持[占位符](/技能/占位符)） | accuracy的值*4.5|
+| horizontalnoise | hn | 弹射物水平扩散程度（支持[占位符](/技能/占位符） | accuracy的值*4.5|
 | verticalnoise | vn | 弹射物垂直扩散程度（支持[占位符](/技能/占位符)） | accuracy的值*45 |
 | HorizontalOffset     | hO          | 弹射物发射方向水平旋转角度(弧度角 支持[占位符](技能/占位符)) | 0                 |
 | VerticalOffset       | vO          | 弹射物发射方向垂直旋转角度(圆心角 支持[占位符](技能/占位符)) | 0                 |
