@@ -1,10 +1,8 @@
 技能: Totem
 --------------------------
 
-Totem是[Projectile](技能/列表/projectile)的一种.
-
-生成一个不可见的虚拟图腾并可设置刷新/命中/消失后  
-所激活的技能组.
+在技能目标位置形成虚体  
+可理解为 `Type`为 `Meteor` 的技能: [Projectile](技能/列表/projectile)
 
 修改项
 ----------
@@ -26,5 +24,6 @@ Totem是[Projectile](技能/列表/projectile)的一种.
 | HitTarget        | ht          | 是否可命中技能目标 | true              |
 | HitTargetOnly    |             | 是否仅可命中技能 | false             |
 
-尚无示例
+示例
 ----------
+
