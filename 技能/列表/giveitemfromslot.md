@@ -1,4 +1,4 @@
-技能: Give Item From Slot
+技能: Give Item From Slot (4.13)
 --------------------------
 
 给予目标 位于自身指定槽位的物品（目标背包无空位时无效）.
@@ -18,9 +18,6 @@
 | HEAD | CHEST | LEGS | FEET | HAND | OFFHAND |   
 ---
 
-新增于 MM 4.13  
-fakelooting新增于 MM4.12  
-
 示例
 --------
 
@@ -28,8 +25,3 @@ fakelooting新增于 MM4.12
     - giveitemfromslot{s=HAND;fl=true} @server ~onTimer:10
     - ...
 生成后给予半径20格方块内的所有玩家一把钻石剑.
-
-额外信息
--------
-
-- **不支持** [占位符](/技能/占位符)与[变量](/技能/变量)（仅限值类型为数值的修改项）
