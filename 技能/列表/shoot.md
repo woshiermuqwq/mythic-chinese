@@ -47,10 +47,10 @@ Bounce 新增于 MM 4.14.2
 | Arrow  | 箭矢 |
 | SnowBall | 雪球 |
 | Egg | 鸡蛋 |
-|enderpertal | 末影珍珠 |
-| potion | 药水 |
-| trident | 三叉戟 |
-| lingering_potion | 滞留药水 |
+| enderpertal | 末影珍珠 |
+| potion | 药水 (4.11) |
+| trident | 三叉戟 (MC 1.13 MM 4.11) |
+| lingering_potion | 滞留药水 (4.11) |
 
 提示
 ----
