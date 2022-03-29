@@ -16,6 +16,8 @@
 | playsound     | ps        | 是否在发射时播放音效  | false         |
 | type          |           | 火球类型.SMALL(小)/LARGE(大)/DRAGON(末影龙弹) | SMALL |
 
+修改项: type 新增于 MM 4.11
+
 示例
 --------
 
