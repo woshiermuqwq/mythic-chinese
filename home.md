@@ -4,12 +4,11 @@
 故官方百科不会列出 Minecraft 1.16 以下的注意事项\
 基于国内 Minecraft 1.12.2 服务器仍然盛行的情况\
 中文百科将列出 Minecraft 1.16 以下的注意事项  
-仅会列出 4.11 及以上 的版本信息
 
 ## 当前版本(包括附属)
 | 插件名 | [免费版](https://www.mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.0.2.jar) | 对应MC版本 | [付费版](https://mythiccraft.io/index.php?pages/official-mythicmobs-download/&download=4.14.2) | [付费预览版](https://mythiccraft.io/index.php?pages/official-mythicmobs-dev/) | 兼容的 MythicMobs 版本 |
 | - | - | - | - | - | - |
-| MythicMobs | 5.0.2 | 1.16.5~1.18.2 | 4.12.2 | 5.0.3-4074 | |
+| MythicMobs | 5.0.2 | 1.16.5~1.18.2 | 4.12.2 | 5.0.3-4085 | |
 | MythicLib | 1.0.3 | 1.16.5~1.18.2 | 无 | 无 | 无 | 4.13~5.0.3|
 | MythicExtensions | 1.739 | 1.12.2~1.16.5 | 无 | 无 | 4.7.2~4.13.1(MC版本低于1.17)|
 | MythicCrucible | 无 | 1.16.5~1.18.2 | 无 | 1.2.0 | 4.11~5.0.3 |
