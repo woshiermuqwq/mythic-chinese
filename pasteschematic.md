@@ -1,7 +1,8 @@
-技能: Fawe Paste
+技能: Paste Schematic
 --------------------------
 
-粘贴一个Schematic文件.
+粘贴一个Schematic文件  
+MM 4.11 之前的技能名为: `FawePaste`
 
 修改项
 ----------
