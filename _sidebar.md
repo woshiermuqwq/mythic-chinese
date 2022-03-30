@@ -394,6 +394,7 @@
     [Switch](/技能/列表/switch)<br>
     [Add Tag](/技能/列表/addtag)<br>
     [Remove Tag](/技能/列表/removetag)<br>
+    [Take Item](/技能/列表/takeitem)<br>
     [Teleport](/技能/列表/teleport)<br>
     [Teleport In](/技能/列表/teleportin)<br>
     [Teleport To](/技能/列表/teleportto)<br>
