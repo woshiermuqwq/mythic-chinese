@@ -17,9 +17,9 @@
 --------
 
     Skills:
-    - giveitem{i=diamond_sword} @PIR{r=20} ~onSpawn
+    - take{i=diamond_sword} @PIR{r=20} ~onSpawn
     - ...
-生成后给予半径20格方块内的所有玩家一把钻石剑.
+生成后移除半径20格方块内的所有玩家一把钻石剑.
 
 额外信息
 -------
