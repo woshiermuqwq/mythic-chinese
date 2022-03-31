@@ -5,6 +5,10 @@
 基于国内 Minecraft 1.12.2 服务器仍然盛行的情况\
 中文百科将列出 Minecraft 1.16 以下的注意事项  
 
+若有任何错误或建议请+qq群: 710180212  
+建议, 如 百科存在难以理解的地方, 需要简化  
+错误, 如 百科没有指出单行条件需要付费版
+
 ## 当前版本(包括附属)
 | 插件名 | [免费版](https://www.mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.0.2.jar) | 对应MC版本 | [付费版](https://mythiccraft.io/index.php?pages/official-mythicmobs-download/&download=4.14.2) | [付费预览版](https://mythiccraft.io/index.php?pages/official-mythicmobs-dev/) | 兼容的 MythicMobs 版本 |
 | - | - | - | - | - | - |
