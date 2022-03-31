@@ -5,7 +5,7 @@
 基于国内 Minecraft 1.12.2 服务器仍然盛行的情况\
 中文百科将列出 Minecraft 1.16 以下的注意事项  
 
-若有任何错误或建议请+qq群: 710180212  
+若有任何错误或建议请+qq群: **[710180212](https://jq.qq.com/?_wv=1027&k=9IUgidri)**（点击蓝字加群）  
 建议, 如 百科存在难以理解的地方, 需要简化  
 错误, 如 百科没有指出单行条件需要付费版
 
@@ -98,18 +98,11 @@ Mythic允许你完全修改一切原版实体的任何属性, 基于原版创造
 
 ## 帮助 & 问题
 
-内容提要:
-
-- [Discord服务器](https://www.mythiccraft.io/discord)
-- 非官方QQ群: **710180212**
-
-Mythic是一个复杂的插件,一开始可能会让人感到困惑,因为它有大量的功能和高度的可自定义性
-
-为了最大限度地利用它, 请确保您加入庞大、活跃的Mythic社区或QQ群,在官方Discord服务器上获得帮助和支持，在那里您可以直接向开发人员以及无数其他服务器开发者提问、提供想法等!
+官方Discord服务器: [Discord服务器](https://www.mythiccraft.io/discord)
 
 ## 预览版
 
-付费用户可使用预览版,请点击以下链接前往:
+付费用户可使用付费预览版,请点击以下链接前往:
 
 <https://mythiccraft.io/index.php?pages/official-mythicmobs-dev/>
 
