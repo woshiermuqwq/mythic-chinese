@@ -206,7 +206,7 @@
   * <details><summary>[阵营](实体/阵营)</summary>
     [示范 守卫对峙怪物](#例1-守卫对峙怪物)<br>
     [示范 兽族阵营与地精族阵营对峙](#例2-兽族阵营与地精族阵营对峙)</details>
-  * <details><summary>[威力](实体/威力)</summary>
+  * <details><summary>[技能威力](实体/威力)</summary>
     可影响:<br>
     [Base Damage: multiplier](/技能/列表/basedamage)<br>
     [Consume: damage](/技能/列表/consume)<br>
