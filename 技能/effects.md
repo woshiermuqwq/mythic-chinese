@@ -57,6 +57,7 @@
 | [Sound][]            | 于目标位置播放指定音效的指定种类                             |
 | [Stop Sound][]            | 于目标位置停止播放指定音效的指定种类                             |
 | [Spin][]             | 旋转目标的朝向                                                |
+| [Spring][]                 | 在技能目标脚下生成临时液体方块 |
 | [Totem Of Undying][]     | 于目标位置生成播放激活不死图腾效果     
 
 [skill mechanic]: /技能/列表
@@ -91,6 +92,7 @@
   [Sound]: /技能/effects/sound
   [Stop Sound]: /技能/effects/stopsound
   [Spin]: /技能/effects/spin
+  [Spring]: /技能/effects/spring
   [Totem Of Undying]: /技能/effects/totemOfUndying
   [Atom]: /技能/effects/atom
   [Particle Vortex]: /技能/effects/particlevortex
