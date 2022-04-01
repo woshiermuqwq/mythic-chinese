@@ -438,7 +438,7 @@
     [Variable Unset](/技能/列表/variableunset)<br>
     [Variable Subtract](/技能/列表/variablesubtract)<br>
     [Time](/技能/列表/time)</details>
-  * <details><summary>[特效列表](技能/Effects)</summary>
+  * <details><summary>[特效技能列表](技能/Effects)</summary>
     [Black Screen](/技能/effects/blackscreen)<br>
     [Block Mask](/技能/effects/blockmask)<br>
     [Block Unmask](/技能/effects/blockunmask)<br>
@@ -473,7 +473,7 @@
     [Atom](/技能/effects/atom)<br>
     [Particle Vortex](/技能/effects/particlevortex)<br>
     [DNA](/技能/effects/dna)</details>
-  * <details><summary>[粒子列表](技能/特效列表)</summary>
+  * <details><summary>[粒子列表](技能/粒子列表)</summary>
   * <details><summary>[目标选择器](技能/目标选择器)</summary>
     [单实体目标选择器](技能/目标选择器#单实体)<br>
     [多实体目标选择器](技能/目标选择器#多实体)<br>
