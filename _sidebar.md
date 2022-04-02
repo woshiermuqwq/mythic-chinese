@@ -604,7 +604,7 @@
     [Last Signal](/条件/lastsignal)<br>
     [Level](/条件/level)<br>
     [Light Level](/条件/lightlevel)<br>
-    [Light Level From Blocks](/条件/lightlevel)<br>
+    [Light Level From Blocks](/条件/lightlevelfromblocks)<br>
     [Line Of Sight](/条件/lineofsight)<br>
     [Line Of Sight From Origin](/条件/lineofsightfromorigin)<br>
     [Living In Radius](/条件/livinginradius)<br>
