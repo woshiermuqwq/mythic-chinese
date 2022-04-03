@@ -1,4 +1,6 @@
-**描述:** 若实体位置的光照等级在指定范围内.
+**描述:** 若实体位置的光照等级在指定范围内.  
+
+无法作用于 Minecraft 1.12.2
 
 ---
 
@@ -12,19 +14,24 @@
 
 **示例:**
 
-```
-Conditions:
-- lightlevel{l=10} true
-```
+```yaml
+### 实体配置
 
-```
-Conditions:
-- lightlevel{l=>10} true
-```
+测试实体:
+ Type: husk
+ Skills:
+ - skill:测试技能组 ~onTimer:5
+# 每 0.25 秒激活技能组: 测试技能组
 
-```
-Conditions:
-- lightlevel{l=1to10} true
+### 技能组配置
+
+测试技能组:
+ Conditions:
+ - lightlevel{l=<7}
+ Skills:
+ - message{m=有点昏暗} @server
+
+# 仅在所处位置亮度低于7时才向全服玩家发送"有点昏暗"信息
 ```
 
 ---
