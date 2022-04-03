@@ -91,3 +91,7 @@ bisectedhalf可用值
     MMOItems方块修改示例:
       Skills:
       - setblock{m=mmoitems:50;md=0} @selflocation
+
+    5.0.3版本支持省略materialdata示例:
+      Skills:
+      - setblock{m=chest[waterlogged=true]}
