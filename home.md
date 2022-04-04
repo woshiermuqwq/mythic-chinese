@@ -112,3 +112,7 @@ Mythic允许你完全修改一切原版实体的任何属性, 基于原版创造
 <https://mythiccraft.io/index.php?pages/official-mythicmobs-dev/>
 
 强烈建议使用付费预览版, 漏洞最少, 内容最新, 版本远新于付费稳定版(稳定版甚至比免费版旧)
+
+## 用爱发电
+不打发咱不会影响你阅读百科噢owo  
+<img src="https://s1.328888.xyz/2022/04/05/LwLoM.png" alt="LwLoM.png" border="0" />
