@@ -1,5 +1,7 @@
 **描述:** 若实体拥有指定权限.
 
+OP拥有全部权限, 这包括你所写的自定义权限
+
 ---
 
 **修改项:**
@@ -14,13 +16,13 @@
 
 ```
 Conditions:
-- haspermission{p=permission.node.here} true
+- haspermission{p=权限.权限节点} true
 
 TargetConditions:
-- haspermission{p=permission.node.here} true
+- haspermission{p=权限.权限节点} true
 
 TriggerConditions:
-- haspermission{p=permission.node.here} true
+- haspermission{p=权限.权限节点.权限节点} true
 ```
 
 ---
