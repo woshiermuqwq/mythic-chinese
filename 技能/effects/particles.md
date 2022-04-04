@@ -77,12 +77,22 @@
 1.12 block_crack
 
     Skills:
-    - e:particles{p=block_crack_1_0;a=100;hS=1;vS=1} @self
+    - e:particles{p=blockcrack_2_0;a=100;hS=1;vS=1} @self
 
 1.13 block
 
     Skills:
     - e:p{particle=block;m=dirt;a=100;hS=1;vS=1} @self
+
+1.12 item
+
+    Skills:
+    - e:particles{p=item_2_0;a=100;hS=1;vS=1} @self
+
+1.13 item
+
+    Skills:
+    - e:p{particle=item;m=dirt;a=100;hS=1;vS=1} @self
 
 拓展信息
 -------
