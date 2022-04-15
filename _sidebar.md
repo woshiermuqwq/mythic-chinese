@@ -407,6 +407,7 @@
     [Weather](/技能/列表/weather)<br>
     [WolfSit](/技能/列表/wolfsit)<br>
     [Skill](/技能/列表/skill)<br>
+    [Variable Skill](/技能/列表/variableskill)<br>
     [Aura](/技能/列表/aura)<br>
     [Cancel Event](/技能/列表/cancelevent)<br>
     [Cast](/技能/列表/cast)<br>
