@@ -14,7 +14,7 @@
 **示例:**
 
 ```
-BearGrowl:
+测试:
   TargetConditions:
   - variableEquals{var=target.heardbear;value="是"} cancel
   Skills:
