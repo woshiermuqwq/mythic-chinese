@@ -65,3 +65,8 @@
           skill=一个技能组;
           sync=true
           } @self ~onDamaged
+
+额外信息
+----
+
+- 别称: metaskill, meta
