@@ -53,6 +53,47 @@
  - raytrace{...}
 ```
 
+关于 与[Variable Skill](/技能/列表/variableskill) 的区别
+-----
+
+技能组名支持占位符, 这意味着现在可以在不检测变量的条件下  
+变相令不支持占位符的技能支持占位符, 如 [Summon](/技能/列表/summon)的 `Type`  
+假设我们要让怪物被右键后随机召唤"1""2""3"内的一个, 若仅使用 [Skill](/技能/列表/skill)则需要  
+```yaml
+测试实体:
+ Type: husk
+ Skills:
+ - setvar{caster.summon;v=<random.float.1to3>} @self ~oninteract
+ - skill:召唤检测 @self ~oninteract
+
+###技能文档
+
+召唤检测:
+ Skills:
+ - summon{t=1} ?varrange{var=caster.1}
+ - summon{t=2} ?varrange{var=caster.2}
+ - summon{t=3} ?varrange{var=caster.3}
+```
+使用 VaribleSkill 后```yaml
+测试实体:
+ Type: husk
+ Skills:
+ - setvar{caster.summon;v=<random.float.1to3>} @self ~oninteract
+ - vskill{s=召唤<caster.var.1>} @self ~oninteract
+
+###技能文档
+
+召唤1:
+ Skills:
+ - summon{t=1}
+召唤2:
+ Skills:
+ - summon{t=2}
+召唤3:
+ Skills:
+ - summon{t=3}
+```
+
 示例
 --------
 
