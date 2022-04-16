@@ -34,6 +34,12 @@
   Skills:
   - disguise{d=PLAYER Sharrk_kunjang setDisguiseName 鲨鲨} @self
 ```
+```
+伪装成成熟小麦:
+  Skills:
+  - disguise{d=alling_block Wheat[age=7]} @self
+```
+
 
 拓展信息
 --------
