@@ -20,6 +20,11 @@
 - sound{s=entity.enderman.scream} @self
 ```
 
+关于使用非原版音效
+-----
+
+见-> [点我](https://www.bilibili.com/read/cv7852806)
+
 额外信息
 ------
 
