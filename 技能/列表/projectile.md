@@ -15,14 +15,14 @@
 | onTickSkill | onTick, ot, skill, s, meta, m          | 抛射物刷新后所激活的技能组 | 无 |
 | onHitSkill | onHit, oh         | 抛射物命中实体后所激活的技能组 | 无 |
 | onEndSkill  | onEnd, oe          | 抛射物消失后所激活的技能组 | 无 |
-| onStartSkill               | onStard, os          | 抛射物被发射后所激活的技能组 | 无 |
+| onStartSkill  | onStart, os          | 抛射物被发射后所激活的技能组 | 无 |
 | onBounceSkill | onBounce | 抛射物反射开始后所激活的技能组 | 无 |
 | bounce | b | 抛射物是否在命中方块后进行弹射 | false |
 | bouncevelocity | bv | 抛射物弹射后速度会被乘以多少 | 0.9 |
-| Type                 | 无           | [抛射物种类](#抛射物种类)  | NORMAL   |
-| Interval             | int, i           | 抛射物刷新间隔(刻) | 1(4.13以下为4)  |
-| HorizontalRadius     | hRadius, hr, r | 抛射物碰撞箱水平半径 | 1.25              |
-| VerticalRadius       | vRadius, vR | 抛射物碰撞箱垂直半径 | 等值于Horizontal Radius |
+| Type                 | 无 | [抛射物种类](#抛射物种类)  | NORMAL   |
+| Interval             | int, i | 抛射物刷新间隔(刻) | 1(4.13以下为4)  |
+| HorizontalRadius     | hRadius, hr, r | 抛射物碰撞箱水平总长度 | 1.25 |
+| VerticalRadius       | vRadius, vR | 抛射物碰撞箱垂直总长度 | 等值于Horizontal Radius |
 | Maxduration             | md, duration, d           | 抛射物最大持续时间(刻 支持[占位符](技能/占位符)） | 100               |
 | MaxRange             | mr          | 抛射物最大移动距离(格方块 支持[占位符](技能/占位符)） | 40                |
 | Velocity             | v           | 抛射物移动速度（支持[占位符](技能/占位符)） | 5                 |
@@ -180,7 +180,7 @@ HugLiquid 新增于 MM 4.14.0
   onend=[
     - message{m="中嘞方块, 哥"} @self ?!hasaura{aura=命中实体} ?!hasaura{aura=未命中}
     ]} @forward{f=9999}
-  - projectile{maxduration=119;onend=[  - aura{duration=100;auraname=未命中} @self ]} @forward{f=9999}
+ - projectile{maxduration=119;onend=[  - aura{duration=100;auraname=未命中} @self ]} @forward{f=9999}
 ```
 多写一条projectile, 同时由于第二条projectile的最大持续时间比第一条少1tick  
 会比第一条projectile早1tick结束, 这意味着光环"未命中"会在第一条projectile  
