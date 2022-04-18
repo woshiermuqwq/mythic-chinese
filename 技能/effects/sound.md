@@ -25,6 +25,24 @@
 
 见-> [点我](https://www.bilibili.com/read/cv7852806)
 
+```yaml
+测试:
+ Type: husk
+ Options:
+  NoAI: true
+  Silent: true
+ Disguise: player sharrk_kunjang
+ Skills:
+ - s{s=mua.shark} @self ~oninteract
+ - s{s=slap.shark} @self ~ondamaged
+ - s{s=slap.shark} @self ~ondamaged
+ - s{s=slap.shark} @self ~ondamaged
+ - s{s=slap.shark} @self ~ondamaged
+ - s{s=slap.shark} @self ~ondamaged
+```
+装了我专栏内的资源包的玩家  
+左键可以听到拍打音效, 右键则会收到"诶"音效
+
 额外信息
 ------
 
