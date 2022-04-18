@@ -18,14 +18,14 @@
 测试:
  Id: diamond_sword
  Skills:
- - teleport @eir{r=16;limit=1;sort=nearest;conditions=[  - lineofsigt ]}
+ - teleport @eir{r=16;limit=1;sort=nearest;conditions=[  - lineofsigt ]} ~onswing
 ```
 手持该钻石剑左键后传送至16格方块内离自身最近, 且在视野正前方的实体（无需付费版）:
 ```
 测试:
  Id: diamond_sword
  Skills:
- - skill:传送 @eir{r=16;limit=1;sort=nearest}
+ - skill:传送 @eir{r=16;limit=1;sort=nearest} ~onswing
 
 ### 技能文档
 
