@@ -1,4 +1,5 @@
-**描述:** 若实体在施法者的视野之内.
+**描述:** 若技能目标与施法者之间存在视觉障碍物.  
+解释一下, 所谓视觉障碍物就是不管你朝什么方向都没法看到技能目标  
 
 ---
 
@@ -10,11 +11,30 @@
 
 ---
 
-**示例:**
+**示例（需Crucible 付费版MM）:**
 
+手持该钻石剑左键后传送至16格方块内离自身最近的实体
 ```
-Conditions:
-- lineofsight
+测试:
+ Id: diamond_sword
+ Skills:
+ - teleport @eir{r=16;limit=1;sort=nearest;conditions=[  - lineofsigt ]}
+```
+手持该钻石剑左键后传送至16格方块内离自身最近, 且在视野正前方的实体（无需付费版）:
+```
+测试:
+ Id: diamond_sword
+ Skills:
+ - skill:传送 @eir{r=16;limit=1;sort=nearest}
+
+### 技能文档
+
+传送:
+ TargetConditions:
+ - lineofsight
+ - fov{a=60}
+ Skills:
+ - teleport
 ```
 
 ---
