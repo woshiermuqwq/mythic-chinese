@@ -34,7 +34,6 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 | AngularVelocityX    | avx, vx  | 环绕整体绕X轴旋转的速度                                                                                                                       | 0             |
 | AngularVelocityY    | avy, vy  | 环绕整体绕Y轴旋转的速度                                                                                                                        | 0             |
 | AngularVelocityZ    | avz, vz  | 环绕整体绕Z轴旋转的速度                                                                                                                        | 0             |
-| HitSelf             | hs       | 环绕抛射物可命中施法者 | false         |
 | CancelOnGiveDamage  | cogd     | 环绕整体是否在受到伤害后消失 | false         |
 | CancelOnTakeDamage  | cotd     | 环绕整体是否在造成伤害后消失 | false         |
 | CancelOnDeath       | cod      | 环绕整体是否在施法者死亡后消失 | true          |
