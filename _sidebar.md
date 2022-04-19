@@ -272,6 +272,7 @@
     [Bar Create](/技能/列表/barcreate)<br>
     [Bar Set](/技能/列表/barset)<br>
     [Bar Remove](/技能/列表/barremove)<br>
+    [Bone Meal](/技能/列表/bonemeal)<br>
     [Break Block](/技能/列表/breakblock)<br>
     [Break Block And Give Item](/技能/列表/breakBlockAndGiveItem)<br>
     [Close Inventory](/技能/列表/closeinventory)<br>
@@ -310,6 +311,7 @@
     [Give Item From Slot](/技能/列表/giveitemfromslot)<br>
     [Give Item From Target](/技能/列表/giveitemfromtarget)<br>
     [Go To](/技能/列表/goto)<br>
+    [Goat Ram](/技能/列表/goatram)<br>
     [Heal](/技能/列表/heal)<br>
     [Heal Percent](/技能/列表/healpercent)<br>
     [Hide From Players](/技能/列表/hidefromplayers)<br>
