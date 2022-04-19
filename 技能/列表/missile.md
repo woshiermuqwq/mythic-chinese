@@ -23,7 +23,7 @@
 | Vlocity | v | 抛射物移动速度 | 5 |
 | StartYOffset | syo | 抛射物发射点垂直偏移量(格方块) | 1.0 |
 | StartFOffset | sfo | 抛射物发射点前后偏移量(格方块) | 1.0 |
-| TargetYOffset | syo | 抛射物目标位置垂直偏移量(格方块) | 1.0 |
+| TargetYOffset | tyo | 抛射物目标位置垂直偏移量(格方块) | 1.0 |
 | HitPlayers | hp | 抛射物是否可命中玩家 | true |
 | HitNonPlayers | hnp | 抛射物是否可命中非玩家实体 | true |
 | HitTarget | ht | 抛射物是否可命中技能目标 | true |
