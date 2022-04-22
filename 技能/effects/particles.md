@@ -14,10 +14,10 @@
 | amount | a | 粒子数量 | 10    |
 | hSpread | hs  | 粒子最大水平分散半径(格方块)范围 | 0     |
 | vSpread | vs  | 粒子最大垂直分散半径(格方块)范围 | 0     |
-| speed | s   | 粒子速度 | 0 |
+| speed | s   | 粒子扩散速度 | 0 |
 | yOffset | y   | 粒子起始点垂直偏移量(格方块) | 0 |
 | viewDistance | vd  | 粒子可被多少格方块以外的玩家所见 | 128   |
-| color | c | 粒子颜色(#000000之类的) | 无 |
+| color | c | 粒子颜色（如 #000000） | 无 |
 | fromorigin | 无 | 是否起始于施法者/抛射物的坐标原点 | false |
 | directional | d | 粒子动量是否可被修改 | false | 
 | directionReversed | dr | 是否反转粒子动量 | false | 
