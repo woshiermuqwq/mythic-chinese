@@ -67,6 +67,12 @@
 尤其是玩家俯仰视角度较大的时候  
 解决办法就是写入 `pitch=0`
 
+关于 修改项缩写
+-----
+
+若其它特效技能也有缩写为"p"的修改项, 如[Particle Ring](/技能/effects/particlering)的points  
+Particles的修改项: particle 则会失效
+
 示例
 --------
 
@@ -83,16 +89,6 @@
 
     Skills:
     - e:p{particle=block;m=dirt;a=100;hS=1;vS=1} @self
-
-1.12 item
-
-    Skills:
-    - e:particles{p=item_2_0;a=100;hS=1;vS=1} @self
-
-1.13 item
-
-    Skills:
-    - e:p{particle=item;m=dirt;a=100;hS=1;vS=1} @self
 
 拓展信息
 -------
