@@ -19,6 +19,6 @@
 --------
 
       Skills:
-      - damagepercent{multiplier=0.5} @target
+      - damagepercent{percent=0.5} @target
 
 对当前目标造成其最大生命的50%点伤害
