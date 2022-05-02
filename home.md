@@ -98,7 +98,7 @@ Mythic允许你完全修改一切原版实体的任何属性, 基于原版创造
 ## 安装 & 更换版本
 
 将 MythicMobs **Jar**文件放入服务器目录/plugins文件夹内并重启服务器  
-**不要使用插件管理的插件(如PluginMan)的安装/重载命令来对MythicMobs进行任何操作**  
+<font color="red">不要使用插件管理的插件(如PluginMan)的安装/重载命令来对MythicMobs进行任何操作</font>  
 更换版本只需要删除先前的版本即可, 只有MythicMobs文件夹内的config.yml有可能变化  
 更换版本后config.yml有时候不需要删除, 如 4.13~4.11 用的都是版本为 4.11 的config  
 在这区间内的版本变动无需删除config.yml
