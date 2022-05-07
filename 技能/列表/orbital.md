@@ -28,8 +28,8 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 | XRotation           | rotx, rx | 环绕整体绕X轴转向的角度 | 0             |
 | YRotation           | roty, ry | 环绕整体绕Y轴转向的角度                                                                                                                                             | 0             |
 | ZRotation           | rotz, rz | 环绕整体绕Z轴旋转的角度                                                                                                                                             | 0             |
-| XOffset             | ox       | 环绕整体的Y轴偏移值                                                                                                                               | 0             |
-| YOffset             | oy       | 环绕整体的X轴偏移值                                                                                                                               | 0             |
+| XOffset             | ox       | 环绕整体的X轴偏移值                                                                                                                               | 0             |
+| YOffset             | oy       | 环绕整体的Y轴偏移值                                                                                                                               | 0             |
 | ZOffset             | oz       | 环绕整体的Z轴偏移值                                                                                                                               | 0             |
 | AngularVelocityX    | avx, vx  | 环绕整体绕X轴旋转的速度                                                                                                                       | 0             |
 | AngularVelocityY    | avy, vy  | 环绕整体绕Y轴旋转的速度                                                                                                                        | 0             |
