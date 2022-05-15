@@ -272,6 +272,7 @@
     [Bar Create](/技能/列表/barcreate)<br>
     [Bar Set](/技能/列表/barset)<br>
     [Bar Remove](/技能/列表/barremove)<br>
+    [Block Destabilize](/技能/列表/blockDestabilize)<br>
     [Bone Meal](/技能/列表/bonemeal)<br>
     [Break Block](/技能/列表/breakblock)<br>
     [Break Block And Give Item](/技能/列表/breakBlockAndGiveItem)<br>
@@ -367,6 +368,7 @@
     [Set Gravity](/技能/列表/setgravity)<br>
     [Set Health](/技能/列表/sethealth)<br>
     [Set Level](/技能/列表/setlevel)<br>
+    [Set Leash Holder](/技能/列表/setleashholder)<br>
     [Set Max Health](/技能/列表/setmaxhealth)<br>
     [Set Mob Color](/技能/列表/setmobcolor)<br>
     [Set Mob Score](/技能/列表/setmobscore)<br>
@@ -540,6 +542,7 @@
   * <details><summary>[条件](条件)</summary>
     [Altitude](/条件/altitude)<br>
     [Biome](/条件/biome)<br>
+    [Biome Type](/条件/biometype)<br>
     [Block Type](/条件/blocktype)<br>
     [Blocking](/条件/blocking)<br>
     [Burning](/条件/burning)<br>
