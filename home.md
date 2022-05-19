@@ -21,9 +21,9 @@
 错误, 如 百科没有指出单行条件需要付费版
 
 ## 当前版本(包括附属)
-| 插件名 | [免费版](https://www.mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.0.2.jar) | 对应MC版本 | [付费版](https://mythiccraft.io/index.php?pages/official-mythicmobs-download/&download=5.0.4) | [付费预览版](https://mythiccraft.io/index.php?pages/official-mythicmobs-dev/) | 兼容的 MythicMobs 版本 |
+| 插件名 | [免费版](https://www.mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.0.4.jar) | 对应MC版本 | [付费版](https://mythiccraft.io/index.php?pages/official-mythicmobs-download/&download=5.0.5) | [付费预览版](https://mythiccraft.io/index.php?pages/official-mythicmobs-dev/) | 兼容的 MythicMobs 版本 |
 | - | - | - | - | - | - |
-| MythicMobs | 5.0.4 | 1.16.5~1.18.2 | 5.0.4 | 5.1.0-4129 | |
+| MythicMobs | 5.0.4 | 1.16.5~1.18.2 | 5.0.5 | 5.1.0-4143 | |
 | MythicLib | 1.3.1 | 1.16.5~1.18.2 | 无 | 无 | 无 | 4.13~5.0.3-4088 |
 | MythicExtensions | 1.739（建议1.738c） | 1.12.2~1.16.5 | 无 | 无 | 4.7.2~5.0.0(MC版本低于1.17) |
 | MythicCrucible（需 MythicLib） | 无 | 1.16.5~1.18.2 | 无 | 1.2.0 | 5.0.1~5.0.3-4088 |
