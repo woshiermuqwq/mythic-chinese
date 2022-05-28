@@ -14,7 +14,7 @@
 
 ```
 Conditions:
-- targetithin{d=10}
+- targetnotwithin{d=10}
 ```
 
 ---
