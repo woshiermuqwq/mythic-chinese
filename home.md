@@ -24,16 +24,16 @@
 | 插件名 | [免费版](https://www.mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.0.4.jar) | 对应MC版本 | [付费版](https://mythiccraft.io/index.php?pages/official-mythicmobs-download/&download=5.0.5) | [付费预览版](https://mythiccraft.io/index.php?pages/official-mythicmobs-dev/) | 兼容的 MythicMobs 版本 |
 | - | - | - | - | - | - |
 | MythicMobs | 5.0.4 | 1.16.5~1.18.2 | 5.0.5 | 5.1.0-4143 | |
-| MythicLib | 1.3.1 | 1.16.5~1.18.2 | 无 | 无 | 无 | 4.13~5.0.3-4088 |
+| MythicLib | 1.3.1 | 1.16.5~1.18.2 | 无 | 无 | 无 | 4.13~5.1.0-4088 |
 | MythicExtensions | 1.739（建议1.738c） | 1.12.2~1.16.5 | 无 | 无 | 4.7.2~5.0.0(MC版本低于1.17) |
-| MythicCrucible（需 MythicLib） | 无 | 1.16.5~1.18.2 | 无 | 1.2.0 | 5.0.1~5.0.3-4088 |
-| Lib's Disguise | 10.0.27 | 1.12.2~1.18.2 | 无 | 无 | 4.9~5.0.3 |
+| MythicCrucible（需 MythicLib） | 无 | 1.16.5~1.18.2 | 无 | 1.2.0 | 5.0.1~5.1.0-4088 |
+| Lib's Disguise | 10.0.27 | 1.12.2~1.18.2 | 无 | 无 | 4.9~5.1.0 |
 
 
 ## 版本/适用服务端说明
 
-* 5.0.1(不包括5.0) 需要 Java 16 或以上
-* 4.13~5.0.3(包括4.13) 需要 MC 1.16.5 或以上
+* 5.0.1以上（包括5.0.1） 需要 Java 16 或以上
+* 4.13~5.1.0(包括4.13) 需要 MC 1.16.5 或以上
 * MythicMobs/Crucible 需要 Paper 服务端或其分支
 * 版本能升到多高就多高
 
