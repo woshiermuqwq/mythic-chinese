@@ -18,4 +18,4 @@
       Skills:
       - bonemeal @selflocation{y=1}
 
-催熟脚下的方块
+催熟与自身位置上分方块
