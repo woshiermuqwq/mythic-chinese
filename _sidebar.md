@@ -375,6 +375,7 @@
     [Set Name](/技能/列表/setname)<br>
     [Set No Damage Ticks](/技能/列表/setnodamageticks)<br>
     [Set Owner](/技能/列表/setowner)<br>
+    [Set Path Finding Malus](/技能/列表/setpathfindingmalus)<br>
     [Set Rotation](/技能/列表/setrotation)<br>
     [Set Target Score](/技能/列表/settargetscore)<br>
     [Set Score](/技能/列表/setscore)<br>
@@ -584,6 +585,7 @@
     [Has Parent](/条件/hasparent)<br>
     [Has Passenger](条件//hasPassenger)<br>
     [Has Gravity](/条件/hasgravity)<br>
+    [Has Offhand](/条件/hasoffhand)<br>
     [Has Potion Effect](/条件/haspotioneffect)<br>
     [Has Tag](/条件/hastag)<br>
     [Has Permission](/条件/haspermission)<br>
