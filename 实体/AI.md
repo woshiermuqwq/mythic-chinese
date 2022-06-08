@@ -80,6 +80,7 @@ AIGoalSelectors:
 | gotoowner{followrange(fr, r, maxrange)=跟随距离（格方块）;minrange(mr)=与主人所保持的距离（格方块）;speed=移速;droptarget(dt)=是否无视当前目标走向主人}                         |                  | 走向主人(路程≤实体跟随距离)      |
 | gotoparent{followrange(fr, r, maxrange)=跟随距离（格方块）;minrange(mr)=与父系实体所保持的距离（格方块）;speed=移速;droptarget(dt)=是否无视当前目标走向父系实体}                         |                  | 走向父系实体(路程≤实体跟随距离)      |
 | gotoparent                          |                  | 走向父系实体(路程≤实体跟随距离)        |
+| gotowater（5.0.5） | 寻找并进入水源 |
 | panicWhenOnFire                     | panic            | 着火时寻找水源熄火 |
 
 **动物可用 (5.0.3)**
