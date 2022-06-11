@@ -445,40 +445,40 @@
     [Variable Subtract](/技能/列表/variablesubtract)<br>
     [Time](/技能/列表/time)</details>
   * <details><summary>[特效技能列表](技能/特效技能列表)</summary>
-    [Black Screen](/技能/特效技能列表/blackscreen)<br>
-    [Block Mask](/技能/特效技能列表/blockmask)<br>
-    [Block Unmask](/技能/特效技能列表/blockunmask)<br>
-    [Block Wave](/技能/特效技能列表/blockwave)<br>
-    [Bloody Screen](/技能/特效技能列表/bloodyscreen)<br>
-    [Ender](/技能/特效技能列表/ender)<br>
-    [Ender Beam](/技能/特效技能列表/enderbeam)<br>
-    [Explosion](/技能/特效技能列表/explosion)<br>
-    [Firework](/技能/特效技能列表/firework)<br>
-    [Flames](/技能/特效技能列表/flames)<br>
-    [Geyser](/技能/特效技能列表/geyser)<br>
-    [Glow](/技能/特效技能列表/glow)<br>
-    [Guardian Beam](/技能/特效技能列表/guardianbeam)<br>
-    [Item Spray](/技能/特效技能列表/itemspray)<br>
-    [Lightning](/技能/特效技能列表/lightning)<br>
-    [Particles](/技能/特效技能列表/particles)<br>
-    [Particle Box](/技能/特效技能列表/particlebox)<br>
-    [Particle Line](/技能/特效技能列表/particleline)<br>
-    [Particle Orbital](/技能/特效技能列表/particleorbital)<br>
-    [Particle Ring](/技能/特效技能列表/particlering)<br>
-    [Particle Sphere](/技能/特效技能列表/particlesphere)<br>
-    [Particle Tornado](/技能/特效技能列表/particletornado)<br>
-    [Play Animation](/技能/特效技能列表/playanimation)<br>
-    [Recoil](/技能/特效技能列表/recoil)<br>
-    [Skybox](/技能/特效技能列表/skybox)<br>
-    [Smoke](/技能/特效技能列表/smoke)<br>
-    [Smoke Swirl](/技能/特效技能列表/smokeswirl)<br>
-    [Sound](/技能/特效技能列表/sound)<br>
-    [Stop Sound](/技能/特效技能列表/stopsound)<br>
-    [Spin](/技能/特效技能列表/spin)<br>
-    [Totem Of Undying](/技能/特效技能列表/totemOfUndying)<br>
-    [Atom](/技能/特效技能列表/atom)<br>
-    [Particle Vortex](/技能/特效技能列表/particlevortex)<br>
-    [DNA](/技能/特效技能列表/dna)</details>
+    [Black Screen](/技能/effects/blackscreen)<br>
+    [Block Mask](/技能/effects/blockmask)<br>
+    [Block Unmask](/技能/effects/blockunmask)<br>
+    [Block Wave](/技能/effects/blockwave)<br>
+    [Bloody Screen](/技能/effects/bloodyscreen)<br>
+    [Ender](/技能/effects/ender)<br>
+    [Ender Beam](/技能/effects/enderbeam)<br>
+    [Explosion](/技能/effects/explosion)<br>
+    [Firework](/技能/effects/firework)<br>
+    [Flames](/技能/effects/flames)<br>
+    [Geyser](/技能/effects/geyser)<br>
+    [Glow](/技能/effects/glow)<br>
+    [Guardian Beam](/技能/effects/guardianbeam)<br>
+    [Item Spray](/技能/effects/itemspray)<br>
+    [Lightning](/技能/effects/lightning)<br>
+    [Particles](/技能/effects/particles)<br>
+    [Particle Box](/技能/effects/particlebox)<br>
+    [Particle Line](/技能/effects/particleline)<br>
+    [Particle Orbital](/技能/effects/particleorbital)<br>
+    [Particle Ring](/技能/effects/particlering)<br>
+    [Particle Sphere](/技能/effects/particlesphere)<br>
+    [Particle Tornado](/技能/effects/particletornado)<br>
+    [Play Animation](/技能/effects/playanimation)<br>
+    [Recoil](/技能/effects/recoil)<br>
+    [Skybox](/技能/effects/skybox)<br>
+    [Smoke](/技能/effects/smoke)<br>
+    [Smoke Swirl](/技能/effects/smokeswirl)<br>
+    [Sound](/技能/effects/sound)<br>
+    [Stop Sound](/技能/effects/stopsound)<br>
+    [Spin](/技能/effects/spin)<br>
+    [Totem Of Undying](/技能/effects/totemOfUndying)<br>
+    [Atom](/技能/effects/atom)<br>
+    [Particle Vortex](/技能/effects/particlevortex)<br>
+    [DNA](/技能/effects/dna)</details>
   * <details><summary>[粒子列表](技能/粒子列表)</summary>
   * <details><summary>[目标选择器](技能/目标选择器)</summary>
     [单实体目标选择器](技能/目标选择器#单实体)<br>
