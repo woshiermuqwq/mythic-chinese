@@ -16,18 +16,22 @@
 
 实体配置:
 
-    某村民:
-      Type: villager
-      Display: '我不是村民'
-      Skills:
-      - sudoskill{s=其它技能组;cat=true} @trigger ~onDamaged
+```yml
+某村民:
+  Type: villager
+  Display: '我不是村民'
+  Skills:
+  - sudoskill{s=其它技能组;cat=true} @trigger ~onDamaged
+```
 
 技能组配置:
 
-    其它技能组:
-      Skills:
-      - arrowvolley{a=20;s=25;v=10;f=50;rd=200} @EIR{r=30}
-      - message{msg="触发者名: <trigger.name>"} @self
+```yml
+其它技能组:
+  Skills:
+  - arrowvolley{a=20;s=25;v=10;f=50;rd=200} @EIR{r=30}
+  - message{msg="触发者名: <trigger.name>"} @self
+```
 
 关于 SetCasterAsTrigger
 ----------------------
@@ -41,13 +45,13 @@
   并将 Message 写入 Sudoskill所调用的技能组里  
   Message的文本保持不变 
   
-  Message若仍使用@world且攻击者是一名玩家  
-  攻击者将收不到信息, 因为@world会过滤施法者自身（即 攻击者）  
+  Message若仍使用\@World且攻击者是一名玩家  
+  攻击者将收不到信息, 因为\@World会过滤施法者自身（即 攻击者）  
 
-  Message若使用了@self, @self将选取 被SudoSkill的实体（即 攻击者)  
+  Message若使用了\@Self, \@Self将选取 被SudoSkill的实体（即 攻击者)  
   Message所发送的文本将包含 SudoSkill的技能目标名称（即 攻击者名称）  
 
   若开启 **setCasterastrigger**  
   Message所发送的文本则包含 SudoSkill的施法者名（即施法者名称：某村民）  
 
-  目标选择器: @Trigger、占位符<trigger.var.> 同理
+  目标选择器: \@Trigger、占位符<trigger.var.> 同理
