@@ -29,7 +29,6 @@
 -------
 
 1. 向仇恨目标发射抛射物, 命中后以抛射物为中心创造持续对玩家造成伤害的区域:
-```
 ```yaml
     Skills:
     - projectile{oh=[
@@ -42,7 +41,7 @@
 ```
 
 2. 收缩环绕:
-```
+```yaml
     Skills:
     - orbital{ot=[
       - orbital{ot=[
