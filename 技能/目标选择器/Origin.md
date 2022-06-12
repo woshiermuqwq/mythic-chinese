@@ -37,7 +37,7 @@
         - e:p{p=flame} @origin
         - d{a=1;i=true} @eno{r=3}
         ]} @origin
-    ]} @target
+      ]} @target
 ```
 
 2. 收缩环绕:
