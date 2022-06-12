@@ -20,8 +20,12 @@
 
 示例
 --------
-```
-- effect:spin{duration=100;velocity=20} @self
+```yaml
+测试实体:
+ Type: husk
+ Skills:
+ - effect:spin{duration=20;velocity=30} @self ~ondamaged
+# 受击后转一秒圈圈
 ```
 
 额外信息
