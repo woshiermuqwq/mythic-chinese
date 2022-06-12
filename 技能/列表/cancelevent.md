@@ -19,6 +19,8 @@
 -   ~onUse(需Crucible)
 -   ~onShoot(需Crucible)
 -   ~onConsume(需Crucible)
+-   ~onPressQ(需Crucible)
+
 
 示例
 -------
