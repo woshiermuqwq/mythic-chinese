@@ -1,4 +1,4 @@
-**描述**:选取坐标原点,对于一些特殊类技能(如projectile)的onTick技能,坐标原点是抛射物本身,而不是施法者.
+**描述**: 选取坐标原点,对于一些特殊类技能(如[Projectile](/技能/列表/projectile))的onTick技能,坐标原点是抛射物本身, 而不是施法者.
 
 修改项
 -----
@@ -8,6 +8,8 @@
 | xoffset | x | X轴偏移值 | 0.0 |
 | yoffset | y | y轴偏移值 | 0.0 |
 | zoffset | z | z轴偏移值 | 0.0 |
+| forwardoffset| | 前后偏移（基于视角） | 0.0 |
+| sideoffset| | 左右偏移（基于视角） | 0.0 |
 
 注意事项
 --------
@@ -17,23 +19,34 @@
 
 可搭配@origin的特殊技能:  
 - [Projectile](/技能/列表/Projectile)
-- [Misstile](/技能/列表/Missile)
+- [Missile](/技能/列表/Missile)
 - [Chain](/技能/列表/Chain)
 - [Chain Missile](/技能/列表/ChainMissile)
 
-一些带有"Origin" 字眼的目标选择器将以执行时抛射物位置为中心（如@eno、@blocksnearorigin）
+一些带有"Origin" 字眼的目标选择器将以执行时抛射物位置为中心（如@Entitiesnearorigin、@Blocksnearorigin）
 
 运用示例
 -------
 
-1. 发射抛射物,命中后以抛射物为中心创造技能区域:
+1. 向仇恨目标发射抛射物, 命中后以抛射物为中心创造持续对玩家造成伤害的区域:
 ```
+```yaml
     Skills:
-    - projectile{oh=[  - projectile{ot=[  - e:p{p=flame} @origin ];oh=[  - d{a=1;i=true} @eno{r=3;ignore=self} ];i=10;v=0;type=METEOR;se=false;sb=false};sb=false;i=1;v=7} @target
+    - projectile{oh=[
+      - projectile{i=10;v=0;type=METEOR;se=false;sb=false};sb=false;i=5;v=7;
+        ot=[
+        - e:p{p=flame} @origin
+        - d{a=1;i=true} @eno{r=3}
+        ]} @origin
+    ]} @target
 ```
 
 2. 收缩环绕:
 ```
     Skills:
-    - orbital{ot=[  - orbital{ot=[  - e:p{p=flame} @origin ];r=3;d=600;i=1;p=32;vy=60} @origin ];r=3;d=600;i=30;p=12} @self ~onSpawn
+    - orbital{ot=[
+      - orbital{ot=[
+        - e:p{p=flame} @origin
+        ];r=3;d=600;i=1;p=32;vy=60} @origin
+      ];r=3;d=600;i=30;p=12} @self ~onSpawn
 ```
