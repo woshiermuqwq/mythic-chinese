@@ -12,6 +12,7 @@
 | preventknockback | pkb, pk | 是否不会造成击退   | false   |
 | preventimmunity  | pi      | 是否无视受伤间隔   | false   |
 | ignorearmor      | ia, i    | 是否无视实体防御 | false   |
+| ignoreenchantments      | ignoreenchants, ie    | 是否无视防御附魔 | false   |
 | element | e, damagetype, type | 所造成伤害的伤害种类 | 无 |
 | damagecause | dc, cause | 所造成伤害的伤害类型 | Entity_Attack |
 
