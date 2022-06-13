@@ -8,12 +8,13 @@
 
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| percent           | p | 所乘以的百分比（为负时不造成伤害, 但仍会变红）         | 0.1    |
-| current          | c,ch    | 是否选取施法者最大生命而不是技能目标的 | false   |
+| percent           | p | 所乘以的百分比（为负时不造成伤害, 但仍会变红 支持[占位符](/技能/占位符)）         | 0.1    |
 | preventknockback | pkb, pk | 是否不会造成击退   | false   |
 | preventimmunity  | pi      | 是否无视受伤间隔   | false   |
-| ignorearmor      | i,ia    | 是否无视实体防御 | false   |
-| element (4.12) | type | 所造成伤害的伤害类型 | 无 |
+| ignorearmor      | ia, i    | 是否无视实体防御 | false   |
+| ignoreenchantments      | ignoreenchants, ie    | 是否无视防御附魔 | false   |
+| element | e, damagetype, type | 所造成伤害的伤害种类 | 无 |
+| damagecause | dc, cause | 所造成伤害的伤害类型 | Entity_Attack |
 
 示例 (4.11+)
 --------
