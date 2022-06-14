@@ -69,7 +69,8 @@
 
 伤害种类（DamageCause）不同于伤害类型（Element）  
 当种类为Fire时, 被击杀者将显示被烧死  
-当类型为Fire时, 则只是正常的被打死
+当类型为Fire时, 则只是正常的被打死  
+远程实体最好将damagecause改为projectile（远程实体无法造成近身攻击, 也就是entity_attack）
 
 额外信息
 -------
