@@ -14,7 +14,7 @@
 | ignorearmor      | ia, i    | 是否无视实体防御 | false   |
 | ignoreenchantments      | ignoreenchants, ie    | 是否无视防御附魔 | false   |
 | element | e, damagetype, type | 所造成伤害的伤害种类 | 无 |
-| damagecause | dc, cause | 所造成伤害的伤害类型 | Entity_Attack |
+| damagecause | dc, cause | 所造成伤害的伤害原因 | Entity_Attack |
 
 
 ### 伤害类型 (Element)
@@ -67,8 +67,8 @@
 提示
 ----
 
-伤害种类（DamageCause）不同于伤害类型（Element）  
-当种类为Fire时, 被击杀者将显示被烧死  
+伤害原因（DamageCause）不同于伤害类型（Element）  
+当原因为Fire时, 被击杀者将显示被烧死  
 当类型为Fire时, 则只是正常的被打死  
 远程实体最好将damagecause改为projectile（远程实体无法造成近身攻击, 也就是entity_attack）
 
