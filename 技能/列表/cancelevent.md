@@ -12,6 +12,7 @@
 -----------------
 
 -   ~onAttack
+-   ~onBreed
 -   ~onDamaged
 -   ~onExplode
 -   ~onInteract
