@@ -119,6 +119,9 @@ HugLiquid 新增于 MM 4.14.0
    hitnonplayers=true;
    onTick=[
    - e:p{p=flame;fromOrigin=true} @origin
+   ];oh=[
+   - damage{a=10}
+   - potion{t=SLOW;d=100;l=2}
    ]} @target ~onTimer:20
 ```
 
