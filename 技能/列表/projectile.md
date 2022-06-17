@@ -106,19 +106,20 @@ HugLiquid 新增于 MM 4.14.0
 示例
 --------
 
-    Test:
-     Skills:
-     - projectile{hnp=true;ontick=[  - e:particles{p=flame;a=20;s=0;hS=0.2;vS=0.2} @origin ];oh=[  - damage{a=10}  - potion{t=SLOW;d=100;l=2} ];v=8;i=1;hR=1;vR=1}
+```yaml
+测试:
+ Skills:
+ - projectile{hnp=true;ontick=[  - e:particles{p=flame;a=20;s=0;hS=0.2;vS=0.2} @origin ];oh=[  - damage{a=10}  - potion{t=SLOW;d=100;l=2} ];v=8;i=1;hR=1;vR=1}
 
-     Skills:
-      - projectile{
-          velocity=3;
-          interval=1;
-          hitnonplayers=true;
-          onTick=[
-            - e:p{p=flame;fromOrigin=true} @origin
-          ];
-        } @target ~onTimer:20
+另一种写法:
+ Skills:
+ - projectile{
+   velocity=3;
+   interval=1;
+   hitnonplayers=true;
+   onTick=[
+   - e:p{p=flame;fromOrigin=true} @origin
+   ]} @target ~onTimer:20
 
 旧写法:
 
