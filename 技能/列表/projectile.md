@@ -120,20 +120,23 @@ HugLiquid 新增于 MM 4.14.0
    onTick=[
    - e:p{p=flame;fromOrigin=true} @origin
    ]} @target ~onTimer:20
+```
 
 旧写法:
 
-    测试:
-     Skills:
-     - p{ot=测试-Tick;oh=测试-Hit;v=8;i=1;hr=1;vr=1;hnp=true}
+```yaml
+测试:
+ Skills:
+ - p{ot=测试-Tick;oh=测试-Hit;v=8;i=1;hr=1;vr=1;hnp=true}
 
-    测试-Tick:
-     Skills:
-     - e:p{p=flame;a=20;s=0;hS=0.2;vS=0.2} @origin
-    测试-Hit:
-     Skills:
-     - d{a=10}
-     - potion{t=SLOW;d=100;l=2}
+测试-Tick:
+ Skills:
+ - e:p{p=flame;a=20;s=0;hS=0.2;vS=0.2} @origin
+测试-Hit:
+ Skills:
+ - d{a=10}
+ - potion{t=SLOW;d=100;l=2}
+```
 
 提示
 ------
