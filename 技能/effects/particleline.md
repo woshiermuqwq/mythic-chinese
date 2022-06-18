@@ -14,7 +14,7 @@
 | fromOrigin      | fo       | 粒子线起始点是否位于施法者/抛射物坐标原点  | false         |
 | zigzag          | zz       | 粒子线是否为"Z"形而不是直线形 | false         |
 | zigzags         | zzs      | "Z"形粒子线的折点数, 为偶数时粒子线才可以视觉上命中技能目标 | 10            |
-| zigzagOffset    | zzo      | "Z"形粒子线朝向的偏差幅度 | 0.2  |
+| zigzagOffset    | zzo      | "Z"形粒子线朝向的偏差弧度范围 | 0.2  |
 
 Z形粒子线类似于锯齿、心电图  
 
