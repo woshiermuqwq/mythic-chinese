@@ -27,7 +27,7 @@
 | MythicMobs | 5.0.4 | 1.16.5~1.19 | 5.0.5 | 5.1.0-4143 | |
 | MythicLib | 1.3.1 | 1.16.5~1.19 | 无 | 无 | 无 | 4.13~5.1.0-4088 |
 | MythicExtensions | 1.739（建议1.738c） | 1.12.2~1.16.5 | 无 | 无 | 4.7.2~5.0.0(MC版本低于1.17) |
-| MythicCrucible（需 MythicLib） | 无 | 1.16.5~1.19 | 无 | 1.2.0 | 5.0.1~5.1.0-4088 |
+| [MythicCrucible](https://gitlab.com/SharkGirl_kunjang/crucible-chinese-wiki/-/wikis/home)| 无 | 1.16.5~1.19 | 无 | 1.5.0 | 5.1.0 |
 | Lib's Disguise | 10.0.27 | 1.12.2~1.19 | 无 | 无 | 4.9~5.1.0 |
 
 
