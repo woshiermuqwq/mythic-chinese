@@ -251,6 +251,7 @@
     [模型引擎使用示范](实体/Model-Engine#示例)</details>
   * <details><summary>[拓展: MPets](MPets)</summary>
     [示例](实体/MPets#示例)<br>
+  * <details><summary>[拓展: MM地牢](https://gitlab.com/SharkGirl_kunjang/mythicdungeons-chinese-wiki/-/wikis/home)</summary>
 
 **技能**
   * <details><summary>[概览](技能/概览)</summary>
