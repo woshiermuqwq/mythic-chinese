@@ -97,13 +97,13 @@ AIGoalSelectors:
 | AI行动器名        | 别称                    | 描述         |
 | ----------------- | ----------------------- | ------------ |
 | arrowattack{speed=移速;attackspeedmax=最快射速;attackspeedmin=最慢射速;attackradius=寻敌半径范围}       |                         | 无需拉弓射箭（实体必须可拉弓） |
-| skeletonbowattack | bowshoot, bowmaster     | 拉弓射箭（实体必须可拉弓）     |
+| skeletonbowattack{speed=移速;attackspeedmin=最慢射速;attackradius=寻敌半径范围} | bowshoot, bowmaster     | 拉弓射箭（实体必须可拉弓）     |
 
 **猪灵与掠夺者可用**
 
 | AI行动器名     | 别称 | 描述     |
 | -------------- | ---- | -------- |
-| crossbowAttack |      | 拉弩射箭 |
+| crossbowAttack{speed=移速;attackradius=寻敌半径范围} |      | 拉弩射箭 |
 
 **爬行者可用**
 
