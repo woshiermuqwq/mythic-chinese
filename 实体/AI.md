@@ -82,6 +82,7 @@ AIGoalSelectors:
 | gotoparent                          |                  | 走向父系实体(路程≤实体跟随距离)        |
 | gotowater（5.0.5） | 寻找并进入水源 |
 | panicWhenOnFire                     | panic            | 着火时寻找水源熄火 |
+| randomFly | | 随机飞行 |
 
 **动物可用 (5.0.3)**
 
@@ -108,7 +109,7 @@ AIGoalSelectors:
 
 | AI行动器名     | 别称 | 描述     |
 | -------------- | ---- | -------- |
-| creeperswell（4.14.2） | | 爬行者膨胀后爆炸 |
+| creeperswell（4.14.2） | creeperexplode | 爬行者膨胀后爆炸 |
 
 **AI目标选择器**
 ---
