@@ -743,4 +743,4 @@
   * <details><summary>[[特效教学]]</summary>
     [水平五芒星](/特效教学#水平五芒星)<br>
     [不断扩大的水平圆](/特效教学#不断扩大的水平圆)</details>
-  * <details><summary>[[萌新の一百个问题]]</summary>
+  * <details><summary>[[制作第一只 Mythic 实体]]</summary>
