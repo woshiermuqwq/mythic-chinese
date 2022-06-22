@@ -17,6 +17,8 @@
 一些特殊技能内的元（子）技能（onTickSkill、onEndSkill等）
 若使用该目标选择器, 则该目标选择器会选取  执行技能时该抛射物所处的坐标.  
 
+**千万别为目标选择器为@Origin或以坐标原点的技能加上冷却**
+
 可搭配@origin的特殊技能:  
 - [Projectile](/技能/列表/Projectile)
 - [Missile](/技能/列表/Missile)
