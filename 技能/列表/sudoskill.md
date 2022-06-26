@@ -9,7 +9,7 @@
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
 | skill | s | 所激活的技能组 | 无 |
-| setcasterastrigger | cat | 施法者是否作为所激活技能组的触发者 | false |
+| setcasterastrigger | cat | 触发者是否作为所激活技能组的触发者 | false |
 
 示例
 -------
@@ -55,3 +55,36 @@
   Message所发送的文本则包含 SudoSkill的施法者名（即施法者名称：某村民）  
 
   目标选择器: \@Trigger、占位符<trigger.var.> 同理
+
+  该选项为false时, 被sudoskill的实体所执行的技能的触发者将与施法者执行sudoskill时的触发者一致  
+  这意味着可以让实体选取它的父系实体的主人
+```yaml
+父系实体的主人:
+ Type: husk
+ AIGoalSelectors:
+ - clear
+ Skills:
+ - skill:test @self ~oninteract
+ 
+父系实体:
+ Type: baby_zombie
+ AIGoalSelectors:
+ - clear
+ - gotoparent
+ Options:
+  PreventSunburn: true
+ Skills:
+ - signal{s=target} @parent ~oninteract
+ - potion{t=glowing;d=20} @trigger ~onsignal:target
+实体:
+ Type: zombie
+ Options:
+  PreventSunburn: true
+ AIGoalSelectors:
+ - clear
+ - gotoparent
+ Skills:
+ - summon{t=Pet} @self ~onspawn
+ - signal{s=target1} @parent ~onSignal:target
+ - sudoskill{s=[  - signal{s=target} @trigger ]} @parent ~onSignal:target
+```
