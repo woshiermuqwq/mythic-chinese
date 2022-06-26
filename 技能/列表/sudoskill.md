@@ -30,7 +30,7 @@
 其它技能组:
   Skills:
   - arrowvolley{a=20;s=25;v=10;f=50;rd=200} @EIR{r=30}
-  - message{msg="触发者名: <trigger.name>"} @self
+  - message{msg="触发者名<&co> <trigger.name>"} @self
 ```
 
 关于 SetCasterAsTrigger
