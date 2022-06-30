@@ -19,8 +19,9 @@
 | Interval            | i       | 光环刷新间隔(刻) | 1             |
 | maxStacks           | ms | 光环最大层数（支持[占位符](/技能/占位符)） | 无          |
 | refreshDuration     | rd | 光环叠加后是否刷新持续时间 | false         |
-| mergeSameCaster     | msc, mc | 光环是否无法被施法者叠加| false         |
+| mergeSameCaster     | msc, mc | 光环是否无法被施法者叠加 | false         |
 | mergeAll            | ma | 光环是否叠加所有相同的光环 | false         |
+| overWriteAll | oa | 光环是否替换已有的同名光环 | false |
 | showbartimer | bartimer, bt | 是否以Boss血条的形式向施法者显示光环剩余时间 | false |
 | bartimerdisplay | bartimertext | 所显示的Boss血条文本 | <skill.var.aura-name> |
 | bartimercolor | | 所显示的[Boss血条颜色](/实体/Boss血条#血条样式列表) | Red |
@@ -79,6 +80,38 @@
 
 持续10秒的光环: 火焰防御 将令施法者接下来5次对其它实体所造成伤害数值都将翻倍(*2),这包括技能伤害  
 且受伤后激活技能: 增伤效果.
+
+关于 合并（Merge）与替换（Over Write）
+-
+
+当设修改项: `OverWriteAll` 为 `true` 时, 该光环将在启动之前**直接移除**同名光环  
+这意味着被移除光环（前者）的元技能（`OnStart/Tick等`）及修改项值（`refreshduration=true;showbartimer=true等`）  
+将被后者所替代
+```yaml
+t:
+ Skills:
+ - aura{auraname=1;bartimer=true;bartimertext=1<skill.var.aura-stacks>;d=100;overwriteall=true;rd=true;
+  ot=[  - m{m=1} ];
+  os=[
+  - aura{auraname=1;d=40;delay=50;ot=[  - m{m=2} ];overwriteall=true;msc=false;bartimer=true;bartimertext=1<skill.var.aura-stacks>}
+  ]} @self
+```
+第一个光环激活后, 2.5秒内自身将收到"1"的聊天栏信息, 2.5秒后将收到"2"的聊天栏信息
+
+`mergeall` 为 `true` 时, 不管 `mergesamecaster` 值为什么, 俩同名光环都将叠加  
+`mergesamecaster` 为 `true` 时, 光环将不会叠加给予者为施法者的同名光环  
+但当给予者不为施法者时, 不管 `mergeall` 值为什么, 俩同名光环都将叠加  
+`mergesamecaster` 是为后者激活的光环所使用的修改项, 为前者使用没有任何效果
+```yaml
+t:
+ Skills:
+ - aura{auraname=1;bartimer=true;bartimertext=1<skill.var.aura-stacks>;d=100;maxstacks=2;mergesamecaster=false;
+  os=[
+  - aura{auraname=1;d=40;delay=50;mergeall=true;mergesamecaster=false}
+  ]} @self
+```
+不管第一行aura的mergesamecaster值为什么, 该光环都只能有一层  
+但若将第二行mergesamecaster改为true, 则会有俩层
 
 额外信息
 --------
