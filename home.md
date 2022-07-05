@@ -1,10 +1,3 @@
-## 前言
-
-[官方Discord频道](https://www.mythiccraft.io/discord)不再对 Minecraft 1.16 以下的问题作出答复\
-故官方百科不会列出 Minecraft 1.16 以下的注意事项\
-基于国内 Minecraft 1.12.2 服务器仍然盛行的情况\
-中文百科将列出 Minecraft 1.16 以下的注意事项  
-
 ## 浏览说明
 
 请善用百科最上方偏右边的搜索栏与浏览器内置搜索工具（通常是Ctrl+F）  
