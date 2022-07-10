@@ -51,7 +51,7 @@
     [生成相关](错误排查#生成相关错误)<br>
     [物品相关](错误排查#物品相关错误) </details>
   * <details><summary>[常见报错](常见报错)</summary>
-  * <details><summary>[其它Mythic插件百科（展开点击）](拓展)</summary>
+  * <details><summary>[其它Mythic插件百科（展开）](拓展)</summary>
     [物品技能 Crucible](https://gitlab.com/TranslatedByShark/MythicCrucible-Manual-CN/-/wikis/home)<br>
     [模型引擎 ModelEngine](https://gitlab.com/TranslatedByShark/ModelEngine-Manual-CN/-/wikis/home)<br>
     [地牢 MythicDungeons](https://gitlab.com/TranslatedByShark/MythicDungeons-Manual-CN/-/wikis/home)<br>
