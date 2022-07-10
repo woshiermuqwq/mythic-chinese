@@ -51,26 +51,12 @@
     [生成相关](错误排查#生成相关错误)<br>
     [物品相关](错误排查#物品相关错误) </details>
   * <details><summary>[常见报错](常见报错)</summary>
-  * <details><summary>[拓展](拓展)</summary>
-    [Crucible](https://mythiccraft.io/index.php?resources/crucible-create-unbelievable-mythic-items.2/)<br>
-    [BossShop](https://www.spigotmc.org/resources/mythicmobs-%E2%9A%94-bossshoppro-add-on-%E2%9A%94.58415/)<br>
-    [Denizen](https://github.com/BerndiVader/mmDenizenAddon)<br>
-    [Quests](https://www.spigotmc.org/resources/mythicmobs-quests-module.7261/)<br>
-    [Skript](https://github.com/BerndiVader/mmSkriptAddon)<br>
-    [Advanced Achievements](https://www.spigotmc.org/resources/advanced-achievements.6239/)<br>
-    [BetonQuest](https://www.spigotmc.org/resources/betonquest.2117/)<br>
-    [BeautyQuests](https://www.spigotmc.org/resources/beautyquests.39255/)<br>
-    [EnchantsPlus](https://www.spigotmc.org/resources/enchantsplus.3396/)<br>
-    [Graveyards](https://www.spigotmc.org/resources/graveyards-40-off.7191/)<br>
-    [Heroes](https://www.spigotmc.org/resources/heroes.305/)<br>
-    [Holograms](https://www.spigotmc.org/resources/holograms.4924/)<br>
-    [LibsDisguises](https://www.spigotmc.org/resources/libs-disguises.81/)<br>
-    [McMMO](https://www.spigotmc.org/resources/mcmmo.2445/)<br>
-    [MiniaturePets](https://www.spigotmc.org/resources/%E2%8C%BE-miniaturepets-%E2%8C%BE-custom-mobs-great-for-eula.23991/)<br>
-    [SkillAPI](https://www.spigotmc.org/resources/skillapi-premium.28029/)<br>
-    [TerrainControl](https://www.spigotmc.org/resources/terraincontrol.2214/)<br>
-    [Vault](https://www.spigotmc.org/resources/vault.41918/)<br>
-    [WorldGuard](https://dev.bukkit.org/projects/worldguard)</details>
+  * <details><summary>[其它Mythic插件百科（展开点击）](拓展)</summary>
+    [物品技能 Crucible](https://gitlab.com/TranslatedByShark/MythicCrucible-Manual-CN/-/wikis/home)<br>
+    [模型引擎 ModelEngine](https://gitlab.com/TranslatedByShark/ModelEngine-Manual-CN/-/wikis/home)<br>
+    [地牢 MythicDungeons](https://gitlab.com/TranslatedByShark/MythicDungeons-Manual-CN/-/wikis/home)<br>
+    [伪装](https://gitlab.com/TranslatedByShark/Lib'sDisguise-Manual-CN/-/wikis/home)<br>
+    [区域 WorldGuard（下载）](https://dev.bukkit.org/projects/worldguard)</details>
   * <details><summary>[API信息](API)</summary>
     [Javadocs](API#javadocs)<br>
     [Maven](API#maven)<br>
