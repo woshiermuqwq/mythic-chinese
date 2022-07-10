@@ -55,7 +55,7 @@
     [物品技能 Crucible](https://gitlab.com/TranslatedByShark/MythicCrucible-Manual-CN/-/wikis/home)<br>
     [模型引擎 ModelEngine](https://gitlab.com/TranslatedByShark/ModelEngine-Manual-CN/-/wikis/home)<br>
     [地牢 MythicDungeons](https://gitlab.com/TranslatedByShark/MythicDungeons-Manual-CN/-/wikis/home)<br>
-    [伪装](https://gitlab.com/TranslatedByShark/Lib'sDisguise-Manual-CN/-/wikis/home)<br>
+    [伪装](https://gitlab.com/TranslatedByShark/LibsDisguise-Manual-CN/-/wikis/home)<br>
     [区域 WorldGuard（下载）](https://dev.bukkit.org/projects/worldguard)</details>
   * <details><summary>[API信息](API)</summary>
     [Javadocs](API#javadocs)<br>
