@@ -17,17 +17,17 @@
 --------
 
 死亡后在自身位置掉落一把钻石剑与一颗钻石.
-
-      Skills:
-      - dropitem{i=diamond_sword,diamond} @self ~onDeath
-      - ...
-
+```yaml
+ Skills:
+ - dropitem{i=diamond_sword,diamond} @self ~onDeath
+ - ...
+```
 生成后在自身位置掉落 掉落表: 某掉落表 内的所有物品
-
-      Skills:
-      - dropitem{i=某掉落表} @self ~onSpawn
-      - ...
-
+```yaml
+ Skills:
+ - dropitem{i=某掉落表} @self ~onSpawn
+ - ...
+```
 额外信息
 -------
 
