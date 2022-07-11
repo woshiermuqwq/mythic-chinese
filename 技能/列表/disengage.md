@@ -1,12 +1,12 @@
 技能: Disengage
 -
 
-朝目标向后冲刺
+朝技能目标向后冲刺
 
 示例
 --------
 
-···yaml
+```yaml
  Skills:
  - disengage @self
  - ...
