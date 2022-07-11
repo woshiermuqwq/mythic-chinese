@@ -13,16 +13,17 @@
 示例
 --------
 
-这只羊每5秒会雷击半径10格方块范围内的所有实体.
-
-    StaticSheep:
-      Type: SHEEP
-      Skills:
-      - lightning @EntitiesInRadius{r=10} ~onTimer:100
-
-这只羊每5秒会雷击半径10格方块范围内的所有实体,附带6伤害.
-
-    StaticSheep:
-      Type: SHEEP
-      Skills:
-      - lightning{d=6} @EntitiesInRadius{r=10} ~onTimer:100
+这只尸壳每5秒会雷击半径10格方块范围内的所有实体.
+```yaml
+电击小子:
+ Type: husk
+ Skills:
+ - lightning @eir{r=10} ~onTimer:100
+```
+这只尸壳每5秒会雷击半径10格方块范围内的所有实体, 附着6伤害.
+```yaml
+电击老子:
+ Type: SHEEP
+ Skills:
+ - lightning{d=6} @eir{r=10} ~onTimer:100
+```
