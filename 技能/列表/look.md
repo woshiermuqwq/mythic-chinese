@@ -18,8 +18,8 @@
 示例
 --------
 
-    Test:
-      Skills:
-      - look{headOnly=true;immediately=true} @Target
-
+```yaml
+ Skills:
+ - look{headOnly=true;immediately=true} @Target
+```
 看向目标且仅限头部转动,无转动动画
