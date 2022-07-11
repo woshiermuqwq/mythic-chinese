@@ -1,7 +1,7 @@
 技能: Disguise Target
 --------------------------
 
-令目标伪装.
+令技能目标伪装.
 
 修改项
 ----------
@@ -14,12 +14,14 @@
 示例
 --------
 
-令目标伪装成羊.
+令仇恨目标伪装成羊.
 
-      Skills:
-      - disguisetarget{d=SHEEP} @target
-
+```yaml
+ Skills:
+ - disguisetarget{d=SHEEP} @target
+```
 令目标伪装成 显示名为灰字*Jeb*,皮肤为玩家Notch的皮肤 的玩家
-
-      Skills:
-      - disguisetarget{type=player;player=&7Jeb;skin=Notch} @target
+```yaml
+ Skills:
+ - disguisetarget{type=player;player=&7Jeb;skin=Notch} @target
+```
