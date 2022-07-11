@@ -1,7 +1,8 @@
 技能: Leap
 --------------------------
 
-向目标冲刺,速度过快会冲过头.
+向技能目标冲刺  
+冲刺附着惯性
 
 修改项
 ----------
@@ -14,14 +15,16 @@
 示例
 --------
 
-    冲刺技能测试:
-      Cooldown: 10
-      Skills:
-      - leap{velocity=200} @target
-      - delay 20
-      - jump{velocity=-100}
-      - effect:explosion @self
-      - damage{amount=20} @EntitiesInRadius{r=5}
+```yaml
+冲刺技能测试:
+ Cooldown: 10
+ Skills:
+ - leap{velocity=200} @target
+ - delay 20
+ - jump{velocity=-100}
+ - effect:explosion @self
+ - damage{amount=20} @EntitiesInRadius{r=5}
+```
 
 额外信息
 --
