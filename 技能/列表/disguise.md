@@ -5,7 +5,7 @@
 
 此技能的修改项可以缩写为一行包含着伪装种类与伪装选项的字符串.
 
-若MM版本在4.12以下,请使用技能: [Disguise Old](技能/列表/disguiseold)
+若MM版本在4.12以下, 请使用技能: [Disguise Old](技能/列表/disguiseold)
 
 修改项
 ----------
@@ -19,7 +19,7 @@
 示例
 --------
 
-```
+```yaml
 伪装测试:
   Skills:
   - disguise{d=Sheep SetBurning SetSpinning SetCustomNameVisible setCustomName Zombie} @self
