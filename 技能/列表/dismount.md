@@ -1,10 +1,12 @@
 技能: Dismount
 --------------------------
 
-取消骑乘.
+令施法者取消骑乘其它实体.
 
 示例
 --------
 
-      Skills:
-      - dismount ~onDamaged
+```yaml
+ Skills:
+ - dismount ~onDamaged
+```
