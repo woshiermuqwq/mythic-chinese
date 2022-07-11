@@ -14,14 +14,15 @@
 示例
 --------
 
-      Skills:
-      - heal{amount=20} @self ~onDamaged 0.2
-
+```yaml
+ Skills:
+ - heal{amount=20} @self ~onDamaged 0.2
+```
 受伤后有20%几率恢复自身20点生命
-
-      Skills:
-      - heal{amount=20;overheal=true} @self ~onDamaged 0.2
-
+```yaml
+ Skills:
+ - heal{amount=20;overheal=true} @self ~onDamaged 0.2
+```
 受伤后有20%几率恢复自身20点生命,超过最大生命的部分将等值转化为生命提升状态效果.
 
 额外信息
