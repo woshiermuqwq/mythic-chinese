@@ -21,7 +21,9 @@
 示例
 --------
 
+```yaml
     Skills:
     - giveitemfromslot{s=HAND;fl=true} @server ~onTimer:10
     - ...
+```
 生成后给予半径20格方块内的所有玩家一把钻石剑.
