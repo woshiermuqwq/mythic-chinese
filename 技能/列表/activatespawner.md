@@ -1,7 +1,7 @@
 技能: Activate Spawner
 --------------------------
 
-激活指定生成点(组).
+激活指定名称的生成点(组).
 
 修改项
 ----------
@@ -14,17 +14,18 @@
 --------
 
 激活生成点"测试"
-
-    Skills:
-    - activatespawner{spawner=测试}
-
+```yaml
+ Skills:
+ - activatespawner{spawner=测试}
+```
 激活位于"测试"组内的所有生成点
-
-    Skills:
-    - activatespawner{spawner=g:测试}
-
+```yaml
+ Skills:
+ - activatespawner{spawner=g:测试}
+```
 激活所有以"测试"为前缀的生成点
-
-    Skills:
-    - activatespawner{spawner=测试*}
-    - ...
+```yaml
+ Skills:
+ - activatespawner{spawner=测试*}
+ - ...
+```
