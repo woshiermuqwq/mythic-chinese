@@ -18,7 +18,7 @@
 --------
 
 破坏方块后若方块种类为泥土或草方块则给予玩家钻石.
-```配置
+```yaml
 #物品配置
 特殊的物品:
   Id: GOLDEN_SHOVEL
@@ -32,3 +32,4 @@
   - blocktype{t=DIRT,GRASS_BLOCK} true
   Skills:
   - breakBlockAndGiveItem{dodrops=false;items=diamond}
+```
