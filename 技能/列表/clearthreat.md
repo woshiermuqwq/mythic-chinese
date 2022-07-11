@@ -8,5 +8,5 @@
 
 ```yaml
  Skills:
- - clearThreat{} @self
+ - clearThreat @self
 ```
