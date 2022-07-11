@@ -15,7 +15,8 @@
 --------
 
 ```
-    Skills:
-    - barRemove{name="测试"} @self ~onInteract
-    - ...
+ Skills:
+ - barRemove{name="测试"} @self ~onInteract
+ - ...
 ```
+施法者被右键后移除自身的Boss血条: 测试
