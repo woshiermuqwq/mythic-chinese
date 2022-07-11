@@ -15,7 +15,8 @@
 示例
 --------
 
-      Skills:
-      - goatram @nearestplayer{r=32}
-
+```yaml
+ Skills:
+ - goatram @nearestplayer{r=32}
+```
 冲向离自己最近的玩家
