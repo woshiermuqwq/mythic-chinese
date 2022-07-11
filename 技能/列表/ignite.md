@@ -1,7 +1,8 @@
 技能: Ignite
 --------------------------
 
-点燃目标.
+点燃技能目标  
+对防火实体（僵尸猪灵等）无效
 
 修改项
 ----------
@@ -13,7 +14,9 @@
 示例
 --------
 
-    Skills:
-    - ignite{ticks=100} @trigger ~onAttack
+```yaml
+ Skills:
+ - ignite{ticks=100} @trigger ~onAttack
+```
 
 造成伤害后附带5秒燃烧.
