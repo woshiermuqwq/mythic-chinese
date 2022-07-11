@@ -21,9 +21,11 @@
 示例
 --------
 
-      Skills:
-      - barCreate{name="MyBossBar";display="<caster.name> - <caster.hp>";value=1.0;color=BLUE;style=SEGMENTED_6} @self ~onSpawn
-      - ...
+```yaml
+ Skills:
+ - barCreate{name="MyBossBar";display="<caster.name> - <caster.hp>";value=1.0;color=BLUE;style=SEGMENTED_6} @self ~onSpawn
+ - ...
+```
 
 拓展信息
 -------
