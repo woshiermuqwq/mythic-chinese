@@ -18,7 +18,7 @@
 ----------
 
 1. 
-```
+```yaml
 破坏方块测试:
   Skills:
   - breakblock{forcesync=true;doEffect=true;doDrops=true;useTool=true} @targetlocation
@@ -27,7 +27,7 @@
 当玩家未手持可破坏指定方块的物品时,破坏后播放粒子效果,但不会掉落方块(反之则会).
 
 2. 
-```
+```yaml
 破坏方块测试:
   Skills:
   - breakblock{forcesync=true;doEffect=true;doDrops=true;useTool=false} @targetlocation
@@ -40,8 +40,9 @@
 示例
 --------
 
-被右键后破坏指定位置的方块.
-
-      Skills:
-      - breakblock{forcesync=true} @location{c=100,64,100} ~onInteract
-      - ...
+被右键后破坏位于 `X: 100, Y: 64, Z: 100` 的方块.
+```yaml
+ Skills:
+ - breakblock{forcesync=true} @location{c=100,64,100} ~onInteract
+ - ...
+```
