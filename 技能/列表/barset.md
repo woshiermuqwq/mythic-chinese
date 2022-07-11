@@ -21,6 +21,7 @@
 
 ```yaml
  Skills:
- - barSet{name="MyBossBar";display="<caster.name> - <caster.hp>";value=1.0} @self ~onDamaged
+ - barSet{name="测试";display="<caster.name> - <caster.hp>";value=1.0} @self ~onDamaged
  - ...
 ```
+施法者受伤后将自身的Boss血条: 测试 所显示的文本更新为 `施法者名称 - 施法者当前生命`
