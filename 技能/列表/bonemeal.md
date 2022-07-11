@@ -15,4 +15,4 @@
  Skills:
  - bonemeal @selflocation{y=1}
 ```
-催熟自身位置的方块
+催熟自身所处位置的方块
