@@ -19,5 +19,7 @@
 示例
 --------
 
-      Skills:
-      - disguiseOld{d=SHEEP}
+```yaml
+ Skills:
+ - disguiseOld{d=SHEEP}
+```
