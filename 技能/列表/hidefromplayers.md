@@ -15,7 +15,11 @@
 示例
 -------
 
-    - hidefromplayers{d=60} ~onUse
+
+```yaml
+ - hidefromplayers{d=60} ~onUse
+```
+右键后隐身3秒
 
 额外信息
 -------
