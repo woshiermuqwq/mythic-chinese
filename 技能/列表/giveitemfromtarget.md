@@ -1,7 +1,7 @@
 技能: Give Item From Target
 --------------------------
 
-夺取并获取目标物品.
+夺取并获取技能目标物品.
 
 修改项
 ----------
@@ -19,7 +19,9 @@
 示例
 --------
 
+```yaml
     Skills:
     - giveitemfromtarget{i=diamond_sword} @PIR{r=20} ~onSpawn
     - ...
+```
 生成后夺取半径20格方块内的所有玩家一把钻石剑,自身获得一把钻石剑.
