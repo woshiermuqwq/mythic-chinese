@@ -14,7 +14,8 @@
 示例 (4.11+)
 --------
 
-      Skills:
-      - damagepercent{percent=0.5} @target
-
-对当前目标造成其最大生命的50%点伤害
+```yaml
+ Skills:
+ - damagepercent{percent=0.5} @target
+```
+对仇恨目标造成其最大生命的50%点伤害
