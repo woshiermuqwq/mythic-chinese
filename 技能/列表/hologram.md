@@ -14,8 +14,10 @@
 示例:
 -----------
 
-    Skills:
-    - holo @selflocation{y=1.6} ~onInteract
+```yaml
+ Skills:
+ - holo @selflocation{y=1.6} ~onInteract
+```
 
 拓展信息:
 ----------------------
