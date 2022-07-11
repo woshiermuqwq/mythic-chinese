@@ -14,7 +14,7 @@
 示例 (实体配置)
 --------
 
-```
+```yaml
  Skills:
  - barRemove{name="测试"} @self ~onInteract
  - ...
