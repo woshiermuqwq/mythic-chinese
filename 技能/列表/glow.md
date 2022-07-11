@@ -14,7 +14,9 @@
 示例
 --------
 
-      Skills:
-      - effect:glow{color=RED;duration=1000}
+```yaml
+ Skills:
+ - effect:glow{color=RED;duration=1000}
+```
 
 令实体持续发红光50秒.
