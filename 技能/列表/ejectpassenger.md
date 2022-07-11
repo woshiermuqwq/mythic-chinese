@@ -7,8 +7,8 @@
 --------
 
 ```yaml
-    Skills:
-    - ejectpassenger @self ~onDamaged
+ Skills:
+ - ejectpassenger @self ~onDamaged
 ```
 
 受伤后取消被骑乘.
