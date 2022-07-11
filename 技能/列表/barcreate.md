@@ -23,9 +23,10 @@
 
 ```yaml
  Skills:
- - barCreate{name="MyBossBar";display="<caster.name> - <caster.hp>";value=1.0;color=BLUE;style=SEGMENTED_6} @self ~onSpawn
+ - barCreate{name="测试";display="<caster.name> - <caster.hp>";value=1.0;color=BLUE;style=SEGMENTED_6} @self ~onSpawn
  - ...
 ```
+施法者生成后显示 内部名为 "测试",显示内容为 `施法者名称 - 施法者当前生命`, 百分比为1, 颜色为蓝, 款式为SEGMENTED_6的Boss血条 
 
 拓展信息
 -------
