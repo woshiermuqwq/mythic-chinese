@@ -16,10 +16,12 @@
 示例
 --------
 
-清除位于25号槽上的一个物品
+清除自身背包内位于25号槽上的一个物品
 
-      Skills:
-      - consumeslotitem{slot=25}
+```yaml
+ Skills:
+ - consumeslotitem{slot=25}
+```
 
 额外信息
 -----
