@@ -1,10 +1,12 @@
 技能: Decapitate
 --------------------------
 
-掉落目标(玩家)的头颅.
+掉落技能目标(玩家)的头颅.
 
 示例
 --------
 
-    Skills:
-    - decapitate @target
+```yaml
+ Skills:
+ - decapitate @target
+```
