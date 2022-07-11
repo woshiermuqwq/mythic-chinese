@@ -14,8 +14,9 @@
 示例 (4.11+)
 --------
 
-      Skills:
-      - healpercent{multiplier=0.5}
-
+```yaml
+ Skills:
+ - healpercent{multiplier=0.5}
+```
 恢复目标最大生命的50%  
 1 = 100%
