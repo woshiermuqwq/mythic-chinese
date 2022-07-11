@@ -18,8 +18,10 @@
 示例
 --------
 
-      Skills:
-      - goto @nearestplayer{r=32}
+```yaml
+ Skills:
+ - goto @nearestplayer{r=32}
+```
 
 走向离自己最近的玩家, **这将无视视野限制**
 
