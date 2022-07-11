@@ -1,16 +1,12 @@
-技能: Clear Threat
+技能: Clear Threat（4.12）
 --------------------------
 
-清除所有对目标拥有威胁度的实体.
-
----
-
-新增于 MM 4.12
-
----
+清除所有对技能目标拥有威胁度的实体.
 
 示例
 --------
 
-    Skills:
-    - clearThreat{} @self
+```yaml
+ Skills:
+ - clearThreat{} @self
+```
