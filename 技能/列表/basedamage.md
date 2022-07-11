@@ -16,12 +16,13 @@
 
 受伤后对目标造成15[(0 + 10) * 1.5]伤害.
 
-      AMob:
-        Type: HUSK
-        Damage: 10
-      Skills:
-      - bd{m=1.5} @T ~onDamaged
-
+```yaml
+测试:
+ Type: HUSK
+ Damage: 10
+ Skills:
+ - bd{m=1.5} @T ~onDamaged
+```
 1 = 100%
 
 拓展信息
