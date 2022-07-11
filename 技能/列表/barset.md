@@ -1,8 +1,8 @@
 技能: Bar Set
 --------------------------
 
-为目标修改Boss血条.  
-目标已创建多条 血条内部ID相同的Boss血条 时  
+为技能目标修改Boss血条.  
+技能目标已拥有多条 血条内部ID相同的Boss血条 时  
 只有最近一次创建的会被修改.  
 
 修改项
@@ -19,6 +19,8 @@
 示例
 --------
 
-    Skills:
-    - barSet{name="MyBossBar";display="<caster.name> - <caster.hp>";value=1.0} @self ~onDamaged
-    - ...
+```yaml
+ Skills:
+ - barSet{name="MyBossBar";display="<caster.name> - <caster.hp>";value=1.0} @self ~onDamaged
+ - ...
+```
