@@ -14,7 +14,7 @@
 
 ```
 TargetConditions:
-- yDiff{diff=>5} true
+- yaw{y=50to150} true
 ```
 
 ---
