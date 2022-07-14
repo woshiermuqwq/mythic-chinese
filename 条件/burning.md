@@ -5,8 +5,8 @@
 **示例:**
 
 ```yaml
-Conditions:
-- burning
+ Conditions:
+ - burning
 ```
 
 ---
