@@ -1,4 +1,4 @@
-通用修改项: Global Cool Down (GCD) 
+技能: Global Cool Down (GCD) 
 --------------------------
 
 设置施法者（非玩家）所有技能的冷却时间.
