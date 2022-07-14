@@ -13,8 +13,11 @@
 | y         |         | Y轴坐标                            | 0             |
 | z         |         | Z轴坐标                             | 0             |
 
-示例
+示例（实体配置）
 --------
 
-      Skills:
-      - togglelever{duration=600;x=15;y=67;z=-213}
+```yaml
+ Skills:
+ - togglelever{duration=600;x=15;y=67;z=-213} ~ondamaged
+```
+施法者受伤后调整位于: `X: 15, y: 67, z: -213` 的拉杆, 30秒后还原
