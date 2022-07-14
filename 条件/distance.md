@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```yaml
  TargetConditions:
  - distance{d=>10}
 ```
