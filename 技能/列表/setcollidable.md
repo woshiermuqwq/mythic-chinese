@@ -15,7 +15,8 @@
 示例 (实体配置)
 --------
 
-      Skills:
-      - setcollidable{c=false} @trigger ~onattack
-
-近身攻击后关闭技能目标的碰撞箱
+```yaml
+ Skills:
+ - setcollidable{c=false} @trigger ~onattack
+```
+造成伤害后关闭受击者的碰撞箱
