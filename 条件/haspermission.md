@@ -14,15 +14,17 @@ OP拥有全部权限, 这包括你所写的自定义权限
 
 **示例:**
 
+```yaml
+ Conditions:
+ - haspermission{p=权限.权限节点} true
 ```
-Conditions:
-- haspermission{p=权限.权限节点} true
-
-TargetConditions:
-- haspermission{p=权限.权限节点} true
-
-TriggerConditions:
-- haspermission{p=权限.权限节点.权限节点} true
+```yaml
+ TargetConditions:
+ - haspermission{p=权限.权限节点} true
+```
+```yaml
+ TriggerConditions:
+ - haspermission{p=权限.权限节点.权限节点} true
 ```
 
 ---
