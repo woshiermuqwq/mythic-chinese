@@ -12,8 +12,10 @@
 
 示例 (实体配置 需开启[威胁度](/实体/威胁度))
 --------
-    Skills:
-    - equip{i=diamond_sword:0,diamond_helmet:4} @self ~onEnterCombat
-    - equip{i=stick:0} @self ~onDropCombat
 
+```yaml
+ Skills:
+ - equip{i=diamond_sword:0,diamond_helmet:4} @self ~onEnterCombat
+ - equip{i=stick:0} @self ~onDropCombat
+```
 进入战斗后手持钻石剑, 头戴钻石头盔, 结束战斗后手持木剑.
