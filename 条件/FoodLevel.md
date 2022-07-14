@@ -13,10 +13,9 @@
 
 **示例:**
 
-```
-TargetConditions:
-- FoodLevel{a=<10} true
-
+```yaml
+ TargetConditions:
+ - FoodLevel{a=<10} true
 ```
 
 ---
