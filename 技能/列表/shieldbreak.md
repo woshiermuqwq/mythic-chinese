@@ -13,7 +13,8 @@
 示例 (实体配置)
 --------
 
-      Skills:
-      - shieldbreak{d=100} @trigger ~onattack
-
-近身攻击后令技能目标所持的盾牌进入5秒冷却
+```yaml
+ Skills:
+ - shieldbreak{d=100} @trigger ~onattack
+```
+造成伤害后令技能目标所持的盾牌进入5秒冷却
