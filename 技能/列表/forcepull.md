@@ -16,6 +16,8 @@
 
 将半径30格方块范围内的所有实体传送到施法者位置,水平偏移在5格方块以内.
 
-    传送测试:
-      Skills:
-      - forcepull{spread=5} @EntitiesInRadius{r=30}
+```yaml
+ 传送测试:
+  Skills:
+  - forcepull{spread=5} @EntitiesInRadius{r=30}
+```
