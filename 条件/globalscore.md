@@ -13,9 +13,9 @@
 
 **示例:**
 
-```
-Conditions:
-- globalscore{o=KillCount;value=5} true
+```yaml
+ Conditions:
+ - globalscore{o=KillCount;value=>4} true
 ```
 
 ---
