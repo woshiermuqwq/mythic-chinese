@@ -6,9 +6,10 @@
 示例
 --------
 
-    Skills:
-    - extinguish @self
-
+```yaml
+ Skills:
+ - extinguish @self
+```
 熄灭自身身上的火
 
 额外信息
