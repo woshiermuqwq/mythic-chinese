@@ -11,11 +11,13 @@
 | objective | obj, o  | 用于修改的记分板名,不存在则创建 | 无 |
 | value     | v       | 修改值 | 0 |
                                                                             
-示例
+示例（实体配置）
 ----
 
-    - setglobalscore
-        {
-        objective=someobjective;
-        v=2
-        } ~onAttack
+```yaml
+ - setglobalscore{
+  objective=测试;
+   v=2
+  } ~onAttack
+```
+造成伤害后设置虚拟玩家: `__GLOBAL__` 在记分板: `测试` 上的分数为`2`
