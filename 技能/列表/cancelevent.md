@@ -24,18 +24,11 @@
 -   ~onPressQ(需Crucible)
 
 
-示例
+示例（实体）
 -------
 
-技能组配置:
-
-    免伤:
-      Skills:
-      - CancelEvent
-
-实体配置:
-
-    免伤实体:
-      Type: villager
-      Skills:
-      - skill:免伤{sync=true} ~onDamaged
+```
+ Skills:
+ - cancelEvent{sync=true} ~onDamaged
+```
+施法者受伤后取消所受到伤害, 即无敌
