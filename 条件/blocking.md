@@ -5,8 +5,8 @@
 **示例:**
 
 ```yaml
-Conditions:
-- blocking true
+ Conditions:
+ - blocking true
 ```
 
 ---
