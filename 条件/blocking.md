@@ -6,7 +6,7 @@
 
 ```yaml
 Conditions:
-- blocking{} true
+- blocking true
 ```
 
 ---
