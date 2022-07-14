@@ -26,7 +26,8 @@
 示例
 --------
 
-    Skills:
-    - modifyscore{e=dummy;o=测试;v=1;a=SET} @self ~onInteract
-
+```yaml
+ Skills:
+ - modifyscore{e=dummy;o=测试;v=1;a=SET} @self ~onInteract
+```
 右键后将dummy在记分板 测试 上的分数设为1
