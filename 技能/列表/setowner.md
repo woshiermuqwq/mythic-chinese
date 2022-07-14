@@ -1,10 +1,13 @@
 技能: Set Owner
 --------------------------
 
-设置目标作为施法者的主人.
+设置技能目标为施法者的主人.
 
 示例
 --------
 
-      Skills:
-      - setowner @target
+```yaml
+ Skills:
+ - setowner @target
+```
+将仇恨目标设置为施法者的主人
