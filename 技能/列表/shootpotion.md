@@ -1,7 +1,7 @@
-技能: Shoot Ption
+技能: Shoot Potion
 --------------------------
 
-向目标投掷药水瓶.
+向技能目标投掷药水瓶.
 
 修改项
 ----------
@@ -11,13 +11,16 @@
 | type         | t              | 药水瓶的[状态效果](/物品/状态效果) | None    |
 | duration     | d              | 状态效果持续时间                            | 100     |
 | level        | l              | 状态效果等级                                  | 1       |
-| velocity     | v              | 药水瓶投掷速度                               | 1       |
+| velocity     | v              | 药水瓶水平速度                               | 1       |
 | hasParticles | particles or p | 是否显示状态效果粒子         | true    |
 | hasIcon      | icon or i      | 是否显示状态效果图标              | true    |
 
 示例
 --------
 
-    药水投掷测试:
-      Skills:
-      - shootpotion{type=SLOW;duration=200;level=4;velocity=5} @target
+```yaml
+药水投掷测试:
+ Skills:
+ - shootpotion{type=SLOW;duration=200;level=4;velocity=5} @target
+```
+向仇恨目标投掷 速度为`5`, 状态效果为 持续`10`秒的`缓慢V`
