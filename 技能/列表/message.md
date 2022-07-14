@@ -29,9 +29,10 @@ Audience 新增于 4.12. 可用值: caster, target, 与 world.
 示例
 --------
 
-      Skills:
-      - m{m="<mob.name>&f<&co> 你死定了QAQ!"} @pir{r=30}
-
+```yaml
+ Skills:
+ - m{m="<mob.name>&f<&co> 你死定了QAQ!"} @pir{r=30}
+```
 额外信息
 -------
 
