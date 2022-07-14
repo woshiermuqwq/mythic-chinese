@@ -6,7 +6,9 @@
 示例
 --------
 
-    Skills:
-    - mounttarget @target
-
+···yaml
+ Skills:
+ - mounttarget @target ~onattack
+```
+施法者攻击后骑上仇恨目标
 
