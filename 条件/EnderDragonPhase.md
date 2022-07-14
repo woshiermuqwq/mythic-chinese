@@ -12,14 +12,12 @@
 
 **示例:**
 
-```
-Conditions:
-- enderdragonphase{phase=CIRCLING} true
-```
-
-```
-Conditions:
-- enderdragonphase{phases=FLY_TO_PORTAL,LEAVE_PORTAL} true
+```yaml
+ Conditions:
+ - enderdragonphase{phase=CIRCLING} true
+``````yaml
+ Conditions:
+ - enderdragonphase{phases=FLY_TO_PORTAL,LEAVE_PORTAL} true
 ```
 
 可用的末影龙阶段名列表 https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EnderDragon.Phase.html
