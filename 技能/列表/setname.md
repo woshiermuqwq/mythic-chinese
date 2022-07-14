@@ -1,7 +1,7 @@
 技能: Set Name
 --------------------------
 
-设置目标(非玩家)的显示名.
+设置技能目标（非玩家）的显示名.
 
 修改项
 ----------
@@ -13,10 +13,11 @@
 示例 (实体配置)
 --------
 
-      Skills:
-      - setname{name=<target.name>} @self ~onDamaged
-
-受伤后将自身的显示名修改为 当前目标 的名称.
+```yaml
+ Skills:
+ - setname{name=<target.name>} @self ~onDamaged
+```
+受伤后将自身的显示名修改为 仇恨目标 的名称.
 
 注意
 ----
