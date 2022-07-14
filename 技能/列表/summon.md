@@ -24,10 +24,11 @@
 示例
 --------
 
-      生成技能测试:
-      Skills:
-      - summon{type=WITHER_SKELETON;amount=5;radius=4} @PIR{r=20}
-
+```yaml
+生成技能测试:
+ Skills:
+ - summon{type=WITHER_SKELETON;amount=5;radius=4} @PIR{r=20}
+```
 在半径20格方块范围内 以每个玩家位置为中心 在半径4格方块范围内生成5个凋零骷髅.
 
 额外信息
