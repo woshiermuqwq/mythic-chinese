@@ -1,7 +1,7 @@
 技能: Send Action Message
 --------------------------
 
-发送活动栏信息给目标(玩家).
+向技能目标（玩家）发送活动栏信息.
 
 修改项
 ----------
@@ -13,9 +13,11 @@
 示例
 --------
 
-    Skills:
-    - actionmessage{m="<mob.name>&f 释放了技能!"} @PlayersInRadius{r=30}
-
+```yaml
+ Skills:
+ - actionmessage{m="<mob.name>&f 释放了技能!"} @PlayersInRadius{r=30}
+```
+向半径30格方块范围内的所有玩家发送活动栏消息: `(施法者名) 释放了技能!`
 额外信息
 ---
 
