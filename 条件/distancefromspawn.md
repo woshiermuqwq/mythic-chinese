@@ -13,13 +13,13 @@
 **示例:**
 
 ```yaml
-Conditions:
-- distancefromspawn{d=<100} true
+ Conditions:
+ - distancefromspawn{d=<100} true
 ```
 
 ```yaml
-Conditions:
-- distancefromspawn{d=>50} true
+ Conditions:
+ - distancefromspawn{d=>50} true
 ```
 
 ---
