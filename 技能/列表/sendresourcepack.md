@@ -1,7 +1,7 @@
 技能: Send Resourcepack
 --------------------------
 
-发送资源包下载链接给目标(玩家).
+向技能目标（玩家）发送资源包下载直链.
 
 修改项
 ----------
@@ -11,8 +11,11 @@
 | url       | u       | 资源包下载链接            | 无          |
 | hash      | h       | 资源包的hash值 | mythicmobs    |
 
-示例
+示例（实体配置）
 --------
 
-    
-      - sendresourcepack{url="https://yourresourcepackurlhere";hash="cf23df2207d99a74fbe169e3eba035e633b65d94"} @PIR{r=15} ~onSpawn
+```yaml
+ Skills:
+ - sendresourcepack{url="https://yourresourcepackurlhere";hash="cf23df2207d99a74fbe169e3eba035e633b65d94"} @PIR{r=15} ~onSpawn
+```
+生成后向半径15格方块范围内的所有玩家发送资源包链接: `https://yourresourcepackurlhere`
