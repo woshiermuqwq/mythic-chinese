@@ -25,23 +25,28 @@ Cast是[光环](技能/列表/Aura)的一种.
 示例
 --------
 
-     #实体配置
+# 实体配置
+ 冰霜:
+ Skills:
+ - cast{skillName="&a冰霜";duration=40;onCast=激活冰霜;onTick=冰霜-Tick;onInterrupted=冰霜-End;onNoTargets=冰霜-无目标;cancelOnMove=true;showCastBar=true} @target ~onTimer:100
 
-      冰霜:
-      Skills:
-      - cast{skillName="&a冰霜";duration=40;onCast=激活冰霜;onTick=冰霜-Tick;onInterrupted=冰霜-End;onNoTargets=冰霜-无目标;cancelOnMove=true;showCastBar=true} @target ~onTimer:100
-
-    #技能组配置
-      冰霜-Tick:
-        Skills:
-        - message{m="<mob.name>蓄力中.."} @EIR{r=16}
-        - effect:particlering{particle=flame;r=0.7;y=0.05;points=32;repeat=2;repeatInterval=20;d=true} @origin
-      激活冰霜:
-        Skills:
-        - message{m="<mob.name>蓄力完成.."} @EIR{r=16}
-      冰霜-无目标:
-        Skills:
-        - message{m="<mob.name>未察觉到威胁.."} @EIR{r=16}
-       冰霜-End:
-         Skills:
-         - message{m="<mob.name>未察觉到威胁..w"} @EIR{r=16}
+# 技能组配置
+冰霜-Tick:
+ Skills:
+ - message{m="<mob.name>蓄力中.."} @EIR{r=16}
+ - effect:particlering{particle=flame;r=0.7;y=0.05;points=32;repeat=2;repeatInterval=20;d=true} @origin
+激活冰霜:
+ Skills:
+ - message{m="<mob.name>蓄力完成.."} @EIR{r=16}
+冰霜-无目标:
+ Skills:
+ - message{m="<mob.name>未察觉到威胁.."} @EIR{r=16}
+冰霜-End:
+ Skills:
+ - message{m="<mob.name>未察觉到威胁..w"} @EIR{r=16}
+```
+每5秒对仇恨目标激活该光环, 光环名为冰霜, 蓄力2秒  
+若蓄力完成技能目标仍存在则激活技能组: `激活冰霜`  
+蓄力期间每2刻激活一次技能组: `冰霜-Tick`  
+若中途移动则激活技能组: `冰霜-End`  
+若蓄力完成后技能目标消失则激活技能组: `冰霜-无目标`
