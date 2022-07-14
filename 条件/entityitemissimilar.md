@@ -15,8 +15,8 @@
 **示例:**
 
 ```yaml
-Conditions:
-- entityitemissimilar{i=测试物品} true
+ Conditions:
+ - entityitemissimilar{i=测试物品} true
 ```
 
 **拓展信息:**
