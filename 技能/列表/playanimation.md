@@ -13,10 +13,11 @@
 示例
 --------
 
-      Skills:
-      - playanimation{a=2} @trigger ~oninteract
-      - ...
-
+```yaml
+ Skills:
+ - playanimation{a=2} @trigger ~oninteract
+ - ...
+施法者被右键后令右键者播放死亡动作
 
 额外信息
 -------
