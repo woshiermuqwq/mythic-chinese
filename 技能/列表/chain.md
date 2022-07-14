@@ -29,23 +29,33 @@
 
 新增于 MM 4.8
 
-示例
+示例（实体配置）
 --------
 
-    Skills:
-      - chain{
-          bounces=5;
-          bounceRadius=10;
-          bounceDelay=1;
-          hitSelf=false;
-          hitPlayers=true; 
-          hitNonPlayers=true;
-          hitTarget=true;
-          onBounce=[
-            - effect:particleline{p=flame;fromOrigin=true}
-          ];
-          bounceConditions=[
-            - inlineofsight
-            - hasaura{aura=damageResist} false
-          ];
-        } @target ~onTimer:20
+```yaml
+ Skills:
+ - chain{
+  bounces=5;
+  bounceRadius=10;
+  bounceDelay=1;
+  hitSelf=false;
+  hitPlayers=true; 
+  hitNonPlayers=true;
+  hitTarget=true;
+  onBounce=[
+    - effect:particleline{p=flame;fromOrigin=true}
+  ];
+  bounceConditions=[
+    - inlineofsight
+    - hasaura{aura=标记} false
+  ]} @target ~onTimer:20
+```
+每秒向仇恨目标发射链条  
+链条传递次数为5  
+传递判定范围为半径10格方块  
+传递延迟为0.05秒  
+无法传递至施法者  
+可传递至玩家  
+可传递至技能目标  
+传递时激活粒子线技能  
+只有在事业内且拥有光环: `标记` 的实体才能被传递 
