@@ -13,8 +13,8 @@
 **示例:**
 
 ```
-TargetConditions:
-- distance{d=>10}
+ TargetConditions:
+ - distance{d=>10}
 ```
 ---
 
