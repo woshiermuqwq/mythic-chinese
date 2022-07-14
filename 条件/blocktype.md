@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```yaml
 Conditions:
 - blocktype{type=dirt,stone,grass} true
 ```
