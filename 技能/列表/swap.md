@@ -6,7 +6,8 @@
 示例
 --------
     
-      Skills:
-      - swap @target
-
-与目标互换位置.
+```yaml
+ Skills:
+ - swap @target
+```
+与仇恨目标互换位置.
