@@ -14,9 +14,9 @@
 
 **示例:**
 
-```
-Conditions:
-- entitymaterialtype{types=diamond} true
+```yaml
+ Conditions:
+ - entitymaterialtype{types=diamond} true
 ```
 
 **拓展信息:**
