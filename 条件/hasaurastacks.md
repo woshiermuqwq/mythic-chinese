@@ -13,10 +13,9 @@
 
 **示例:**
 
-```
-Conditions:
-- hasaurastacks{n=某光环;s=>3} true
-
+```yaml
+ Conditions:
+ - hasaurastacks{n=某光环;s=>3} true
 ```
 
 ---
