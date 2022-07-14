@@ -1,7 +1,7 @@
 技能: Set Mob Score
 --------------------------
 
-设置目标在指定记分板上的分数（上限2147483647）.
+设置技能目标在指定记分板上的分数（上限`2147483647`, 下限为`-2147483647`）.
 
 修改项
 ----------
@@ -14,6 +14,8 @@
 示例
 ----
 
-    - settargetscore{o=someobjective;v=2} @self ~onAttack
-
-造成伤害后将自身在记分板: someobjective 的分数设为2.
+```yaml
+ Skills:
+ - settargetscore{o=se;v=2} @self ~onAttack
+···
+造成伤害后将自身在记分板: sE 的分数设为2.
