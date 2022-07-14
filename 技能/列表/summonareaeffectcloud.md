@@ -22,9 +22,10 @@
 示例 (实体配置)
 --------
 
-      Skills:
-      - summonCloud{t=wither;d=100;r=3} @self ~onspawn
-
+```yaml
+ Skills:
+ - summonCloud{t=wither;d=100;r=3} @self ~onspawn
+```
 生成后在自身位置形成时长为5秒, 半径为3格方块, 状态效果为凋零 的药水云
 
 额外信息
