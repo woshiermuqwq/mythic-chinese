@@ -12,10 +12,9 @@
 
 **示例:**
 
-```
-Conditions:
-- hasaura{n=某光环名} true
-
+```yaml
+ Conditions:
+ - hasaura{n=某光环名} true
 ```
 
 ---
