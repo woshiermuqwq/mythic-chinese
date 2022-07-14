@@ -21,6 +21,9 @@
 示例
 --------
 
-    发射火球示例:
-      Skills:
-      - shootfireball{y=1;v=4} @target
+```yaml
+发射火球示例:
+ Skills:
+ - shootfireball{y=1;v=4} @target
+```
+向仇恨目标发射飞行速度为`4`, 爆炸威力为1 的火球
