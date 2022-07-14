@@ -14,12 +14,14 @@
 示例 (实体配置)
 --------
       
-      Skills:
-      - setgravity{g=false} @self ~onSpawn
-
+```yaml
+ Skills:
+ - setgravity{g=false} @self ~onSpawn
+```
 生成后设置自身为无重力状态.
 
 额外信息
 ---
 
 - [x] 别称: setusegravity
+- 若技能目标为玩家, 玩家速度只能在服务器重启后重置
