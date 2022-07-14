@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```yaml
 TargetConditions:
 - faction{f=测试} true
 ```
