@@ -12,14 +12,13 @@
 
 **示例:**
 
+```yaml
+ Conditions:
+ - hastag{t=cs} true
 ```
-Conditions:
-- hastag{t=KilledBoss1} true
-```
-
-```
-TargetConditions:
-- hastag{t=PuzzleRoom1Solved} true
+ ```yaml
+ TargetConditions:
+ - hastag{t=csd} true
 ```
 
 ---
