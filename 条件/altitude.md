@@ -13,8 +13,8 @@
 **示例:**
 
 ```yaml
-Conditions:
-- altitude{h=>10} true
+ Conditions:
+ - altitude{h=>10} true
 ```
 
 ---
