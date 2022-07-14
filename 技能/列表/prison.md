@@ -1,7 +1,7 @@
 技能: Prison
 --------------------------
 
-令目标困在由方块组成的空间内.
+以技能目标所处位置为中心生成由指定方块组成的方块空间.
 
 修改项
 ----------
@@ -16,8 +16,9 @@
 示例
 --------
 
-以目标为中心形成一个 可被挖掘的 由铁方块组成的 持续10秒的空间内.
-
-    钢铁牢笼:
-      Skills:
-      - prison{material=IRON_BLOCK;duration=200;breakable=true} @target
+以仇恨目标为中心形成一个 可被挖掘的 由铁方块组成的 持续10秒的空间内.
+```yaml
+钢铁牢笼:
+ Skills:
+ - prison{material=IRON_BLOCK;duration=200;breakable=true} @target
+```
