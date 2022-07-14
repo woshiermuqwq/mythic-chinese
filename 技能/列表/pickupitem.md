@@ -15,5 +15,8 @@
 示例
 --------
 
-    Skills:
-    - pickupitem @eir{r=16}
+```yaml
+ Skills:
+ - pickupitem @eir{r=16}
+```
+拾取16格方块范围内的所有掉落物
