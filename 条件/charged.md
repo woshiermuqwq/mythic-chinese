@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```yaml
 Conditions:
 - charged
 ```
