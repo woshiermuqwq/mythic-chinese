@@ -6,7 +6,7 @@
 
 | 修改项名  | 别称           | 描述                      |
 | --------- | -------------- | ------------------------- |
-|     |  |  |
+| distance | d | 所检测的距离范围 |
 
 新增于MM 4.13
 
@@ -14,9 +14,9 @@
 
 **示例:**
 
-```
-    Conditions:
-    - DistanceFromTrackedLocation 5
+```yaml
+ Conditions:
+ - DistanceFromTrackedLocation 5
 ```
 
 ---
