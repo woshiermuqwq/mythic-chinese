@@ -1,7 +1,7 @@
 特效技能: Play Block Step Sound
 --------------------------
 
-播放目标位置的方块的踩踏音效.  
+播放技能目标位置的方块的踩踏音效.  
 
 前置: Paper 服务端
 
@@ -16,8 +16,11 @@
 示例:
 -----------
 
-    Skills:
-    - blockstepsound @server
+```yaml
+ Skills:
+ - blockstepsound @server
+```
+向服务器内所有玩家播放其所处位置的方块的践踏音效
 
 拓展信息:
 ----------------------
