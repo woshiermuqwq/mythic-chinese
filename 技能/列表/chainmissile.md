@@ -24,7 +24,7 @@
 
 测试:
  Skills:
- - ChainMissile{bounces=10;r=10;in=1.25;oT=测试_oT;oH=测试_oH;i=1;md=200;mr=30;v=5;hnp=true;hp=true;hR=1;vR=1;sB=False;sE=false;tyo=1;hs=true;hfs=1}
+ - ChainMissile{bounces=10;r=10;in=1.25;oT=测试_oT;oH=测试_oH;i=2;md=200;mr=30;v=5;hnp=true;hp=true;hR=1;vR=1;sB=False;sE=false;tyo=1;hs=true;hfs=1}
 测试_oT:
  Skills:
  - effect:particles{particle=flame;a=1;hs=0;vs=0;s=0;y=0} @origin
@@ -32,6 +32,20 @@
  Skills:
  - damage{a=1;pkb=true}
 ```
+每10秒向技能目标发射:  
+传递次数为10  
+传递半径范围为10格方块  
+导弹漂移系数为1.25  
+每2刻更新一次导弹位置并激活技能组: `测试_oT`  
+导弹命中实体后激活技能组: `测试_oH`  
+导弹最大飞行时间为10秒  
+最大飞行范围为30格方块  
+飞行速度为5  
+可命中非玩家实体  
+碰撞判定为1格  
+不会再命中方块与实体后消失  
+所选取技能目标的垂直偏移为1  
+导弹发射时距地面有1格高
 
 额外信息
 --------
