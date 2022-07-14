@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```yaml
 Conditions:
 - damageamount{amount=>10} true
 ```
