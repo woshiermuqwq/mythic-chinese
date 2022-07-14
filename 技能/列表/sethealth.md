@@ -13,10 +13,11 @@
 示例 (实体配置)
 --------
 
-      Skills:
-      - sethealth{a=6} @trigger ~onInteract
-      - ...
-
+```yaml
+ Skills:
+ - sethealth{a=6} @trigger ~onInteract
+ - ...
+```
 被右键后设置右键者当前生命为6.
 
 提示
