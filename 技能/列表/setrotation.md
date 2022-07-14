@@ -1,7 +1,7 @@
 技能: Set Rotation
 --------------------------
 
-设置目标朝向（不能为玩家）  
+设置技能目标（非玩家）朝向  
 无法工作于 Minecraft 1.12.2  
 实体 **无需** 拥有AI.
 
@@ -17,8 +17,11 @@
 示例
 --------
 
-      Skills:
-      - setrotation{relative=true;pitch=-45}
+```yaml
+ Skills:
+ - setrotation{relative=true;pitch=-45} @target
+```
+将仇恨目标的俯仰视角度设置为`-45`
 
 额外信息
 -------
