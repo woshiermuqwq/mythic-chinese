@@ -1,7 +1,7 @@
 技能: Teleport
 --------------------------
 
-传送到指定技能目标的位置.
+传送至技能目标.
 
 修改项
 ----------
@@ -11,11 +11,13 @@
 | spreadh   | sh      | 水平最大偏移值 | 0             |
 | spreadv   | sv      | 垂直最大偏移值   | 0             |
 
-示例
+示例（实体配置）
 --------
 
-    传送测试:
-      Skills:
-      - teleport{spreadh=5;spreadv=0} @self ~onDamaged
-
+```yaml
+传送测试:
+ Type: husk
+ Skills:
+ - teleport{spreadh=5;spreadv=0} @self ~onDamaged
+```
 受伤后将传送到自身位置,最大水平偏移值为5格方块.
