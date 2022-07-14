@@ -14,9 +14,9 @@
 
 **示例:**
 
-```
-Conditions:
-- entityitemtype{types=diamond} true
+```yaml
+ Conditions:
+ - entityitemtype{types=diamond} true
 ```
 
 **拓展信息:**
