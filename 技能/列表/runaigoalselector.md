@@ -1,7 +1,9 @@
 技能: Run AI Goal Selector
 --------------------------
 
-为目标新增一个 最低优先度的AI行动器.
+为技能目标新增一个 最低优先度的AI行动器  
+使用 `clear` 时将清除已在实体配置内配置好的AI行动器  
+使用其它AI行动器之前必须先进行 `clear`
 
 可用AI行动器的详细内容见->[点击这儿](/实体/AI)  
 从 4.13 起支持付费版AI行动器
@@ -48,11 +50,14 @@
 示例
 -------
 
-    修改AI行动器示例:
-      Skills:
-      - runaigoalselector{goal=clear}
-      - runaigoalselector{goal=fleesun}
-      - runaigoalselector{goal=randomstroll}
+```yaml
+修改AI行动器示例:
+ Skills:
+ - runaigoalselector{goal=clear}
+ - runaigoalselector{goal=fleesun}
+ - runaigoalselector{goal=randomstroll}
+```
+令施法者躲避日光和随机走动, 不会干别的事
 
 额外信息
 ---
