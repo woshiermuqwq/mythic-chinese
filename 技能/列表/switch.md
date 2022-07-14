@@ -20,15 +20,15 @@
 示例
 ----
 
-```
+```yaml
 测试:
-  Skills:
-  - switch{condition=entitytype{t=<case>};cases=
-      case PIG=[ - message{m="<trigger.name> 咱是居居"} ]
-      case BAT=[ - message{m="<trigger.name> 咱是飞鼠"} ]
-    } @trigger ~onInteract
-
-检测条件: EntityType的修改项: Type
-当施法者为猪时, 向右键者发送消息: 咱是居居  
-当施法者为蝙蝠时, 向右键者发送消息: 咱是飞鼠  
+ Skills:
+ - switch{condition=entitytype{t=<case>};cases=
+  case PIG=[ - message{m="<trigger.name> 咱是居居"} ]
+  case BAT=[ - message{m="<trigger.name> 咱是飞鼠"} ]
+  } @trigger ~onInteract
+```
+右键后检测右键者的[实体种类](/实体/种类)  
+若为猪则向其发送消息: `触发者名 咱是居居`  
+若为蝙蝠则为 `触发者名 咱是飞鼠`
 ```
