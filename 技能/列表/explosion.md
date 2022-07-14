@@ -15,10 +15,11 @@
 示例
 --------
 
-    爆炸测试:
-      Skills:
-      - explosion{yield=4} @target
-
+```yaml
+爆炸测试:
+ Skills:
+ - explosion{yield=4} @target
+```
 额外信息
 ----
 
