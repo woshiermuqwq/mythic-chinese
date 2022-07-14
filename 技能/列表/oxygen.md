@@ -5,6 +5,8 @@
 
 必须在主线程执行
 
+**似乎无效**
+
 修改项
 ----------
 
@@ -15,7 +17,8 @@
 示例
 --------
     
-    Skills:
-    - oxygen{amount=10} @trigger ~onDamaged
-
-受伤后给予攻击者10点氧气.
+```yaml
+ Skills:
+ - oxygen{amount=10} @trigger ~onDamaged
+```
+施法者受伤后给予攻击者10点氧气.
