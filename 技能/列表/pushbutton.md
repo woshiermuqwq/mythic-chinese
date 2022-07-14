@@ -15,5 +15,7 @@
 示例
 --------
 
-      Skills:
-      - pushbutton{x=15;y=67;z=-213}
+```yaml
+ Skills:
+ - pushbutton{x=15;y=67;z=-213}
+```
