@@ -1,7 +1,7 @@
 技能: Modify Global Score
 --------------------------
 
-修改虚拟目标: \_\_GLOBAL\_\_ 在指定记分板上的分数（上限2147483647）.
+修改虚拟实体: \_\_GLOBAL\_\_ 在指定记分板上的分数（上限2147483647）.
 
 可用修改模式:
 
@@ -24,9 +24,13 @@
 示例
 --------
 
-    - modifyglobalscore
-        {
-        objective=someobjective;
-        action=multiply;
-        v=2
-        } ~onAttack
+```yaml
+ Skills:
+ - modifyglobalscore
+ {
+ objective=测试;
+ action=multiply;
+ v=2
+ } @self ~onAttack
+攻击后将施法者在记分板: `测试` 上的分数扩大1倍
+```
