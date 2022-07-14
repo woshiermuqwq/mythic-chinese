@@ -4,9 +4,9 @@
 
 **示例:**
 
-```
-Conditions:
-- hasgravity true
+```yaml
+ Conditions:
+ - hasgravity true
 ```
 
 ---
