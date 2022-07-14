@@ -1,7 +1,7 @@
 技能: Set Mob Color
 --------------------------
 
-设置目标(特定实体)的外观颜色.
+设置技能目标（特定实体）的外观颜色.
 
 修改项
 ----------
@@ -13,9 +13,10 @@
 示例  (实体配置)
 --------
     
-    Skills:
-    - setcolor{color=blue} @self ~onSpawn
-
+```yaml
+ Skills:
+ - setcolor{color=blue} @self ~onSpawn
+```
 生成后修改自身外观颜色为蓝色
 
 额外信息
