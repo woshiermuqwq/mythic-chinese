@@ -1,4 +1,4 @@
-技能: Set No Damage Ticks　(4.11)
+技能: Set No Damage Ticks（4.11）
 --------------------------
 
 设置技能目标的伤害硬直
@@ -13,10 +13,11 @@
 示例 (实体配置)
 --------
 
-      Skills:
-      - setNoDamageTicks{ticks=0} @trigger ~onAttack
-
-造成伤害后将目标受伤间隔设为0刻.
+```yaml
+ Skills:
+ - setNoDamageTicks{ticks=0} @trigger ~onAttack
+```
+施法者造成伤害后将受击者受伤间隔设为0刻.
 
 额外信息
 --
