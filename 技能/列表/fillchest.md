@@ -13,9 +13,11 @@
 示例
 --------
 
-    Skills:
-    - fillchest{i=stone} @blocksinradius{r=10}
-    # 将一块石头放入半径10格方块范围内的所有箱子内
+```yaml
+ Skills:
+ - fillchest{i=stone} @blocksinradius{r=10}
+```
+将一块石头放入半径10格方块范围内的所有箱子内
 
 额外信息
 -
