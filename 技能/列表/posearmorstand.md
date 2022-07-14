@@ -1,7 +1,7 @@
 技能: Pose Armor Stand
 --------------------------
 
-.
+修改技能目标（盔甲架）的姿势
 
 修改项
 ----------
@@ -18,5 +18,8 @@
 示例
 --------
 
-      Skills:
-      - posearmorstand{head=45,0,0} @self ~onSpawn
+```yaml
+ Skills:
+ - posearmorstand{head=45,0,0} @self ~onSpawn
+```
+施法者生成后令自身的头部绕X轴旋转45°
