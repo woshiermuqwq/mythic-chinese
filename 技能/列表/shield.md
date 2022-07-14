@@ -1,7 +1,7 @@
 技能: Shield
 --------------------------
 
-为目标提供黄心(与伤害吸收相同).
+为技能目标提供黄心(与伤害吸收相同).
 
 仅作用于 **Minecraft版本 ≥ 1.12.2** 时
 
@@ -16,7 +16,8 @@
 示例 (实体配置)
 --------
 
-      Skills:
-      - shield{amount=50;maxShield=100} @self ~onSpawn
-
+```yaml
+ Skills:
+ - shield{amount=50;maxShield=100} @self ~onSpawn
+```
 生成后给予自身50点黄心.
