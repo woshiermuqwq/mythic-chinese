@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```yaml
 Conditions:
 - damagecause{cause=ENTITY_ATTACK}
 ```
