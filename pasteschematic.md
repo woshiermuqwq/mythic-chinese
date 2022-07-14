@@ -20,5 +20,7 @@ MM 4.13 之前的技能名为: `FawePaste`
 示例
 --------
 
-    Skills:
-    - fawePaste{schematic=deserttempleiron.schem;y=6;air=true;chestDropTable=IronDropTable} @origin
+```yaml
+ Skills:
+ - fawePaste{schematic=deserttempleiron.schem;y=6;air=true;chestDropTable=IronDropTable} @origin
+```
