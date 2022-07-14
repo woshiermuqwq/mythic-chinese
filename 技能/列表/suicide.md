@@ -6,7 +6,8 @@
 示例
 --------
 
-      Skills:
-      - suicide
-
-自杀.
+```yaml
+ Skills:
+ - suicide ~ondamaged
+```
+受伤后自杀.
