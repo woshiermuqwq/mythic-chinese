@@ -14,7 +14,7 @@
 
 **示例:**
 
-```
+```yaml
 Conditions:
 - entityitemissimilar{i=测试物品} true
 ```
