@@ -29,7 +29,7 @@ Cast是[光环](技能/列表/Aura)的一种.
 # 实体配置
  冰霜:
  Skills:
- - cast{skillName="&a冰霜";duration=40;onCast=激活冰霜;onTick=冰霜-Tick;onInterrupted=冰霜-End;onNoTargets=冰霜-无目标;cancelOnMove=true;showCastBar=true} @target ~onTimer:100
+ - cast{i=2;skillName="&a冰霜";duration=40;onCast=激活冰霜;onTick=冰霜-Tick;onInterrupted=冰霜-End;onNoTargets=冰霜-无目标;cancelOnMove=true;showCastBar=true} @target ~onTimer:100
 
 # 技能组配置
 冰霜-Tick:
