@@ -12,9 +12,9 @@
 
 **示例:**
 
-```
-Conditions:
-- height{h=<50} true
+```yaml
+ Conditions:
+ - height{h=<50} true
 ```
 
 ---
