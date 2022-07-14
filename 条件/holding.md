@@ -14,9 +14,9 @@ MC 1.13以下物品名需全大写
 
 **示例:**
 
-```
-#当物品名无效时,后台会产生报错
-- holding{m=DIAMOND_SWORD} true
+```yaml
+ #当物品名无效时,后台会产生报错
+ - holding{m=DIAMOND_SWORD} true
 ```
 
 ---
