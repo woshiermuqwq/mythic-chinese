@@ -1,7 +1,7 @@
 技能: Threat
 --------------------------
 
-修改目标对于施法者的威胁度
+修改技能目标对于施法者的威胁度
 
 可用修改模式:
 
@@ -25,7 +25,8 @@
 示例 (实体配置)
 --------
 
-      Skills:
-      - threat{amount=10000} @NearestPlayer ~onSpawn
-
+```yaml
+ Skills:
+ - threat{amount=10000} @NearestPlayer ~onSpawn
+```
 生成后将离自身最近的玩家威胁度添上10000.
