@@ -1,7 +1,7 @@
 特效技能: Play Block Break Sound
 --------------------------
 
-播放目标位置的方块的破坏音效.  
+播放技能目标位置所处方块的破坏音效.  
 
 前置: Paper 服务端
 
@@ -16,8 +16,11 @@
 示例:
 -----------
 
-    Skills:
-    - blockbreaksound @server
+```yaml
+ Skills:
+ - blockbreaksound @server
+```
+向服务器内所有玩家播放其所处位置的方块的破坏音效
 
 拓展信息:
 ----------------------
