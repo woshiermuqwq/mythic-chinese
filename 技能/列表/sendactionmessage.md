@@ -18,6 +18,7 @@
  - actionmessage{m="<mob.name>&f 释放了技能!"} @PlayersInRadius{r=30}
 ```
 向半径30格方块范围内的所有玩家发送活动栏消息: `(施法者名) 释放了技能!`
+
 额外信息
 ---
 
