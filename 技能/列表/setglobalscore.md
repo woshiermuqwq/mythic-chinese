@@ -15,9 +15,9 @@
 ----
 
 ```yaml
+ Skills:
  - setglobalscore{
   objective=测试;
-   v=2
-  } ~onAttack
+  v=2} ~onAttack
 ```
 造成伤害后设置虚拟玩家: `__GLOBAL__` 在记分板: `测试` 上的分数为`2`
