@@ -12,9 +12,9 @@
 
 **示例:**
 
-```
-Conditions:
-- hascurrency{a=1000} true
+```yaml
+ Conditions:
+ - hascurrency{a=1000} true
 ```
 
 ---
