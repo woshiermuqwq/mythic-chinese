@@ -15,9 +15,9 @@
 
 **示例:**
 
-```
-TargetConditions:
-- fieldofview{angle=90} true
+```yaml
+ TargetConditions:
+ - fieldofview{angle=90} true
 ```
 
 ---
