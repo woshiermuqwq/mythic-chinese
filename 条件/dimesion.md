@@ -23,9 +23,9 @@
 
 **示例:**
 
-```
-    Conditions:
-    - dimension{d=normal}
+```yaml
+ Conditions:
+ - dimension{d=normal}
 ```
 
 ---
