@@ -14,7 +14,7 @@
 
 **示例:**
 
-```
+```yaml
 Conditions:
 - biome DESERT,DESERT_HILLS
 ```
