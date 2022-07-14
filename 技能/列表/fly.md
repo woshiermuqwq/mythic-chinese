@@ -13,7 +13,8 @@
 示例 (实体配置)
 --------
 
-      Skills:
-      - fly{duration=100} @trigger ~onInteract
-
+```yaml
+ Skills:
+ - fly{duration=100} @trigger ~onInteract
+```
 被右键后允许右键者在飞行5秒.
