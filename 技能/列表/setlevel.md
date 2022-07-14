@@ -1,8 +1,8 @@
 技能: Set Level
 --------------------------
 
-修改实体的MythicMobs等级.  
-修改后实体血量会回满.
+修改技能目标的Mythic等级.  
+修改后技能目标血量会回满.
 
 修改项
 ----------
@@ -12,17 +12,19 @@
 | action    | a       | 修改模式           | SET           |
 | level     | l       | 修改值 | 1             |
 
-示例
+示例（实体配置）
 --------
 
 生成后设置自身等级为3.
-
-    - setlevel{a=set;l=3} ~onSpawn
-
+```yaml
+ Skills:
+ - setlevel{a=set;l=3} ~onSpawn
+```
 击杀玩家后升级.
-
-    - setlevel{a=add;l=1} ~onKillPlayer
-
+```yaml
+ Skills:
+ - setlevel{a=add;l=1} ~onKillPlayer
+```
 额外信息
 --
 
