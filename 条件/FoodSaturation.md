@@ -13,9 +13,9 @@
 
 **示例:**
 
-```
-TargetConditions:
-- FoodSaturation{a=<1} true
+```yaml
+ TargetConditions:
+ - FoodSaturation{a=<1} true
 ```
 
 ---
