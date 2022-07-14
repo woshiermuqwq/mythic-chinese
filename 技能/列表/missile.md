@@ -1,7 +1,7 @@
 技能: Missile
 --------------------------
 
-向目标发射追踪抛射物.
+向技能目标发射追踪抛射物.
 
 抛射物会在命中目标位置后消失.
 
@@ -54,29 +54,40 @@
 示例
 --------
 
-此实体每5秒朝目标发射 移速为4 惯性为0.75 速度为4 碰撞箱体积为1方块 的追踪抛射物.
+此实体每5秒朝半径16格范围内的所有玩家各发射一发:  
+飞行速度为4 惯性为0.75 碰撞箱体积为1方块 的追踪抛射物
 
-    # 实体配置
-    追踪抛射物测试实体:
-      Type: ZOMBIE
-      Skills:
-      - skill{s=[  - missile{ot=[  - e:particles{p=flame;a=1} @origin ];oh=[ - e:p{p=lava;a=50;hS=1;vS=1}  - sound{s=entity.generic.explode;v=1;p=0}  - d{a=1337;i=false} ];v=4;i=1;hR=1;vR=1;in=0.75}]} @pir{r=16} ~onTimer:100
-      
+```yaml
+# 实体配置
+追踪抛射物测试实体:
+ Type: ZOMBIE
+ Skills:
+ - skill{s=[
+  - missile{ot=[
+    - e:particles{p=flame;a=1} @origin
+    ];oh=[
+    - e:p{p=lava;a=50;hS=1;vS=1}
+    - sound{s=entity.generic.explode;v=1;p=0}
+    - d{a=1337;i=false}
+    ];v=4;i=1;hR=1;vR=1;in=0.75}
+  ]} @pir{r=16} ~onTimer:100
+```
 旧版写法
+```yaml
+# 实体配置
+追踪抛射物测试实体:
+ Type: ZOMBIE
+ Skills:
+ - missile{ot=追踪Tick;oh=追踪Hit;v=4;i=1;hR=1;vR=1;in=0.75} @pir{r=16} ~onTimer:100
 
-    # 实体配置
-    追踪抛射物测试实体:
-      Type: ZOMBIE
-      Skills:
-      - missile{ot=追踪Tick;oh=追踪Hit;v=4;i=1;hR=1;vR=1;in=0.75} @pir{r=16} ~onTimer:100
-
-    # 技能配置
-    追踪Tick:
-     Skills:
-     - effect:particles{p=flame} @origin
-    追踪Hit:
-     Skills:
-     - damage{a=10}
+# 技能配置
+追踪Tick:
+ Skills:
+ - effect:particles{p=flame} @origin
+追踪Hit:
+ Skills:
+ - damage{a=10}
+```
 
 拓展信息:
 ---------
