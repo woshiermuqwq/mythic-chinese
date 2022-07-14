@@ -1,7 +1,7 @@
 通用修改项: Global Cool Down (GCD) 
 --------------------------
 
-设置施法者所有技能的冷却时间.
+设置施法者（非玩家）所有技能的冷却时间.
 
 修改项
 ----------
@@ -16,9 +16,11 @@
 若所有技能冷却完成后且当前目标在自己的视野范围之内  
 则设置所有技能冷却为2秒(40刻).
 
-      IceBolt:
-        Conditions:
-        - offgcd
-        - targetinlineofsight
-        Skills:
-        - gcd{ticks=40}
+```yaml
+测试:
+ Conditions:
+ - offgcd
+ - targetinlineofsight
+ Skills:
+ - gcd{ticks=40}
+```
