@@ -1,7 +1,7 @@
 技能: Set Gliding
 --------------------------
 
-设置目标身上的鞘翅飞行状态.
+设置技能目标身上的鞘翅飞行状态.
 
 修改项
 ----------
@@ -13,7 +13,8 @@
 示例
 --------
 
-      Skills:
-      - setgliding{g=true} @self ~onDamaged
-
+```yaml
+ Skills:
+ - setgliding{g=true} @self ~onDamaged
+```
 受伤后展开自己的鞘翅.
