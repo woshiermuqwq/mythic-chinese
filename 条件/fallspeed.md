@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```yaml
 Conditions:
 - fallspeed{s=>5} true
 ```
