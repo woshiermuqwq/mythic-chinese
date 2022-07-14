@@ -1,7 +1,7 @@
 技能: Skill
 --------------------------
 
-向目标激活指定技能组(位于Skills文件夹的文档内).
+向技能目标激活指定技能组(位于Skills文件夹的文档内).
 
 修改项
 ----------
@@ -93,18 +93,25 @@
  - summon{t=3}
 ```
 
-示例
+示例（实体配置）
 --------
 
-      Skills:
-      - skill{skill=技能组} @T ~onAttack
-      - skill{s=技能组} @Trigger ~onSpawn
-      - skill:技能组 @Trigger ~onDeath
-      - skill
-          {
-          skill=一个技能组;
-          sync=true
-          } @self ~onDamaged
+```yaml
+ Skills:
+ - skill{skill=技能组} @T ~onAttack
+ - skill{s=技能组B} @server ~onSpawn
+ - skill:技能组C @Trigger ~onDeath
+ - skill
+  {
+  skill=一个技能组;
+  sync=true
+  } @self ~onDamaged
+```
+攻击后以仇恨目标为技能目标激活技能组: `技能组`  
+生成后以全服玩家为技能目标激活技能组: `技能组B`  
+死亡后以击杀者为技能目标激活技能组: `技能组C`  
+受伤后以攻击者为技能目标激活技能组: `一个技能组`, 且在主线程激活
+
 
 额外信息
 ----
