@@ -15,9 +15,9 @@
 
 **示例:**
 
-```
-Conditions:
-- hasitem{i=STICK;amount=2} true
+```yaml
+ Conditions:
+ - hasitem{i=STICK;amount=2} true
 ```
 
 ---
