@@ -16,6 +16,9 @@
 示例
 ----
 
-    - setscore{o=someobjective;v=2} @self ~onAttack
+```yaml
+ Skills:
+ - setscore{o=someobjective;v=2} @self ~onAttack
+```
 
 造成伤害后将虚拟玩家: dummy 在记分板: someobjective 的分数设为2.
