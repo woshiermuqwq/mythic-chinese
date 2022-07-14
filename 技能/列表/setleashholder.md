@@ -13,6 +13,11 @@
 示例
 --------
 
+```yaml
+ Skills;
+ - setleashholder @trigger ~onattack
+```
+攻击后将手中的栓绳递给受击者
 
 额外信息
 -------
