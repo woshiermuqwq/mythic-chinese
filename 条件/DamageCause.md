@@ -17,7 +17,7 @@
  - damagecause{cause=ENTITY_ATTACK}
 ```
 
-可用的伤害类型列表: https://mineplugin.org/DamageCause
+可用的伤害类型列表: [点我](/实体/伤害调整)
 
 ---
 
