@@ -12,19 +12,17 @@
 
 **示例:**
 
+```yaml
+ Conditions:
+ - entitytype{t=ZOMBIE} true
 ```
-Conditions:
-- entitytype{t=ZOMBIE} true
+```yaml
+ TargetConditions:
+ - entitytype{t=WITCH} true
 ```
-
-```
-TargetConditions:
-- entitytype{t=WITCH} true
-```
-
-```
-TriggerConditions:
-- entitytype{t=PLAYER} true
+```yaml
+ TriggerConditions:
+ - entitytype{t=PLAYER} true
 ```
 
 ---
