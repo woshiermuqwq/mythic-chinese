@@ -65,19 +65,20 @@
 示例
 --------
 
-      Skills:
-      - Aura{auraName=雷电;onTick=雷击;interval=10;duration=240} @self
-
+```yaml
+ Skills:
+ - Aura{auraName=雷电;onTick=雷击;interval=10;duration=240} @self
+```
 给予自身持续12秒的光环: 雷电,每0.5秒(10刻)会激活技能: 雷击
-
-     Skills:
-      - onDamaged{auraName=火焰防御;onHit=减伤效果;duration=200;charges=5;multiplier=0.5} @self
-
+```yaml
+ Skills:
+ - onDamaged{auraName=火焰防御;onHit=减伤效果;duration=200;charges=5;multiplier=0.5} @self
+```
 持续10秒的光环: 火焰防御 将令施法者接下来5次受伤数值都减少一半(*50%),且受伤后激活技能: 减伤效果
-
-      Skills:
-      - onAttack{auraName=火焰攻击;onHit=增伤效果;duration=200;charges=5;multiplier=2} @self
-
+```
+ Skills:
+ - onAttack{auraName=火焰攻击;onHit=增伤效果;duration=200;charges=5;multiplier=2} @self
+```
 持续10秒的光环: 火焰防御 将令施法者接下来5次对其它实体所造成伤害数值都将翻倍(*2),这包括技能伤害  
 且受伤后激活技能: 增伤效果.
 
