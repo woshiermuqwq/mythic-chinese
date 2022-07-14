@@ -1,7 +1,7 @@
 技能: Modify Target Score
 --------------------------
 
-修改目标指定记分板上的分数（上限2147483647）.
+修改技能目标指定记分板上的分数（上限2147483647, 下限-2147483647）.
 
 可用修改模式:
 
@@ -24,7 +24,8 @@
 示例
 --------
 
-    Skills:
-    - modifytargetscore{o=测试;v=1;a=SET} @self ~onInteract
-
-右键后将自身在记分板 测试 上的分数设为1
+```yaml
+ Skills:
+ - modifytargetscore{o=测试;v=1;a=SET} @self ~onInteract
+```
+右键后将自身在记分板: `测试` 上的分数设为1
