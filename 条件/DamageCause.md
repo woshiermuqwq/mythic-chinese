@@ -13,8 +13,8 @@
 **示例:**
 
 ```yaml
-Conditions:
-- damagecause{cause=ENTITY_ATTACK}
+ Conditions:
+ - damagecause{cause=ENTITY_ATTACK}
 ```
 
 可用的伤害类型列表: https://mineplugin.org/DamageCause
