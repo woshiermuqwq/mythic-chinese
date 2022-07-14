@@ -12,7 +12,10 @@
 
 **示例:**
 
-无
+```yaml
+ Conditions:
+ - enchantexp{a=1}
+```
 
 ---
 
