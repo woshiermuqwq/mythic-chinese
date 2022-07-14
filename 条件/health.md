@@ -12,24 +12,24 @@
 
 **示例:**
 
-```
+```yaml
 Conditions:
 - health{h=50} true
 ```
 
-```
+```yaml
 # 当前生命在50以下
 Conditions:
 - health{h=<50} true
 ```
 
-```
+```yaml
 # 当前生命在10以上
 Conditions:
 - health{h=>10} true
 ```
 
-```
+```yaml
 # 技能目标生命在50%以下
 检测目标:
  Skills:
@@ -44,7 +44,7 @@ Conditions:
  - damage{a=999}
 ```
 
-```
+```yaml
 # 自身生命在50%以下
 检测目标:
  Skills:
