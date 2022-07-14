@@ -2,7 +2,7 @@
 --------------------------
 
 强制目标向施法者移动(无视减速等阻碍移动的效果).  
-动量是 瞬时动量 也就是说技能效果只是把目标拉一下.  
+动量是 瞬时动量 也就是说技能效果只是把技能目标拉一下.  
 所以应该配合通用修改项[Repeat](技能/列表/Repeat)
 
 修改项
@@ -21,14 +21,16 @@
 示例
 --------
 
-    Skills:
-    - pull{v=1;repeat=9999;repeatInterval=1} @target
+```yaml
+ Skills:
+ - pull{v=1;repeat=9999;repeatInterval=1} @target
+```
 
-令目标500秒内都无法离开施法者.  
+令仇恨目标500秒内都无法离开施法者.  
 
 司空震一技能拉拢效果:
-
-    Skills:
-    - projectile{interval=1;md=60;ontick=[  - pull{to=true} @eno{r=2} ];se=false;sb=false} @forward{f=999;pitch=0}
-
+```yaml
+ Skills:
+ - projectile{interval=1;md=60;ontick=[  - pull{to=true} @eno{r=2} ];se=false;sb=false} @forward{f=999;pitch=0}
+```
 
