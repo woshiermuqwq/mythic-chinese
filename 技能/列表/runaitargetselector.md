@@ -1,7 +1,9 @@
 技能: Run AI Target Selector
 --------------------------
 
-为目标新增一个 最低优先度的AI目标选择器.
+为目标新增一个 最低优先度的AI目标选择器  
+使用 `clear` 时将清除已在实体配置内配置好的AI目标选择器器   
+使用其它AI目标选择器器之前必须先进行 `clear`
 
 可用AI目标选择器的详细内容见->[点击这儿](/实体/AI)  
 从 4.13 起支持付费版AI目标选择器
@@ -32,11 +34,14 @@
 示例
 -------
 
-    修改AI目标选择器测试:
-      Skills:
-      - runaitargetselector{target=clear}
-      - runaitargetselector{target=players}
-      - runaitargetselector{target=monsters}
+```yaml
+修改AI目标选择器测试:
+ Skills:
+ - runaitargetselector{target=clear}
+ - runaitargetselector{target=players}
+ - runaitargetselector{target=monsters}
+```
+令自身只会以玩家和怪物为仇恨目标
 
 额外信息
 --
