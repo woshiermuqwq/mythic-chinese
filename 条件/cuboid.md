@@ -14,7 +14,7 @@
 
 **示例:**
 
-```
+```yaml
 TargetConditions:
 - cuboid{location1=x,y,z;location2=x,y,z;world=world;relative=true}
 ```
