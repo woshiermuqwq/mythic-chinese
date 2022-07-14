@@ -1,7 +1,7 @@
 技能: Potion
 --------------------------
 
-将状态效果应用于目标.
+将状态效果应用于技能目标.
 
 修改项
 ----------
@@ -20,10 +20,12 @@
 
 此技能组将对技能目标造成持续10秒的移速降低100%(缓慢5)效果与10伤害.
 
-    Cripple:
-      Skills:
-      - potion{type=SLOW;duration=200;level=4}
-      - damage{amount=10}
+```yaml
+测试:
+ Skills:
+ - potion{type=SLOW;duration=200;level=4}
+ - damage{amount=10}
+```
 
 提示
 ----
@@ -42,7 +44,6 @@
 ```
 
 ```yaml
-
 凋零效果:
   Skills:
   - potion{t=wither;d=60}
