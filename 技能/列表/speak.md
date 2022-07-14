@@ -20,8 +20,10 @@
 示例
 --------
 
-      Skills:
-      - speak{offset=0.6f;radius=30;maxlinelength=22;lineprefix="&5";message=" 我回来了!";chatprefix=<caster.name>&f<&co>;duration=200} @self ~onSpawn
+```yaml
+ Skills:
+ - speak{offset=0.6f;radius=30;maxlinelength=22;lineprefix="&5";message=" 我回来了!";chatprefix=<caster.name>&f<&co>;duration=200} @self ~onSpawn
+```
 
 额外信息
 --
