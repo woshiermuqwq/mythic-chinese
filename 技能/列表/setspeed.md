@@ -1,7 +1,7 @@
 技能: Set Speed
 --------------------------
 
-设置技能目标指定移动方式下的移动速度.
+设置技能目标指定移动方式下的移动速度
 
 修改项
 ----------
@@ -14,9 +14,10 @@
 示例 (实体配置)
 --------
        
-      Skills:
-    - setspeed{speed=2;type=walking} ~onSpawn
-
+```yaml
+ Skills:
+ - setspeed{speed=2;type=walking} ~onSpawn
+```
 生成后将自身步行状态下的移动速度设为2.
 
 额外信息
