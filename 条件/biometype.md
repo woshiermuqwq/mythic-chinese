@@ -16,8 +16,8 @@
 **示例:**
 
 ```yaml
-Conditions:
-- biome DESERT,DESERT_HILLS
+ Conditions:
+ - biome DESERT,DESERT_HILLS
 ```
 
 ---
