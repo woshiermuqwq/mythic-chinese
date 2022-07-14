@@ -11,9 +11,12 @@
 | objective | obj, o  | 用于修改的记分板名,不存在则创建 | 无 |
 | value     | v       | 修改值 | 无 |             
                                                                             
-示例
+示例（实体配置）
 ----
 
-    - settargetscore{o=someobjective;v=2} @self ~onAttack
+```yaml
+ Skills:
+ - settargetscore{o=cs;v=2} @self ~onAttack
+```
 
-造成伤害后将自身在记分板: someobjective 的分数设为2.
+造成伤害后将自身在记分板: cs 的分数设为2.
