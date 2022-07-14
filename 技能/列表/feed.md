@@ -22,6 +22,7 @@
 ----------
 
 被右键后给予右键者10点饱和度
-
-    Skills:
-    - feed{amount=10} @trigger ~onInteract
+```yaml
+ Skills:
+ - feed{amount=10} @trigger ~onInteract
+```
