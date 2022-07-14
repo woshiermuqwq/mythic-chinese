@@ -6,7 +6,7 @@
 示例
 --------
 
-···yaml
+```yaml
  Skills:
  - mounttarget @target ~onattack
 ```
