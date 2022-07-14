@@ -16,6 +16,6 @@
 
 ```yaml
  Skills:
- - sendresourcepack{url="https://yourresourcepackurlhere";hash="cf23df2207d99a74fbe169e3eba035e633b65d94"} @PIR{r=15} ~onSpawn
+ - sendresourcepack{url="https://链接";hash="cf23df2207d99a74fbe169e3eba035e633b65d94"} @PIR{r=15} ~onSpawn
 ```
-生成后向半径15格方块范围内的所有玩家发送资源包链接: `https://yourresourcepackurlhere`
+生成后向半径15格方块范围内的所有玩家发送资源包链接: `https://链接`
