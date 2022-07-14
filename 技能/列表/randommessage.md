@@ -1,7 +1,7 @@
 技能: Random Message
 --------------------------
 
-随机发送多条聊天栏信息中的一条给目标(玩家).
+随机发送多条聊天栏信息中的一条给技能目标(玩家).
 
 修改项
 ----------
@@ -13,16 +13,20 @@
 示例
 --------
 
-    Skills:
-    - randommessage{
-        m=
-        "信息1",
-        "信息22",
-        "信息3";
-        } @PIR{r=20} ~onInteract
-
-    Skills:
-    - randommessage{m="信息1","信息2","信息3";} @PIR{r=20} ~onInteract
+```yaml
+ Skills:
+ - randommessage{
+  m=
+  "阿巴阿巴阿巴",
+  "叭叭叭叭",
+  "abab";
+  } @PIR{r=20} ~onInteract
+```或
+```yaml
+ Skills:
+ - randommessage{m="阿巴阿巴阿巴","叭叭叭叭","abab";} @PIR{r=20} ~onInteract
+```
+俩种格式共同效果为: 施法者被右键后向20格方块范围内的所有玩家发送多则消息: `阿巴阿巴阿巴`, `叭叭叭叭`, `abab` 中的一条
 
 额外信息
 --
