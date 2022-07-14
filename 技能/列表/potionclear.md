@@ -6,8 +6,10 @@
 示例
 --------
 
-    Skills:
-    - potionclear @self
+```yaml
+ Skills:
+ - potionclear @self
+```
 
 若想清除指定状态效果
 
