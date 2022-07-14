@@ -12,9 +12,9 @@
 
 **示例:**
 
-```
-TargetConditions:
-- EnchantingLevel{l=<10} true
+```yaml
+ TargetConditions:
+ - EnchantingLevel{l=<10} true
 ```
 
 ---
