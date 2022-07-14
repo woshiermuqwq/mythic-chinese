@@ -16,7 +16,7 @@
  Conditions:
  - hastag{t=cs} true
 ```
- ```yaml
+```yaml
  TargetConditions:
  - hastag{t=csd} true
 ```
