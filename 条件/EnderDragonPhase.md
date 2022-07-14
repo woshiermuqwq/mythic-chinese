@@ -15,7 +15,8 @@
 ```yaml
  Conditions:
  - enderdragonphase{phase=CIRCLING} true
-``````yaml
+```
+```yaml
  Conditions:
  - enderdragonphase{phases=FLY_TO_PORTAL,LEAVE_PORTAL} true
 ```
