@@ -13,8 +13,8 @@
 **示例:**
 
 ```yaml
-Conditions:
-- color{c=RED}
+ Conditions:
+ - color{c=RED}
 ```
 
 ---
