@@ -22,15 +22,16 @@
 | velocityy | vy, y   | Y轴(垂直)速度, 值为负数时, 值越小摔落后所受到的伤害越高  | 1             |
 | velocityz | vz, z   | Z轴速度                                | 1   |
 
-示例
+示例（实体配置）
 --------
 
-      测试:
-        Type: Zombie
-        Skills:
-        - velocity{m=set;x=0;y=0;z=0} @self ~onDamaged
-
-受伤后设置自身动量为0(虽做到了抗击飞效果但实际上会被弓箭附魔: 击飞 所击退).
+```yaml
+测试:
+ Type: Zombie
+ Skills:
+ - velocity{m=set;x=0;y=0;z=0;delay=1} @self ~onDamaged
+```
+施法者受伤后设置自身动量为0(虽做到了抗击飞效果但实际上会被弓箭附魔: 击飞 所击退).
 
 提示
 ----
