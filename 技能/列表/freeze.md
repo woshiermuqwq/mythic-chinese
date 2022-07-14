@@ -15,5 +15,8 @@
 示例
 --------
 
-      Skills:
-      - freeze{ticks=100} @trigger ~onAttack
+攻击后对受击者造成5秒冰冻
+```yaml
+ Skills:
+ - freeze{ticks=100} @trigger ~onAttack
+```
