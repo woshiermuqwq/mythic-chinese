@@ -1,7 +1,7 @@
 技能: Shield Percent
 --------------------------
 
-为目标提供 目标最大生命 * 指定百分比 的黄心
+为技能目标提供 `技能目标最大生命 * 指定百分比` 的黄心
 
 仅作用于 **Minecraft版本 ≥ 1.12.2** 时
 
@@ -16,7 +16,7 @@
 示例 (实体配置)
 --------
 
-      Skills:
-      - shieldpercent{m=1.5;maxShield=100} @self ~onSpawn
-
+```yaml
+ Skills:
+ - shieldpercent{m=1.5;maxShield=100} @self ~onSpawn
 生成后给予自身 等值于自身最大生命150%的黄心.
