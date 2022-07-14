@@ -1,7 +1,7 @@
 技能: Send Toast
 --------------------------
 
-发送进度信息给目标(玩家).
+发送进度信息给技能目标（玩家）.
 
 修改项
 ----------
@@ -14,11 +14,14 @@
 | frame     | f       | 进度类型,值必须小写,可为: challenge(挑战), task(任务), goal(目标) | challenge      |
 
 
-示例
+示例（实体配置）
 --------
 
-      Skills:
-      - sendtoast{icon=DIAMOND; iconnbt={CustomModelData:1};message="杀死了一个小怪!";frame=challenge} @PlayersInRadius{r=10}
+```yaml
+ Skills:
+ - sendtoast{icon=DIAMOND;iconnbt={CustomModelData:1};message="杀死了一个小怪!";frame=challenge} @PlayersInRadius{r=10} ~ondeath
+```
+施法者死亡后向半径10格方块范围内的玩家发送图标为钻石, 钻石nbt: `CustomModelData` 值为1, 成就消息为 `杀死了一个小怪!` 的成就
 
 额外信息
 --
