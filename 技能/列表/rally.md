@@ -19,13 +19,18 @@
 示例
 --------
 
-该技能将令半径30格方块范围内的所有未拥有目标的 被影响实体,被影响实体B  
-选取触发者作为目标.
-
-    集火测试:
-      Skills:
-      - m{m="<mob.name>正在请求支援"} @PlayersInRadius{r=30}
-      - callforhelp{t=被影响实体,被影响实体B;r=30;ot=false} @Trigger
+```yaml
+集火测试实体:
+ Type: husk
+ Skills:
+ - skill:集火测试 ~ondamaged
+集火测试:
+ Skills:
+ - m{m="<mob.name><&co>集合准备团战"} @PlayersInRadius{r=30}
+ - callforhelp{t=被影响实体,被影响实体B;r=30;ot=false} @Trigger
+```
+施法者受伤后令半径30格方块范围内的所有未拥有目标的 被影响实体,被影响实体B  
+选取触发者（攻击者）作为目标.
 
 额外信息
 -------
