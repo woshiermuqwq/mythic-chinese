@@ -1,7 +1,7 @@
 技能: Send Title
 --------------------------
 
-发送标题信息给目标(玩家).  
+向技能目标（玩家）标题信息.  
 
 **需要**Paper服务端
 
@@ -23,5 +23,8 @@
 示例
 --------
 
-    Skills:
-    - sendtitle{title="Beware!";subtitle="A dangerous spell is being cast!";d=20} @PlayersInRadius{r=10}
+```yaml
+ Skills:
+ - sendtitle{title="测试";subtitle="还是测试";d=20} @PlayersInRadius{r=10}
+```
+向半径10格方块范围内的所有玩家发送持续1秒, 主标题为: `测试`, 副标题为: `还是测试` 的标题
