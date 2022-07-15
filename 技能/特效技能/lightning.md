@@ -1,7 +1,7 @@
 特效技能: Lightning
 --------------------------
 
-在目标位置生成雷击(无伤害).
+于技能目标位置生成雷击(无伤害).
 
 修改项
 ----------
@@ -13,8 +13,14 @@
 
 示例
 --------
+```yaml
+ Skills:
+ - effect:lightning @target
+ - e:lightning @self
+ - effect:lightning{repeat=20;repeatInterval=1} @PIR{r=100}
 ```
-- effect:lightning @target
-- effect:lightning @self
-- effect:lightning{repeat=20;repeatInterval=1} @PIR{r=100}
-```
+
+额外信息
+---
+
+- 别称: e:lightning
