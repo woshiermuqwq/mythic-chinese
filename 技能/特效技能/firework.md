@@ -32,8 +32,10 @@
 - CREEPER : 爆裂性爆炸
 - STAR : 星形爆炸
 
-示例
+示例（实体配置）
 --------
 
-      Skills:
-      - effect:firework{t=burst;d=1;f=true;tr=true} @self ~onInteract
+```yaml
+ Skills:
+ - effect:firework{t=burst;d=1;f=true;tr=true} @self ~onInteract
+```
