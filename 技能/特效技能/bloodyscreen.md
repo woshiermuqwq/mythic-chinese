@@ -14,8 +14,13 @@
 示例
 --------
 
-      Skills:
-      - bloodyscreen{d=100} @trigger ~onDamaged
-
+```yaml
+ Skills:
+ - effect:bloodyscreen{d=100} @trigger ~onDamaged
+```
 受伤后令攻击者屏幕泛红5秒.
 
+额外信息
+---
+
+- 别称: e:bloodyscreen, bloodyscreen
