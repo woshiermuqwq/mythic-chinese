@@ -1,7 +1,7 @@
 特效技能: 
 --------------------------
 
-.
+于技能目标位置生成粒子龙卷风.
 
 修改项
 ----------
@@ -27,4 +27,11 @@
 示例
 --------
 
-      - effect:particletornado{p=flame;cp=largeexplode;mr=1;h=3;i=4;d=100;rs=1;sh=1;cs=0;ca=0;chs=0.1;cvs=0.1;cps=1;cyo=2} @self ~onTimer:100
+```yaml
+ - effect:particletornado{p=flame;cp=largeexplode;mr=1;h=3;i=4;d=100;rs=1;sh=1;cs=0;ca=0;chs=0.1;cvs=0.1;cps=1;cyo=2} @self ~onTimer:100
+```
+
+额外信息
+---
+
+- 别称: e:particletornado, particletornado
