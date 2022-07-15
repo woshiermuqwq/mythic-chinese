@@ -18,8 +18,15 @@
 
 
 
-**示例:**
+示例（实体配置）
+---
 
+```yaml
+ Skills:
+ - effect:recoil{r=1;pitch=-1to-1} @self ~onAttack
 ```
-- recoil{r=1;pitch=-1to-1} @self ~onAttack
-```
+
+额外信息
+---
+
+- 别称: e:recoil, recoil
