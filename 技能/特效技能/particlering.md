@@ -16,6 +16,12 @@
 示例
 --------
 
+```yaml
+ Skills:
+ - effect:particlering{particle=flame;radius=20;points=32;amount=1;hS=1;vS=0} @target
 ```
-- effect:particlering{particle=flame;radius=20;points=32;amount=1;hS=1;vS=0} @target
-```
+
+额外信息
+---
+
+- 别称: e:particlering, particlering
