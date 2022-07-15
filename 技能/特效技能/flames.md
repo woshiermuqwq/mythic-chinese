@@ -6,5 +6,12 @@
 示例
 --------
 
-      Skills:
-      - effect:flames
+```yaml
+ Skills:
+ - effect:flames
+```
+
+额外信息
+---
+
+- 别称: e:flames, flames
