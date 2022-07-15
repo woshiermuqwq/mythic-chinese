@@ -30,3 +30,8 @@
  Skills:
  - effect:particleorbital{r=2;points=16;t=100;i=1;vy=20;particle=flame} @self ~onSpawn
 ```
+
+额外信息
+---
+
+- 别称: e:particleorbital, particleorbital
