@@ -11,12 +11,12 @@
 | direction | d | 特效持续时间,值在1~4之间 | 1 |
 | interval | i | 播放频率 | 1 |
 
-示例
+示例（实体配置）
 --------
 
-```
-- effect:smoke @target ~onTimer:10
-- effect:smoke{direction=2} @self ~onAttack
+```yaml
+ Skills:
+- effect:smoke{d=4} @self ~onAttack
 ```
 
 额外信息
