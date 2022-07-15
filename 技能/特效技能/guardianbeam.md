@@ -1,7 +1,7 @@
 技能: Guardian Beam
 ================
 
-于坐标原点位置朝目标发射守卫者射线.
+于坐标原点位置朝技能目标发射守卫者射线.
 
 修改项
 ----------
@@ -18,10 +18,12 @@
 示例
 --------
 
-      Skills:
-      - guardianbeam{d=10;i=1} @server ~onTimer:20
+```yaml
+ Skills:
+ - guardianbeam{d=10;i=1} @server ~onTimer:20
+```
 
-拓展信息
+额外信息
 --------
 
 - 别称: effect:guardianbeam, effect:beam, e:beam
