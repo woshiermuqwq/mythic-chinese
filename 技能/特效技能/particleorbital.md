@@ -1,7 +1,7 @@
 特效技能: Particle Orbital
 --------------------------
 
-于目标位置生成粒子环绕并跟随目标.
+于技能目标位置生成粒子环绕并跟随目标.
 
 修改项
 ----------
@@ -23,7 +23,10 @@
 | angularVelocityZ | avz,vz  | 粒子环绕整体Z轴速度 | 0   |
 | reversed | reverse | 令粒子点反向移动 | false |
 
-示例
+示例（实体配置）
 --------
 
-    - effect:particleorbital{r=2;points=16;t=100;i=1;vy=20;particle=flame} @self ~onSpawn
+```yaml
+ Skills:
+ - effect:particleorbital{r=2;points=16;t=100;i=1;vy=20;particle=flame} @self ~onSpawn
+```
