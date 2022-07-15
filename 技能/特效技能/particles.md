@@ -77,19 +77,21 @@ Particles的修改项: particle 则会失效
 示例
 --------
 
-----
+```yaml
     Skills:
     - e:particles{p=flame;a=200;hS=1;vS=1;speed=5} @self
     - ...
+```
 1.12 block_crack
-
+```yaml
     Skills:
     - e:particles{p=blockcrack_2_0;a=100;hS=1;vS=1} @self
-
+```
 1.13 block
-
+```yaml
     Skills:
     - e:p{particle=block;m=dirt;a=100;hS=1;vS=1} @self
+```
 
 拓展信息
 -------
