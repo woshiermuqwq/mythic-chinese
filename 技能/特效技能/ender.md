@@ -6,5 +6,12 @@
 示例
 --------
 
-      Skills:
-      - effect:ender @self ~onTimer:5
+```yaml
+ Skills:
+ - effect:ender @self ~onTimer:5
+```
+
+额外信息
+---
+
+- 别称: e:ender, ender
