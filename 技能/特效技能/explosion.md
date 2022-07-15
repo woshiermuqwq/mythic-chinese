@@ -6,5 +6,12 @@
 示例 (实体配置)
 --------
 
-      Skills:
-      `- effect:explosion @self ~onDamaged`
+```yaml
+ Skills:
+ - effect:explosion @self ~onDamaged`
+```
+
+额外信息
+---
+
+- 别称: effect:explode, e:explosion, e:explode
