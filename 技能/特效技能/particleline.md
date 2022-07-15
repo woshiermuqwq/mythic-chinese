@@ -1,7 +1,7 @@
 特效技能: Particle Line
 --------------------------
 
-连接施法者与目标的粒子线.
+生成连接施法者与技能目标的粒子线.
 
 修改项
 ----------
@@ -22,6 +22,12 @@ Z形粒子线类似于锯齿、心电图
 示例
 --------
 
+```yaml
+ Skills:
+ - effect:particleline{particle=flame;amount=1;fromOrigin=true} @target
 ```
-- effect:particleline{particle=flame;amount=1;fromOrigin=true} @target
-```
+
+额外信息
+---
+
+- 别称: e:partickleline, particleline
