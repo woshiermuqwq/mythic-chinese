@@ -1,7 +1,7 @@
 特效技能: Sound
 --------------------------
 
-于目标位置播放指定音效的指定种类.
+于技能目标位置播放指定音效的指定种类.
 
 修改项
 ----------
@@ -16,8 +16,9 @@
 示例
 --------
 
-```
-- sound{s=entity.enderman.scream} @self
+```yaml
+ Skills:
+ - sound{s=entity.enderman.scream} @self
 ```
 
 关于使用非原版音效
