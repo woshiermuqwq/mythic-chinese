@@ -14,6 +14,12 @@
 示例
 --------
 
+```yaml
+ Skills:
+ - effect:enderbeam{d=100;y=2} @target
 ```
-- effect:enderbeam{d=100;y=2} @target
-```
+
+额外信息
+---
+
+- 别称: e:enderbeam, enderbeam
