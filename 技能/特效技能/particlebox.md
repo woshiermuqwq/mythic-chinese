@@ -14,6 +14,12 @@
 示例
 --------
 
+```yaml
+ Skills:
+ - effect:particlebox{particle=flame;a=200;r=5} @self
 ```
-- particlebox{particle=flame;a=200;r=5} @self
-```
+
+额外信息
+---
+
+- 别称: e:particlebox, particlebox
