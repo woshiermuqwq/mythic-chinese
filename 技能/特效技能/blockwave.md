@@ -25,9 +25,10 @@
 示例
 --------
 
-      Skills:
-      - blockwave{duration=100;material=stone;radius=5;radiusY=5;velocity=10;shape=sphere} @selflocation
-
+```yaml
+ Skills:
+ - blockwave{duration=100;material=stone;radius=5;radiusY=5;velocity=10;shape=sphere} @selflocation
+```
 额外信息
 -----
 
