@@ -1,7 +1,7 @@
-特效技能: Sound (4.14)
+特效技能: Stop Sound (4.14)
 --------------------------
 
-于目标位置停止播放指定音效的指定种类.
+于技能目标位置停止播放指定音效的指定种类.
 
 修改项
 ----------
@@ -14,11 +14,13 @@
 示例
 --------
 
-```
-- stopsound{s=entity.enderman.scream} @self
+```yaml
+ Skills:
+ - stopsound{s=entity.enderman.scream} @self
 ```
 
 额外信息
 ------
 
 - **支持** Audience
+- 别称: effect:stopsound, e:ss, ss
