@@ -15,4 +15,12 @@
 --------
 
 
-      - effect:particlesphere{p=flame;amount=200;radius=5} @self
+```yaml
+ Skills:
+ - effect:particlesphere{p=flame;amount=200;radius=5} @self
+```
+
+额外信息
+---
+
+- 别称: e:particlesphere, particlesphere
