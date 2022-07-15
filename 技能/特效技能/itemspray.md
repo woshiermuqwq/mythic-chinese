@@ -1,7 +1,7 @@
 特效技能: Item Spary
 --------------------------
 
-物品掉落物抛洒.
+于技能目标位置生成物品掉落物抛洒.
 
 修改项
 ----------
@@ -28,8 +28,9 @@
 示例
 --------
 
-```
-- effect:itemspray{item=iron_sword;amount=20;velocity=5;d=100} @self
+```yaml
+ Skills:
+ - effect:itemspray{item=iron_sword;amount=20;velocity=5;d=100} @self
 ```
 
 额外信息
