@@ -7,8 +7,6 @@
 | --------- | -------------- | ------------------------- |
 | block     | blocks, b | 用于检测的多种方块 |
 
----
-
 一列可用的方块种类.
 
 https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
