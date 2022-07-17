@@ -30,9 +30,9 @@
 
 **示例:**
 
-```
-Conditions:
-- itemissimilar{i=测试物品;slot=25} true
+```yaml
+ Conditions:
+ - itemissimilar{i=测试物品;slot=25} true
 ```
 
 **拓展信息:**
