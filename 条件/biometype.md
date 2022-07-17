@@ -15,5 +15,5 @@
 拓展信息
 ---
 
-- [x] 检测对象: 位置
-- [x] 别称: biomecategory 
+- 检测对象: 位置
+- 别称: biomecategory 
