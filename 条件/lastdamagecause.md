@@ -9,9 +9,7 @@
 | --------- | -------------- | ------------------------- |
 | damagecause | cause, c | 无 |
 
-一列可用的伤害类型列表: 
-
-https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+可用的伤害类型列表: [点我](/实体/伤害调整)
 
 ---
 
