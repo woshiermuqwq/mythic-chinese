@@ -34,4 +34,4 @@
 额外信息
 ---
 
-- 别称: e:particleorbital, particleorbital
+- 别称: e:particleorbital, particleorbital, effect:particlecircle, particlecircle, e:particlecircle
