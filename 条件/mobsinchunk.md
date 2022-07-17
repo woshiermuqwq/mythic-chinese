@@ -15,9 +15,9 @@
  - mobsinchunk{a=1to5} true
 ```
 若施法者所处区块内的实体数量＜5（必不可能＜1, 因施法者本身算数）
-```
-Conditions:
-- mobsinchunk{a=<5} true
+```yaml
+ Conditions:
+ - mobsinchunk{a=<5} true
 ```
 若施法者所处区块内的实体数量＜5
 
