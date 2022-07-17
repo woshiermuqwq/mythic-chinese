@@ -15,7 +15,7 @@
  - mobsinworld{a=1to5} true
 ```
 若施法者所处世界实体数量＜5（不可能＜1因施法者本身算数）
-```
+```yaml
  Conditions:
  - mobsinworld{a=<5} true
 ```
