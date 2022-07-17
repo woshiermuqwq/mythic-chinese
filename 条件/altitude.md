@@ -14,12 +14,16 @@
 
 ```yaml
  Conditions:
- - altitude{h=>10} true
+ - altitude{h=<0}
+ Skills:
+ - teleport @casterspawn
 ```
+当自身处在 `虚空（y<0）` 时, 传送回施法者的出生点
 
 ---
 
-**拓展信息:**
+拓展信息
+---
 
 - [x] 检测对象: 实体
 - [x] 别称: heightfromsurface
