@@ -22,7 +22,7 @@ https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
 
 ```yaml
  Skills:
- - skill:cs @pir{r=16}、
+ - skill:cs @pir{r=16}
 cs:
  Skills:
  TargetConditions:
