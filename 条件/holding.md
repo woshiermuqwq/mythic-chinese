@@ -18,8 +18,6 @@ MC 1.13以下物品名需全大写
  - holding{m=DIAMOND_SWORD} true
 ```
 
----
-
 拓展信息
 ---
 
