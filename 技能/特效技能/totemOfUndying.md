@@ -18,4 +18,4 @@
 额外信息
 ---
 
-- 别称: totemeffect, totemresurrection 
+- 别称: effect:totemresurrection, totemeffect, totemresurrection, e:totemresurrection, totemresurrectioneffect, totemofundying, e:totemofundying, totemeffect
