@@ -2,12 +2,10 @@
 
 ---
 
-
-
 示例
 ---
 
-```
+```yaml
  Conditions:
  - inside true
 ```
