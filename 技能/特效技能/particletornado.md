@@ -35,4 +35,5 @@
 额外信息
 ---
 
-- 别称: e:particletornado, particletornado
+- 别称: particletornado, e:pt
+- 
