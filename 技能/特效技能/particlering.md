@@ -24,4 +24,4 @@
 额外信息
 ---
 
-- 别称: e:particlering, particlering
+- 别称: e:particlering, particlering, e:pr, pr
