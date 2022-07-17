@@ -25,5 +25,5 @@
 拓展信息
 ---
 
-- [x] 检测对象: 实体
-- [x] 别称: heightfromsurface
+- 检测对象: 实体
+- 别称: heightfromsurface
