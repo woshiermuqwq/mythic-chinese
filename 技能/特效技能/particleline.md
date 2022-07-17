@@ -1,7 +1,7 @@
 特效技能: Particle Line
 --------------------------
 
-生成连接施法者与技能目标的粒子线.
+生成连接施法者与技能目标的粒子线段.
 
 修改项
 ----------
@@ -31,4 +31,4 @@ Z形粒子线类似于锯齿、心电图
 额外信息
 ---
 
-- 别称: e:partickleline, particleline, e:pl pl
+- 别称: e:particleline, particleline, e:pl, pl
