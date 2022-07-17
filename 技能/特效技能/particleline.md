@@ -15,6 +15,7 @@
 | zigzag          | zz       | 粒子线是否为"Z"形而不是直线形 | false         |
 | zigzags         | zzs      | "Z"形粒子线的折点数, 为偶数时粒子线才可以视觉上命中技能目标 | 10            |
 | zigzagOffset    | zzo      | "Z"形粒子线朝向的偏差弧度范围 | 0.2  |
+| maxdistance（5.1） | md | 粒子线段最大长（单位: 格方块） | 256 |
 
 Z形粒子线类似于锯齿、心电图  
 0 < 实际朝向偏差弧度 ≤ (粒子线距离*偏差弧度范围)/(粒子间隔*(折点数+1))
@@ -30,4 +31,4 @@ Z形粒子线类似于锯齿、心电图
 额外信息
 ---
 
-- 别称: e:partickleline, particleline
+- 别称: e:partickleline, particleline, e:pl pl
