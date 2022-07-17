@@ -10,9 +10,9 @@
 示例
 -----
 
-```
-  Skills:
-  - totemofundying{model=2} @Self
+```yaml
+ Skills:
+ - totemofundying{model=2} @Self
 ```
 
 额外信息
