@@ -31,8 +31,6 @@
  - dimension{d=normal}
 ```
 
----
-
 拓展信息
 ---
 
