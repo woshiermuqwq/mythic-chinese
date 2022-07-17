@@ -24,12 +24,12 @@
 ---
 
 ```yaml
-Conditions:
-- lunarphase{p=0} true
+ Conditions:
+ - lunarphase{p=0} true
 ```
 ```yaml
-Conditions:
-- lunarphase{p=0,2,4,6} true
+ Conditions:
+ - lunarphase{p=0,2,4,6} true
 ```
 
 拓展信息
