@@ -22,4 +22,4 @@
 额外信息
 ---
 
-- 别称: e:enderbeam, enderbeam
+- 别称: enderbeam
