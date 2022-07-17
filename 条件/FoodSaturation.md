@@ -1,8 +1,6 @@
 **描述:** 若实体的饱和度在指定范围内.  
 饱和度: 溢出的饱食度
 
----
-
 修改项
 ---
 
@@ -18,10 +16,8 @@
  - FoodSaturation{a=<1} true
 ```
 
----
-
 拓展信息
 ---
 
-- [x] 检测对象: 实体
-- [x] 别称: hungerSaturation
+- 检测对象: 实体
+- 别称: hungerSaturation
