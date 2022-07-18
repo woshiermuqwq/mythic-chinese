@@ -12,6 +12,8 @@
 |---------------------|------------------------|-------------------------------------------------------|------|
 | entityskill         | eskill, es             | 命中实体后所释放的技能                   | 无   |
 | locationskill       | lskill, ls             | 命中固体方块后所释放的技能                   | 无   |
+| headshotskill | hskill, hs | 命中实体头部后所释放的技能 | 无 |
+| headshotmultiplier | hsmultipler, hsm | headshotskill所激活技能内若存在伤害类技能则会乘以该项的值 | 1 |
 | maxdistance         | distance, md, d        | 射线最大距离  | 50   |
 | raywidth | rw, w     | 射线追踪的宽度(?) | 0.2                                                   |      |
 | ignorepassableblocks| ignorepassable, ip     | 是否无视非完整方块 (如: 台阶 被吃了的蛋糕)  | true |
