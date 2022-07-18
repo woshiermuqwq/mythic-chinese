@@ -10,9 +10,9 @@
 示例
 ---
 
-```
-Conditions:
-- name{n=Sharrk_kunjang}
+```yaml
+ Conditions:
+ - name{n=Sharrk_kunjang}
 ```
 
 拓展信息
