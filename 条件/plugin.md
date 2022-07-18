@@ -1,8 +1,7 @@
 **描述:** 若服务端已安装指定插件.
 
+修改项
 ---
-
-**修改项:**
 
 | 修改项名  | 别称           | 描述                      |
 | --------- | -------------- | ------------------------- |
@@ -10,18 +9,16 @@
 
 新增于 MM 4.14.2
 
+示例
 ---
 
-**示例:**
-
-```
-Conditions:
-- plugin{p=MythicMobs}
+```yaml
+ Conditions:
+ - plugin{p=MythicMobs}
 ```
 
+拓展信息
 ---
 
-**拓展信息:**
-
-- [x] 检测对象: 服务端
-- [x] 别称: pluginexists, hasplugin
+- 检测对象: 服务端
+- 别称: pluginexists, hasplugin
