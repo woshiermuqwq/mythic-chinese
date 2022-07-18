@@ -59,7 +59,7 @@
   Skills:
   - m{m=&7值为0}
 ```
-```
+```yaml
 暴击机制:
  Skills:
  - setvar{var=caster.随机数;v=<random.0to100>}
