@@ -1,25 +1,22 @@
 **描述:** 若实体处在指定WorldGuard区域内.
 
+修改项
 ---
-
-**修改项:**
 
 | 修改项名  | 别称           | 描述                      |
 | --------- | -------------- | ------------------------- |
 | region    | r, name, n  | 用于检测的单个WG区域名 |
 
+示例
 ---
 
-**示例:**
-
-```
-Conditions:
-- region{r=BossZone} true
+```yaml
+ Conditions:
+ - region{r=测试} true
 ```
 
+拓展信息
 ---
 
-**拓展信息:**
-
-- [x] 检测对象: 位置
-- [x] 别称: inregion
+- 检测对象: 位置
+- 别称: inregion
