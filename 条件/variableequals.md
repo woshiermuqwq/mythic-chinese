@@ -12,13 +12,13 @@
 示例
 ---
 
-```
+```yaml
 测试:
-  TargetConditions:
-  - variableEquals{var=target.heardbear;value="是"} cancel
-  Skills:
-  - message{m="&7啊啊啊啊.."}
-  - setvariable{var=target.heardbear;value="是";duration=6000}
+ TargetConditions:
+ - variableEquals{var=target.heardbear;value="是"} cancel
+ Skills:
+ - message{m="&7啊啊啊啊.."}
+ - setvariable{var=target.heardbear;value="是";duration=6000}
 ```
 
 拓展信息
