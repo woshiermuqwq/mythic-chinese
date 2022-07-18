@@ -11,12 +11,10 @@
 示例
 ---
 
+```yaml
+ Conditions:
+ - stance{s=某姿势;str=true} true
 ```
-Conditions:
-- stance{s=某姿势;str=true} true
-```
-
----
 
 拓展信息
 ---
