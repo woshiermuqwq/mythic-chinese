@@ -32,7 +32,9 @@
  - summon{t=2} ?varrange{var=caster.2}
  - summon{t=3} ?varrange{var=caster.3}
 ```
-使用 VaribleSkill 后```yaml
+使用 VaribleSkill 后
+
+```yaml
 测试实体:
  Type: husk
  Skills:
