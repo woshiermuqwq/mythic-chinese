@@ -375,6 +375,7 @@
     [Shoot Potion](/技能/列表/shootpotion)<br>
     [Shoot Skull](/技能/列表/shootskull)<br>
     [Shoot Shulker Bullet](/技能/列表/shootshulkerbullet)<br>
+    [Show Entity](/技能/列表/showentity)<br>
     [Signal](/技能/列表/signal)<br>
     [Speak](/技能/列表/speak)<br>
     [Spring](/技能/列表/spring)<br>
