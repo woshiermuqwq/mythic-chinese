@@ -43,18 +43,17 @@ AI行动器将决定实体该做什么. 若所写AI行动器不适用于实体, 
 | closedoors                       | restrictopendoor | 关闭路径上的门         |
 | randomlookaround                 | lookaround       | 看向周围               |
 | gotospawnlocation{maxrange(max, r)=寻找的最大距离（格方块）;minrange(min, mr)=与出生点所保持的距离（格方块）;speed=移速;droptarget(dt)=是否无视当前目标走向出生点}                 | gotospawn        | 走向实体的出生点       |
-| fleeConditional{distance=5;speed=2;safespeed=2;conditions=} **[仅限付费版]** | fleeIf           | 躲避符合条件的实体.    |
 | doNothing{fleeconditions=[  - 条件 条件活动 ]}       **[仅限付费版]** | nothing{conditions(cond, c)=[  条件 ]} | 条件不满足就不进行操作 |
 
-FleeConditional 示例:
-```yml
-AIGoalSelectors:
-- clear
-- fleeConditional{distance=5;speed=2;safespeed=2;conditions=[ - inlineofsight true ]}
-    ]}
-```
-
 **生物可用**
+
+flee开头的AI行动器共有的修改项:
+
+| 修改项名 | 描述 | 默认值
+| - | - |
+| distance | 远离距离 | 5 |
+| speed | 逃离速度 | 2 |
+| safespeed=2 | 即将达到远离距离时的逃离速度 | 1 |
 
 | AI行动器名                          | 别称             | 描述                                   |
 | ----------------------------------- | ---------------- | -------------------------------------- |
@@ -70,6 +69,7 @@ AIGoalSelectors:
 | fleegolems                          | runfromgolems    | 躲避铁傀儡                             |
 | fleevillagers                       | runfromvillagers | 躲避村民                               |
 | fleewolves                          | runfromwolves    | 躲避狼                                 |
+| fleeConditional{condtions=} **[仅限付费版]** | fleeIf           | 躲避符合条件的实体.    |
 | spiderattack                        |                  | 跳跃攻击方式(如狼、蜘蛛)               |
 | leapattarget                        |                  | 朝目标冲刺                             |
 | moveindoors                         |                  | 室内活动                               |
@@ -83,6 +83,14 @@ AIGoalSelectors:
 | gotowater（5.0.5） | 寻找并进入水源 |
 | panicWhenOnFire                     | panic            | 着火时寻找水源熄火 |
 | randomFly | | 随机飞行 |
+
+FleeConditional 示例:
+```yml
+AIGoalSelectors:
+- clear
+- fleeConditional{distance=5;speed=2;safespeed=2;conditions=[ - inlineofsight true ]}
+    ]}
+```
 
 **动物可用 (5.0.3)**
 
