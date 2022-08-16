@@ -24,7 +24,7 @@
 | overWriteAll | oa | 光环是否替换已有的同名光环 | false |
 | showbartimer | bartimer, bt | 是否以Boss血条的形式向施法者显示光环剩余时间 | false |
 | bartimerdisplay | bartimertext | 所显示的Boss血条文本 | <skill.var.aura-name> |
-| bartimercolor | | 所显示的[Boss血条颜色](/实体/Boss血条#血条样式列表) | Red |
+| bartimercolor | | 所显示的[Boss血条颜色](/实体/Boss血条#血条样式列表), **必须全大写** | RED |
 | bartimerstyle | | 所显示的[Boss血条样式](/实体/Boss血条#血条样式列表)  | SOLID |
 | CancelOnGiveDamage  | cogd    | 光环是否在光环持有者造成伤害后消失 | false         |
 | CancelOnTakeDamage  | cotd    | 光环是否在光环持有者受到伤害后消失 | false         |
