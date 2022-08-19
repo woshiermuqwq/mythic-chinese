@@ -107,7 +107,7 @@
 `大`被激活sudoskill后, 对触发者激活sudoskill  
  
 `大`被激活sudoskill时`cat`不为`true`  
-`cat`不为`true`, 意味着`大`通过被sudoskill所激活的技能（即`- - signal{s=kill} @trigger`）的触发者    
+`cat`不为`true`, 意味着`大`通过被sudoskill所激活的技能的触发者    
 仍继承对其激活sudoskill的子系实体: `中`, 激活sudoskill时的触发者  
 而`中` 被激活sudoskill时, sudoskill的`cat`为`true`  
 所以`中`的sudoskill的触发者是`小`  
