@@ -92,10 +92,11 @@
  Skills:
  - sudoskill{cat=true;s=[
    - sudoskill{s=[
-     - signal{s=kill} @trigger
+     - sudoskill{s=[
+       - d{a=999} @trigger
+       ];cat=true} @trigger
      ]} @parent
   ]} @parent ~oninteract
- - d{a=999} @trigger ~onSignal:kill
 ```
 `大`为`中`的主人, `中`为`小`的主人  
 右键`小`将杀死主人（`中`）的主人（`大`）  
@@ -111,3 +112,5 @@
 而`中` 被激活sudoskill时, sudoskill的`cat`为`true`  
 所以`中`的sudoskill的触发者是`小`  
 所以`大`的sudoskill的触发者是 `中`的sudoskill的触发者: `小`  
+最后, `大` 对 触发者: `小` 激活 sudoskill, 且设触发者为`大`（`cat=true`）  
+`小`对触发者`大`造成伤害
