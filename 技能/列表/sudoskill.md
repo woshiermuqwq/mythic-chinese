@@ -59,32 +59,51 @@
   该选项为false时, 被sudoskill的实体所执行的技能的触发者将与施法者执行sudoskill时的触发者一致  
   这意味着可以让实体选取它的父系实体的主人
 ```yaml
-父系实体的主人:
+大:
  Type: husk
- AIGoalSelectors:
- - clear
+ Display: '大'
+ Options:
+  NoAI: true
+  AlwaysShowName: true
  Skills:
- - skill:test @self ~oninteract
- 
-父系实体:
- Type: baby_zombie
+ - summon{t=AA;os=true;r=5} @self ~onspawn
+中:
+ Type: husk
+ Display: '中'
  AIGoalSelectors:
  - clear
  - gotoparent
  Options:
-  PreventSunburn: true
+  AlwaysShowName: true
  Skills:
- - signal{s=target} @parent ~oninteract
- - potion{t=glowing;d=20} @trigger ~onsignal:target
-实体:
- Type: zombie
- Options:
-  PreventSunburn: true
+ - summon{t=A;os=true;r=5} @self ~onspawn
+小:
+ Type: husk
+ Display: '小'
  AIGoalSelectors:
  - clear
  - gotoparent
+ Options:
+  AlwaysShowName: true
  Skills:
- - summon{t=Pet} @self ~onspawn
- - signal{s=target1} @parent ~onSignal:target
- - sudoskill{s=[  - signal{s=target} @trigger ]} @parent ~onSignal:target
+ - sudoskill{cat=true;s=[
+   - sudoskill{s=[
+     - signal{s=kill} @trigger
+     ]} @parent
+  ]} @parent ~oninteract
+ - d{a=999} @trigger ~onSignal:kill
 ```
+`大`为`中`的主人, `中`为`小`的主人  
+右键`小`将杀死主人（`中`）的主人（`大`）  
+非主人（同为`中`）则不会受影响
+
+右键对主人: `中` 激活sudoskill, 同时设其触发者为`小`  
+`中`被激活sudoskill后, 对主人`大` 激活sudoskill  
+`大`被激活sudoskill后, 对触发者激活sudoskill  
+ 
+`大`被激活sudoskill时`cat`不为`true`  
+`cat`不为`true`, 意味着`大`通过被sudoskill所激活的技能（即`- - signal{s=kill} @trigger`）的触发者    
+仍继承对其激活sudoskill的子系实体: `中`, 激活sudoskill时的触发者  
+而`中` 被激活sudoskill时, sudoskill的`cat`为`true`  
+所以`中`的sudoskill的触发者是`小`  
+所以`大`的sudoskill的触发者是 `中`的sudoskill的触发者: `小`  
