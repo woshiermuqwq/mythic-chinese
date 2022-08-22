@@ -11,7 +11,7 @@ MythicMobs实体名:
   Type: 实体类型
   BossBar:
     Enabled: true/false(是否开启)
-    Title: '标题文本'
+    Title: '标题文本, 支持占位符'
     Range: 显示范围
     Color: 血条颜色
     Style: 血条样式
