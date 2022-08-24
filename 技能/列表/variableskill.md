@@ -21,16 +21,16 @@
 测试实体:
  Type: husk
  Skills:
- - setvar{caster.summon;v=<random.float.1to3>} @self ~oninteract
+ - setvar{var=caster.summon;v=<random.1to3>} @self ~oninteract
  - skill:召唤检测 @self ~oninteract
 
 ###技能文档
 
 召唤检测:
  Skills:
- - summon{t=1} ?varrange{var=caster.1}
- - summon{t=2} ?varrange{var=caster.2}
- - summon{t=3} ?varrange{var=caster.3}
+ - summon{t=1} ?varrange{var=caster.summon;v=1}
+ - summon{t=2} ?varrange{var=caster.summon;v=2}
+ - summon{t=3} ?varrange{var=caster.summon;v=3}
 ```
 使用 VaribleSkill 后
 
@@ -38,7 +38,7 @@
 测试实体:
  Type: husk
  Skills:
- - setvar{caster.summon;v=<random.float.1to3>} @self ~oninteract
+ - setvar{var=caster.summon;v=<random.1to3>} @self ~oninteract
  - vskill{s=召唤<caster.var.1>} @self ~oninteract
 
 ###技能文档
