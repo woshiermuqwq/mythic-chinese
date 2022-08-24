@@ -677,8 +677,7 @@
     [技能组内用法](/技能/变量#在技能组内使用占位符)<br>
     [读取玩家占位符](/技能/变量##读取玩家占位符这里拿-读取原版等级做示范)</details>
   * <details><summary>[技能参数](/技能/技能参数)</summary>
-  * <details><summary>[拓展: 物品技能](https://gitlab.com/SharkGirl_kunjang/crucible-chinese-wiki/-/wikis/home)</summary>
-  * </details>
+  * <details><summary>[拓展: 物品技能](https://gitlab.com/SharkGirl_kunjang/crucible-chinese-wiki/-/wikis/home)</summary></details>
   * <details><summary>[计算](/技能/计算)</summary></details>
 
 **物品 & 掉落**
