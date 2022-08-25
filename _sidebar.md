@@ -63,6 +63,7 @@
     [Repository](API#Repository)<br>
     [Dependency](API#Dependency)<br>
     [事件列表](API#事件)</details>
+  * <details><summary>[配置包](配置包)</summary></details>
 
 **实体**
   * <details><summary>[概览](实体)</summary>
