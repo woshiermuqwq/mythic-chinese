@@ -364,6 +364,9 @@
     [Set No Damage Ticks](/技能/列表/setnodamageticks)<br>
     [Set Owner](/技能/列表/setowner)<br>
     [Set Path Finding Malus](/技能/列表/setpathfindingmalus)<br>
+    [Set Raider Can Join Raider](/技能/列表/setRaiderCanJoinRaider)<br>
+    [Set Raider Patrol Block](技能/列表/setRaiderPatrolBlock)<br>
+    [Set Raider Patrol Leader](技能/列表/setRaiderPatrolLeader)<br>
     [Set Rotation](/技能/列表/setrotation)<br>
     [Set Target Score](/技能/列表/settargetscore)<br>
     [Set Score](/技能/列表/setscore)<br>
@@ -589,6 +592,7 @@
     [Is Caster](/条件/iscaster)<br>
     [Is Child](/条件/ischild)<br>
     [Is Parent](/条件/isparent)<br>
+    [Is Partrol Leader](/条件/ispatrolleader)<br>
     [Is Living](/条件/isliving)<br>
     [Is Leashed](/条件/isleashed)<br>
     [Is Monster](/条件/ismonster)<br>
