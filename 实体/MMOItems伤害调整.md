@@ -1,8 +1,7 @@
 ##
 
 SCConflict 是国人开发的一款插件  
-兼容高版本 MythicMobs 与 MMOI
-tems  
+兼容高版本 MythicMobs 与 MMOItems  
 其功能为实现游戏内常有的元素克制
 
 查询伤害调整
