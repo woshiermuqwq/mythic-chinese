@@ -239,7 +239,7 @@
   * <details><summary>[拓展: MPets](MPets)</summary>
     [示例](实体/MPets#示例)<br>
   * <details><summary>[拓展: MM地牢](https://gitlab.com/SharkGirl_kunjang/mythicdungeons-chinese-wiki/-/wikis/home)</summary>
-  * <details><summary>[拓展: 元素克制（MMOItems）](实体/MMOItems元素克制)
+  * <details><summary>[拓展: 伤害调整（MMOItems）](实体/MMOItems伤害调整)
 **技能**
   * <details><summary>[概览](技能/概览)</summary>
       [前言](/技能/概览#技能概览)<br>
