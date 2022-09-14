@@ -371,6 +371,7 @@
     [Set Target Score](/技能/列表/settargetscore)<br>
     [Set Score](/技能/列表/setscore)<br>
     [Set Speed](/技能/列表/setspeed)<br>
+    [Set Skill Cooldown](/技能/列表/SetSkillCooldown)<br>
     [Set Stance](/技能/列表/setstance)<br>
     [Shield](/技能/列表/shield)<br>
     [Shield Break](/技能/列表/shieldbreak)<br>
@@ -644,6 +645,7 @@
     [Mob Size](/条件/mobsize)<br>
     [Stance](/条件/stance)<br>
     [String Equals](/条件/stringequals)<br>
+    [Skill On Cooldown](/条件/skilloncooldown)<br>
     [Sunny](/条件/sunny)<br>
     [Target In Line Of Sight](/条件/targetinlineofsight)<br>
     [Target Not In Line Of Sight](/条件/targetnotinlineofsight)<br>
