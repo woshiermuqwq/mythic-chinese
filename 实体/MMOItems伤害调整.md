@@ -1,6 +1,7 @@
 ##
 
 SCConflict 是国人开发的一款插件  
+购买请+Q: 1360197420, 价格40r  
 兼容高版本 MythicMobs 与 MMOItems  
 其功能为实现游戏内常有的元素克制
 
