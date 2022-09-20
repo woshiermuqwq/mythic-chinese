@@ -192,3 +192,26 @@ HugLiquid 新增于 MM 4.14.0
 多写一条projectile, 同时由于第二条projectile的最大持续时间比第一条少1tick  
 会比第一条projectile早1tick结束, 这意味着光环"未命中"会在第一条projectile  
 结束之前给予给施法者, 然后由于条件限制, 第一条的onendskill就不会被激活
+
+关于低版本的视角影响偏移的解决方法
+---
+
+低版本目标选择器: [@forward](/技能/目标选择器) 无选项: `lockpitch`  
+以将projectile发射时的pitch锁定为0  
+以至于低版本最简单的方法是在发射projectile前  
+通过修改nbt的方式以将pitch设为0  
+随后激活速度为0的[Spin](/技能/特效技能/spin)锁定视角  
+这时任何在[Spin](/技能/特效技能/spin)技能期间激活的projectile  
+其偏移都不会被实体的pitch影响  
+如, `sso`正常情况下实体抬头的实际偏移量远小于正常偏移量  
+但现在不论实体的头是抬着的还是低着的, 都不会影响偏移量
+```yaml
+ - skill{s=[
+  - setvar{var=skill.1;t=float;v=<caster.l.yaw>-1}
+  - delay 1
+  - cmdc="entitydata @s {Rotation:[<caster.var.1>f]}";astarget=true;asop=true}
+  - spin{d=22;v=0}
+  - delay 20
+  - projectile{ot=[  - e:p ];se=false;sb=false;i=1;sso=3} @forward{f=999}
+  ]} @self ~oninteract
+```
