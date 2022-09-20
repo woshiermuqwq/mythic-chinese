@@ -18,6 +18,21 @@
 
 通过多次激活来做到"螺旋升天".
 
+提示
+---
+
+MC 1.13 以下的版本可在使用下列技能修改实体的pitch为0后  
+激活速度为0的spin, 以让实体的其它功能正常工作  
+如下列的技能组可防止因视角而导致[projectile](/技能/列表/projectile)发射方向错误
+```yaml
+ - skill{s=[
+  - setvar{var=skill.1;t=float;v=<caster.l.yaw>-1}
+  - delay 1
+  - cmd{;c="entitydata @s {Rotation:[<caster.var.1>f]}";astarget=true;asop=true}
+  - projectile{ot=[  - e:p ];se=false;sb=false;i=1} @forward{f=999}
+  ]} @self ~oninteract
+```
+
 示例
 --------
 
