@@ -2,7 +2,7 @@
 --------------------------
 
 设置技能目标（非玩家）朝向  
-无法工作于 Minecraft 1.12.2  
+无法工作于 Minecraft 1.12.2（替代方法[见下](#提示)）   
 实体 **无需** 拥有AI.
 
 修改项
@@ -22,6 +22,24 @@
  - setrotation{relative=true;pitch=-45} @target
 ```
 将仇恨目标的俯仰视角度设置为`-45`
+
+提示
+---
+
+MC 1.13 以下无法使用此技能  
+但可通过原版的`/entitydata`命令来修改实体NBT, 从而修改实体的视角  
+缺点是会在后台、管理员玩家客户端的聊天栏刷出命令提示  
+比起使用MythicMobs技能来"曲线救国"修改视角, 一行命令的性能开销更小  
+修改后pitch固定为0, 需使用[付费版](/付费版内容)才能在保证实体的yaw不变的情况下  
+修改pitch为0:  
+```yaml
+ - skill{s=[
+  - setvar{var=skill.1;t=float;v=<caster.l.yaw>-1} @self
+  - cmd{delay=1;c="entitydata @s {Rotation:[<caster.var.1>f]}";astarget=true;asop=true}
+  ]} @self ~oninteract
+```
+* 与 [Look](/技能/列表/look) 技能一致, 当视角被`velocity`值为0的 [Spin](/技能/特效技能/spin) 锁定时  
+* 哪怕修改实体NBT也无法修改视角
 
 额外信息
 -------
