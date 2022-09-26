@@ -23,4 +23,4 @@
 额外信息
 ---
 
-- 别称: e:particlesphere, particlesphere, e:pr, pr
+- 别称: e:particlesphere, particlesphere, e:ps, ps
