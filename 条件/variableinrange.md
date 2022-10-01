@@ -64,7 +64,7 @@
  Skills:
  - setvar{var=caster.随机数;v=<random.0to100>}
  - skill:暴击检测
-暴击检测;
+暴击检测:
  Conditions:
  - varrange{var=caster.暴击率;v=<<caster.var.随机数>}
  Skills:
