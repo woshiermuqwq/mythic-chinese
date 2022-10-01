@@ -53,7 +53,7 @@
   - m{m=&7冷却结束}
 ```
 
-```
+```yaml
   Conditions:
   - varrange{var=caster.测试;v=0}
   Skills:
@@ -75,5 +75,5 @@
 拓展信息
 ---
 
-- 检测对象: 技能
+- 检测对象: 实体
 - 别称: varinrange, varrange
