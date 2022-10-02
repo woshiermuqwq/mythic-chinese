@@ -30,6 +30,16 @@
 - <skill.var.damage-amount>变量 显示的是 调整前的伤害数值 而不是调整后
 - **CancelOnTakenDamage** 为 true 时, 若该光环的 `cancelevent` 为true, 则不会被正常执行
 
+子技能组相关
+---
+
+- 若MM版本<5.0, onHitSkill的默认技能目标将会是拥有该光环的实体  
+- 若MM版本≥5.0, onHitSkill的默认技能目标将会是受到伤害的实体（对于onAttack来说） 
+如: `- onattack{oh=[  - m{m=1} ];d=999} @self`  
+在MM 4.11 将会把消息发送给施法者  
+在MM 5.2.0 却会发送给受到伤害的实体
+
+
 示例
 --------
 
