@@ -16,7 +16,7 @@
 | cancleevent | cancel, cE, canceldamage, cd | 光环持有者受到伤害后是否取消受到伤害事件 | false |
 | damageSubtract | sub, s | 光环持有者所受到伤害的数值所被减去的具体数值（4.11起支持[占位符](/技能/占位符)） | 0 |
 | damageMultiplier | multiplier, m | 光环持有者所受到伤害的数值所被乘以的百分比（4.11起支持[占位符](/技能/占位符)） | 1 |
-| damageModifiers | damageMods | 伤害数值计算后<br>根据该修改项内所写的配置来调整伤害, 类似于[伤害调整](/实体/伤害调整)<br>多个之间用","隔开 | 无 |
+| damageModifiers | damageMods | 伤害数值计算后<br>根据该修改项的值对其进行二次调整<br>工作方式类似于[伤害调整](/实体/伤害调整)<br>多个之间用","隔开 | 无 |
 
 详细信息
 -------
