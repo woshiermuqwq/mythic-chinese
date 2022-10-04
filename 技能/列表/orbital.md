@@ -41,28 +41,24 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 | CancelOnChangeWorld | cocw     | 环绕整体是否在施法者变更世界后消失 | false         |
 | CancelOnSkillUse    | cosu     | 环绕整体是否在施法者激活技能后消失 | false         |
 | CancelOnQuit        | coq      | 环绕整体是否在施法者退出游戏后消失 | true          |
-| StartingPoint | sq | 环绕抛射物从环绕整体的 第几点 位置开始 | 0 |
+| StartingPoint（4.12） | sq | 环绕抛射物从环绕整体的 第几点 位置开始<br>取决于环绕有多少点 | 0 |
 
 修改项: bulletType 新增于 MM 4.11 (此处未列出 使用方法与[Projectile](技能/列表/Projectile)一致).  
-修改项: StartingPoint 新增于 MM 4.12（基于修改项: Point）.
 
 注意
 -------------
 
-目标选择器: **@origin** 对于Orbital所调用的技能组(如onTick所激活的技能)而言  
-选取的是抛射物为坐标原点, 而非施法者.
-
-与origin有关的目标选择器(如@EntitiesNearOrigin), 将选取抛射物作为半径范围的中心  
-而非施法者.
-
-与origin无关的目标选择器(如@EIR),则仍选取施法者作为半径范围的中心,所以如果不给  
-ntick所激活的技能组写上目标选择器 它会选取施法者作为技能目标).  
+若Orbital所调用的技能组没有目标选择器, 则将选取拥有该Orbital的实体或位置  
+若为 `@Origin`, 则选取此时环绕所绕到的点的位置为技能目标  
+且与origin有关的目标选择器(如@EntitiesNearOrigin)  
+将选取抛射物作为半径范围的中心而非施法者.
 
 环绕的起始角度可通过修改项: `X/Y/ZRotate`、`StartingPoint` 改变   
 但不受技能目标视角影响 
 
 当 Orbital 的 bullet 为 mob 时, 该实体可以被命令所删除  
 这意味着orbital套orbital能做到随时停止第二个orbital  
+或直接杀死拥有第一个Orbital的实体即可同时停止俩个orbital
 
 修改项: `X/Y/ZOffset` 值若为一个占位符  
 则环绕期间变更占位符的值将自动更新环绕的偏移
