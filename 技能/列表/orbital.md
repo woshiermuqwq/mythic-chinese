@@ -25,7 +25,7 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 | HitNonPlayers | hnp | 环绕抛射物是否可命中非玩家实体 | false |
 | VerticalHitRadius   | vhr, vr  | 环绕抛射物碰撞箱垂直半径（格方块） | 1             |
 | Points              | p        | 环绕整体由多少个点组成 | 32            |
-| XRotation           | rotx, rx | 环绕整体绕X轴转向的角度（角度制）<br>角度制简单理解就是半径越大, 效果差距就越大<br>实际值应xπ(3.1415926)/180 | 0             |
+| XRotation           | rotx, rx | 环绕整体绕X轴转向的角度（角度制）<br>角度制简单理解就是半径越大, 效果差距就越大<br>实际值应 x  0.0174532925199544 | 0             |
 | YRotation           | roty, ry | 环绕整体绕Y轴转向的角度（角度制）                                                                                                                                             | 0             |
 | ZRotation           | rotz, rz | 环绕整体绕Z轴旋转的角度（角度制）                                                                                                                                             | 0             |
 | XOffset             | ox       | 环绕整体的X轴偏移值                                                                                                                               | 0             |
@@ -50,15 +50,15 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 -------------
 
 目标选择器: **@origin** 对于Orbital所调用的技能组(如onTick所激活的技能)而言  
-选取的是抛射物为坐标原点,而不是施法者.
+选取的是抛射物为坐标原点, 而非施法者.
 
-与origin有关的目标选择器(如@EntitiesNearOrigin),将选取抛射物作为半径范围的中心  
-而不是施法者.
+与origin有关的目标选择器(如@EntitiesNearOrigin), 将选取抛射物作为半径范围的中心  
+而非施法者.
 
 与origin无关的目标选择器(如@EIR),则仍选取施法者作为半径范围的中心,所以如果不给  
 ntick所激活的技能组写上目标选择器 它会选取施法者作为技能目标).  
 
-环绕的起始角度可通过修改项: `RotateX/Y/Z`、`StartingPoint` 改变   
+环绕的起始角度可通过修改项: `X/Y/ZRotate`、`StartingPoint` 改变   
 但不受技能目标视角影响 
 
 当 Orbital 的 bullet 为 mob 时, 该实体可以被命令所删除  
@@ -70,16 +70,27 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
 示例
 --------
 
-    环绕测试:
-      Skills:
-      - orbital{onTickSkill=环绕测试-Tick;onHitSkill=环绕测试-Hit;points=20;interval=1;duration=200;charges=1;rx=0;ry=20;rz=20}
-    环绕测试-Tick:
-      Skills:
-      - effect:particles{particle=flame;amount=20;speed=0;hS=0.2;vS=0.2} @origin
-    环绕测试-Hit:
-      Skills:
-      - Damage{amount=10}
-      - Potion{type=SLOW;duration=100;level=2}
+```yaml
+环绕测试:
+ Skills:
+ - orbital{onTickSkill=环绕测试-Tick;onHitSkill=环绕测试-Hit;points=20;interval=1;duration=200;charges=1;rx=0;ry=20;rz=20}
+环绕测试-Tick:
+ Skills:
+ - effect:particles{particle=flame;amount=20;speed=0;hS=0.2;vS=0.2} @origin
+环绕测试-Hit:
+ Skills:
+ - Damage{amount=10}
+ - Potion{type=SLOW;duration=100;level=2}
+```
+螺旋升天:
+···yaml
+bc:
+ Skills:
+ - o{i=1;ot=[  - e:p{c=#FFFFFF} @origin ];ry=0.785398164640625;p=1;r=2} @self
+ - o{i=1;ot=[  - e:p{c=#FFFFFF} @origin ];ry=2.35619449019250;p=1;r=2} @self
+ - o{i=1;ot=[  - e:p{c=#FFFFFF} @origin ];ry=3.92699081698974;p=1;r=2} @self
+ - o{i=1;ot=[  - e:p{c=#FFFFFF} @origin ];ry=5.497787143785636;p=1;r=2} @self
+```
 
 额外信息
 -------
