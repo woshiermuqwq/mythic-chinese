@@ -25,9 +25,9 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 | HitNonPlayers | hnp | 环绕抛射物是否可命中非玩家实体 | false |
 | VerticalHitRadius   | vhr, vr  | 环绕抛射物碰撞箱垂直半径（格方块） | 1             |
 | Points              | p        | 环绕整体由多少个点组成 | 32            |
-| XRotation           | rotx, rx | 环绕整体绕X轴转向的角度 | 0             |
-| YRotation           | roty, ry | 环绕整体绕Y轴转向的角度                                                                                                                                             | 0             |
-| ZRotation           | rotz, rz | 环绕整体绕Z轴旋转的角度                                                                                                                                             | 0             |
+| XRotation           | rotx, rx | 环绕整体绕X轴转向的角度（角度制）<br>角度制简单理解就是半径越大, 效果差距就越大<br>实际值应xπ(3.1415926)/180 | 0             |
+| YRotation           | roty, ry | 环绕整体绕Y轴转向的角度（角度制）                                                                                                                                             | 0             |
+| ZRotation           | rotz, rz | 环绕整体绕Z轴旋转的角度（角度制）                                                                                                                                             | 0             |
 | XOffset             | ox       | 环绕整体的X轴偏移值                                                                                                                               | 0             |
 | YOffset             | oy       | 环绕整体的Y轴偏移值                                                                                                                               | 0             |
 | ZOffset             | oz       | 环绕整体的Z轴偏移值                                                                                                                               | 0             |
@@ -58,10 +58,14 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 与origin无关的目标选择器(如@EIR),则仍选取施法者作为半径范围的中心,所以如果不给  
 ntick所激活的技能组写上目标选择器 它会选取施法者作为技能目标).  
 
-环绕的起始角度不可改变且不受技能目标视角影响, 不过当环绕整体被旋转360度时, 起始角度将"反转"（如将 ry 设为 360）.  
+环绕的起始角度可通过修改项: `RotateX/Y/Z`、`StartingPoint` 改变   
+但不受技能目标视角影响 
 
 当 Orbital 的 bullet 为 mob 时, 该实体可以被命令所删除  
 这意味着orbital套orbital能做到随时停止第二个orbital  
+
+修改项: `X/Y/ZOffset` 值若为一个占位符  
+则环绕期间变更占位符的值将自动更新环绕的偏移
 
 示例
 --------
