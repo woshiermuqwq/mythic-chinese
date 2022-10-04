@@ -83,7 +83,7 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
  - Potion{type=SLOW;duration=100;level=2}
 ```
 螺旋升天:
-···yaml
+```yaml
 bc:
  Skills:
  - o{i=1;ot=[  - e:p{c=#FFFFFF} @origin ];ry=0.785398164640625;p=1;r=2} @self
