@@ -86,10 +86,13 @@ ntick所激活的技能组写上目标选择器 它会选取施法者作为技�
 ```yaml
 bc:
  Skills:
- - o{i=1;ot=[  - e:p{c=#FFFFFF} @origin ];ry=0.785398164640625;p=1;r=2} @self
- - o{i=1;ot=[  - e:p{c=#FFFFFF} @origin ];ry=2.35619449019250;p=1;r=2} @self
- - o{i=1;ot=[  - e:p{c=#FFFFFF} @origin ];ry=3.92699081698974;p=1;r=2} @self
- - o{i=1;ot=[  - e:p{c=#FFFFFF} @origin ];ry=5.497787143785636;p=1;r=2} @self
+ - o{i=1;ot=1;ry=0.785398164640625;p=1;r=2} @self
+ - o{i=1;ot=1;ry=2.35619449019250;p=1;r=2} @self
+ - o{i=1;ot=1;ry=3.92699081698974;p=1;r=2} @self
+ - o{i=1;ot=1;ry=5.497787143785636;p=1;r=2} @self
+1:
+ Skills:
+ - e:p{a=1} @origin
 ```
 
 额外信息
