@@ -60,8 +60,8 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 这意味着orbital套orbital能做到随时停止第二个orbital  
 或直接杀死拥有第一个Orbital的实体即可同时停止俩个orbital
 
-修改项: `X/Y/ZOffset` 值若为一个占位符  
-则环绕期间变更占位符的值将自动更新环绕的偏移
+修改项: `X/Y/ZOffset/Velocity/Rotate` 值若为一个占位符  
+则环绕期间变更占位符的值将自动更新环绕的偏移/轴速度/轴旋转
 
 示例
 --------
