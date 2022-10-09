@@ -12,7 +12,7 @@
 
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| onTickSkill | onTick, ot, skill, s, meta, m          | 抛射物刷新后所激活的技能组 | 无 |
+| onTickSkill | onTick, ot, skill, s, meta, m          | 抛射物飞行期间不断激活的技能组 | 无 |
 | onHitSkill | onHit, oh         | 抛射物命中实体后所激活的技能组 | 无 |
 | onEndSkill  | onEnd, oe          | 抛射物消失后所激活的技能组 | 无 |
 | onStartSkill  | onStart, os          | 抛射物被发射后所激活的技能组 | 无 |
@@ -20,12 +20,12 @@
 | bounce | b | 抛射物是否在命中方块后进行弹射 | false |
 | bouncevelocity | bv | 抛射物弹射后速度会被乘以多少 | 0.9 |
 | Type                 | 无 | [抛射物种类](#抛射物种类)  | NORMAL   |
-| Interval             | int, i | 抛射物刷新间隔(刻) | 1(4.13以下为4)  |
+| Interval             | int, i | onTick的激活间隔（游戏刻 ）<br>不影响抛射物速度 影响抛射物碰撞判定 | 1(4.13以下为4)  |
 | HorizontalRadius     | hRadius, hr, r | 抛射物碰撞箱水平总长度 | 1.25 |
 | VerticalRadius       | vRadius, vR | 抛射物碰撞箱垂直总长度 | 等值于Horizontal Radius |
 | Maxduration             | md, duration, d           | 抛射物最大持续时间(刻 支持[占位符](技能/占位符)） | 100               |
 | MaxRange             | mr          | 抛射物最大移动距离(格方块 支持[占位符](技能/占位符)） | 40                |
-| Velocity             | v           | 抛射物移动速度（支持[占位符](技能/占位符)） | 5                 |
+| Velocity             | v           | 抛射物1秒（默认20游戏刻）内所能经过的方块（重力为0的情况下 支持[占位符](技能/占位符)） | 5                 |
 | Accuracy | ac, a | 抛射物发射方向的偏差程度, 1为无偏差 | 1 |
 | HorizontalNoise | hn | 抛射物发射方向的水平偏差程度 | Accuracy的值 * 45 |
 | VerticalNoise | vn | 抛射物发射方向的垂直偏差程度 | Accuracy的值 * 4.5 |
