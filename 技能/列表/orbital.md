@@ -24,7 +24,7 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 | HitPlayers | hp | 环绕抛射物是否可命中玩家 | true |
 | HitNonPlayers | hnp | 环绕抛射物是否可命中非玩家实体 | false |
 | VerticalHitRadius   | vhr, vr  | 环绕抛射物碰撞箱垂直半径（格方块） | 1             |
-| Points              | p        | 环绕整体由多少个点组成 | 32            |
+| Points              | p        | 环绕整体由多少个点组成<br>环绕每游戏刻所绕过的角度=360/该选项值 | 32            |
 | XRotation           | rotx, rx | 环绕整体绕X轴转向的角度（角度制）<br>角度制简单理解就是半径越大, 效果差距就越大<br>实际值应 x  0.0174532925199544 | 0             |
 | YRotation           | roty, ry | 环绕整体绕Y轴转向的角度（角度制）                                                                                                                                             | 0             |
 | ZRotation           | rotz, rz | 环绕整体绕Z轴旋转的角度（角度制）                                                                                                                                             | 0             |
