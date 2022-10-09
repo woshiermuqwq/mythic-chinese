@@ -65,19 +65,18 @@ Bounce 新增于 MM 4.14.0
 BulletColor 新增于 MM 4.14.0  
 HugLiquid 新增于 MM 4.14.0
 
-注意
--------------
+子技能组
+---
 
-目标选择器: **@origin** 对于Orbital所调用的技能组(如onTick所激活的技能)而言  
-选取的是抛射物为坐标原点,而不是施法者.
+onStartSkill的[坐标原点](/目标选择器/origin)为抛射物出现时的位置  
+onTickSkill的[坐标原点](/目标选择器/origin)为激活该技能组时时抛射物所处的位置  
+onHitSkill的[坐标原点](/目标选择器/origin)为命中实体时抛射物所处位置  
+onEndSkill的[坐标原点](/目标选择器/origin)为抛射物消失时所处的位置  
+**强烈建议阅读[坐标原点](/目标选择器/origin), 因其通常用于制作范围伤害**
 
-与 Origin 有关的目标选择器(如@EntitiesNearOrigin)  
-将选取抛射物作为半径范围的中心, 而不是施法者.
+若技能组目标选择器为空则选取坐标原点  
 
-与 Origin 无关的目标选择器(如@EIR), 则仍以施法者作为所选取的半径范围的中心
-
-若不给ontick/hit/end/start 所激活的技能组写上目标选择器  
-也会选取 抛射物位置、所命中的实体 为技能目标.
+Projectile的施法者死亡后Projectile将消失, 但不激活onEndSkill  
 
 抛射物类型
 -------------
