@@ -51,6 +51,7 @@ Orbital是[Projectile](技能/列表/projectile)的一种,且会与[Aura](/技�
 onTickSkill的[坐标原点](/目标选择器/origin)为激活该技能组时时环绕所处点的位置  
 onHitSkill的[坐标原点](/目标选择器/origin)为命中实体时环绕所处点的位置  
 onEndSkill的[坐标原点](/目标选择器/origin)为环绕结束时环绕所处点的位置  
+**强烈建议阅读[坐标原点](/目标选择器/origin), 因其通常用于制作范围伤害**
 
 若技能组目标选择器为空则选取拥有该环绕的事物  
 
