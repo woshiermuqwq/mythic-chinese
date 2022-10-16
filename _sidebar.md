@@ -15,7 +15,7 @@
     [v4.9.x](更新日志/4.9.x更新日志)<br>
     [v4.8.x](更新日志/4.8.x更新日志)<br>
     [v4.7.x](更新日志/4.7.x更新日志)</details>
-  * <details><summary>[常见问题](萌新の一百个问题)</summary>
+  * <details><summary>[常见问题(版本兼容等)](萌新の一百个问题)</summary>
   * <details><summary>[付费版内容](付费版内容)</summary>
     在Discord频道中的特殊身份<br>
     进入付费用户频道且允许创建更高优先度的支持贴<br>
