@@ -35,6 +35,21 @@
 | CancelOnQuit        | coq     | 光环是否在光环持有者离线后消失 | true         |
 | doendskillonterminate | desot, alwaysrunendskill, ares | 光环被停止后是否激活 onEndSkill | true |
 
+低版本漏洞
+--
+
+若光环持有者为光环施法者, 则当该光环可拥有多层数且开启修改项: `ShowBarTimer` 时  
+若在光环期间施法者拥有技能: [Orbital](/技能/列表/orbital)或其它**不同名**光环  
+则同名光环可能无法叠加, 也就是说一个Boss血条的标题可能在多个文本之间随机变换
+```yaml
+- aura{auraname=1;d=200} @self
+- aura{repeat=2;repeati=20;delay=20;bartimer=true;auraname=测试;bartimertext=层数 <skill.var.aura-stacks>;maxstacks} @self
+```
+施法者（玩家）获得名为: `1` 的光环一秒后重复给予自身名为"测试"的光环, 重复3次  
+也就是说施法者玩家的游戏内会看见一个标题数字不断变大的boss血条（因血条文本为当前光环层数）  
+数字增加到3后不再变化  
+但由于上述问题的存在, 实际标题文本将会在 1、2、3之间来回变动  
+解决办法就是尽量避免玩家同一时间拥有多个不同名光环
   
 特殊修改项
 ----------
