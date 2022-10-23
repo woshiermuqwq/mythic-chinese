@@ -315,6 +315,7 @@
     [Lunge](/技能/列表/lunge)<br>
     [Message](/技能/列表/message)<br>
     [Modify Global Score](/技能/列表/modifyglobalscore)<br>
+    [Modify Mob Score(/技能/列表/modifymobscore)<br>
     [Modify Target Score](/技能/列表/modifytargetscore)<br>
     [Modify Score](/技能/列表/modifyscore)<br>
     [Mount](/技能/列表/mount)<br>
