@@ -29,3 +29,9 @@
  - modifytargetscore{o=测试;v=1;a=SET} @self ~onInteract
 ```
 右键后将自身在记分板: `测试` 上的分数设为1
+
+额外信息
+---
+
+- **支持** 占位符
+- 缩写: mts
