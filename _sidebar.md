@@ -288,6 +288,7 @@
     [Doppleganger](/技能/列表/doppleganger)<br>
     [Drop Item](/技能/列表/dropitem)<br>
     [Eject Passenger](/技能/列表/ejectpassenger)<br>
+    [End Projectile](/技能/列表/endprojectile)<br>
     [Equip](/技能/列表/equip)<br>
     [Explosion](/技能/列表/explosion)<br>
     [Extinguish](/技能/列表/extinguish)<br>
@@ -549,13 +550,14 @@
     [Cuboid](/条件/cuboid)<br>
     [Damage Amount](/条件/DamageAmount)<br>
     [Damage Cause](/条件/DamageCause)<br>
-    [Dawn](/条件/dawn)<br>
-    [Day](/条件/day)<br>
+    [Dawn](/条件)<br>
+    [Day](/条件)<br>
+    [Dusk](/条件)<br>
+    [Night](/条件)<br>
     [Dimesion](/条件/dimesion)<br>
     [Distance](/条件/distance)<br>
     [Distance From Spawn](/条件/distancefromspawn)<br>
     [Distance From Tracked Location](/条件/distancefromtrackedlocation)<br>
-    [Dusk](/条件/dusk)<br>
     [Enchanting Experience](/条件/enchantingexperience)<br>
     [Enchanting Level](/条件/enchantingLevel)<br>
     [Ender Dragon Phase](/条件/EnderDragonPhase)<br>
@@ -568,7 +570,7 @@
     [Field Of View](/条件/fieldofview)<br>
     [Food Level](/条件/FoodLevel)<br>
     [Food Saturation](/条件/FoodSaturation)<br>
-    [Gliding](/条件/gliding)<br>
+    [Gliding](/条件)<br>
     [Global Score](/条件/globalscore)<br>
     [Has Aura](/条件/hasaura)<br>
     [Has Aura Stacks](/条件/hasaurastacks)<br>
@@ -590,27 +592,28 @@
     [Height Below](/条件/heightbelow)<br>
     [Holding](/条件/holding)<br>
     [In block](/条件/inblock)<br>
-    [In combat](/条件/incombat)<br>
-    [In side](/条件/inside)<br>
-    [Is Caster](/条件/iscaster)<br>
-    [Is Child](/条件/ischild)<br>
-    [Is Parent](/条件/isparent)<br>
-    [Is Partrol Leader](/条件/ispatrolleader)<br>
-    [Is Living](/条件/isliving)<br>
-    [Is Leashed](/条件/isleashed)<br>
-    [Is Monster](/条件/ismonster)<br>
-    [Is Natural Block](/条件/isnaturalblock)<br>
-    [Is Player](/条件/isplayer)<br>
-    [Is Sprinting](/条件/issprinting)<br>
-    [Item Recharging](/条件/itemrecharging)<br>
+    [In Combat](/条件)<br>
+    [In Side](/条件)<br>
+    [Is Caster](/条件)<br>
+    [Is Child](/条件)<br>
+    [Is Flying](/条件)<br>
+    [Is Living](/条件)<br>
+    [Is Leashed](/条件)<br>
+    [Is Monster](/条件)<br>
+    [Is Natural Block](/条件)<br>
+    [Is Parent](/条件)<br>
+    [Is Partrol Leader](/条件)<br>
+    [Is Player](/条件)<br>
+    [Is Sprinting](/条件)<br>
+    [Item Recharging](/条件)<br>
     [Item Is Similar](/条件/itemissimilar)<br>
     [Last Damage Cause](/条件/lastdamagecause)<br>
     [Last Signal](/条件/lastsignal)<br>
     [Level](/条件/level)<br>
     [Light Level](/条件/lightlevel)<br>
     [Light Level From Blocks](/条件/lightlevelfromblocks)<br>
-    [Line Of Sight](/条件/lineofsight)<br>
-    [Line Of Sight From Origin](/条件/lineofsightfromorigin)<br>
+    [Line Of Sight](/条件)<br>
+    [Line Of Sight From Origin](/条件)<br>
     [Living In Radius](/条件/livinginradius)<br>
     [Local Difficulty](/条件/localdifficulty)<br>
     [Lunar Phase](/条件/lunarphase)<br>
@@ -620,27 +623,25 @@
     [Motion X](/条件/motionx)<br>
     [Motion Y](/条件/motiony)<br>
     [Motion Z](/条件/motionz)<br>
-    [Mounted](/条件/mounted)<br>
-    [Moving](/条件/moving)<br>
+    [Mounted](/条件)<br>
+    [Moving](/条件)<br>
     [MythicMob Type](/条件/mythicmobtype)<br>
     [Name](/条件/name)<br>
     [Near Claim](/条件/nearclaim)<br>
-    [Night](/条件/night)<br>
     [Not In Region](/条件/notinregion)<br>
-    [OffGCD](/条件/offgcd)<br>
+    [Off GCD](/条件)<br>
     [On Block](/条件/onblock)<br>
     [On Ground](/条件/onground)<br>
-    [Outside](/条件/outside)<br>
-    [Owner](/条件/owner)<br>
-    [Owner Is Online](/条件/ownerisonline)<br>
-    [Pitch](/条件/pitch)<br>
+    [Outside](/条件)<br>
+    [Owner](/条件)<br>
+    [Owner Is Online](/条件)<br>
     [Player Kills](/条件/playerkills)<br>
     [Players In Radius](/条件/playersinradius)<br>
     [Player Not Within](/条件/playernotwithin)<br>
     [Player Within](/条件/playerwithin)<br>
     [Plugin](/条件/plugin)<br>
-    [Premium](/条件/premium)<br>
-    [Raining](/条件/raining)<br>
+    [Premium](/条件)<br>
+    [Raining](/条件)<br>
     [Region](/条件/region)<br>
     [Same Faction](/条件/samefaction)<br>
     [Score](/条件/score)<br>
@@ -648,13 +649,13 @@
     [Stance](/条件/stance)<br>
     [String Equals](/条件/stringequals)<br>
     [Skill On Cooldown](/条件/skilloncooldown)<br>
-    [Sunny](/条件/sunny)<br>
+    [Sunny](/条件)<br>
     [Target In Line Of Sight](/条件/targetinlineofsight)<br>
     [Target Not In Line Of Sight](/条件/targetnotinlineofsight)<br>
     [Target Within](/条件/targetwithin)<br>
     [Target Not Within](/条件/targetnotwithin)<br>
     [Targets](/条件/targets)<br>
-    [Thundering](/条件/thundering)<br>
+    [Thundering](/条件)<br>
     [Variable In Range](/条件/variableinrange)<br>
     [Variable Is Set](/条件/variableisset)<br>
     [Variable Equals](/条件/variableequals)<br>
@@ -662,6 +663,7 @@
     [World](/条件/world)<br>
     [World Time](/条件/worldtime)<br>
     [Yaw](/条件/yaw)<br>
+    [Pitch](/条件/pitch)<br>
     [Y Diff](/条件/ydiff)</details>
   * <details><summary>[单行条件](/技能/条件/单行条件)</summary>
     [技能行单行条件配置](技能/条件/单行条件#技能行单行条件配置)<br>  
