@@ -48,7 +48,7 @@
     变量传递:
       Skills:
       - setvariable{var=caster.变量A;value="%mmoitems_stat_skill_damage%";type=INTEGER} @self
-      - setvariable{var=caster.变量B;value="%<caster.var.变量A> * 2";type=INTEGER} @self
+      - setvariable{var=caster.变量B;value="<caster.var.变量A> * 2";type=INTEGER} @self
       - setvariable{var=caster.变量C;value="<caster.var.变量A> + <caster.var.变量B>";type=INTEGER} @self
       - setvariable{var=target.变量C;value="<caster.var.变量C>";type=INTEGER} @target
 
