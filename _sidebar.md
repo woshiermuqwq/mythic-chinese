@@ -371,6 +371,7 @@
     [Set Raider Patrol Block](技能/列表/setRaiderPatrolBlock)<br>
     [Set Raider Patrol Leader](技能/列表/setRaiderPatrolLeader)<br>
     [Set Rotation](/技能/列表/setrotation)<br>
+    [Set Target](/技能/列表/settarget)<br>
     [Set Target Score](/技能/列表/settargetscore)<br>
     [Set Score](/技能/列表/setscore)<br>
     [Set Speed](/技能/列表/setspeed)<br>
