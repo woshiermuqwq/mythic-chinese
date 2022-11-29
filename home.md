@@ -27,11 +27,10 @@
 ## 当前版本(包括附属)
 | 插件名 | [免费版](https://www.mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.0.4.jar) | 对应MC版本 | [付费版](https://mythiccraft.io/index.php?pages/official-mythicmobs-download/&download=5.0.5) | [付费预览版](https://mythiccraft.io/index.php?pages/official-mythicmobs-dev/) | 兼容的 MythicMobs 版本 |
 | - | - | - | - | - | - |
-| MythicMobs | 5.1.4 | 1.16.5~1.19.2 | 5.1.4 | 5.1.4-4255 | |
-| MythicLib | 1.3.1 | 1.16.5~1.19 | 无 | 无 | 无 | 4.13~5.1.0-4088 |
+| MythicMobs | 5.2.0 | 1.16.5~1.19.2 | 5.2.0 | 5.2.1-4334 | |
 | MythicExtensions | 1.739（建议1.738c） | 1.12.2~1.16.5 | 无 | 无 | 4.7.2~5.0.0(MC版本低于1.17) |
 | [MythicCrucible](https://gitlab.com/SharkGirl_kunjang/crucible-chinese-wiki/-/wikis/home)| 无 | 1.16.5~1.19 | 无 | 1.5.0 | 5.1.0 |
-| Lib's Disguise | 10.0.27 | 1.12.2~1.19 | 无 | 无 | 4.9~5.1.0 |
+| Lib's Disguise | 10.0.31 | 1.12.2~1.19.2 | 无 | 无 | 4.9~最新 |
 
 
 ## 版本/适用服务端说明
