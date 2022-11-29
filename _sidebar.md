@@ -593,7 +593,7 @@
     [Height Below](/条件/heightbelow)<br>
     [Holding](/条件/holding)<br>
     [In block](/条件/inblock)<br>
-    [In Claim](/条件/inclaim)<br>
+    [In Claim](/条件#条件)<br>
     [In Combat](/条件)<br>
     [In Side](/条件)<br>
     [Is Caster](/条件)<br>
@@ -649,6 +649,7 @@
     [Score](/条件/score)<br>
     [Mob Size](/条件/mobsize)<br>
     [Stance](/条件/stance)<br>
+    [Structure](/条件/structure)<br>
     [String Equals](/条件/stringequals)<br>
     [Skill On Cooldown](/条件/skilloncooldown)<br>
     [Sunny](/条件)<br>
