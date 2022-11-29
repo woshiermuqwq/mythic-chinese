@@ -316,7 +316,7 @@
     [Lunge](/技能/列表/lunge)<br>
     [Message](/技能/列表/message)<br>
     [Modify Global Score](/技能/列表/modifyglobalscore)<br>
-    [Modify Mob Score(/技能/列表/modifymobscore)<br>
+    [Modify Mob Score](/技能/列表/modifymobscore)<br>
     [Modify Target Score](/技能/列表/modifytargetscore)<br>
     [Modify Score](/技能/列表/modifyscore)<br>
     [Mount](/技能/列表/mount)<br>
@@ -593,6 +593,7 @@
     [Height Below](/条件/heightbelow)<br>
     [Holding](/条件/holding)<br>
     [In block](/条件/inblock)<br>
+    [In Claim](/条件/inclaim)<br>
     [In Combat](/条件)<br>
     [In Side](/条件)<br>
     [Is Caster](/条件)<br>
