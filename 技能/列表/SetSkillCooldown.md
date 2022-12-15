@@ -23,7 +23,7 @@
  Damage: 10
  Skills:
  - skill:1 @server ~onTimer:1
- - skillcd{s=1;cd=5} @self ~oninteract
+ - skillcd{s=1;t=5} @self ~oninteract
 ``````yaml
 1:
  Skills;
