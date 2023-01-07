@@ -62,7 +62,9 @@ flee开头的AI行动器共有的修改项:
 | fleesun                             |                  | 躲避日光                               |
 | meleeattack                         |                  | 近距离攻击方式                         |
 | movetowardstarget                   |                  | 走向目标                               |
-| moveblock{material=方块id;radius=水平检索半径;radiusy=垂直检索半径;speed=移动速度}                   |                  | 走向特定方块                               |
+| movetowater（5.2.1）  | | 走向水源 |
+| movetolava（5.2.1）  | | 走向熔岩 |
+| moveblock{material=方块id;radius=水平检索半径;radiusy=垂直检索半径;speed=移动速度}                   |                  | 走向特定方块（5.2.1）                               |
 | randomstroll                        |                  | 随机走动                               |
 | restrictsun                         |                  | 躲避高亮度地区                         |
 | fleeplayers                         | runfromplayers   | 躲避玩家                               |
