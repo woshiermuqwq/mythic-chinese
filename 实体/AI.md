@@ -62,13 +62,14 @@ flee开头的AI行动器共有的修改项:
 | fleesun                             |                  | 躲避日光                               |
 | meleeattack                         |                  | 近距离攻击方式                         |
 | movetowardstarget                   |                  | 走向目标                               |
+| moveblock{material=方块id;radius=水平检索半径;radiusy=垂直检索半径;speed=移动速度}                   |                  | 走向特定方块                               |
 | randomstroll                        |                  | 随机走动                               |
 | restrictsun                         |                  | 躲避高亮度地区                         |
 | fleeplayers                         | runfromplayers   | 躲避玩家                               |
 | fleegolems                          | runfromgolems    | 躲避铁傀儡                             |
 | fleevillagers                       | runfromvillagers | 躲避村民                               |
 | fleewolves                          | runfromwolves    | 躲避狼                                 |
-| fleeConditional{condtions=} **[仅限付费版]** | fleeIf           | 躲避符合条件的实体.    |
+| fleeConditional{conditions=} **[仅限付费版]** | fleeIf           | 躲避符合条件的实体.    |
 | spiderattack                        |                  | 跳跃攻击方式(如狼、蜘蛛)               |
 | leapattarget                        |                  | 朝目标冲刺                             |
 | moveindoors                         |                  | 室内活动                               |
