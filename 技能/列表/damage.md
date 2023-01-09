@@ -8,13 +8,13 @@
 
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| damage           | a | 所造成的伤害数值（为负时不造成伤害, 但仍会变红）         | 1    |
+| damage           | a | 所造成的伤害数值（为负时不造成伤害, 但仍会触发受伤事件）         | 1    |
 | preventknockback | pkb, pk | 是否不会造成击退   | false   |
 | preventimmunity  | pi      | 是否无视受伤间隔   | false   |
 | ignorearmor      | ia, i    | 是否无视实体防御 | false   |
 | ignoreenchantments      | ignoreenchants, ie    | 是否无视防御附魔<br>MC版本至少为1.19 | false   |
 | element | e, damagetype, type | 所造成伤害的伤害种类 | 无 |
-| damagecause | dc, cause | 所造成伤害的伤害原因 | Entity_Attack |
+| damagecause | dc, cause | 所造成伤害的伤害来源 | Entity_Attack |
 
 
 ### 伤害类型 (Element)
@@ -71,9 +71,10 @@
 提示
 ----
 
-伤害原因（DamageCause）不同于伤害类型（Element）  
-当原因为Fire时, 被击杀者将显示被烧死  
+伤害来源（DamageCause）不同于伤害类型（Element）  
+当来源为Fire时, 被击杀者将显示被烧死  
 当类型为Fire时, 则只是正常的被打死  
+当受伤事件触发时, 仅当伤害来源为 `entity_attack`, `entity_sweep_attack`, `thorns`, `sonic_boom`, `entity_explosion`, 与 `projectile` 时, 受伤事件触发者才会选取到一个实体, 反之无法选中  
 远程实体最好将damagecause改为projectile（远程实体无法造成近身攻击, 也就是entity_attack）
 
 额外信息
