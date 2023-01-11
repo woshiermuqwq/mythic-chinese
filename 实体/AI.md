@@ -71,6 +71,7 @@ flee开头的AI行动器共有的修改项:
 | fleegolems                          | runfromgolems    | 躲避铁傀儡                             |
 | fleevillagers                       | runfromvillagers | 躲避村民                               |
 | fleewolves                          | runfromwolves    | 躲避狼                                 |
+| fleefaction{f=阵营名}（5.2.1） } | | 躲避处在指定阵营内的实体（可作用于玩家） |
 | fleeConditional{conditions=} **[仅限付费版]** | fleeIf           | 躲避符合条件的实体.    |
 | spiderattack                        |                  | 跳跃攻击方式(如狼、蜘蛛)               |
 | leapattarget                        |                  | 朝目标冲刺                             |
