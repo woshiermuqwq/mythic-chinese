@@ -12,8 +12,8 @@
 | duration | d, power, p | 烟花火箭持续时间(刻) | 0 |
 | flicker | f | 是否附带闪烁效果 | false |
 | trail | tr | 是否附带轨迹效果 | false |
-| colors | c | 烟花火箭效果的RGB颜色值 | 0,0,0 |
-| fadecolors | fc | 烟花火剑爆炸效果的RGB颜色值 | 0,0,0 |
+| colors | c | 烟花火箭效果的RGB颜色值 | #FFFFFF |
+| fadecolors | fc | 烟花火剑爆炸效果的RGB颜色值 | #FFFFFF |
 
 烟花火箭种类 (4.13以下)
 --------
