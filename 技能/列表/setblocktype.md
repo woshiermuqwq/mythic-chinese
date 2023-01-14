@@ -87,13 +87,13 @@ bisectedhalf可用值
 ```yaml
 方块修改示例:
  Skills:
- - setblock{m=STONE;md=0} @selflocation
+ - setblocktype{m=STONE;md=0} @selflocation
 ``````yaml
 MMOItems方块修改示例:
  Skills:
- - setblock{m=mmoitems:50;md=0} @selflocation
+ - setblocktype{m=mmoitems:50;md=0} @selflocation
 ``````yaml
 5.0.3版本支持省略materialdata示例:
  Skills:
- - setblock{m=chest[waterlogged=true]}
+ - setblocktype{m=chest[waterlogged=true]}
 ```
