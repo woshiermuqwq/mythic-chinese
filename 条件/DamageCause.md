@@ -1,5 +1,7 @@
 **描述:** 若最后一次受伤的伤害类型为.
 
+建议使用 [Last Damage Cause](/条件/lastdamagecause).
+
 修改项
 ---
 
