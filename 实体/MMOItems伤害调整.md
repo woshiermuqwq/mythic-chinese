@@ -134,7 +134,7 @@ SCConflict 是国人开发的一款插件
  Health: 40
  Damage: 10
  Skills:
- - adm{key=dzf;dt=Physical;mt=mul;s=0.1} @self ~onSpawn
+ - adm{key=dzf;mt=mul;s=0.1} @self ~onSpawn
  - ddm{key=dzf} @self ~onDamaged 0.1
  ```
 生成10秒后永久减免90% MMOItems物理伤害  
