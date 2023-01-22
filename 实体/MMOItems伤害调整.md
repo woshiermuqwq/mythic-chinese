@@ -1,7 +1,7 @@
 ##
 SCConflict 是国人开发的一款插件
 
-购买请+Q: 1360197420, 价格45r
+购买请 +Q: 1360197420, 价格45r
 
 兼容高版本 MythicMobs 与 MMOItems
 
@@ -50,8 +50,8 @@ SCConflict 是国人开发的一款插件
 ### 示例配置
 
 ```yaml
-# 这只僵尸将减免80%物理伤害
-# 但会额外受到4倍魔法伤害
+# 这只僵尸将减免 80% 物理伤害
+# 但会额外受到 4 倍魔法伤害
 坚硬盔甲僵尸:
   Type: ZOMBIE
   Display: '坚硬盔甲僵尸'
@@ -62,7 +62,7 @@ SCConflict 是国人开发的一款插件
 
 ```yaml
 # 这只僵尸免疫一切非魔法伤害
-# 并将魔法伤害降低至5点
+# 并将魔法伤害降低至 5 点
 魔导师:
  Type: ZOMBIE
  Display: '魔导师'
@@ -88,8 +88,8 @@ SCConflict 是国人开发的一款插件
 
 ### addDynamicModifier（adm）
 
-添加MMOItems伤害调整
-但变更的伤害调整针对MMOItems伤害类型  
+添加 MMOItems 伤害调整
+但变更的伤害调整针对 MMOItems 伤害类型  
 若使用该技能创建多个算法为`mt`且对应伤害类型相同的伤害调整, 与[On Damaged](/技能/列表/ondamaged)一致  
 这些伤害调整将以乘法形式叠加
 
@@ -112,12 +112,12 @@ SCConflict 是国人开发的一款插件
  Skills:
  - adm{dt=Physical;mt=mul;s=0.9;d=200;delay=100} @self ~onSpawn
 ```
-生成10秒后, 在200秒内减免10% MMOItems物理伤害
+生成的 10 秒后, 在 200 秒内减免 10% MMOItems 物理伤害
 
 
 ### delDynamicModifier（ddm）
 
-移除MMOItems伤害调整
+移除 MMOItems 伤害调整
 
 **修改项**:
 
@@ -137,5 +137,5 @@ SCConflict 是国人开发的一款插件
  - adm{key=dzf;mt=mul;s=0.1} @self ~onSpawn
  - ddm{key=dzf} @self ~onDamaged 0.1
  ```
-生成10秒后永久减免90% MMOItems物理伤害  
-但受伤有10%几率移除该减伤效果
+初始减免 90% MMOItems 物理伤害  
+但受伤有 10% 几率移除该减伤效果
