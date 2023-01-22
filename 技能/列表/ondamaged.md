@@ -44,11 +44,11 @@
 --------
 
        Skills:
-      - onDamaged{oH=受伤释放;cE=true;auraname=受伤光环;d=500}
+      - onDamaged{oH=受伤释放;cancel=true;auraname=受伤光环;d=100}
 
 5秒内无敌
 
        Skills:
-      - onDamaged{oH=受伤释放;cE=true;auraname=受伤光环;m="Fire 0.5,Projectile 0,测试 2";d=200}
+      - onDamaged{oH=受伤释放;cancel=true;auraname=受伤光环;m="Fire 0.5,Projectile 0,测试 2";d=200}
 
 10秒内免疫弹射物伤害, 灼烧伤害减半, 额外受到一倍伤害类型为"测试"的伤害
