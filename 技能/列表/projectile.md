@@ -54,6 +54,7 @@
 | BulletType | bullet, b | 抛射物类型[[2]](#抛射物类型) | 无 |
 | BulletSpin | bspin | 抛射物类型为实体/物品时, 该物品/实体的视角旋转速度 | 0 |
 | BulletColor | bcolor | 抛射物类型为物品且该物品可染色时, 该物品的颜色 | 无 |
+| BulletSkillable | bk | 抛射物类型为Mythic 实体, 是否可使用技能 | false |
 | hitConditions | conditions, cond, c | 若所命中的目标不符合条件, 则不会判定命中该实体 | 无 |
 | FromOrigin | fo | 发射点是否位于坐标原点 | false |
 
