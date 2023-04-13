@@ -139,3 +139,23 @@ SCConflict 是国人开发的一款插件
  ```
 初始减免 90% MMOItems 物理伤害  
 但受伤有 10% 几率移除该减伤效果
+
+## 开发者
+
+注意：阅读该板块需要您有一定 Java 基础
+
+### 创建简单伤害匹配器
+
+你需要继承 SimpleMatcher 并将这个类注册到 SimpleMatcherManager
+
+```mermaid
+graph TD
+    M{{"Matcher"}} -->|超接口| SM(SimpleMatcher) & CM(ComplexMatcher);
+    subgraph LR Manager[SimpleMatcherManager]
+        TM(TypeMatcher) & EM(ElementMatcher) & AM(AnyMatcher);
+    end
+    SM -->|超类| TM & EM & AM;
+    TM -->|实例化| Type_P([PhysicalMatcher]) & Type_AndMore([....]);
+    EM -->|实例化| El_F([FireMatcher]) & El_AndMore([....]);
+    AM -->|实例化| AnyMatcher([AnyMatcher]);
+```
