@@ -148,6 +148,11 @@ SCConflict 是国人开发的一款插件
 
 你需要继承 SimpleMatcher 并将这个类注册到 SimpleMatcherManager
 
+除了实现父类的抽象方法以外，你还必须实现以下方法
+- `static       Boolean is(String key)     ` 用于快速检测伤害匹配器主键是否属于该类
+- `static SimpleMatcher getInst(String key)` 用于实例化伤害匹配器
+
+
 ```mermaid
 graph TD
     M{{"Matcher"}} -->|超接口| SM(SimpleMatcher) & CM(ComplexMatcher);
