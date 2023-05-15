@@ -12,6 +12,8 @@
 | shouldemptychest | empty | 在填入物品之前是否清空箱子内的物品 | false |
 | shouldstack | stack | 填入物品时是否堆叠相同物品 | false |
 
+shouldemptychest、shouldstack 新增于 [MM 5.3.0](/更新日志)
+
 示例
 --------
 
