@@ -194,6 +194,14 @@
   * <details><summary>[阵营](实体/阵营)</summary>
     [示范 守卫对峙怪物](#例1-守卫对峙怪物)<br>
     [示范 兽族阵营与地精族阵营对峙](#例2-兽族阵营与地精族阵营对峙)</details>
+  * <details><summary>[装备](实体/装备)</summary>
+    [装备配置描述](实体/装备)<br>
+    [装备配置语法](实体/装备#语法)<br>
+    [装备配置单行语法](实体/装备#单行物品配置)<br>
+    [MMOItems装备配置语法](实体/装备#MMOItems)</details>
+  * <details><summary>[模板](实体/模板)</summary>
+    [模板配置描述](实体/装备)<br>
+    [模板配置语法](实体/装备#语法)</details>
   * <details><summary>[技能威力](实体/威力)</summary>
     可影响:<br>
     [Base Damage: multiplier](/技能/列表/basedamage)<br>
@@ -209,11 +217,6 @@
     [可调整伤害类型](实体/伤害调整#可调整的伤害类型)<br>
     [示例1](实体/伤害调整#示例1-对近战远程攻击有抗性的武装僵尸)<br>
     [示例2](实体/伤害调整#示例2-免疫火焰甚至依靠火焰获取生命的火元素)</details>
-  * <details><summary>[装备](实体/装备)</summary>
-    [装备配置描述](实体/装备)<br>
-    [装备配置语法](实体/装备#语法)<br>
-    [装备配置单行语法](实体/装备#单行物品配置)<br>
-    [MMOItems装备配置语法](实体/装备#MMOItems)</details>
   * <details><summary>[Boss血条](实体/Boss血条)</summary>
     [Boss血条概览](实体/Boss血条#boss血条)<br>
     [Boss血条配置语法](实体/Boss血条#语法)<br>
