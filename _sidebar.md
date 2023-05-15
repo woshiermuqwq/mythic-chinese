@@ -331,6 +331,7 @@
     [Mount Target](/技能/列表/mounttarget)<br>
     [Oxygen](/技能/列表/oxygen)<br>
     [Play Animation](/技能/列表/playanimation)<br>
+    [Polygon](/技能/列表/polygon)<br>
     [Pose ArmorStand](/技能/列表/posearmorstand)<br>
     [Play Block Break Sound](/技能/列表/playblockbreaksound)<br>
     [Play Block Hit Sound](/技能/列表/playblockhitsound)<br>
@@ -353,6 +354,7 @@
     [Remove Owner](/技能/列表/removeowner)<br>
     [Run AI Goal Selector](/技能/列表/runaigoalselector)<br>
     [Run AI Target Selector](/技能/列表/runaitargetselector)<br>
+    [Saddle](/技能/列表/saddle)<br>
     [Send Action Message](/技能/列表/sendactionmessage)<br>
     [Send Resource Pack](/技能/列表/sendresourcepack)<br>
     [Send Title](/技能/列表/sendtitle)<br>
