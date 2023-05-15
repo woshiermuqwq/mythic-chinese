@@ -656,6 +656,7 @@
     [Owner](/条件#条件)<br>
     [Owner Is Online](/条件#条件)<br>
     [Pack Version](/条件/packversion)<br>
+    [Pack Version Greater](/条件/packversiongreater)<br>
     [Player Kills](/条件/playerkills)<br>
     [Players In Radius](/条件/playersinradius)<br>
     [Player Not Within](/条件/playernotwithin)<br>
