@@ -1,15 +1,15 @@
-技能: Set Block Type
+技能: Set Block
 --------------------------
 
-修改指定位置的方块种类.
+修改技能目标所处位置的方块种类.
 
 修改项
 ----------
 
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| material  | mat, m, type, t | 方块种类 | DIRT          |
-| materialdata      | md, data, dv      | 方块特殊值           | 0             |
+| material  | mat, m, type, t | 方块种类（支持[占位符](/技能/占位符)） | DIRT          |
+| materialdata      | md, data, dv      | 方块特殊值（MC 1.13 以下） | 0             |
 | age | a | 若采用作物方块, 作物方块的成长进度（支持[占位符](/技能/占位符)） | 0             |
 | waterlogged | wlogged | 若采用台阶/活板门/台阶/栅栏（墙）, 是否被水方块填充 | false  |
 | blockface | bf | 若采用的方块拥有朝向, 放置后的朝向 | NORTH  |
@@ -18,6 +18,9 @@
 | slabtype | sb | 若采用台阶, 台阶的方位（上/下台阶） | Bottom(下)  |
 | attachedFace | af | 若采用的方块（如按钮）可连接其它方块, 方块应依附于哪里 | Wall |
 | stairshape | shape | 若采用的方块为楼梯, 楼梯的朝向（支持[占位符](/技能/占位符)） | STRAIGH |
+| physics | p | 变更方块后是否更新所处区块 | true |
+
+physics 新增于 MM 5.3.0
 
 可用朝向
 -------
@@ -87,13 +90,18 @@ bisectedhalf可用值
 ```yaml
 方块修改示例:
  Skills:
- - setblocktype{m=STONE;md=0} @selflocation
+ - setblock{m=STONE;md=0} @selflocation
 ``````yaml
 MMOItems方块修改示例:
  Skills:
- - setblocktype{m=mmoitems:50;md=0} @selflocation
+ - setblock{m=mmoitems:50;md=0} @selflocation
 ``````yaml
 5.0.3版本支持省略materialdata示例:
  Skills:
- - setblocktype{m=chest[waterlogged=true]}
+ - setblock{m=chest[waterlogged=true]}
 ```
+
+拓展信息
+---
+
+- 别称: setblocktype
