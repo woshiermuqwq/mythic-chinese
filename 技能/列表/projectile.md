@@ -17,14 +17,18 @@
 | onEndSkill  | onEnd, oe          | 抛射物消失后所激活的技能组 | 无 |
 | onStartSkill  | onStart, os          | 抛射物被发射后所激活的技能组 | 无 |
 | onBounceSkill | onBounce | 抛射物反射开始后所激活的技能组 | 无 |
-| bounce               | b | 抛射物是否在命中方块后进行弹射 | false |
+| onHitBlockSkill | onHitBlock, ohk 
+| bounce               | bounces, b | 抛射物是否在命中方块后进行弹射 | false |
 | bouncevelocity       | bv | 抛射物弹射后速度会被乘以多少 | 0.9 |
 | Type                 | 无 | [抛射物种类](#抛射物种类)  | NORMAL   |
 | Interval             | int, i | onTick的激活间隔（游戏刻 ）<br>不影响抛射物速度 影响抛射物碰撞判定 | 1(4.13以下为4)  |
+| ImmuneDelay | immune, id | 所命中实体可再次被该抛射物所命中的所需时间（单位: 刻） | 2000 |
 | HorizontalRadius     | hRadius, hr, r | 抛射物碰撞箱水平总长度 | 1.25 |
 | VerticalRadius       | vRadius, vR | 抛射物碰撞箱垂直总长度 | 等值于Horizontal Radius |
 | Maxduration          | md, duration, d           | 抛射物最大持续时间(刻 支持[占位符](技能/占位符)） | 100               |
 | MaxRange             | mr          | 抛射物最大移动距离(格方块 支持[占位符](技能/占位符)） | 40                |
+| MaxClimbHeight | mch | 抛射物在终止前尝试增高Y轴位置的次数 | 3 |
+| MaxDropHeight | mdh | 抛射物在终止前尝试拉低Y轴位置的次数 | 10 |
 | Velocity             | v  | 抛射物1秒（默认20游戏刻）内所能经过的方块（重力为0的情况下 支持[占位符](技能/占位符)）| 5 |
 | Accuracy | ac, a | 抛射物发射方向的偏差程度, 1为无偏差 | 1 |
 | HorizontalNoise | hn | 抛射物发射方向的水平偏差程度 | Accuracy的值 * 45 |
@@ -61,10 +65,17 @@
 FromOrigin 新增于 MM 4.11.0  
 EndOffset 新增于 MM 4.14.0  
 StartingDirection 新增于 MM 4.14.0  
+
 OnBounce 新增于 MM 4.14.0  
 Bounce 新增于 MM 4.14.0  
+俩者均为[付费版内容](/付费版内容)
+
 BulletColor 新增于 MM 4.14.0  
 HugLiquid 新增于 MM 4.14.0
+
+ImmuneDelay 新增于 MM 5.2.6
+
+OnHitBlockSkill 新增于 MM 5.3.0
 
 子技能组
 ---
