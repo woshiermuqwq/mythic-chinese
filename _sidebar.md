@@ -562,10 +562,10 @@
     [Cuboid](/条件/cuboid)<br>
     [Damage Amount](/条件/DamageAmount)<br>
     [Damage Cause](/条件/DamageCause)<br>
-    [Dawn](/条件)<br>
-    [Day](/条件)<br>
-    [Dusk](/条件)<br>
-    [Night](/条件)<br>
+    [Dawn](/条件#条件)<br>
+    [Day](/条件#条件)<br>
+    [Dusk](/条件#条件)<br>
+    [Night](/条件#条件)<br>
     [Dimesion](/条件/dimesion)<br>
     [Distance](/条件/distance)<br>
     [Distance From Spawn](/条件/distancefromspawn)<br>
@@ -582,7 +582,7 @@
     [Field Of View](/条件/fieldofview)<br>
     [Food Level](/条件/FoodLevel)<br>
     [Food Saturation](/条件/FoodSaturation)<br>
-    [Gliding](/条件)<br>
+    [Gliding](/条件#条件)<br>
     [Global Score](/条件/globalscore)<br>
     [Has Aura](/条件/hasaura)<br>
     [Has Aura Stacks](/条件/hasaurastacks)<br>
@@ -605,28 +605,29 @@
     [Holding](/条件/holding)<br>
     [In block](/条件/inblock)<br>
     [In Claim](/条件#条件)<br>
-    [In Combat](/条件)<br>
-    [In Side](/条件)<br>
-    [Is Caster](/条件)<br>
-    [Is Child](/条件)<br>
-    [Is Flying](/条件)<br>
-    [Is Living](/条件)<br>
-    [Is Leashed](/条件)<br>
-    [Is Monster](/条件)<br>
-    [Is Natural Block](/条件)<br>
-    [Is Parent](/条件)<br>
-    [Is Partrol Leader](/条件)<br>
-    [Is Player](/条件)<br>
-    [Is Sprinting](/条件)<br>
-    [Item Recharging](/条件)<br>
+    [In Combat](/条件#条件)<br>
+    [In Side](/条件#条件)<br>
+    [Is Caster](/条件#条件)<br>
+    [Is Child](/条件#条件)<br>
+    [Is Flying](/条件#条件)<br>
+    [Is Living](/条件#条件)<br>
+    [Is Leashed](/条件#条件)<br>
+    [Is Monster](/条件#条件)<br>
+    [Is Mythicmob](/条件#条件)<br>
+    [Is Natural Block](/条件#条件)<br>
+    [Is Parent](/条件#条件)<br>
+    [Is Partrol Leader](/条件#条件)<br>
+    [Is Player](/条件#条件)<br>
+    [Is Sprinting](/条件#条件)<br>
+    [Item Recharging](/条件#条件)<br>
     [Item Is Similar](/条件/itemissimilar)<br>
     [Last Damage Cause](/条件/lastdamagecause)<br>
     [Last Signal](/条件/lastsignal)<br>
     [Level](/条件/level)<br>
     [Light Level](/条件/lightlevel)<br>
     [Light Level From Blocks](/条件/lightlevelfromblocks)<br>
-    [Line Of Sight](/条件)<br>
-    [Line Of Sight From Origin](/条件)<br>
+    [Line Of Sight](/条件#条件)<br>
+    [Line Of Sight From Origin](/条件#条件)<br>
     [Living In Radius](/条件/livinginradius)<br>
     [Local Difficulty](/条件/localdifficulty)<br>
     [Lunar Phase](/条件/lunarphase)<br>
@@ -636,25 +637,25 @@
     [Motion X](/条件/motionx)<br>
     [Motion Y](/条件/motiony)<br>
     [Motion Z](/条件/motionz)<br>
-    [Mounted](/条件)<br>
-    [Moving](/条件)<br>
+    [Mounted](/条件#条件)<br>
+    [Moving](/条件#条件)<br>
     [MythicMob Type](/条件/mythicmobtype)<br>
     [Name](/条件/name)<br>
     [Near Claim](/条件/nearclaim)<br>
     [Not In Region](/条件/notinregion)<br>
-    [Off GCD](/条件)<br>
+    [Off GCD](/条件#条件)<br>
     [On Block](/条件/onblock)<br>
     [On Ground](/条件/onground)<br>
-    [Outside](/条件)<br>
-    [Owner](/条件)<br>
-    [Owner Is Online](/条件)<br>
+    [Outside](/条件#条件)<br>
+    [Owner](/条件#条件)<br>
+    [Owner Is Online](/条件#条件)<br>
     [Player Kills](/条件/playerkills)<br>
     [Players In Radius](/条件/playersinradius)<br>
     [Player Not Within](/条件/playernotwithin)<br>
     [Player Within](/条件/playerwithin)<br>
     [Plugin](/条件/plugin)<br>
-    [Premium](/条件)<br>
-    [Raining](/条件)<br>
+    [Premium](/条件#条件)<br>
+    [Raining](/条件#条件)<br>
     [Region](/条件/region)<br>
     [Same Faction](/条件/samefaction)<br>
     [Score](/条件/score)<br>
@@ -663,13 +664,13 @@
     [Structure](/条件/structure)<br>
     [String Equals](/条件/stringequals)<br>
     [Skill On Cooldown](/条件/skilloncooldown)<br>
-    [Sunny](/条件)<br>
+    [Sunny](/条件#条件)<br>
     [Target In Line Of Sight](/条件/targetinlineofsight)<br>
     [Target Not In Line Of Sight](/条件/targetnotinlineofsight)<br>
     [Target Within](/条件/targetwithin)<br>
     [Target Not Within](/条件/targetnotwithin)<br>
     [Targets](/条件/targets)<br>
-    [Thundering](/条件)<br>
+    [Thundering](/条件#条件)<br>
     [Variable In Range](/条件/variableinrange)<br>
     [Variable Is Set](/条件/variableisset)<br>
     [Variable Equals](/条件/variableequals)<br>
