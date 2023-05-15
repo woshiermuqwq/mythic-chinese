@@ -17,7 +17,7 @@
 | onEndSkill  | onEnd, oe          | 抛射物消失后所激活的技能组 | 无 |
 | onStartSkill  | onStart, os          | 抛射物被发射后所激活的技能组 | 无 |
 | onBounceSkill | onBounce | 抛射物反射开始后所激活的技能组 | 无 |
-| onHitBlockSkill | onHitBlock, ohk 
+| onHitBlockSkill | onHitBlock, ohb | 抛射物命中方块后所激活的技能组 | 无 |
 | bounce               | bounces, b | 抛射物是否在命中方块后进行弹射 | false |
 | bouncevelocity       | bv | 抛射物弹射后速度会被乘以多少 | 0.9 |
 | Type                 | 无 | [抛射物种类](#抛射物种类)  | NORMAL   |
@@ -84,6 +84,8 @@ onStartSkill的[坐标原点](/目标选择器/origin)为抛射物出现时的�
 onTickSkill的[坐标原点](/目标选择器/origin)为激活该技能组时时抛射物所处的位置  
 onHitSkill的[坐标原点](/目标选择器/origin)为命中实体时抛射物所处位置  
 onEndSkill的[坐标原点](/目标选择器/origin)为抛射物消失时所处的位置  
+onBounceSkill的[坐标原点](/目标选择器/origin)为命中实体时抛射物所处位置  
+onHitBlockSkill的[坐标原点](/目标选择器/origin)为命中方块时抛射物所处位置  
 **强烈建议阅读[坐标原点](/目标选择器/origin), 因其通常用于制作范围伤害**  
 (出于篇幅已过长 本页不介绍坐标原点具体功能)
 
