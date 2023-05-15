@@ -200,8 +200,12 @@
     [装备配置单行语法](实体/装备#单行物品配置)<br>
     [MMOItems装备配置语法](实体/装备#MMOItems)</details>
   * <details><summary>[模板](实体/模板)</summary>
-    [模板配置描述](实体/装备)<br>
-    [模板配置语法](实体/装备#语法)</details>
+    [模板介绍](实体/模板#介绍)<br>
+    [模板示例](实体/模板#示例)<br>
+    [继承示例](实体/模板#继承示例)<br>
+    [选项继承](实体/模板#选项过滤)<br>
+    [选项过滤](实体/模板#选项过滤)<br>
+    [123](实体/装备#语法)</details>
   * <details><summary>[技能威力](实体/威力)</summary>
     可影响:<br>
     [Base Damage: multiplier](/技能/列表/basedamage)<br>
