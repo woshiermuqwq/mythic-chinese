@@ -612,12 +612,14 @@
     [Is Flying](/条件#条件)<br>
     [Is Living](/条件#条件)<br>
     [Is Leashed](/条件#条件)<br>
+    [Is Moist](/条件#条件)<br>
     [Is Monster](/条件#条件)<br>
-    [Is Mythicmob](/条件#条件)<br>
+    [Is MythicMob](/条件#条件)<br>
     [Is Natural Block](/条件#条件)<br>
     [Is Parent](/条件#条件)<br>
     [Is Partrol Leader](/条件#条件)<br>
     [Is Player](/条件#条件)<br>
+    [Is Saddled](/条件#条件)<br>
     [Is Sprinting](/条件#条件)<br>
     [Item Recharging](/条件#条件)<br>
     [Item Is Similar](/条件/itemissimilar)<br>
@@ -631,17 +633,21 @@
     [Living In Radius](/条件/livinginradius)<br>
     [Local Difficulty](/条件/localdifficulty)<br>
     [Lunar Phase](/条件/lunarphase)<br>
+    [Mob Size](/条件/mobsize)<br>
     [Mobs In Radius](/条件/mobsinradius)<br>
     [Mobs In Chunk](/条件/mobsinchunk)<br>
     [Mobs In World](/条件/mobsinworld)<br>
+    [Moistureness](/条件/moistureness)<br>
     [Motion X](/条件/motionx)<br>
     [Motion Y](/条件/motiony)<br>
     [Motion Z](/条件/motionz)<br>
     [Mounted](/条件#条件)<br>
     [Moving](/条件#条件)<br>
     [MythicMob Type](/条件/mythicmobtype)<br>
+    [Mythic Pack](/条件/mythicpack)<br>
     [Name](/条件/name)<br>
     [Near Claim](/条件/nearclaim)<br>
+    [NMS Version](/条件/nmsversion)<br>
     [Not In Region](/条件/notinregion)<br>
     [Off GCD](/条件#条件)<br>
     [On Block](/条件/onblock)<br>
@@ -649,6 +655,7 @@
     [Outside](/条件#条件)<br>
     [Owner](/条件#条件)<br>
     [Owner Is Online](/条件#条件)<br>
+    [Pack Version](/条件/packversion)<br>
     [Player Kills](/条件/playerkills)<br>
     [Players In Radius](/条件/playersinradius)<br>
     [Player Not Within](/条件/playernotwithin)<br>
@@ -658,8 +665,8 @@
     [Raining](/条件#条件)<br>
     [Region](/条件/region)<br>
     [Same Faction](/条件/samefaction)<br>
+    [Server Version](/条件/server version)<br>
     [Score](/条件/score)<br>
-    [Mob Size](/条件/mobsize)<br>
     [Stance](/条件/stance)<br>
     [Structure](/条件/structure)<br>
     [String Equals](/条件/stringequals)<br>
