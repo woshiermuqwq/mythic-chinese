@@ -26,5 +26,5 @@
 拓展信息
 ---
 
-- 检测对象: 实体
+- 检测对象: 服务器
 - 别称: mythicpackversion, packversionis
