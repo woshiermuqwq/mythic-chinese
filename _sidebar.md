@@ -374,6 +374,7 @@
     [Set No Damage Ticks](/技能/列表/setnodamageticks)<br>
     [Set Owner](/技能/列表/setowner)<br>
     [Set Path Finding Malus](/技能/列表/setpathfindingmalus)<br>
+    [Set Parent](/技能/列表/setparent)<br>
     [Set Raider Can Join Raider](/技能/列表/setRaiderCanJoinRaider)<br>
     [Set Raider Patrol Block](技能/列表/setRaiderPatrolBlock)<br>
     [Set Raider Patrol Leader](技能/列表/setRaiderPatrolLeader)<br>
@@ -393,6 +394,7 @@
     [Shoot Shulker Bullet](/技能/列表/shootshulkerbullet)<br>
     [Show Entity](/技能/列表/showentity)<br>
     [Signal](/技能/列表/signal)<br>
+    [Slash](/技能/列表/slash)<br>
     [Speak](/技能/列表/speak)<br>
     [Spring](/技能/列表/spring)<br>
     [Stun](/技能/列表/stun)<br>
