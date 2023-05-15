@@ -14,6 +14,7 @@
 -   ~onAttack
 -   ~onBreed
 -   ~onDamaged
+-   ~onDeath（5.3.0）
 -   ~onExplode
 -   ~onInteract
 -   ~onCombat
