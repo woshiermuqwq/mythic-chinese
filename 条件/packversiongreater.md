@@ -27,4 +27,4 @@
 ---
 
 - 检测对象: 实体
-- 别称: mythicpackversiongreater, packversiongreater
+- 别称: mythicpackversiongreater, packversionisgreater
