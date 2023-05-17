@@ -9,6 +9,19 @@
 | type | t, enchantment, enchant, ench, e | 所检测的附魔名  | ANY |
 | level | lvl, l | 所检测的附魔等级 | >0 |
 
+示例
+---
+
+```yaml
+baa:
+ MaxItems: 5
+ Conditions:
+ - hasenchant{e=LOOT_BONUS_MOBS;lvl=>2}
+ Drops:
+ - diamond 1
+```
+当主手物品拥有抢夺3时, 额外给予1颗钻石
+
 
 拓展信息
 ---
