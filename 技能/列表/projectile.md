@@ -229,3 +229,10 @@ Projectile的施法者死亡后Projectile将消失, 但不激活onEndSkill
   - projectile{ot=[  - e:p ];se=false;sb=false;i=1;sso=3} @forward{f=999}
   ]} @self ~oninteract
 ```
+
+关于 MM 5.3.0 的纯发包改动
+---
+
+- **抛射物现为纯发包（除非种类为实体(`bullet=MOB`, 包括箭矢)）**
+- 这意味着当种类为方块(`bullet=block`)时且命中方块会停止时, 命中方块**不再生成一个真正的方块**
+- 这还意味着该技能支持特效技能的 **Audience**, 令抛射物仅渲染于某些玩家
