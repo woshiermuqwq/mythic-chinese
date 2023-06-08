@@ -264,6 +264,8 @@
     [Activate Spawner](/技能/列表/activatespawner)<br>
     [Animate ArmorStand](/技能/列表/animatearmorstand)<br>
     [Arrow Volley](/技能/列表/arrowvolley)<br>
+    [Attribute](/技能/列表/attribute)<br>
+    [Attribute Modifier](/技能/列表/attributemodifier)<br>
     [Aura Remove](/技能/列表/auraremove)<br>
     [Bar Create](/技能/列表/barcreate)<br>
     [Bar Set](/技能/列表/barset)<br>
