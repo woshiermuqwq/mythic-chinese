@@ -1,4 +1,4 @@
-技能: Attribute Modifier
+技能: Attribute Modifier （5.3.0）
 --------------------------
 
 为技能目标应用原版属性附加值.
