@@ -18,6 +18,15 @@
  - setname{name=<target.name>} @self ~onDamaged
 ```
 受伤后将自身的显示名修改为 仇恨目标 的名称.
+```yaml
+123:
+  Type: Skeleton
+  Display: '123 <caster.hp>/<caster.mhp><&heart>'
+  Skills:
+  - setname{name=<caster.name>;delay=2} @self ~onDamaged
+  - setname{name=<caster.name>;delay=2} @self ~onTimer:10 ?incombat{}
+```
+受伤 或 处在战斗时每0.5秒更新一次显示名
 
 注意
 ----
