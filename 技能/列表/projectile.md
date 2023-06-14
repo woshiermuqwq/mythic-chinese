@@ -47,7 +47,7 @@
 | onHitBlockSkill | onHitBlock, ohb | 抛射物命中方块后所激活的技能组 | 无 |
 | PowerAffectsRange | par | [技能威力](/实体/威力)是否影响抛射物最大移动距离 | true |
 | PowerAffectsVelocity | pav | [技能威力](/实体/威力)是否影响抛射物移动速度 | true |
-| ReqiureLineOfSight | rlos, los | 于抛射物发射时立刻判断[坐标原点](/目标选择器/坐标原点)与起始点之间是否存在该事物<br> 若有则调用相关技能 | PLAYER_ONLY |
+| ReqiureLineOfSight | rlos, los | 于抛射物发射时立刻判断[坐标原点](/目标选择器/坐标原点)与起始点之间是否存在该事物<br> 若有则调用相关技能<br>为`true`时判断一切可命中事物, 为`false`时禁用该功能 | PLAYER_ONLY（仅限玩家） |
 | StartYOffset | syo | 抛射物发射点垂直偏移量（格方块, 正上负下 支持[占位符](技能/占位符)） | 1.0 |
 | StartFOffset | sfo | 抛射物发射点前后偏移量（格方块, 正前负后 支持[占位符](技能/占位符)) | 1.0 |
 | StartSOffset | sso | 抛射物发射点左右偏移量（格方块 正右负左 支持[占位符](技能/占位符)） | 0.0 |
@@ -72,7 +72,7 @@
 | 修改项名 | 别称    | 描述        | 默认值 |
 |-----------|------------|------------------|---------------|
 
-| HighAccuracyMode | ham | 对什么事物启用高精度, 启用后将解决速度过快会穿过该事物的漏洞 |
+| HighAccuracyMode | ham | 对什么事物启用高精度, 启用后将解决速度过快会穿过该事物的漏洞<br>为`true`时判断一切可命中事物, 为`false`时禁用该功能 | PLAYER_ONLY（仅限玩家） |
 | HugSurface | hs | 抛射物是否在落到方块上方后继续移动 | false |
 | HugLiquid | hl | 抛射物是否在落到流体上方后继续移动 | false |
 | HeightFromSurface | hfs | 当抛射物类型为 Meteor 时, 抛射物离技能目标位置多高（格方块 支持[占位符](技能/占位符)) | 0.5 |
@@ -103,15 +103,18 @@
 * Item: 原版物品
 * MythicItem: Mythic物品
 * Tracking: 纯发包盔甲架
-* Text: 文本（1.19.4+）
+* Display: NMS发包（1.19.4+）
+* TextDisplay（Text）: 文本（1.19.4+）
 
 下列修改项作用于特定类型
 
 | 类型名称 | 描述 | 修改项 | 别称 | 描述 | 默认值 |
 | - | - | - | - | - | - |
+| Arrow | 箭矢 | arrowType | 无 | 箭矢类型（可为Normal(普通箭)/Special(药水箭)/Trident(三叉戟)) | Normal（普通） |
 | Block | 方块 | bulletmaterial |  material, mat | 所调用的原版方块ID | Stone（石头） |
 | Block | 方块 | bulletsmall | 无 | 所调用的方块是否为小方块(方块戴在盔甲架头上) | 否 |
 | Block | 方块 | audience | 无 | 方块仅显示于给定事物（可用事物见[Audience](/技能/特效技能列表#特效技能)） | world |
+| Block | 方块 | bulletspin | bspin | 方块的水平旋转速度 | 0 |
 | MythicItem/Item  | Mythic/原版物品 | bulletmaterial |  material, mat | 所调用的原版或Mythic物品ID | Stone（石头） |
 | MythicItem/Item  | Mythic/原版物品 | bulletenchanted | enchanteds | 所调用的原版	或Mythic物品是否附魔发光 | false |
 | MythicItem/Item  | Mythic/原版物品 | bulletcolor | 无 | 所调用的原版或Mythic物品的颜色（R,G,B格式） | 无 |
@@ -126,8 +129,16 @@
 | Tracking | 盔甲架 | pitchspeed | ps | 抛射物每次刷新时为盔甲架的视角俯仰角度加上的值（Y轴旋转速度） | 0 |
 | Tracking | 盔甲架 | rollspeed | rs | 抛射物每次刷新时为盔甲架的左右歪头角度加上的值（Z轴旋转速度） | 0 |
 | Tracking | 盔甲架 | rotation | rot | 盔甲架朝向的三轴旋转（格式: `rot=x,y,z`） | 0,0,0 |
-| Mob | 实体 | mob | 无 | 所调用的Mythic实体内部名(不支持原版实体) | 无 |
-| Mob | 实体 | bulletskillable | 无 | 所调用的Mythic实体是否执行自带技能 | true |
+| Mob | 实体 | mob | mobtype, mm | 所调用的实体内部名(不支持原版实体) | 无 |
+| Mob | 实体 | bulletskillable | bk | 所调用的实体是否执行自带技能 | true |
+| Mob | 实体 | bulletspin | bspin | 所调用的实体的水平旋转速度 | 0 |
+| Mob | 实体 | bulletmathdirection | bmd | 所调用的实体朝向是否与抛射物朝向保持同步 | false |
+| Text | 文本 | backgroundcolor | color | 文本的背景色（格式: `color=R,G,B`) | 1073741824 |
+| Text | 文本 | bullettext | text | 文本的内容 | * |
+| Text | 文本 | bulletbillboard | billboard | 文本的聚焦方式 | Center（居中） |
+| Text | 文本 | bulletscale | scale | 文本三轴缩放（格式: `scale=数值,数值,数值`） | 0.5,0.5,0.5 |
+| Display | NMS发包 | 上述所有修改项 | | | |
+
 
 
 子技能组
