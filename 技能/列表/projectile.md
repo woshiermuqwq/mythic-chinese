@@ -14,7 +14,7 @@
   * [Projectile](/技能/列表/projectile)
   * [Missile](/技能/列表/Missile)
   * [Orbital](/技能/列表/Orbital)
-  * [Totem](/技能/列表/totem)
+  * [Totem](/技能/列表/totem)  
 修改项的描述可能有所不同(如 `onTickSkill` 对Projectile而言是以抛射物为施法对象, 而对Orbital而言则为环绕整体)  
 具有不同描述的修改项会加入其它技能的页面中
 
