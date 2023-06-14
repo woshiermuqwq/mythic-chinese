@@ -355,8 +355,6 @@
     [Remove](/技能/列表/remove)<br>
     [Remove Held Item](/技能/列表/removehelditem)<br>
     [Remove Owner](/技能/列表/removeowner)<br>
-    [Remove Trade](/技能/列表/removetrade)<br>
-    [Replace Trade](/技能/列表/replacetrade)<br>
     [Run AI Goal Selector](/技能/列表/runaigoalselector)<br>
     [Run AI Target Selector](/技能/列表/runaitargetselector)<br>
     [Saddle](/技能/列表/saddle)<br>
