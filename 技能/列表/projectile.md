@@ -113,10 +113,10 @@
 | Block | 方块 | bulletsmall | 无 | 所调用的方块是否为小方块(方块戴在盔甲架头上) | 否 |
 | Block | 方块 | audience | 无 | 方块仅显示于给定事物（可用事物见[Audience](/技能/特效技能列表#特效技能)） | world |
 | MythicItem/Item  | Mythic/原版物品 | bulletmaterial |  material, mat | 所调用的原版或Mythic物品ID | Stone（石头） |
-| MythicItemItem  | Mythic/原版物品 | bulletenchanted | enchanteds | 所调用的原版	或Mythic物品是否附魔发光 | false |
-| MythicItemItem  | Mythic/原版物品 | bulletcolor | 无 | 所调用的原版或Mythic物品的颜色（R,G,B格式） | 无 |
-| MythicItemItem  | Mythic/原版物品 | bulletmodel | m | 所调用的原版或Mythic物品的 **CustomModelData** 标签值 | 0 |
-| MythicItemItem  | Mythic/原版物品 | audience | 无 | 物品仅显示于特定事物（可用事物见[Audience](/技能/特效技能列表#特效技能)） | world |
+| MythicItem/Item  | Mythic/原版物品 | bulletenchanted | enchanteds | 所调用的原版	或Mythic物品是否附魔发光 | false |
+| MythicItem/Item  | Mythic/原版物品 | bulletcolor | 无 | 所调用的原版或Mythic物品的颜色（R,G,B格式） | 无 |
+| MythicItem/Item  | Mythic/原版物品 | bulletmodel | m | 所调用的原版或Mythic物品的 **CustomModelData** 标签值 | 0 |
+| MythicItem/Item  | Mythic/原版物品 | audience | 无 | 物品仅显示于特定事物（可用事物见[Audience](/技能/特效技能列表#特效技能)） | world |
 | Tracking | 盔甲架 | bulletmaterial |  material, mat | 位于盔甲架头部的原版或Mythic物品ID | Stone（石头） |
 | Tracking | 盔甲架 | audience | 无 | 盔甲架仅显示于给定事物（可用事物见[Audience](/技能/特效技能列表#特效技能)） | world |
 | Tracking | 盔甲架 | yaw | 无 | 盔甲架朝向的水平旋转角度（X轴旋转） | 0 |
