@@ -7,75 +7,128 @@
 
 当使用 MM 4.13 及以上时, 服务端必须为 Paper 或其分支.
 
-修改项
-----------
+抛射类技能修改项
+---
 
-| 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
-|-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| onTickSkill | onTick, ot, skill, s, meta, m          | 抛射物飞行期间不断激活的技能组 | 无 |
-| onHitSkill | onHit, oh         | 抛射物命中实体后所激活的技能组 | 无 |
-| onEndSkill  | onEnd, oe          | 抛射物消失后所激活的技能组 | 无 |
-| onStartSkill  | onStart, os          | 抛射物被发射后所激活的技能组 | 无 |
-| onBounceSkill | onBounce | 抛射物反射开始后所激活的技能组 | 无 |
-| onHitBlockSkill | onHitBlock, ohb | 抛射物命中方块后所激活的技能组 | 无 |
-| bounce               | bounces, b | 抛射物是否在命中方块后进行弹射 | false |
-| bouncevelocity       | bv | 抛射物弹射后速度会被乘以多少 | 0.9 |
-| Type                 | 无 | [抛射物种类](#抛射物种类)  | NORMAL   |
-| Interval             | int, i | onTick的激活间隔（游戏刻 ）<br>不影响抛射物速度 影响抛射物碰撞判定 | 1(4.13以下为4)  |
-| ImmuneDelay | immune, id | 所命中实体可再次被该抛射物所命中的所需时间（单位: 刻） | 2000 |
-| HorizontalRadius     | hRadius, hr, r | 抛射物碰撞箱水平总长度 | 1.25 |
-| VerticalRadius       | vRadius, vR | 抛射物碰撞箱垂直总长度 | 等值于Horizontal Radius |
-| Maxduration          | md, duration, d           | 抛射物最大持续时间(刻 支持[占位符](技能/占位符)） | 100               |
-| MaxRange             | mr          | 抛射物最大移动距离(格方块 支持[占位符](技能/占位符)） | 40                |
-| MaxClimbHeight | mch | 抛射物在终止前尝试增高Y轴位置的次数 | 3 |
-| MaxDropHeight | mdh | 抛射物在终止前尝试拉低Y轴位置的次数 | 10 |
-| Velocity             | v  | 抛射物1秒（默认20游戏刻）内所能经过的方块（重力为0的情况下 支持[占位符](技能/占位符)）| 5 |
+下列修改项作用于:
+  * [Projectile](/技能/列表/projectile)
+  * [Missile](/技能/列表/Missile)
+  * [Orbital](/技能/列表/Orbital)
+  * [Totem](/技能/列表/totem)
+修改项的描述可能有所不同(如 `onTickSkill` 对Projectile而言是以抛射物为施法对象, 而对Orbital而言则为环绕整体)  
+具有不同描述的修改项会加入其它技能的页面中
+
+
+| 修改项名 | 别称    | 描述        | 默认值 |
+|-----------|------------|------------------|---------------|
 | Accuracy | ac, a | 抛射物发射方向的偏差程度, 1为无偏差 | 1 |
+| BulletType | bullet, b | 抛射物类型[[2]](#抛射物类型) | 无 |
+| DrawHiitBox |  | 是否在抛射物移动时使用粒子绘制周围实体的碰撞箱 | false |
+| EndOffset | esoffset, eo | 抛射物目标位置的双轴偏移<br>正数为向左 向下偏, 负数反之（格方块 支持[占位符](技能/占位符)) | 无 |
 | HorizontalNoise | hn | 抛射物发射方向的水平偏差程度 | Accuracy的值 * 45 |
 | VerticalNoise | vn | 抛射物发射方向的垂直偏差程度 | Accuracy的值 * 4.5 |
-| StartingDirection | startingdir, startdir, sdir | 抛射物起始朝向 | 无 |
-| EndOffset | esoffset, eo | 抛射物目标位置的双轴偏移<br>正数为向左 向下偏, 负数反之（格方块 支持[占位符](技能/占位符)) | 无 |
-| StartYOffset | syo | 抛射物发射点垂直偏移量（格方块, 正上负下 支持[占位符](技能/占位符)） | 1.0 |
-| StartFOffset | sfo | 抛射物发射点前后偏移量（格方块, 正前负后 支持[占位符](技能/占位符)) | 1.0 |
-| StartSOffset | sso | 抛射物发射点左右偏移量（格方块 正右负左 支持[占位符](技能/占位符)） | 0.0 |
-| TargetYOffset | targetty, tyo | 抛射物目标位置垂直偏移量(格方块 正上负下 支持[占位符](技能/占位符)） | 1.0 |
-| HorizontalOffset     | hO          | 抛射物发射方向水平旋转角度(角度制 正右负左 支持[占位符](技能/占位符)) | 0                 |
-| VerticalOffset       | vO          | 抛射物发射方向垂直旋转角度角度制）<br>角度制简单理解就是发射距离越大<br>与预期轨迹的夹角就越大<br>实际值应 x  0.0174532925199544<br>支持[占位符](技能/占位符) | 0                 |
+| HorizontalRadius     | hRadius, hr, r | 抛射物碰撞箱水平总长度 | 1.25 |
+| VerticalRadius       | vRadius, vR | 抛射物碰撞箱垂直总长度 | 等值于Horizontal Radius |
 | HitSelf |  | 抛射物是否可命中施法者 | false |
 | HitPlayers | hp | 抛射物是否可命中玩家 | true |
 | HitNonPlayers | hnp | 抛射物是否可命中非玩家实体 | **false** |
 | HitTarget | ht | 抛射物是否可命中技能目标 | true |
 | HitTargetOnly | hto | 抛射物是否仅可命中技能目标 | false |
 | HitArmorStands | ha | 抛射物是否可命中盔甲架 | false |
+| HitConditions | conditions, cond, c | 若所命中的目标不符合条件, 则不会判定命中该实体 | 无 |
+| Interval             | int, i | onTick的激活间隔（游戏刻 ）<br>不影响抛射物速度 影响抛射物碰撞判定 | 1(4.13以下为4)  |
+| ImmuneDelay | immune, id | 所命中实体可再次被该抛射物所命中的所需时间（单位: 刻） | 2000 |
+| Maxduration          | md, duration, d           | 抛射物最大持续时间(刻 支持[占位符](技能/占位符)） | 100               |
+| MaxRange             | mr          | 抛射物最大移动距离(格方块 支持[占位符](技能/占位符)） | 40                |
+| onTickSkill | onTick, ot, skill, s, meta, m          | 抛射物飞行期间不断激活的技能组 | 无 |
+| onHitSkill | onHit, oh         | 抛射物命中实体后所激活的技能组 | 无 |
+| onEndSkill  | onEnd, oe          | 抛射物消失后所激活的技能组 | 无 |
+| onStartSkill  | onStart, os          | 抛射物被发射后所激活的技能组 | 无 |
+| onHitBlockSkill | onHitBlock, ohb | 抛射物命中方块后所激活的技能组 | 无 |
+| PowerAffectsRange | par | [技能威力](/实体/威力)是否影响抛射物最大移动距离 | true |
+| PowerAffectsVelocity | pav | [技能威力](/实体/威力)是否影响抛射物移动速度 | true |
+| ReqiureLineOfSight | rlos, los | 于抛射物发射时立刻判断[坐标原点](/目标选择器/坐标原点)与起始点之间是否存在该事物<br> 若有则调用相关技能 | PLAYER_ONLY |
+| StartYOffset | syo | 抛射物发射点垂直偏移量（格方块, 正上负下 支持[占位符](技能/占位符)） | 1.0 |
+| StartFOffset | sfo | 抛射物发射点前后偏移量（格方块, 正前负后 支持[占位符](技能/占位符)) | 1.0 |
+| StartSOffset | sso | 抛射物发射点左右偏移量（格方块 正右负左 支持[占位符](技能/占位符)） | 0.0 |
+| TargetYOffset | targetty, tyo | 抛射物目标位置垂直偏移量(格方块 正上负下 支持[占位符](技能/占位符)） | 1.0 |
 | StopAtEntity | se | 抛射物是否在命中任意实体后消失 | true |
 | StopAtBlock | sb | 抛射物是否在命中固体方块后消失 | true |
+| Velocity             | v  | 抛射物1秒（默认20游戏刻）内所能经过的方块（重力为0的情况下 支持[占位符](技能/占位符)）| 5 |
+
+* 修改项: `DrawHitBox` 新增于 MM 5.3.0
+* 修改项: `RequireLineOfSight` 新增于 MM 5.3.0
+* 修改项: `OnHitBlockSkill` 新增于 MM 5.3.0
+* 修改项: `FromOrigin` 新增于 MM 4.11.0  
+* 修改项: `EndOffset` 新增于 MM 4.14.0  
+* 修改项: `BulletColor` 新增于 MM 4.14.0  
+* 修改项: `ImmuneDelay` 新增于 MM 5.2.6
+
+独立修改项
+----------
+
+下列修改项仅作用于Projectile本身
+
+| 修改项名 | 别称    | 描述        | 默认值 |
+|-----------|------------|------------------|---------------|
+
+| HighAccuracyMode | ham | 对什么事物启用高精度, 启用后将解决速度过快会穿过该事物的漏洞 |
 | HugSurface | hs | 抛射物是否在落到方块上方后继续移动 | false |
 | HugLiquid | hl | 抛射物是否在落到流体上方后继续移动 | false |
 | HeightFromSurface | hfs | 当抛射物类型为 Meteor 时, 抛射物离技能目标位置多高（格方块 支持[占位符](技能/占位符)) | 0.5 |
-| PowerAffectsRange | par | [技能威力](/实体/威力)是否影响抛射物最大移动距离 | true |
-| PowerAffectsVelocity | pav | [技能威力](/实体/威力)是否影响抛射物移动速度 | true |
+| HorizontalOffset     | hO          | 抛射物发射方向水平旋转角度(角度制 正右负左 支持[占位符](技能/占位符)) | 0                 |
+| VerticalOffset       | vO          | 抛射物发射方向垂直旋转角度角度制）<br>角度制简单理解就是发射距离越大<br>与预期轨迹的夹角就越大<br>实际值应 x  0.0174532925199544<br>支持[占位符](技能/占位符) | 0    |
 | Gravity              | g           | 抛射物重力 | 0                 |
-| BulletType | bullet, b | 抛射物类型[[2]](#抛射物类型) | 无 |
-| BulletSpin | bspin | 抛射物类型为实体/物品时, 该物品/实体的视角旋转速度 | 0 |
-| BulletColor | bcolor | 抛射物类型为物品且该物品可染色时, 该物品的颜色 | 无 |
-| BulletSkillable | bk | 抛射物类型为Mythic 实体, 是否可使用技能 | false |
-| hitConditions | conditions, cond, c | 若所命中的目标不符合条件, 则不会判定命中该实体 | 无 |
-| FromOrigin | fo | 发射点是否位于坐标原点 | false |
+| MaxClimbHeight | mch | 抛射物在终止前尝试增高Y轴位置的次数 | 3 |
+| MaxDropHeight | mdh | 抛射物在终止前尝试拉低Y轴位置的次数 | 10 |
+| onBounceSkill | onBounce | 抛射物反射开始后所激活的技能组 | 无 |
+| Bounce               | bounces, b | 抛射物是否在命中方块后进行弹射 | false |
+| Bouncevelocity       | bv | 抛射物弹射后速度会被乘以多少 | 0.9 |
+| StartingDirection | startingdir, startdir, sdir | 抛射物起始朝向 | 无 |
+| Type                 | 无 | [抛射物种类](#抛射物种类)  | NORMAL   |
+| TargetYOffset | targetty, tyo | 抛射物目标位置垂直偏移量(格方块 正上负下 支持[占位符](技能/占位符)） | 1.0 |
 
-FromOrigin 新增于 MM 4.11.0  
-EndOffset 新增于 MM 4.14.0  
-StartingDirection 新增于 MM 4.14.0  
+* 修改项: `HighAccuracyMode` 新增于 MM 5.3.0
+* 修改项: `StartingDirection` 新增于 MM 4.14.0  
+* 修改项: `OnBounce` 新增于 MM 4.14.0 （付费版内容）
+* 修改项: `Bounce` 新增于 MM 4.14.0 （付费版内容）
+* 修改项: `HugLiquid` 新增于 MM 4.14.0
 
-OnBounce 新增于 MM 4.14.0  
-Bounce 新增于 MM 4.14.0  
-俩者均为[付费版内容](/付费版内容)
+抛射物类型
+---
 
-BulletColor 新增于 MM 4.14.0  
-HugLiquid 新增于 MM 4.14.0
+可用类型:
+* Block: 方块
+* Mob: 实体
+* Item: 原版物品
+* MythicItem: Mythic物品
+* Tracking: 纯发包盔甲架
+* Text: 文本（1.19.4+）
 
-ImmuneDelay 新增于 MM 5.2.6
+下列修改项作用于特定类型
 
-OnHitBlockSkill 新增于 MM 5.3.0
+| 类型名称 | 描述 | 修改项 | 别称 | 描述 | 默认值 |
+| - | - | - | - | - | - |
+| Block | 方块 | bulletmaterial |  material, mat | 所调用的原版方块ID | Stone（石头） |
+| Block | 方块 | bulletsmall | 无 | 所调用的方块是否为小方块(方块戴在盔甲架头上) | 否 |
+| Block | 方块 | audience | 无 | 方块仅显示于给定事物（可用事物见[Audience](/技能/特效技能列表#特效技能)） | world |
+| MythicItem/Item  | Mythic/原版物品 | bulletmaterial |  material, mat | 所调用的原版或Mythic物品ID | Stone（石头） |
+| MythicItemItem  | Mythic/原版物品 | bulletenchanted | enchanteds | 所调用的原版	或Mythic物品是否附魔发光 | false |
+| MythicItemItem  | Mythic/原版物品 | bulletcolor | 无 | 所调用的原版或Mythic物品的颜色（R,G,B格式） | 无 |
+| MythicItemItem  | Mythic/原版物品 | bulletmodel | m | 所调用的原版或Mythic物品的 **CustomModelData** 标签值 | 0 |
+| MythicItemItem  | Mythic/原版物品 | audience | 无 | 物品仅显示于特定事物（可用事物见[Audience](/技能/特效技能列表#特效技能)） | world |
+| Tracking | 盔甲架 | bulletmaterial |  material, mat | 位于盔甲架头部的原版或Mythic物品ID | Stone（石头） |
+| Tracking | 盔甲架 | audience | 无 | 盔甲架仅显示于给定事物（可用事物见[Audience](/技能/特效技能列表#特效技能)） | world |
+| Tracking | 盔甲架 | yaw | 无 | 盔甲架朝向的水平旋转角度（X轴旋转） | 0 |
+| Tracking | 盔甲架 | pitch | 无 | 盔甲架朝向的视角俯仰角度（Y轴旋转） | 0 |
+| Tracking | 盔甲架 | roll | 无 | 盔甲架朝向的左右歪头角度（Z轴旋转） | 0 |
+| Tracking | 盔甲架 | yawspeed | ys | 抛射物每次刷新时为盔甲架的水平旋转角度加上的值（X轴旋转速度） | 0 |
+| Tracking | 盔甲架 | pitchspeed | ps | 抛射物每次刷新时为盔甲架的视角俯仰角度加上的值（Y轴旋转速度） | 0 |
+| Tracking | 盔甲架 | rollspeed | rs | 抛射物每次刷新时为盔甲架的左右歪头角度加上的值（Z轴旋转速度） | 0 |
+| Tracking | 盔甲架 | rotation | rot | 盔甲架朝向的三轴旋转（格式: `rot=x,y,z`） | 0,0,0 |
+| Mob | 实体 | mob | 无 | 所调用的Mythic实体内部名(不支持原版实体) | 无 |
+| Mob | 实体 | bulletskillable | 无 | 所调用的Mythic实体是否执行自带技能 | true |
+
 
 子技能组
 ---
@@ -93,19 +146,6 @@ onHitBlockSkill的[坐标原点](/目标选择器/origin)为命中方块时抛�
 
 Projectile的施法者死亡后Projectile将消失, 但不激活onEndSkill  
 
-抛射物类型
--------------
-
--  抛射物类型用于决定什么作为抛射物本身,而不在限于一个虚拟事物.
-
-| 类型 | 描述 | 附带修改项 | 描述 | 写法 |
-|-------|------------|------------|------------|------------|
-| ARROW | 箭矢 | 无 | 无 | projectile{bulletType=ARROW;...} |
-| BLOCK | 方块 | bulletmaterial(material, mat) / bulletsmall | 所选取的方块 / 是否为小方块| projectile{bulletType=BLOCK;material=STONE;...} |
-| ITEM | 物品 | bulletmaterial, material, mat | 所选取的物品 | projectile{bulletType=ITEM;material=diamond;...} |
-| MYTHICITEM | MythicMobs物品 | material | 所选取的MythicMobs物品 | projectile{bulletType=MYTHICITEM;material=Mythicdiamond;...} |
-| MOB（mm, mmobs）  | 实体(支持MythicMobs实体) | mob / bulletmodel | 所选取的实体 / ModelEngine模型数字ID | projectile{bulletType=MOB;mob=SkeletonKing;...} |
-| TRACKING（4.14.0） | 头戴方块的盔甲架,方块的中心为抛射物的位置 | 无 | 无 | 无 |
 
 抛射物种类
 ---------
