@@ -20,6 +20,7 @@
 | ignoreinvulnerability | gnoreinvulnerable, ii | 是否无视无敌(5.3.3) | false |
 | ignoreshield | is | 是否无视盾牌格挡(5.3.3) | false |
 | element | e, damagetype, type | 所造成伤害的伤害种类 | 无 |
+| onAnger | oa | ？？？ | |
 
 
 ### 伤害类型 (Element)
