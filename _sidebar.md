@@ -380,12 +380,14 @@
     [Set Owner](/技能/列表/setowner)<br>
     [Set Path Finding Malus](/技能/列表/setpathfindingmalus)<br>
     [Set Parent](/技能/列表/setparent)<br>
+    [Set Projectile Direction](/技能/列表/setprojectiledirection)<br>
     [Set Raider Can Join Raider](/技能/列表/setRaiderCanJoinRaider)<br>
     [Set Raider Patrol Block](技能/列表/setRaiderPatrolBlock)<br>
     [Set Raider Patrol Leader](技能/列表/setRaiderPatrolLeader)<br>
     [Set Rotation](/技能/列表/setrotation)<br>
     [Set Target](/技能/列表/settarget)<br>
     [Set Target Score](/技能/列表/settargetscore)<br>
+    [Set Transformation](/技能/列表/settransformation)<br>
     [Set Score](/技能/列表/setscore)<br>
     [Set Speed](/技能/列表/setspeed)<br>
     [Set Skill Cooldown](/技能/列表/SetSkillCooldown)<br>
