@@ -9,12 +9,17 @@
 | 修改项名 | 别称    | 描述                                                                                                    | 默认值 |
 |-----------|------------|----------------------------------------------------------------------------------------------------------------|---------------|
 | damage           | a | 所造成的伤害数值（为负时不造成伤害, 但仍会触发受伤事件）         | 1    |
+| damagecause | dc, cause | 所造成伤害的伤害来源 | Entity_Attack |
+| damageshelmet | dh | 有待测试（5.3.0） | false |
 | preventknockback | pkb, pk | 是否不会造成击退   | false   |
 | preventimmunity  | pi      | 是否无视受伤间隔   | false   |
-| ignorearmor      | ia, i    | 是否无视实体防御 | false   |
+| ignorearmor      | ia, i    | 是否无视护甲值 | false   |
+| ignoreresistance | ir | 是否无视护甲韧性（5.3.3） | false |
+| ignoreeffects | ieff | 是否无视状态效果（5.3.3） | false |
 | ignoreenchantments      | ignoreenchants, ie    | 是否无视防御附魔<br>MC版本至少为1.19 | false   |
+| ignoreinvulnerability | gnoreinvulnerable, ii | 是否无视无敌(5.3.3) | false |
+| ignoreshield | is | 是否无视盾牌格挡(5.3.3) | false |
 | element | e, damagetype, type | 所造成伤害的伤害种类 | 无 |
-| damagecause | dc, cause | 所造成伤害的伤害来源 | Entity_Attack |
 
 
 ### 伤害类型 (Element)
@@ -80,6 +85,6 @@
 额外信息
 -------
 
-- **支持** [占位符](/技能/占位符)（仅限值类型不为布尔值的修改项）
+- **支持** [占位符](/技能/占位符)（包括`DamageCause=字符`）
 - 缩写: d
 - 施法者类型不可为 Marker（解决方法是用SudoSkill）
