@@ -54,7 +54,7 @@
 | StopAtEntity | se | 抛射物是否在命中任意实体后消失 | true |
 | StopAtBlock | sb | 抛射物是否在命中固体方块后消失 | true |
 | TargetYOffset | targetty, tyo | 抛射物目标位置垂直偏移量(格方块 正上负下 支持[占位符](技能/占位符)） | 1.0 |
-| Tickinterpolation | interpolation, ti | 抛射物每俩次刷新之间会弥补多少个点, 值越大, 抛射物越精确 | 0 |
+| Tickinterpolation | interpolation, ti | 抛射物每俩次刷新之间会弥补多少个点<br>值越大, 抛射物越精确（5.3.2） | 0 |
 | Velocity             | v  | 抛射物1秒（默认20游戏刻）内所能经过的方块（重力为0的情况下 支持[占位符](技能/占位符)）| 5
 
 * 修改项: `DrawHitBox` 新增于 MM 5.3.0
@@ -136,7 +136,7 @@
 | Mob | 实体 | bulletskillable | bk | 所调用的实体是否执行自带技能 | true |
 | Mob | 实体 | bulletspin | bspin | 所调用的实体的水平旋转速度 | 0 |
 | Mob | 实体 | bulletmathdirection | bmd | 所调用的实体朝向是否与抛射物朝向保持同步 | false |
-| Mob | 实体 | BulletOffet（5.3.0） | bforward | 抛射物所调用**生物**的上下偏移, 正数为上（5.3.3 格方块） | 1.35 |
+| Mob | 实体 | BulletOffet（5.3.2） | bforward | 抛射物所调用**生物**的上下偏移, 正数为上（5.3.3 格方块） | 1.35 |
 | Text | 文本 | backgroundcolor | color | 文本的背景色（格式: `color=R,G,B`) | 1073741824 |
 | Text | 文本 | bullettext | text | 文本的内容 | * |
 | Text | 文本 | bulletbillboard | billboard | 文本的聚焦方式 | Center（居中） |
