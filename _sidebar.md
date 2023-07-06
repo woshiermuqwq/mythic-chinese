@@ -451,7 +451,8 @@
     [Totem](/技能/列表/totem)<br>
     [Variable Add](/技能/列表/variableadd)<br>
     [Variable Math](/技能/列表/variablemath)<br>
-    [Set Variable](/技能/列表/setvariable)<br>
+    [Variable Set](/技能/列表/setvariable)<br>
+    [Variable Set Location](/技能/列表/setvariablelocation)<br>
     [Variable Unset](/技能/列表/variableunset)<br>
     [Variable Subtract](/技能/列表/variablesubtract)<br>
     [Time](/技能/列表/time)</details>
