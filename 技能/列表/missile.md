@@ -30,7 +30,11 @@
 | HitTargetOnly | 无 | 抛射物是否仅可命中技能目标 | false
 | StopAtEntity | se | 抛射物是否在命中任意实体后消失 | true |
 | StopAtBlock | sb | 抛射物是否在命中固体方块后消失 | true |
-| HugSurface | hs | 抛射物是否在落到方块上方后继续移动 | false |
+| HugSurface | hs | 抛射物是否在落到方块上方后继续移动（5.3.3） | false |
+| HugLiquid | hl | 抛射物是否在落到流体上方后继续移动（5.3.3） | false |
+| onBounceSkill | onBounce | 抛射物反射开始后所激活的技能组（5.3.3） | 无 |
+| Bounce               | bounces, b | 抛射物是否在命中方块后进行弹射（5.3.3） | false |
+| Bouncevelocity       | bv | 抛射物弹射后速度会被乘以多少（5.3.3） | 0.9 |
 | PowerAffectsRange | par | [技能威力](/实体/威力)是否影响抛射物最大移动距离 | true |
 | PowerAffectsVelocity | pav | [技能威力](/实体/威力)是否影响抛射物移动速度 | true |
 | fromOrigin | fo | 抛射物发射点是否为施法者的坐标原点 | false |
