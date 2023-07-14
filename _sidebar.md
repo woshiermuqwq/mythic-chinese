@@ -581,6 +581,7 @@
     [Distance](/条件/distance)<br>
     [Distance From Spawn](/条件/distancefromspawn)<br>
     [Distance From Tracked Location](/条件/distancefromtrackedlocation)<br>
+    [Directional Velocity](/条件/directionalvelocity)<br>
     [Enchanting Experience](/条件/enchantingexperience)<br>
     [Enchanting Level](/条件/enchantingLevel)<br>
     [Ender Dragon Phase](/条件/EnderDragonPhase)<br>
