@@ -384,6 +384,7 @@
     [Set Owner](/技能/列表/setowner)<br>
     [Set Path Finding Malus](/技能/列表/setpathfindingmalus)<br>
     [Set Parent](/技能/列表/setparent)<br>
+    [Set Projectile Bullet Model](/技能/列表/setprojectilebulletmodel)<br>
     [Set Projectile Direction](/技能/列表/setprojectiledirection)<br>
     [Set Raider Can Join Raider](/技能/列表/setRaiderCanJoinRaider)<br>
     [Set Raider Patrol Block](技能/列表/setRaiderPatrolBlock)<br>
