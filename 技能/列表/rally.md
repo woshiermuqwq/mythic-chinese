@@ -3,9 +3,12 @@
 
 令范围内的所有指定实体(可多种)选取技能目标为仇恨目标  
 
-不影响施法者
+不影响施法者  
+可影响原版实体
 
 被影响实体必须可以攻击（或拥有且可正常使用AI: `meleeattack`）.  
+
+若想直接嘲讽范围内的所有实体请用由插件: [GOOP 拓展的 RallyAll 技能](https://gitlab.com/TranslatedByShark/Gootilities/-/wikis/MythicMobs/%E6%8A%80%E8%83%BD)
 
 修改项
 ----------
