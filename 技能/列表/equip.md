@@ -19,3 +19,10 @@
  - equip{i=stick:0} @self ~onDropCombat
 ```
 进入战斗后手持钻石剑, 头戴钻石头盔, 结束战斗后手持木剑.
+
+写法2:  
+```yaml
+ Skills:
+ - equip{i=diamond_sword hand,diamond_helmet helmet} @self ~onEnterCombat
+ - equip{i=stick hand} @self ~onDropCombat
+```
