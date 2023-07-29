@@ -81,8 +81,7 @@ flee开头的AI行动器共有的修改项:
 | patrol x1,y1,z1;x2,y2,z2;x3,y3,z3;… | patrolroute      | 依次走到多个坐标点路程需≤实体跟随距离) |
 | gotolocation x,y,z                  | goto             | 走到指定坐标点(路程需≤实体跟随距离)    |
 | gotoowner{followrange(fr, r, maxrange)=跟随距离（格方块）;minrange(mr)=与主人所保持的距离（格方块）;speed=移速;droptarget(dt)=是否无视当前目标走向主人}                         |                  | 走向主人(路程≤实体跟随距离)      |
-| gotoparent{followrange(fr, r, maxrange)=跟随距离（格方块）;minrange(mr)=与父系实体所保持的距离（格方块）;speed=移速;droptarget(dt)=是否无视当前目标走向父系实体}                         |                  | 走向父系实体(路程≤实体跟随距离)      |
-| gotoparent                          |                  | 走向父系实体(路程≤实体跟随距离)        |
+| gotoparent{followrange(fr, r, maxrange)=跟随距离（格方块）;minrange(mr)=与父系实体所保持的距离（格方块）;speed=移速;droptarget(dt)=是否无视当前目标走向父系实体}   |   | 走向父系实体(路程≤实体跟随距离 [若无法使用请注意 Protollib 版本](/技能/列表/setparent#提示))  |
 | gotowater（5.0.5） | | 寻找并进入水源 |
 | panicWhenOnFire                     | panic            | 着火时寻找水源熄火 |
 | randomFly | | 随机飞行 |
