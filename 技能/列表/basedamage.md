@@ -32,7 +32,7 @@
 测试:
  Id: diamond
  Lore:
- '- 物理伤害: 3'
+ - '物理伤害: 3'
  Skills:
  - damage{a=6* ％ap
  - _attack:max％} @T ~ouse
