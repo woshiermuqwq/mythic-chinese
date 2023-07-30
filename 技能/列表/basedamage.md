@@ -27,7 +27,7 @@
 
 施法者为玩家的话建议使用第二种思路  
 右键后对目标造成(6x3)点伤害  
-版本不低于 4.11 且需付费版
+版本不低于 4.11 且需付费版与插件: AttributePlus(别的也行这就是个示例)
 
 ```yaml
 测试:
@@ -35,8 +35,7 @@
  Lore:
  - '物理伤害: 3'
  Skills:
- - damage{a=6* ％ap
- - _attack:max％} @T ~ouse
+ - damage{a=6* ％ap_attack:max％} @T ~ouse
 ```
 
 1 = 100%
