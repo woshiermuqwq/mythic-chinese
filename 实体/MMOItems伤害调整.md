@@ -1,5 +1,5 @@
 # MMOItems伤害调整
-SCConflict 是国人开发的一款插件 购买请 +Q: 1360197420, 价格45r 兼容高版本 MythicMobs 与 MMOItems 其功能为实现游戏内常有的元素克制
+SCConflict 是国人开发的一款插件 购买请 +Q: 1360197420, 价格50r 兼容高版本 MythicMobs 与 MMOItems 其功能为实现游戏内常有的元素克制
 
 ## 插件命令
 
@@ -138,8 +138,10 @@ reverse	是否倒序查找符合的标识符
 除了实现父类的抽象方法以外，你还必须实现以下方法
 
 `static       Boolean is(String key)     ` 用于快速检测伤害匹配器主键是否属于该类
+
 `static SimpleMatcher getInst(String key)` 用于实例化伤害匹配器
 
+```mermaid
 graph TD
     M{{"Matcher"}} -->|超接口| SM(SimpleMatcher) & CM(ComplexMatcher);
     subgraph LR Manager[SimpleMatcherManager]
@@ -149,3 +151,4 @@ graph TD
     TM -->|实例化| Type_P([PhysicalMatcher]) & Type_AndMore([....]);
     EM -->|实例化| El_F([FireMatcher]) & El_AndMore([....]);
     AM -->|实例化| AnyMatcher([AnyMatcher]);
+```
