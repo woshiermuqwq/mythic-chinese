@@ -284,8 +284,10 @@
     [Consume](/技能/列表/consume)<br>
     [Consume Slot](/技能/列表/consumeslot)<br>
     [Clear Threat](/技能/列表/clearthreat)<br>
+    [Clear Experience Levels](/技能/列表/clearexperiencelevels)<br>
     [Currency Give](/技能/列表/currencygive)<br>
     [Currency Take](/技能/列表/currencytake)<br>
+    [Give Experience Levels](/技能/列表/giveexperiencelevels)<br>
     [Disengage](/技能/列表/disengage)<br>
     [Disguise](/技能/列表/disguise)<br>
     [Disguise Old](/技能/列表/disguiseold)<br>
@@ -418,6 +420,7 @@
     [Add Tag](/技能/列表/addtag)<br>
     [Remove Tag](/技能/列表/removetag)<br>
     [Take Item](/技能/列表/takeitem)<br>
+    [Take Experience Levels](/技能/列表/takeexperiencelevels)<br>
     [Teleport](/技能/列表/teleport)<br>
     [Teleport In](/技能/列表/teleportin)<br>
     [Teleport To](/技能/列表/teleportto)<br>
