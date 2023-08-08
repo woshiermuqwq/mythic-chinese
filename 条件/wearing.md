@@ -22,9 +22,16 @@
 
 **示例:**
 
-```
+```yaml
 Conditions:
 - wearing{slot=HAND;m=IRON_SWORD} true
+```
+检测多部位时  
+```yaml
+Conditions:
+- wearing{slot=HAND;m=IRON_SWORD} true
+- wearing{slot=HAND;m=SHIELD}
+- ..。
 ```
 
 ---
