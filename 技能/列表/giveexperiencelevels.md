@@ -1,8 +1,7 @@
-技能: Give Experience Levels
+技能: Give Experience Levels （5.4.0）
 --------------------------
 
 给予技能目标(玩家)经验  
-前置: 拥有经济功能的插件 (EssX/Vault等)
 
 修改项
 ----------
