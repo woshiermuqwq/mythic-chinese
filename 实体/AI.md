@@ -42,7 +42,7 @@ AI行动器将决定实体该做什么. 若所写AI行动器不适用于实体, 
 | closedoors                       | restrictopendoor | 关闭路径上的门         |
 | randomlookaround                 | lookaround       | 看向周围               |
 | gotospawnlocation{maxrange(max, r)=寻找的最大距离（格方块）;minrange(min, mr)=与出生点所保持的距离（格方块）;speed=移速;droptarget(dt)=是否无视当前目标走向出生点}                 | gotospawn        | 走向实体的出生点       |
-| doNothing{fleeconditions=[  - 条件 条件活动 ]}       **[仅限付费版]** | nothing{conditions(cond, c)=[  条件 ]} | 条件不满足就不进行操作<br>条件的检测对象是施法者而非仇恨目标 |
+| doNothing{fleeconditions=[  - 条件 条件活动 ]}       **[仅限付费版]** | nothing{conditions(cond, c)=[  条件 ]} | 条件不满足就不进行操作<br>条件的检测对象是施法者而非仇恨目标<br>不支持条件: [Has Aura](/条件/hasaura)[(Stacks)](/条件/hasaurastacks), 建议用临时权限替代光环 |
 
 **生物可用**
 
@@ -154,7 +154,7 @@ AI目标选择器(不同于技能的目标选择器)将决定实体选择什么�
 | players                                   |                               | 选取玩家                                           |
 | villagers                                 |                               | 选取原版实体种类为村民的实体(包括原版).            |
 | golems                                    |                               | 选取原版实体种类为傀儡(包括雪傀儡)的实体(包括原版) |
-| nearestConditionalTarget{mustsee=是否仅选取可以看到的实体(5.3.0);mustreach=是否仅选取可以到达的实体(5.3.0)} **[仅限付费版]** | nearestConditional, nearestIf | 选取离自身最近的符合条件的实体                     |
+| nearestConditionalTarget{mustsee=是否仅选取可以看到的实体(如盔甲架 5.3.0);mustreach=是否仅选取可以到达的实体(5.3.0)} **[仅限付费版]** | nearestConditional, nearestIf | 选取离自身最近的符合条件的实体<br>无论如何都不会选取没有实体基本数据的实体, 如Marker<br>无法选取纯发包实体, 如盔甲架抛射物/文本抛射物  |
 
 NearestConditionalTarget 示例:
 ```yml
