@@ -141,7 +141,11 @@
 | Text | 文本 | bullettext | text | 文本的内容 | * |
 | Text | 文本 | bulletbillboard | billboard | 文本的聚焦方式 | Center（居中） |
 | Text | 文本 | bulletscale | scale | 文本三轴缩放（格式: `scale=数值,数值,数值`） | 0.5,0.5,0.5 |
+| Text | 文本 | bulletCullingDistance | bulletViewDistance, bulletviewrange  | 抛射物对于玩家的渲染距离 | 50（格方块） |
 | Display | NMS发包 | 上述所有修改项 | | | |
+| Display | NMS发包 | bulletbrightness | bulletbrightnessbock | 实体或方块的方块光照等级（格式: `bulletbrightness=数值`）<br>大于15时视为0级亮度 | -1(=15) |
+| Display | NMS发包 | bulletbrightness | bulletbrightnessbock | 实体或方块的天空光照等级（格式: `bulletbrightness=数值`）<br>大于15时视为0级亮度<br>需方块光照等级不大于4 | 15-1(=15) |
+
 
 
 
