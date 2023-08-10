@@ -35,16 +35,7 @@
  - velocity{m=set;x=0;y=0;z=0;delay=1} @self ~onDamaged
 ```
 施法者受伤后设置自身动量为0(虽做到了抗击飞效果但实际上会被弓箭附魔: 击飞 所击退).
-```yaml
-潜行闪避:
- Skills:
- - aura{auraname=闪避;bartimer=true;bartimertext=按潜行键闪避;ot=[
-  - projectile{os=[  - lunge{v=0.1} @forward ?!moving ];cd=0.2;v=0;sfo=0;hfs=1;syo=0;se=false;i=1;d=10;ot=[  - e:p{a=1} ];oe=[
-   - p{se=false;i=1;g=2;hs=true;hfs=0.5;d=2;ot=[  - e:p ];v=20;ot=[  - lunge{v=5} - jump{v=-5} ];ho=180;sfo=0;syo=0} @origin
-   ]} ?crouching
-  ]} @self
-```
-**全版本通用** 按下潜行后向移动方向闪避
+
 
 
 提示
