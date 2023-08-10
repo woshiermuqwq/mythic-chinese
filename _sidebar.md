@@ -287,7 +287,6 @@
     [Clear Experience Levels](/技能/列表/clearexperiencelevels)<br>
     [Currency Give](/技能/列表/currencygive)<br>
     [Currency Take](/技能/列表/currencytake)<br>
-    [Give Experience Levels](/技能/列表/giveexperiencelevels)<br>
     [Disengage](/技能/列表/disengage)<br>
     [Disguise](/技能/列表/disguise)<br>
     [Disguise Old](/技能/列表/disguiseold)<br>
@@ -314,6 +313,7 @@
     [Fly](/技能/列表/fly)<br>
     [Freeze](/技能/列表/freeze)<br>
     [Force Pull](/技能/列表/forcepull)<br>
+    [Give Experience Levels](/技能/列表/giveexperiencelevels)<br>
     [Give Item](/技能/列表/giveitem)<br>
     [Give Item From Slot](/技能/列表/giveitemfromslot)<br>
     [Give Item From Target](/技能/列表/giveitemfromtarget)<br>
@@ -352,6 +352,7 @@
     [Prison](/技能/列表/prison)<br>
     [Propel](/技能/列表/propel)<br>
     [Pull](/技能/列表/pull)<br>
+    [Push Block](/技能/列表/pushblock)<br>
     [Push Button](/技能/列表/pushbutton)<br>
     [Rally](/技能/列表/rally)<br>
     [Random Message](/技能/列表/randommessage)<br>
