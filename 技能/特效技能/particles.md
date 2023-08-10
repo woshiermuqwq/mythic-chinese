@@ -106,5 +106,5 @@ Particles的修改项: particle 则会失效
 拓展信息
 -------
 
-- **支持** [占位符](/技能/占位符)（除 sfo, yaw, pitch 和值类型不为数值的修改项）
+- **支持** [占位符](/技能/占位符)（除 yaw, pitch 和值类型不为数值的修改项）
 - 别称: effect:particles, e:particles, particles, particle, effect:particle, e:particle, particle, e:p
