@@ -192,7 +192,7 @@ Projectile的施法者死亡后Projectile将消失, 但不激活onEndSkill
    - damage{a=10}
    - potion{t=SLOW;d=100;l=2}
    ]} @target ~onTimer:20
-```
+``
 
 旧写法:
 
@@ -208,6 +208,18 @@ Projectile的施法者死亡后Projectile将消失, 但不激活onEndSkill
  Skills:
  - d{a=10}
  - potion{t=SLOW;d=100;l=2}
+```
+
+**全版本通用** 按下潜行后向移动方向闪避  
+该示例展示了如何巧妙运用抛射物获取俩个不同的位置并加工成机制
+```yaml
+潜行闪避:
+ Skills:
+ - aura{auraname=闪避;bartimer=true;bartimertext=按潜行键闪避;ot=[
+  - projectile{os=[  - lunge{v=0.1} @forward ?!moving ];cd=0.2;v=0;sfo=0;hfs=1;syo=0;se=false;i=1;d=10;oe=[
+   - p{se=false;i=1;g=2;hs=true;hfs=0.5;d=2;v=20;ot=[  - lunge{v=5} - jump{v=-5} ];ho=180;sfo=0;syo=0} @origin
+   ]} ?crouching
+  ]} @self
 ```
 
 提示
