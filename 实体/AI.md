@@ -60,7 +60,7 @@ flee开头的AI行动器共有的修改项:
 | avoidskeletons                      |                  | 躲避骷髅                               |
 | avoidzombies                        |                  | 躲避僵尸                               |
 | fleesun                             |                  | 躲避日光                               |
-| meleeattack                         |                  | 近距离攻击方式                         |
+| meleeattack{attackreach（攻击距离, 不可≤0, 5.4.0）=4}                         |                  | 常规攻击方式                         |
 | movetowardstarget                   |                  | 走向目标                               |
 | movetowater（5.2.1）  | | 走向水源 |
 | movetolava（5.2.1）  | | 走向熔岩 |
