@@ -1,7 +1,7 @@
 技能: Set Projectile Bullet Model （5.4.0）
 --------------------------
 
-修改抛射物所调用实体的 `CustomModelData` 标签值
+修改抛射物所调用掉落物实体的 `CustomModelData` 标签值
 
 
 修改项
