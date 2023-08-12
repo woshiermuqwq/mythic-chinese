@@ -36,6 +36,8 @@
 | HitTargetOnly | hto | 抛射物是否仅可命中技能目标 | false |
 | HitArmorStands | ha | 抛射物是否可命中盔甲架 | false |
 | HitConditions | conditions, cond, c | 若所命中的目标不符合条件, 则不会判定命中该实体 | 无 |
+| HugSurface | hs | 抛射物是否在落到方块上方后继续移动 | false |
+| HugLiquid | hl | 抛射物是否在落到流体上方后继续移动 | false |
 | Interval             | int, i | onTick的激活间隔（游戏刻 ）<br>不影响抛射物速度 影响抛射物碰撞判定 | 1(4.13以下为4)  |
 | ImmuneDelay | immune, id | 所命中实体可再次被该抛射物所命中的所需时间（单位: 刻） | 2000 |
 | Maxduration          | md, duration, d           | 抛射物最大持续时间(刻 支持[占位符](技能/占位符)） | 100               |
@@ -74,8 +76,6 @@
 |-----------|------------|------------------|---------------|
 | BulletForwardOffset | bulletfo, bulletoffset | 抛射物碰撞箱的前后偏移, 正数为前（5.3.3 格方块） | 1.8 |
 | HighAccuracyMode | ham | 对什么事物启用高精度, 启用后将解决速度过快会穿过该事物的漏洞<br>为`true`时判断一切可命中事物, 为`false`时禁用该功能 | PLAYER_ONLY（仅限玩家） |
-| HugSurface | hs | 抛射物是否在落到方块上方后继续移动 | false |
-| HugLiquid | hl | 抛射物是否在落到流体上方后继续移动 | false |
 | HeightFromSurface | hfs | 当抛射物类型为 Meteor 时, 抛射物离技能目标位置多高（格方块 支持[占位符](技能/占位符)) | 0.5 |
 | HorizontalOffset     | hO          | 抛射物发射方向水平旋转角度(角度制 正右负左 支持[占位符](技能/占位符)) | 0                 |
 | VerticalOffset       | vO          | 抛射物发射方向垂直旋转角度角度制）<br>角度制简单理解就是发射距离越大<br>与预期轨迹的夹角就越大<br>实际值应 x  0.0174532925199544<br>支持[占位符](技能/占位符) | 0    |
