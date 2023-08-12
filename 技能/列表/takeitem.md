@@ -35,6 +35,8 @@
 该方法需关闭命令反馈`/gamerule sendcommandfeedback false`  
 关闭命令反馈相当于通过原版切换模式/更改游戏规则不会反馈信息, 对玩家无影响
 
+或只想消耗主手物品, 可使用[Remove Held Item](/技能/列表/removehelditem)
+
 额外信息
 -------
 
