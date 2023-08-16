@@ -15,7 +15,7 @@
 | preventimmunity  | pi      | 是否无视受伤间隔   | false   |
 | ignorearmor      | ia, i    | 是否无视护甲值 | false   |
 | ignoreresistance | ir | 是否无视护甲韧性（5.3.3） | false |
-| ignoreeffects | ieff | 是否无视状态效果（5.3.3） | false |
+| ignoreeffects | ieff | 是否无视抗性提升（5.3.3） | false |
 | ignoreenchantments      | ignoreenchants, ie    | 是否无视防御附魔<br>MC版本至少为1.19 | false   |
 | ignoreinvulnerability | gnoreinvulnerable, ii | 是否无视无敌(5.3.3) | false |
 | ignoreshield | is | 是否无视盾牌格挡(5.3.3) | false |
