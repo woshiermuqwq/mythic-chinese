@@ -77,6 +77,7 @@
     [实体配置内容详解](/实体#内容详解)<br>
     [所有属性与选项的实体配置](/实体#使用了所有属性与选项的配置例子)</details>
   * <details><summary>[种类](实体/种类)</summary>
+    ALLAY(MC 1.19) 悦灵<br>
     ARMOR_STAND 盔甲架<br>
     AXOLOTL(4.13 MM) 美西螈<br>
     BABY_DROWNED 幼年溺尸<br>
@@ -89,11 +90,13 @@
     BEE 蜜蜂<br>
     BLAZE 烈焰人<br>
     CAT 猫<br>
+    CAMEL(1.20) 骆驼<br>
     CAVE_SPIDER 洞穴蜘蛛<br>
     CHICKEN 鸡<br>
+    CHEST_BOAT(1.20) 运输船<br>
     COD 鳕鱼<br>
     COW 牛<br>
-    CREEPER 爬行者<br>
+    CREEPER 苦力怕<br>
     DOLPHIN 海豚<br>
     DONKEY 驴<br>
     DROWNED 溺尸<br>
@@ -102,8 +105,10 @@
     ENDERMITE 末影螨<br>
     ENDER_CRYSTAL 末影水晶<br>
     ENDER_DRAGON 末影龙<br>
-    EVOKER 唤魔者<br>
+    EVOKER (1.12为 Evocation_Illager) 唤魔者<br>
     EXPERIENCE_ORB (4.12 MM) 经验球<br>
+    FOX(MC 1.14) 狐狸<br>
+    FROG(MC 1.19) 青蛙<br>
     GHAST 恶魂<br>
     GIANT 巨人<br>
     GLOW_SQUID(4.13 MM) 发光鱿鱼<br>
@@ -112,11 +117,14 @@
     HOGLIN 疣猪兽<br>
     HORSE 马<br>
     HUSK 尸壳<br>
+    Item_Display(1.19.4) 物品展示实体<br>
+    Block_Display(1.19.4) 方块展示实体<br>
+    Text_Display(1.19.4) 字符展示实体<br>
     ILLUSIONER 幻术师<br>
     IRON_GOLEM 铁傀儡
     LLAMA 羊驼<br>
     MAGMA_CUBE 岩浆怪<br>
-    MARKER(4.13 MM) 低耗能实体<br>
+    MARKER(1.18) 低耗能实体<br>
     MULE 骡<br>
     MUSHROOM_COW 哞菇<br>
     OCELOT 豹猫<br>
@@ -137,11 +145,13 @@
     SKELETON 骷髅<br>
     SKELETON_HORSE 骷髅马<br>
     SLIME 史莱姆<br>
+    SNIFFET(1.20) 嗅探兽<br>
     SNOWMAN 雪傀儡<br>
     SPIDER 蜘蛛<br>
     SQUID 鱿鱼<br>
     STRAY 流浪者<br>
     STRIDER 炽足兽<br>
+    TADPOLE（1.19） 蝌蚪<br>
     TNT 炸药<br>
     TRADER_LLAMA 行商羊驼<br>
     TROPICAL_FISH 热带鱼<br>
@@ -150,6 +160,7 @@
     VILLAGER 村民<br>
     VINDICATOR 卫道士<br>
     WANDERING_TRADER 流浪商人<br>
+    WARDEN（MC 1.19） 监守者<br>
     WITCH 女巫<br>
     WITHER 凋灵<br>
     WITHER_SKELETON 凋零骷髅<br>
