@@ -136,7 +136,8 @@
 | Mob | 实体 | bulletskillable | bk | 所调用的实体是否执行自带技能 | true |
 | Mob | 实体 | bulletspin | bspin | 所调用的实体的水平旋转速度 | 0 |
 | Mob | 实体 | bulletmathdirection | bmd | 所调用的实体朝向是否与抛射物朝向保持同步 | false |
-| Mob | 实体 | BulletOffet（5.3.2） | bforward | 抛射物所调用**生物**的上下偏移, 正数为上（5.3.3 格方块） | 1.35 |
+| Mob | 实体 | BulletOffet（5.3.2） | byoffset | 抛射物所调用**生物**的上下偏移, 正数为上（格方块） | 1.35 |
+| Mob | 实体 | BulletForwardOffet（5。4.0） |  | 抛射物所调用**生物**的前后偏移, 正数为前（格方块） | 0 |
 | Text | 文本 | backgroundcolor | color | 文本的背景色（格式: `color=R,G,B`) | 1073741824 |
 | Text | 文本 | bullettext | text | 文本的内容 | * |
 | Text | 文本 | bulletbillboard | billboard | 文本的聚焦方式 | Center（居中） |
