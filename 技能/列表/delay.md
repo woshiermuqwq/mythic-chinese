@@ -43,7 +43,7 @@
   - delay 0
   - remove @eir{r=16;living=false;limit=1;sort=nearest}
   ]} ~ontrident_throw
-···
+```
 就拿上面做例子, 如果没有`- delay 0`, 你是无法在投掷三叉戟的一瞬间选取所投掷的三叉戟的  
 当你把 `@eir{r=16;living=false;limit=1;sort=nearest}` 移动到 ` ~ontrident_throw` 的左边时  
 也无法选取, 这就说明延迟前后的选取的实体不同, 延迟明明是0, 实际却是有特别小的延迟, 足以提升机制自由度
